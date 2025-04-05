@@ -19,6 +19,12 @@
   font-family: "Unbounded";
   src: url("../fonts/Unbounded-VariableFont_wght.ttf") format('truetype');
 }
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-VariableFont_wght.ttf") format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
 
 /** COMPONENTS **/
 
@@ -106,11 +112,17 @@ input {
   background-color: transparent;
   outline: 1px solid #FFE73F;
   border-radius: 50%;
-  padding-top: 15px;
+  /* padding-top: 15px;
   padding-right: 20px;
   padding-bottom: 15px;
-  padding-left: 20px;
+  padding-left: 20px; */
+  width: 50px;
+  height: 50px;
   color: #FFE73F;
+}
+.btn-slider__img {
+  position: relative;
+  top: 2.5px;
 }
 
 .search {
@@ -121,6 +133,7 @@ input {
 /* Хотя мб и норм - по нажатию можно отсылать на страницу с р-татами поиска - и это уже будет ссылка, а не кнопка? */
 .search__input {
   padding: 10px 14px;
+  padding-right: 38px;
   background-color: #ECF1F2;
   border-radius: 30px;
   border: 1px solid #333333;
@@ -193,11 +206,28 @@ input {
   opacity: .8;
 }
 
+.section-design--trust {
+  min-height: 499px;
+  margin-bottom: 31px;
+}
+.section-design--trust__logo {
+  float: right;
+  margin-top: 82px;
+  margin-right: 55px;
+}
+
 .text-design {
   font-family: "Unbounded";
   /* background: green; */
   font-size: 20px;
   color: var(--black); /* TODO: mb remove and set opaque + bg) */
+}
+
+.title-section {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
 }
 
 /** LAYOUT COMPONENTS **/
@@ -211,6 +241,9 @@ input {
 .header__text {
   margin-top: 4px;
   padding-left: 27px;
+}
+.header__search {
+  margin-right: 15px;
 }
 .header__row-2-col {
   display: flex;
