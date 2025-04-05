@@ -1,0 +1,84 @@
+html {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  background-color: #252424;
+  color: #E7E3E3;
+}
+
+a {
+  color: inherit;
+  color: #FFE73F; /* TODO: del */
+}
+
+.cont {
+  /* TODO: max-width - так типа легче делать адаптив вроде) Проверить: сначала width - посижу и подумаю над адапьтивом - сделать max-width */
+  width: 1200px; /* should be according to the grid in Figma */
+  margin: 10px auto;
+}
+
+/* Simple .text would be 16px fz */
+/* .text {
+  font-size: 16px;
+} */
+.text--small {
+  font-size: 14px;
+}
+.text--bold-700 {
+  font-weight: 700;
+}
+
+.btn {
+  background-color: #DF0028;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px; /* TODO: could be too much. Mb consider using rems */
+  font-size: inherit;
+  color: #FFFDFD;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+}
+.btn--dropdown {
+  padding-right: 60px;
+  position: relative;
+}
+.btn--dropdown::after {
+  content: "q";
+  position: absolute;
+  right: 27px;
+}
+.btn--long {
+  padding-left: 92px;
+  padding-right: 92px;
+}
+.btn-slider {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  outline: 1px solid #FFE73F;
+  border-radius: 50%;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  color: #FFE73F;
+}
+
+/** OVERRIDES **/
+/* .dazor .btn {
+  border-radius: 0;
+  background-color: green;
+}
+.dazor .btn-slider {
+  outline: 1px solid green;
+  color: green;
+}
+
+.dazor a {
+  color: green;
+} */
