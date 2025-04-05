@@ -2,6 +2,8 @@
   --yellow: #fff219;
   --red: #ff0019;
   --black: #000000;
+
+  /* TODO: variables for fonts: regular, semibold, bold, etc. */
 }
 
 /** FONTS **/
@@ -12,13 +14,13 @@
   font-weight: 300 800;
   font-style: normal;
 }
-/* TODO: maybe only  */
+/* TODO: maybe only the specified text letters; 2. not variable, but regular) */
 @font-face {
-  /* font-family: "Unbounded"; */
-  /* TODO: src */
-  /* font-weight: 300 800; */
-  /* font-style: normal; */
+  font-family: "Unbounded";
+  src: url("../fonts/Unbounded-VariableFont_wght.ttf") format('truetype');
 }
+
+/** COMPONENTS **/
 
 html {
   font-family: "Open Sans", Arial, sans-serif;
@@ -55,6 +57,10 @@ input {
 } */
 .text--small {
   font-size: 14px;
+}
+.text--big {
+  font-weight: 600;
+  font-size: 24px;
 }
 .text--semibold {
   font-weight: 600;
@@ -112,6 +118,7 @@ input {
   display: inline-block;
 }
 /* TODO: Mb мне не надо будет прям баттон. Мб это просто иконка, т.к. скорее всего будет просто клик на айтем */
+/* Хотя мб и норм - по нажатию можно отсылать на страницу с р-татами поиска - и это уже будет ссылка, а не кнопка? */
 .search__input {
   padding: 10px 14px;
   background-color: #ECF1F2;
@@ -121,7 +128,7 @@ input {
 }
 .search__icon {
   position: absolute;
-  top: 10.5px;
+  top: 12.5px;
   right: 10px;
 }
 
@@ -133,6 +140,9 @@ input {
 
 .text-with-icon {
   display: flex;
+}
+.text-with-icon--pin__text-cont {
+  margin-top: 4px;
 }
 .text-with-icon__icon {
   margin-right: 7.5px;
@@ -164,4 +174,54 @@ input {
 
 .btn-burger {
   cursor: pointer;
+}
+
+.section-design--about {
+  background-color: #FEDE32;
+  padding-top: 51px;
+  padding-bottom: 28px;
+}
+.section-design--about__cont {
+  display: grid;
+  grid-template-rows: 37px 1fr 37px;
+  justify-content: center;
+  text-align: center;
+  /* TODO: tell grid children to not stretch in width */
+}
+.section-design--about__text--big {
+  color: #2C2B2A;
+  opacity: .8;
+}
+
+.text-design {
+  font-family: "Unbounded";
+  /* background: green; */
+  font-size: 20px;
+  color: var(--black); /* TODO: mb remove and set opaque + bg) */
+}
+
+/** LAYOUT COMPONENTS **/
+.header {
+  padding-top: 25px;
+  padding-bottom: 21px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 40px 1fr;
+}
+.header__text {
+  margin-top: 4px;
+  padding-left: 27px;
+}
+.header__row-2-col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__text-with-icon--row-2-col-1 {
+  position: relative;
+  left: -24px;
+}
+.header__text-with-icon--row-2-col-2 {
+  position: relative;
+  top: 11px;
 }
