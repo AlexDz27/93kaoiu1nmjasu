@@ -1,5 +1,27 @@
+:root {
+  --yellow: #fff219;
+  --red: #ff0019;
+  --black: #000000;
+}
+
+/** FONTS **/
+/* There's no italic font. If needed, I need to enable it */
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-VariableFont_wdth,wght.ttf") format('truetype');
+  font-weight: 300 800;
+  font-style: normal;
+}
+/* TODO: maybe only  */
+@font-face {
+  /* font-family: "Unbounded"; */
+  /* TODO: src */
+  /* font-weight: 300 800; */
+  /* font-style: normal; */
+}
+
 html {
-  font-family: Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 16px;
 }
 
@@ -11,12 +33,19 @@ body {
 
 a {
   color: inherit;
-  color: #FFE73F; /* TODO: del */
+}
+
+button {
+  font-family: inherit;
+}
+
+input {
+  font-family: inherit;
 }
 
 .cont {
   /* TODO: max-width - так типа легче делать адаптив вроде) Проверить: сначала width - посижу и подумаю над адапьтивом - сделать max-width */
-  width: 1200px; /* should be according to the grid in Figma */
+  width: 1200px;
   margin: 10px auto;
 }
 
@@ -27,11 +56,15 @@ a {
 .text--small {
   font-size: 14px;
 }
-.text--bold-700 {
+.text--semibold {
+  font-weight: 600;
+}
+.text--bold {
   font-weight: 700;
 }
 
 .btn {
+  /* TODO: различаются цвета элементов и фирменный цвет; в том числе жёлтый */
   background-color: #DF0028;
   border: none;
   cursor: pointer;
@@ -47,11 +80,16 @@ a {
   padding-right: 60px;
   position: relative;
 }
-.btn--dropdown::after {
+/* .btn--dropdown::after {
   content: "q";
   position: absolute;
   right: 27px;
-}
+} */
+ .btn--dropdown__icon {
+  position: absolute;
+  right: 27px;
+  top: 21px;
+ }
 .btn--long {
   padding-left: 92px;
   padding-right: 92px;
@@ -69,16 +107,61 @@ a {
   color: #FFE73F;
 }
 
-/** OVERRIDES **/
-/* .dazor .btn {
-  border-radius: 0;
-  background-color: green;
+.search {
+  position: relative;
+  display: inline-block;
 }
-.dazor .btn-slider {
-  outline: 1px solid green;
-  color: green;
+/* TODO: Mb мне не надо будет прям баттон. Мб это просто иконка, т.к. скорее всего будет просто клик на айтем */
+.search__input {
+  padding: 10px 14px;
+  background-color: #ECF1F2;
+  border-radius: 30px;
+  border: 1px solid #333333;
+  font-size: 14px;
+}
+.search__icon {
+  position: absolute;
+  top: 10.5px;
+  right: 10px;
 }
 
-.dazor a {
-  color: green;
-} */
+.btn-icon {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.text-with-icon {
+  display: flex;
+}
+.text-with-icon__icon {
+  margin-right: 7.5px;
+  margin-top: 4px;
+}
+
+.link-social-cont {
+  display: flex;
+  column-gap: 10px;
+}
+.link-social {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  border-radius: 50%;
+  text-decoration: none;
+}
+.link-social--whatsapp {
+  background-color: #7BE4AC;
+}
+.link-social--viber {
+  background-color: #665CAC;
+  text-align: center;
+  line-height: 26px;
+}
+.link-social--telegram {
+  background-color: #32A9E6;
+}
+
+.btn-burger {
+  cursor: pointer;
+}

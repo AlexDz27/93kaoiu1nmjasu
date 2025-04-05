@@ -10,6 +10,8 @@
   
 <main class="cont">
   <p>Just simple text</p>
+  <p>Просто текст на русском языке</p>
+  <p class="fw--300 fw--400 fw--500 fw--600 fw--700 fw--800">223056, Минская обл., Минский р-н, Сеницкий с/с, д. 64, оф. 8</p>
   <span class="text--small">in header</span><br>
   <b class="text--small">some bold text in header</b><br>
   <b class="text--small text--bold-700">some bold (700) text in header</b>
@@ -21,15 +23,61 @@
 
   <hr>
 
-  <button class="btn" type="button">СКАЧАТЬ ПРАЙС</button>
-  <button class="btn btn--dropdown" type="button">СКАЧАТЬ ПРАЙС</button>
-  <button class="btn btn--long" type="button">В КАТАЛОГ</button>
+  <button class="btn" type="button"><b>СКАЧАТЬ ПРАЙС</b></button>
+  <button class="btn btn--dropdown" type="button">
+    <b>СКАЧАТЬ ПРАЙС</b>
+    <img class="btn--dropdown__icon" src="img/icons/arrow-down.svg" width="17" height="10">
+  </button>
+  <button class="btn btn--long" type="button"><b>В КАТАЛОГ</b></button>
 
   <button class="btn-slider btn-slider--next" type="button">n</button>
   <button class="btn-slider btn-slider--prev" type="button">p</button>
 
   <hr>
+
+  <img src="img/logo.svg" width="148" height="20" alt="Логотип Sprava">
+  <div class="search">
+    <input class="search__input" placeholder="Поиск товаров">
+    <button class="btn-icon search__icon" type="button"><img src="img/icons/search.svg" width="15" height="14"></button>
+  </div>
+
+  <hr>
+
+  <div class="text-with-icon">
+    <img class="text-with-icon__icon" src="img/icons/envelope.svg" width="19" height="14">
+    <div class="text-with-icon__text-cont">
+      <span class="text--semibold">office@roshma.by</span>
+    </div>  
+  </div>
+  <div class="text-with-icon">
+    <img class="text-with-icon__icon" src="img/icons/phone.svg" width="18" height="18">
+    <div class="text-with-icon__text-cont">
+      <span class="text--bold">+375 (29) 305-11-11</span><br>
+      <span class="text--bold">+375 (29) 225-76-37 (31)</span>  
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="link-social-cont">
+    <a href="javascript:void(0)" class="link-social link-social--whatsapp">
+      <img src="img/icons/whatsapp.svg" width="24" height="24" alt="Ссылка на Whatsapp">
+    </a>
+    <a href="javascript:void(0)" class="link-social link-social--viber">
+      <img src="img/icons/viber.svg" width="13" height="14" alt="Ссылка на Viber">
+    </a>
+    <a href="javascript:void(0)" class="link-social link-social--telegram">
+      <img src="img/icons/telegram.svg" width="24" height="24" alt="Ссылка на Telegram">
+    </a>
+  </div>
+
+  <hr>
+  <img class="btn-burger" src="img/icons/burger.svg" width="36" height="26">
 </main>
+
+<section>
+  <b class="text-design">ЛУЧШИЕ В СВОЕМ ДЕЛЕ!</b>
+</section>
 
 </body>
 </html>
