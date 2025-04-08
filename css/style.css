@@ -64,6 +64,9 @@ input {
 .text--small {
   font-size: 14px;
 }
+.text--larger {
+  font-size: 18px;
+}
 .text--big {
   font-weight: 600;
   font-size: 24px;
@@ -87,6 +90,8 @@ input {
   padding-right: 20px;
   padding-bottom: 15px;
   padding-left: 20px;
+  text-decoration: none;
+  display: inline-block;
 }
 .btn--dropdown {
   padding-right: 60px;
@@ -102,20 +107,12 @@ input {
   right: 27px;
   top: 21px;
  }
-.btn--long {
-  padding-left: 92px;
-  padding-right: 92px;
-}
 .btn-slider {
   border: none;
   cursor: pointer;
   background-color: transparent;
   outline: 1px solid #FFE73F;
   border-radius: 50%;
-  /* padding-top: 15px;
-  padding-right: 20px;
-  padding-bottom: 15px;
-  padding-left: 20px; */
   width: 50px;
   height: 50px;
   color: #FFE73F;
@@ -257,4 +254,76 @@ input {
 .header__text-with-icon--row-2-col-2 {
   position: relative;
   top: 11px;
+}
+
+.card {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 2px solid gray; /* TODO: edit */
+  background-color: #FEDE32;
+  display: inline-block;
+  color: #494547;
+  border-radius: 60px;
+  width: 385px;
+  box-sizing: border-box;
+}
+.card__img-cont {
+  position: relative;
+  background-color: #F2F4F7;
+  border-radius: 40px;
+  text-align: center;
+}
+.card__btn {
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+}
+.card__title {
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+  margin-top: 14px;
+}
+.card__title__2nd-line {
+  position: absolute;
+  display: block;
+}
+.card__list::before {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #DF2623;
+  position: relative;
+  left: -18px;
+  top: -12px; /* TODO: del) */
+  top: -8px; /* TODO: del) */
+  top: -14px;
+  width: 70px;
+}
+.card__list {
+  padding-left: 18px;
+  padding-top: 20px;
+  position: relative;
+  margin-bottom: 75px;
+}
+.card__list li {
+  margin-bottom: 12px;
+  color: #DF2623;
+}
+.card__list__item-text {
+  color: #494547;
+}
+.card__list li:last-child {
+  margin-bottom: 0;
+}
+.logo--small__container {
+  background-color: #FEDE32;
+  position: absolute;
+  top: 16px;
+  left: 17px;
+  padding: 3px 12px;
 }
