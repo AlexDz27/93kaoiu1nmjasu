@@ -216,6 +216,9 @@ input {
   cursor: pointer;
 }
 
+.section {
+  margin-bottom: 255px;
+}
 .section-design--about {
   background-color: #FEDE32;
   padding-top: 51px;
