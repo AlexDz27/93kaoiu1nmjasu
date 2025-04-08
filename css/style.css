@@ -116,10 +116,40 @@ input {
   width: 50px;
   height: 50px;
   color: #FFE73F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-slider--inactive {
+  outline: 1px solid gray;
+  color: gray;
+  cursor: auto;
+}
+.btn-slider--inactive svg path {
+  fill: gray;
 }
 .btn-slider__img {
   position: relative;
   top: 2.5px;
+}
+.slider {
+  position: relative;
+}
+.slider__btn-slider {
+  position: absolute;
+}
+.slider__btn-slider--prev {
+  left: -70px;
+  top: calc(50% - 25px);
+}
+.slider__btn-slider--next {
+  right: -70px;
+  bottom: calc(50% - 25px);
+}
+.slider__track {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 22px;
 }
 
 .search {
@@ -263,11 +293,12 @@ input {
   padding-right: 20px;
   border-bottom: 2px solid gray; /* TODO: edit */
   background-color: #FEDE32;
-  display: inline-block;
+  display: inline-block; /* TODO: del) */
   color: #494547;
   border-radius: 60px;
-  width: 385px;
   box-sizing: border-box;
+  display: grid;
+  grid-template-rows: auto auto minmax(175px, 1fr) auto;
 }
 .card__img-cont {
   position: relative;
@@ -288,6 +319,7 @@ input {
   font-weight: 500;
   position: relative;
   margin-top: 14px;
+  margin-bottom: 14px;
 }
 .card__title__2nd-line {
   position: absolute;
@@ -308,7 +340,7 @@ input {
   padding-left: 18px;
   padding-top: 20px;
   position: relative;
-  margin-bottom: 75px;
+  margin-bottom: 18px;
 }
 .card__list li {
   margin-bottom: 12px;
