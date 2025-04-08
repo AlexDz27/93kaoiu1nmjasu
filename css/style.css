@@ -135,6 +135,10 @@ input {
 .slider {
   position: relative;
 }
+/* TODO: Wrapper is needed because by design there buttons outside of slider's intrinsic width */
+.slider__wrapper {
+  overflow-x: hidden;
+}
 .slider__btn-slider {
   position: absolute;
 }
@@ -148,8 +152,12 @@ input {
 }
 .slider__track {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr 1fr; */
   column-gap: 22px;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% - 44px) / 3); /* TODO: how this works?( */
+  /* grid-auto-columns: 380px; */ /* TODO: del */
+  transition: transform 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .search {
