@@ -331,6 +331,7 @@ input {
   position: relative;
   margin-top: 14px;
   margin-bottom: 14px;
+  color: #494547;
 }
 .card__title__2nd-line {
   position: absolute;
@@ -369,4 +370,43 @@ input {
   top: 16px;
   left: 17px;
   padding: 3px 12px;
+}
+
+.title-and-text__title {
+  font-weight: 600;
+  color: #FFFDFD;
+}
+.title-and-text__text {
+  padding-left: 0;
+}
+.title-and-text__text::before {
+  top: -21px;
+  left: 0;
+}
+
+.items-spaced-list-design {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 100px;
+}
+.items-spaced-list-design__item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 70% 25%;
+}
+.items-spaced-list-design__item:nth-child(even) {
+  margin-top: 105px;
+  grid-template-columns: 25% 70%;
+}
+.items-spaced-list-design__item:nth-child(odd) .items-spaced-list-design__num {
+  text-align: right;
+  order: 2;
+}
+.items-spaced-list-design__num {
+  font-weight: 600;
+  font-size: 130px;
+  color: #FFF219;
+  text-shadow: 3px 4px 15px rgba(255, 242, 25, 0.25);
+  text-align: left;
+  line-height: 130px;
 }
