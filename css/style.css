@@ -256,6 +256,7 @@ input {
   background-position: center;
   background-image: linear-gradient(351.77deg, rgba(37, 37, 37, 0.98) 8.16%, rgba(25, 24, 24, 0.528249) 61.6%, rgba(0, 0, 0, 0) 94.21%), linear-gradient(244.73deg, rgba(0, 0, 0, 0.6) 28.32%, rgba(0, 0, 0, 0) 35.05%), linear-gradient(259.55deg, rgba(0, 0, 0, 0) 77.38%, rgba(0, 0, 0, 0.6) 123.77%), url("../img/muzh-cr-25.png");
   background-size: cover;
+  background-position-y: -50px;
 }
 .section-design--trust__logo {
   float: right;
@@ -474,7 +475,5 @@ input {
 
 /** MEDIA **/
 @media (max-width: 965px) {
-  .text-design {
-    /* font-size: calc(1rem - 0.01vw); */
-  }
+
 }
