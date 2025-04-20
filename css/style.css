@@ -25,6 +25,12 @@
   font-weight: 100 900;
   font-style: normal;
 }
+@font-face {
+  font-family: "DM Sans";
+  src: url("../fonts/DMSans-VariableFont_opsz,wght.ttf") format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
 
 /** COMPONENTS **/
 
@@ -37,6 +43,7 @@ body {
   margin: 0;
   background-color: #252424;
   color: #E7E3E3;
+  overflow-x: hidden;
 }
 
 a {
@@ -75,6 +82,15 @@ input {
 }
 .text--bold {
   font-weight: 700;
+}
+.text--significance {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 36px;
+}
+.text--significance--smaller {
+  font-weight: 600;
+  font-size: 24px;
 }
 
 .btn {
@@ -230,8 +246,8 @@ input {
 }
 .section-design--about {
   background-color: #FEDE32;
-  padding-top: 51px;
-  padding-bottom: 28px;
+  padding-top: 40px;
+  padding-bottom: 48px;
 }
 .section-design--about__cont {
   display: grid;
@@ -243,6 +259,11 @@ input {
 .section-design--about__text--big {
   color: #2C2B2A;
   opacity: .8;
+}
+.section--cat {
+  background-color: #222;
+  padding-bottom: 40px;
+  margin-bottom: 215px;
 }
 .section--cat__title-section {
   margin-top: 0;
@@ -390,12 +411,45 @@ input {
 .card__list li:last-child {
   margin-bottom: 0;
 }
+.card__link--red {
+  color: #DF2623;
+  position: relative;
+  left: 21px;
+}
 .logo--small__container {
   background-color: #FEDE32;
   position: absolute;
   top: 16px;
   left: 17px;
   padding: 3px 12px;
+}
+.card--full {
+  padding-top: 70px;
+  padding-right: 70px;
+  padding-bottom: 80px;
+  padding-left: 70px;
+  display: block;
+  border-bottom: none;
+}
+.card--full__point {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.card--full__points {
+  margin-bottom: 0;
+  margin-top: 0;
+  display: grid;
+  grid-template-columns: 280px 230px 230px;
+  column-gap: 21px;
+}
+.card--full__section-start-p {
+  margin-bottom: 0;
+}
+.card--full__closer-p {
+  margin-top: 10px;
+}
+.card--full__points-cont__preface-p {
+  margin-bottom: 7.5px;
 }
 
 .title-and-text__title {
@@ -471,6 +525,35 @@ input {
   line-height: 130px;
 }
 
+.section--black {
+  padding-top: 33px;
+  background-color: #1b1c20;
+}
+.section--black__title-section {
+  margin-top: 0;
+  margin-bottom: 46px;
+}
+
+.the-best {
+  background-color: #393738;
+  transform: rotate(-7deg);
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 600;
+  font-family: "Open Sans";
+  width: 2160px;
+  /* width: 150vw; */
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  left: -60px;
+  color: #FEDE32;
+  border: 2px dashed #FEDE32;
+}
 
 /** MEDIA **/
 @media (max-width: 965px) {
