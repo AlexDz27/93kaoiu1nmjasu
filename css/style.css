@@ -213,10 +213,19 @@ input {
   margin-right: 7.5px;
   margin-top: 4px;
 }
+.text-with-icon__icon--more-centered {
+  margin-top: 7px;
+}
+.text-with-icon__icon--envelope--larger {
+  margin-top: 7px;
+}
 
 .link-social-cont {
   display: flex;
   column-gap: 10px;
+}
+.link-social-cont--farther {
+  margin-top: 26px;
 }
 .link-social {
   width: 24px;
@@ -243,6 +252,11 @@ input {
 
 .section {
   margin-bottom: 255px;
+}
+.section--with-lines {
+  position: relative;
+  padding-bottom: 415px;
+  margin-bottom: 0;
 }
 .section-design--about {
   background-color: #FEDE32;
@@ -553,6 +567,41 @@ input {
   left: -60px;
   color: #FEDE32;
   border: 2px dashed #FEDE32;
+}
+.logo-line {
+  background-color: #FEDE32;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  width: 100vw;
+}
+.the-best-and-logo-line {
+  position: absolute;
+  bottom: 244.5px;
+}
+
+.p--lower-margin {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.p--no-mt {
+  margin-top: 0;
+}
+
+.contacts__cont {
+  display: grid;
+  grid-template-columns: 42% 58%;
+  column-gap: 35px;
+}
+
+.map {
+  border-radius: 35px;
+  width: 95%;
+  position: relative;
+  top: 4px;
 }
 
 /** MEDIA **/
