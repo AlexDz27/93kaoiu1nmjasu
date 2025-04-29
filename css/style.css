@@ -277,6 +277,9 @@ input {
   padding-bottom: 415px;
   margin-bottom: 0;
 }
+.section--with-lines--about {
+  padding-bottom: 215px;
+}
 .section-design--about {
   background-color: #FEDE32;
   padding-top: 40px;
@@ -444,6 +447,9 @@ input {
 .card__list li:last-child {
   margin-bottom: 0;
 }
+.card__ul {
+  padding-left: 26px;
+}
 .card__link--red {
   color: #DF2623;
   position: relative;
@@ -483,6 +489,12 @@ input {
 }
 .card--full__points-cont__preface-p {
   margin-bottom: 7.5px;
+}
+.card-values__cont {
+  display: grid;
+  grid-template-columns: 688px 1fr;
+  column-gap: 80px;
+  grid-template-rows: none;
 }
 
 .title-and-text__title {
@@ -562,9 +574,20 @@ input {
   padding-top: 33px;
   background-color: #1b1c20;
 }
+.section--black--more-pt {
+  padding-top: 100px;
+}
 .section--black__title-section {
   margin-top: 0;
   margin-bottom: 46px;
+}
+.section--black--stages {
+  margin-bottom: 0;
+  padding-bottom: 261px;
+}
+.section--black--our-values {
+  margin-bottom: 0;
+  padding-bottom: 196px;
 }
 
 .the-best {
@@ -600,6 +623,9 @@ input {
 .the-best-and-logo-line {
   position: absolute;
   bottom: 244.5px;
+}
+.the-best-and-logo-line--about {
+  bottom: 33px;
 }
 
 .p--lower-margin {
@@ -692,6 +718,77 @@ input {
 }
 .footer__col-3 .text-with-icon:last-child {
   margin-bottom: 0;
+}
+
+.yellow__title {
+  color: #494547;
+  font-family: 'Raleway';
+  font-size: 48px;
+  margin-top: 0;
+  margin-bottom: 0;
+  /* line-height: 167%; */
+  text-align: center;
+}
+.yellow__link {
+  color: #393738;
+  opacity: .7;
+  text-decoration: none;
+  margin-right: 21px;
+  position: relative;
+}
+.yellow__link:hover {
+  text-decoration: underline;
+}
+.yellow__link::after {
+  content: url("../img/icons/nav-circle.svg");
+  display: inline-block;
+  position: absolute;
+  right: -16px;
+  line-height: 113%;
+}
+.yellow__link:last-child::after {
+  content: "";
+}
+.yellow__link--active {
+  font-weight: 600;
+  opacity: 1;
+}
+
+.section--about-numbers {
+  padding-top: 131px;
+  margin-bottom: 0;
+  padding-bottom: 200px;
+}
+
+.numbers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.number__number {
+  font-size: 50px;
+  font-weight: 300;
+  color: #FEDE32;
+  font-weight: 400;
+}
+.number__text {
+  margin-top: 4px;
+}
+
+.stage__num {
+  font-weight: "Raleway";
+  font-weight: 600;
+}
+
+.about__stages {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 202px;
+  position: relative;
+}
+
+.yellow-text-design {
+  font-size: 24px;
+  font-weight: 600;
 }
 
 /** MEDIA **/

@@ -1,3 +1,11 @@
+/** DOWNLOAD PRICE BUTTON **/
+const btnDownloadPrice = document.getElementById('btnDownloadPrice')
+btnDownloadPrice.addEventListener('click', () => {
+  btnDownloadPrice.querySelector('#btnDropdownIcon').style.transform = 'rotate(180deg)'
+  // TODO: js style toggle?
+  // TODO: proper state
+})
+
 /** SLIDER **/
 const track = document.getElementById('track')
 const btnPrev = document.getElementById('btnPrev')
