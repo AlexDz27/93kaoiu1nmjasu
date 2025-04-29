@@ -119,16 +119,35 @@ input {
   padding-right: 60px;
   position: relative;
 }
-/* .btn--dropdown::after {
-  content: "q";
-  position: absolute;
-  right: 27px;
-} */
  .btn--dropdown__icon {
   position: absolute;
   right: 27px;
   top: 21px;
- }
+}
+.btn--dropdown--active .btn--dropdown__icon {transform: rotate(180deg);}
+.btn--dropdown--active .btn--dropdown__list {display: block;}
+.btn--dropdown__list {
+  display: none;
+  position: absolute;
+  background-color: #252424;
+  left: 0;
+  bottom: -99px;
+}
+.btn--dropdown__list__item {
+  text-transform: uppercase;
+  padding: 14px 0;
+  display: inline-block;
+  text-decoration: none;
+  text-align: left;
+  width: 100%;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+.btn--dropdown__list__item:hover {
+  background-color: #FEDE32;
+  color: #494547;
+}
+
 .btn-slider {
   border: none;
   cursor: pointer;
@@ -634,6 +653,7 @@ input {
 .the-best-and-logo-line {
   position: absolute;
   bottom: 244.5px;
+  pointer-events: none;
 }
 .the-best-and-logo-line--about {
   bottom: 33px;
@@ -806,6 +826,61 @@ input {
 
 .mb--special {
   margin-bottom: 20px;
+}
+
+.nav-overlay {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  /* opacity: .5; */
+  top: 0;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+.nav-overlay--active {
+  display: block;
+}
+.nav {
+  width: 385px;
+  float: right;
+  background-color: #131218;
+  height: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+.nav__row--btn-close {
+  height: 80px;
+  text-align: right;
+  vertical-align: bottom;
+}
+.btn-nav-close {
+  position: relative;
+  top: calc(50% - 12px);
+  cursor: pointer;
+  background-image: url("../img/icons/btn-close.svg");
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  background-repeat: no-repeat;
+}
+.nav__row {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.nav__link {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+.nav__link:hover {
+  text-decoration: underline;
 }
 
 /** MEDIA **/

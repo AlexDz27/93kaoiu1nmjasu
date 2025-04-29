@@ -1,10 +1,30 @@
 /** DOWNLOAD PRICE BUTTON **/
 const btnDownloadPrice = document.getElementById('btnDownloadPrice')
 btnDownloadPrice.addEventListener('click', () => {
-  btnDownloadPrice.querySelector('#btnDropdownIcon').style.transform = 'rotate(180deg)'
-  // TODO: js style toggle?
-  // TODO: proper state
+  btnDownloadPrice.classList.toggle('btn--dropdown--active')
 })
+window.addEventListener('click', (e) => {
+  if (btnDownloadPrice.contains(e.target)) return
+  btnDownloadPrice.classList.remove('btn--dropdown--active')
+})
+
+/** NAV **/
+const navAndOverlay = document.getElementById('navAndOverlay')
+const nav = document.getElementById('nav')
+const btnNav = document.getElementById('btnNav')
+btnNav.addEventListener('click', () => {
+  navAndOverlay.classList.add('nav-overlay--active')
+})
+const btnNavClose = document.getElementById('btnNavClose')
+btnNavClose.addEventListener('click', () => {
+  navAndOverlay.classList.remove('nav-overlay--active')
+})
+navAndOverlay.addEventListener('click', (e) => {
+  if (nav.contains(e.target)) return
+  navAndOverlay.classList.remove('nav-overlay--active')
+})
+/** NAV MOBILE BUTTON **/
+// TODO: 
 
 /** SLIDER **/
 const track = document.getElementById('track')

@@ -55,9 +55,14 @@
     </div>
     <button id="btnDownloadPrice" class="btn btn--dropdown" type="button">
       <b>СКАЧАТЬ ПРАЙС</b>
-      <img id="btnDropdownIcon" class="btn--dropdown__icon" src="img/icons/arrow-down.svg" width="17" height="10">
+      <img class="btn--dropdown__icon" src="img/icons/arrow-down.svg" width="17" height="10">
+      <div class="btn--dropdown__list">
+        <a class="btn--dropdown__list__item" href="Price-2025.04.22.xlsx"><b>Скачать прайс</b></a>
+        <!-- TODO: "Посмотреть": в смысле? Это надо обсуждать -->
+        <a class="btn--dropdown__list__item" href="Price-2025.04.22.xlsx"><b>Посмотреть прайс</b></a>
+      </div>
     </button>
-    <img class="btn-burger" src="img/icons/burger.svg" width="36" height="26">
+    <img id="btnNav" class="btn-burger" src="img/icons/burger.svg" width="36" height="26">
   </div>
 </header>
 
@@ -415,6 +420,18 @@
     </div>
   </div>
 </footer>
+
+<div id="navAndOverlay" class="nav-overlay">
+  <nav id="nav" class="nav">
+    <div class="nav__row--btn-close">
+      <button id="btnNavClose" class="btn-nav-close" type="button"></button>
+    </div>
+    <div class="nav__row"><a class="nav__link" href="/">ГЛАВНАЯ</a></div>
+    <div class="nav__row"><a class="nav__link" href="javascript:void(0)">О КОМПАНИИ</a></div>
+    <div class="nav__row"><a class="nav__link" href="javascript:void(0)">КАТАЛОГ</a></div>
+    <div class="nav__row"><a class="nav__link" href="javascript:void(0)">КОНТАКТЫ</a></div>
+  </nav>
+</div>
 
 </body>
 </html>
