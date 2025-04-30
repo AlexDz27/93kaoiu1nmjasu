@@ -322,6 +322,10 @@ input {
   color: #2C2B2A;
   opacity: .8;
 }
+.page--product .section-design--about {
+  background-color: transparent;
+  padding-bottom: 27px;
+}
 .section--cat {
   background-color: #222;
   padding-bottom: 40px;
@@ -783,6 +787,12 @@ input {
   font-weight: 600;
   opacity: 1;
 }
+.page--product .yellow__link {
+  color: #707070;
+}
+.page--product .yellow__link--active {
+  color: white;
+}
 
 .section--about-numbers {
   padding-top: 131px;
@@ -967,6 +977,19 @@ input {
   background-color: transparent;
   color: #DF0028;
   border: 2px solid #DF0028;
+}
+
+.page--product {
+  background-color: #1b1c20;
+}
+
+.y {
+  background-color: #fff;
+  border-radius: 60px;
+  min-height: 400px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 /** MEDIA **/
