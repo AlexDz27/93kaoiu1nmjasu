@@ -452,8 +452,6 @@ input {
   border-bottom: 2px solid #DF2623;
   position: relative;
   left: -18px;
-  top: -12px; /* TODO: del) */
-  top: -8px; /* TODO: del) */
   top: -14px;
   width: 70px;
 }
@@ -654,6 +652,7 @@ input {
   position: absolute;
   bottom: 244.5px;
   pointer-events: none;
+  /* TODO: ibm plex sans bold italic here somewhere */
 }
 .the-best-and-logo-line--about {
   bottom: 33px;
@@ -881,6 +880,93 @@ input {
 }
 .nav__link:hover {
   text-decoration: underline;
+}
+
+.q {
+  border: 1.5px solid #F5F5F5;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 18px;
+  color: #F2ECEC;
+  cursor: pointer;
+  border-radius: 60px;
+  padding: 26px 33px;
+}
+.q--with-second-line {
+  padding: 26px 24px;
+}
+.q__text--with-second-line {
+  position: relative;
+  top: -17px;
+}
+.q::after {
+  content: "";
+  display: block;
+  border-bottom: 1.5px solid white;
+  position: relative;
+  /* left: -18px; */
+  bottom: -10px;
+  width: 70px;
+}
+.q--active {
+  background-color: #FEDE32;
+  border: none;
+  color: #494547;
+  box-shadow: 3px 5px 15px rgba(255, 242, 25, 0.4);
+}
+.q--active::after {
+  border-bottom: 1.5px solid #DF2623;
+}
+
+.t-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 30px;
+}
+.t {
+  position: relative;
+  border-radius: 60px;
+  background-color: #f5f5f5;
+  color: #494547;
+}
+.t--hit::before {
+  content: "ЭТО ХИТ";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 56px;
+  height: 57px;
+  background-color: #FEDE32;
+  border-radius: 50%;
+  left: 20px;
+  top: 20px;
+  font-size: 17px;
+  line-height: 18px;
+  text-align: center;
+  font-weight: 600;
+  /* TODO: ibm plex sans medium here */
+}
+.t__img-cont {
+  background-color: #fff;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  min-height: 188px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.t__text {
+  font-size: 24px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+}
+.t__btn {
+  background-color: transparent;
+  color: #DF0028;
+  border: 2px solid #DF0028;
 }
 
 /** MEDIA **/
