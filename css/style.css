@@ -703,6 +703,7 @@ input {
 .hr {
   border: 1px solid #868688;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .footer {
@@ -990,6 +991,16 @@ input {
   padding-top: 40px;
   padding-left: 40px;
   padding-right: 40px;
+  color: #494547;
+  display: grid;
+  grid-template-columns: 83px 25px 407px 32px 1fr;
+}
+.y__col-imgs {
+  background-color: gray;
+  height: 90%;
+}
+.y__col-img {
+  border: 1px solid gray;
 }
 
 /** MEDIA **/
