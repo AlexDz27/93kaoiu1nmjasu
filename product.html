@@ -66,24 +66,42 @@
     <nav>
       <a class="yellow__link" href="javascript:void(0)">Главная</a>
       <a class="yellow__link" href="javascript:void(0)">Каталог</a>
-      <a class="yellow__link" href="javascript:void(0)">Абразивные алмазные материалы и оснастка</a>
-      <a class="yellow__link yellow__link--active" href="javascript:void(0)">Круг наждачный лепестковый, 125х22, 2мм, "СТАНДАРТ" Р100</a>
+      <a class="yellow__link yellow__link--active" href="javascript:void(0)">Абразивные алмазные материалы и оснастка</a>
     </nav>
   </div>
 </section>
 
 <section>
   <div class="cont">
-    <div class="y y--hit">
-      <div class="y__col-imgs"></div>
+    <div class="product product--hit">
+      <div class="product__col-imgs"></div>
       <div></div>
-      <div class="y__col-img">
-
+      <div class="product__col-img">
+        <img src="img/catalog-normal-res/krug-w-logo.png" alt="Круг наждачный">
       </div>
       <div></div>
-      <div class="y__col-text">
-        qweqwe
+      <div class="product__col-text">
+        <p class="product__title">Круг наждачный лепестковый, 125х22, 2мм, “СТАНДАРТ” Р100</p>
+        <p class="product__art text--larger">Артикул: 0795-0224-10</p>
+        <p class="product__price"><b>3.85 BYN (с НДС 20%) / шт</b></p>
+        <p class="product__detail text--larger"><span class="product__detail__1">Единица измерения</span> <span class="product__detail__2">Шт.</span></p>
+        <p class="product__detail product__detail--last text--larger"><span class="product__detail__1">Фасовка</span> <span class="product__detail__2">10</span></p>
+        <p class="product__mb">
+          <button class="btn product__btn" type="button"><b>СКАЧАТЬ ПРАЙС-ЛИСТ</b></button>
+          <button class="btn product__btn product__btn--outlined t__btn" type="button"><b>ПОСМОТРЕТЬ ПРАЙС-ЛИСТ</b></button>
+        </p>
+        <a class=" text--larger" href="javascript:void(0)">Перейти в каталог</a>
       </div>
+    </div>
+    <div class="product__info">
+      <button id="desc" class="product__info__btn product__info__btn--active">Описание</button>
+      <button id="details" class="product__info__btn">Детали</button>
+    </div>
+    <div id="contentsDesc" class="product__info__contents product__info__contents--active">
+      <p>Для шлифования металлических и деревянных поверхностей.</p>
+    </div>
+    <div id="contentsDetails" class="product__info__contents">
+      <p>Какой-то другой текст.</p>
     </div>
   </div>
 </section>
@@ -147,6 +165,23 @@
     </div>
   </div>
 </footer>
+
+<script>
+  // TODO: put this into main
+  const btnDesc = document.getElementById('desc')
+  const btnDetails = document.getElementById('details')
+  const contentsDesc = document.getElementById('contentsDesc')
+  const contentsDetails = document.getElementById('contentsDetails')
+  const btnsWContents = [[btnDesc, contentsDesc], [btnDetails, contentsDetails]]
+  for (const btnWContent of btnsWContents) {
+    btnWContent[0].onclick = () => {
+      document.querySelector('.product__info__btn--active').classList.remove('product__info__btn--active')
+      document.querySelector('.product__info__contents--active').classList.remove('product__info__contents--active')
+      btnWContent[0].classList.add('product__info__btn--active')
+      btnWContent[1].classList.add('product__info__contents--active')
+    }
+  }
+</script>
 
 </body>
 </html>

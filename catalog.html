@@ -74,11 +74,11 @@
 <section class="section section--black section--black--more-pt section--black--contacts">
   <div class="cont">
     <div style="display: flex; justify-content: space-between; margin-bottom: 50px;">
-      <button class="q q--active" type="button">Кисти малярные</button>
-      <button class="q q--with-second-line" type="button"><span class="q__text--with-second-line">Абразивные алмазные<span class="card__title__2nd-line">материалы и оснастка</span></span></button>
-      <button class="q" type="button">Валики и ролики</button>
-      <button class="q q--with-second-line" type="button"><span class="q__text--with-second-line">Вспомогательный<span class="card__title__2nd-line">инструмент</span></span></button>
-      <button class="q" type="button">Ножи и лезвия</button>
+      <button id="kisti" class="q q--active" type="button">Кисти малярные</button>
+      <button id="abraziv" class="q q--with-second-line" type="button"><span class="q__text--with-second-line">Абразивные алмазные<span class="card__title__2nd-line">материалы и оснастка</span></span></button>
+      <button id="valiki" class="q" type="button">Валики и ролики</button>
+      <button id="vspomogat" class="q q--with-second-line" type="button"><span class="q__text--with-second-line">Вспомогательный<span class="card__title__2nd-line">инструмент</span></span></button>
+      <button id="nozhi" class="q" type="button">Ножи и лезвия</button>
     </div>
 
     <div class="t-list">
@@ -308,6 +308,24 @@
     </div>
   </div>
 </footer>
+
+<script>
+  // TODO: put this into main.js and then think how to handle TypeErrors when an element is absent
+  /** CATALOG CATEGORIES TOGGLE **/
+  const btnKisti = document.getElementById('kisti')
+  const btnAbraziv = document.getElementById('abraziv')
+  const btnValiki = document.getElementById('valiki')
+  const btnVspomogat = document.getElementById('vspomogat')
+  const btnNozhi = document.getElementById('nozhi')
+  const catBtns = [btnKisti, btnAbraziv, btnValiki, btnVspomogat, btnNozhi]
+  const curCar = 'kisti'
+  for (const btn of catBtns) {
+    btn.onclick = () => {
+      document.querySelector('.q--active').classList.remove('q--active')
+      btn.classList.add('q--active')
+    }
+  }  
+</script>
 
 </body>
 </html>
