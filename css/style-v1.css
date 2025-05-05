@@ -13,23 +13,27 @@
   src: url("../fonts/OpenSans-VariableFont_wdth,wght.ttf") format('truetype');
   font-weight: 300 800;
   font-style: normal;
+  font-display: swap;
 }
 /* TODO: maybe only the specified text letters; 2. not variable, but regular) */
 @font-face {
   font-family: "Unbounded";
   src: url("../fonts/Unbounded-VariableFont_wght.ttf") format('truetype');
+  font-display: swap;
 }
 @font-face {
   font-family: "Raleway";
   src: url("../fonts/Raleway-VariableFont_wght.ttf") format('truetype');
   font-weight: 100 900;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "DM Sans";
   src: url("../fonts/DMSans-VariableFont_opsz,wght.ttf") format('truetype');
   font-weight: 100 900;
   font-style: normal;
+  font-display: swap;
 }
 
 /** COMPONENTS **/
