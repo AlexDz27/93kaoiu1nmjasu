@@ -7,6 +7,15 @@ window.addEventListener('click', (e) => {
   if (btnDownloadPrice.contains(e.target)) return
   btnDownloadPrice.classList.remove('btn--dropdown--active')
 })
+/** and same code for mobile **/
+const btnDownloadPriceMob = document.getElementById('btnDownloadPriceMob')
+btnDownloadPriceMob.addEventListener('click', () => {
+  btnDownloadPriceMob.classList.toggle('btn--dropdown--active')
+})
+window.addEventListener('click', (e) => {
+  if (btnDownloadPriceMob.contains(e.target)) return
+  btnDownloadPriceMob.classList.remove('btn--dropdown--active')
+})
 
 /** NAV **/
 const navAndOverlay = document.getElementById('navAndOverlay')
