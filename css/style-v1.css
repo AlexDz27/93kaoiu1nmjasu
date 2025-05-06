@@ -93,7 +93,7 @@ input {
   font-weight: 700;
 }
 .text--significance {
-  font-family: "Raleway";
+  font-family: "Raleway", Arial, sans-serif;
   font-weight: 700;
   font-size: 36px;
 }
@@ -222,6 +222,13 @@ input {
   position: relative;
   display: inline-block;
 }
+.search--active .search__input {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.search--active .search__results {display: block;}
 /* TODO: Mb мне не надо будет прям баттон. Мб это просто иконка, т.к. скорее всего будет просто клик на айтем */
 /* Хотя мб и норм - по нажатию можно отсылать на страницу с р-татами поиска - и это уже будет ссылка, а не кнопка? */
 .search__input {
@@ -250,7 +257,6 @@ input {
   width: 100%;
   z-index: 1;
 }
-.search__results--active {display: block;}
 .search__results__item {
   padding-top: 12px;
   padding-right: 13px;
@@ -424,7 +430,7 @@ input {
 }
 
 .title-section {
-  font-family: "Raleway";
+  font-family: "Raleway", Arial, sans-serif;
   font-weight: 500;
   font-size: 40px;
   text-align: center;
@@ -497,7 +503,7 @@ input {
   padding-right: 0;
 }
 .card__title {
-  font-family: "Raleway";
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 24px;
   font-weight: 500;
   position: relative;
@@ -648,6 +654,9 @@ input {
   text-align: right;
   order: 2;
 }
+.items-spaced-list-design__item--mb-bc-little-text-in-5 {
+  margin-bottom: 85px;
+}
 .items-spaced-list-design__num {
   font-weight: 600;
   font-size: 130px;
@@ -710,10 +719,11 @@ input {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
   width: 100vw;
+  top: -12px;
 }
 .the-best-and-logo-line {
   position: absolute;
-  bottom: 244.5px;
+  bottom: 255.5px;
   pointer-events: none;
   /* TODO: ibm plex sans bold italic here somewhere */
 }
@@ -816,7 +826,7 @@ input {
 
 .yellow__title {
   color: #494547;
-  font-family: 'Raleway';
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 48px;
   margin-top: 0;
   margin-bottom: 0;
@@ -875,7 +885,7 @@ input {
 }
 
 .stage__num {
-  font-weight: "Raleway";
+  font-family: "Raleway", Arial, sans-serif;
   font-weight: 600;
 }
 
@@ -1173,8 +1183,11 @@ input {
 }
 .product__info__contents--active {display: block;}
 
+.br--mob {
+  display: none;
+}
+
 /** MEDIA **/
-/* 753px - mobile view breakpoint */
 .header--mob {
   display: none;
   padding-top: 20px;
@@ -1219,10 +1232,62 @@ input {
   }
 
   .contacts__br {display: none;}
+
+  .section--cap .cont {
+    max-width: 1000px;
+  }
+
+  .section--with-lines .cont {
+    padding-left: 44px;
+    padding-right: 44px;
+  }
 }
+
+@media (max-width: 1170px) {
+  .logo-line {
+    grid-template-columns: max-content max-content max-content max-content;
+    justify-content: space-around;
+  }
+  .logo-line img {
+    /* TODO: preserve proper aspect ratio */
+    width: 190px;
+    height: 27px;
+  }
+}
+
+@media (max-width: 1168px) {
+  .the-best-and-logo-line {
+    bottom: 267.5px;
+  }
+}
+
 @media (max-width: 1080px) {
   .link-social-cont {display: none;}
+
+  .section--cap .cont {
+    max-width: 900px;
+  }
+  .items-spaced-list-design__item {
+    display: block;
+  }
+  .items-spaced-list-design__item--mb-bc-little-text-in-5 {
+    margin-bottom: 0;
+  }
+  .items-spaced-list-design__item:nth-child(odd) .items-spaced-list-design__num {
+    text-align: left;
+    order: 0;
+  }
+  .items-spaced-list-design__item:nth-child(even) {
+    margin-top: 0;
+  }
 }
+
+@media (max-width: 960px) {
+  .the-best {
+    font-size: 31px;
+  }
+}
+
 @media (max-width: 979px) {
   .cont--mob {
     width: 320px;
@@ -1251,13 +1316,7 @@ input {
   .section-design--about__text--big {
     font-size: 18px;
   }
-}
 
-@media (max-width: 965px) {
-
-}
-
-@media (max-width: 753px) {
   .section-design--trust__logo {
     margin-top: 55px;
     margin-right: 42px;
@@ -1280,13 +1339,116 @@ input {
     right: 82px;
   }
 
-  .section--cat--mob {
+  .section--cat {
+    margin-bottom: 142px;
     padding-top: 49px;
   }
   .title-section {
     font-size: 31px;
   }
 
+  .section--cap {
+    padding-bottom: 90px;
+  }
+  .section--cap .cont {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .section--cap .title-section {
+    margin-bottom: 40px;
+  }
+  .items-spaced-list-design {
+    column-gap: 18px;
+  }
+  .items-spaced-list-design__num {
+    font-size: 96px;
+    line-height: 85px;
+  }
+  .items-spaced-list-design__line {display: none;}
+
+  .card--full__point {
+    font-size: 29px;
+  }
+  .card--full p.text--larger {
+    font-size: 17px;
+  }
+  .text--significance--smaller {
+    font-size: 20px;
+  }
+  .card--full__points-cont__preface-p {
+    margin-bottom: 0;
+  }
+  .card--full__points {
+    grid-template-columns: 280px 1fr 1fr;
+  }
+  .card--full__points p {
+    margin-top: 3px;
+  }
+  .card--full__points__postface-p {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 933px) {
+  .card--full__points {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 905px) {
+  .section--contacts {
+    margin-top: -47px; /* fix gap */
+  }
+  .section--with-lines {
+    padding-bottom: 203px;
+    top: -46px;
+  }
+  .the-best-and-logo-line {
+    bottom: 154.5px;
+  }
+  .the-best {
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
+  .logo-line {
+    grid-template-columns: max-content max-content max-content max-content;
+    justify-content: space-around;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    top: 38px;
+  }
+  .logo-line img {
+    /* TODO: preserve proper aspect ratio */
+    width: 150px;
+    height: 19px;
+  }
+}
+
+@media (max-width: 790px) {
+  .section--cap .cont {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .items-spaced-list-design__num {
+    font-size: 56px;
+    line-height: 45px;
+  }
+  /* TODO: careful here: card__title also resides in slider */
+  .card__title {
+    font-size: 20px;
+  }
+  .items-spaced-list-design .title-and-text__text {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 761px) {
+  .logo-line img {
+    width: 80px;
+  }
+}
+
+@media (max-width: 753px) {
   .slider__btn-slider {
     display: none;
   }
@@ -1294,5 +1456,108 @@ input {
     column-gap: 1.5%;
     grid-auto-columns: 33%;
     /* TODO:  */
+  }
+}
+
+@media (max-width: 732px) {
+  .the-best {
+    bottom: 15.5px;
+  }
+}
+
+@media (max-width: 630px) {
+  .br--desk {display: none;}
+
+  .card--full {
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 45px;
+  }
+  .card--full__last-p {
+    margin-bottom: 14px;
+  }
+  .card__link--red {
+    left: 0;
+  }
+
+  .the-best {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 575px) {
+  .the-best {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  .section--with-lines .cont {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .card--full {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    border-radius: 40px;
+  }
+  .text--significance {
+    font-size: 22px;
+  }
+  .card--full__section-start-p {
+    margin-top: 10px;
+  }
+  .text--significance--smaller {
+    font-size: 16px;
+  }
+  .card--full p.text--larger {
+    font-size: 14px;
+  }
+  .card--full__points {
+    column-gap: 18px;
+  }
+
+  .the-best {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 460px) {
+  .title-section--mob {
+    font-size: 25px;
+  }
+  .br--mob {
+    display: inline;
+  }
+
+  .items-spaced-list-design__num {
+    font-size: 43px;
+  }
+  .card__title {
+    font-size: 18px;
+  }
+  .items-spaced-list-design .title-and-text__text {
+    font-size: 14px;
+  }
+
+  .the-best-and-logo-line {
+    bottom: 291.5px;
+  }
+  .logo-line {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: 24px;
+  }
+  .logo-line img {
+    width: 70px;
+  }
+  .the-best {
+    font-size: 15px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    bottom: 57px;
   }
 }

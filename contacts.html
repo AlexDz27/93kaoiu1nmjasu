@@ -19,13 +19,27 @@
     </div>
   </div>
   <span class="header__text">Режим работы: Пн-Пт: 8:30-17:00, вых.: Сб-Вс</span>
-  <div class="header__row-2-col">
-    <a href="/">
+  <div class="header__row-2-col header__row-2-col--1">
+    <a class="header__row-2-col__logo" href="/">
       <img src="img/logo.svg" width="148" height="20" alt="Логотип Sprava">
     </a>
-    <div class="search header__search">
-      <input class="search__input" placeholder="Поиск товаров">
+    <div id="search" class="search header__search">
+      <input id="searchInput" class="search__input" placeholder="Поиск товаров">
       <button class="btn-icon search__icon" type="button"><img src="img/icons/search.svg" width="15" height="14"></button>
+      <div id="searchResults" class="search__results">
+        <a href="product.html" class="search__results__item">
+          <img class="search__results__item__img" src="img/catalog/kist.png" width="35" height="35" alt="Кисть">
+          <span>Кисть <span class="search__results__item__text--gray">плоская СТАНДАРТ, натуральный ворс, 1/25мм</span></span>
+        </a>
+        <a href="product.html" class="search__results__item">
+          <img class="search__results__item__img" src="img/catalog/kist.png" width="35" height="35" alt="Кисть">
+          <span>Кисть плоская <span class="search__results__item__text--gray">СТАНДАРТ, натуральный ворс, 1/25мм</span></span>
+        </a>
+        <a href="product.html" class="search__results__item">
+          <img class="search__results__item__img" src="img/catalog/kist.png" width="35" height="35" alt="Кисть">
+          <span>Кисть плоская СТАНДАРТ<span class="search__results__item__text--gray">, натуральный ворс, 1/25мм</span></span>
+        </a>
+      </div>
     </div>
     <div class="text-with-icon header__text-with-icon--row-2-col-1">
       <img class="text-with-icon__icon" src="img/icons/envelope.svg" width="19" height="14">
@@ -55,17 +69,26 @@
     </div>
     <button id="btnDownloadPrice" class="btn btn--dropdown" type="button">
       <b>СКАЧАТЬ ПРАЙС</b>
-      <img id="btnDropdownIcon" class="btn--dropdown__icon" src="img/icons/arrow-down.svg" width="17" height="10">
+      <img class="btn--dropdown__icon" src="img/icons/arrow-down.svg" width="17" height="10">
+      <div class="btn--dropdown__list">
+        <a class="btn--dropdown__list__item" href="Price-2025.04.22.xlsx"><b>Скачать прайс</b></a>
+        <!-- TODO: "Посмотреть": в смысле? Это надо обсуждать -->
+        <a class="btn--dropdown__list__item" href="Price-2025.04.22.xlsx"><b>Посмотреть прайс</b></a>
+      </div>
     </button>
-    <img class="btn-burger" src="img/icons/burger.svg" width="36" height="26">
+    <button id="btnNav" class="btn-burger"><img src="img/icons/burger.svg" width="36" height="26"></button>
   </div>
+</header>
+<header class="header--mob cont--mob--fluid">
+  <button class="header--mob__btn-phone"><img src="img/icons/phone--larger.svg" width="32" height="28"></button>
+  <button class="header--mob__btn-phone"><img src="img/icons/burger.svg" width="36" height="26"></button>
 </header>
 
 <section class="section-design--about">
   <div class="cont yellow">
     <nav>
-      <a class="yellow__link" href="javascript:void(0)">Главная</a>
-      <a class="yellow__link yellow__link--active" href="javascript:void(0)">Контакты</a>
+      <a class="yellow__link" href="/">Главная</a>
+      <a class="yellow__link yellow__link--active" href="contacts.html">Контакты</a>
     </nav>
     <h1 class="text--big yellow__title">Контакты</h1>
   </div>
@@ -196,6 +219,18 @@
     </div>
   </div>
 </footer>
+
+<div id="navAndOverlay" class="nav-overlay">
+  <nav id="nav" class="nav">
+    <div class="nav__row--btn-close">
+      <button id="btnNavClose" class="btn-nav-close" type="button"></button>
+    </div>
+    <div class="nav__row"><a class="nav__link" href="/">ГЛАВНАЯ</a></div>
+    <div class="nav__row"><a class="nav__link" href="about-company.html">О КОМПАНИИ</a></div>
+    <div class="nav__row"><a class="nav__link" href="catalog.html">КАТАЛОГ</a></div>
+    <div class="nav__row"><a class="nav__link" href="contacts.html">КОНТАКТЫ</a></div>
+  </nav>
+</div>
 
 </body>
 </html>
