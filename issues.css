@@ -1,0 +1,31 @@
+body {
+  background-color: #fff;
+  color: #2C2B2A;
+  font-size: 20px;
+}
+
+a {
+  color: rgb(23, 184, 228);
+}
+
+h1 {
+  word-break: break-word;
+}
+
+ul {
+  margin-bottom: 80px;
+}
+
+ul li {
+  margin-bottom: 20px;
+}
+
+.details {
+  margin-top: 6px;
+  padding-left: 17px;
+  font-size: 17px;
+}
+
+.more-attention {
+  font-size: 28px;
+}
