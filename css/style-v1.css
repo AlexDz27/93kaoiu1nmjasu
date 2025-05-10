@@ -184,14 +184,14 @@ input {
 .btn-slider--inactive svg path {
   fill: gray;
 }
-.btn-slider__img {
-  position: relative;
-  top: 2.5px;
+.btn-slider--mob {
+  outline: none;
 }
 .slider {
   position: relative;
 }
-/* TODO: Wrapper is needed because by design there buttons outside of slider's intrinsic width */
+/* Wrapper is needed because by design there are buttons outside of slider's intrinsic width. If omitting __wrapper,
+the buttons will not be shown. TODO: maybe i can make it better */
 .slider__wrapper {
   overflow-x: hidden;
 }
@@ -208,14 +208,15 @@ input {
 }
 .slider__track {
   display: grid;
-  /* grid-template-columns: 1fr 1fr 1fr; */
-  /* column-gap: 22px; */
   grid-auto-flow: column;
   grid-auto-columns: calc((100% - 44px) / 3); /* TODO: how this works?( */
-  /* grid-auto-columns: 380px; */ /* TODO: del */
   transition: transform 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
   column-gap: 22.5px;
   grid-auto-columns: 385px;
+}
+.slider__btns-mob {
+  display: none;
+  position: relative;
 }
 
 .search {
@@ -510,6 +511,9 @@ input {
   margin-top: 14px;
   margin-bottom: 14px;
   color: #494547;
+}
+.section--cat .card__title {
+  font-weight: 600;
 }
 .card__title__2nd-line {
   position: absolute;
@@ -1213,6 +1217,15 @@ input {
   border: none;
 }
 
+@media (max-width: 1365px) {
+  .section--cat .cont {
+    max-width: 1000px;
+  }
+  .slider__track {
+    grid-auto-columns: 318px;
+  }
+}
+
 @media (max-width: 1240px) {
   .cont {
     padding-left: 11px;
@@ -1259,6 +1272,19 @@ input {
   .the-best-and-logo-line {
     bottom: 267.5px;
   }
+
+  .section--cat .cont {
+    max-width: 845px;
+  }
+  .slider__track {
+    grid-auto-columns: 266px;
+  }
+  .card__title--w-2nd-line {
+    font-size: 20px;
+  }
+  .card__list--w-2nd-line::before {
+    top: -9px;
+  }
 }
 
 @media (max-width: 1080px) {
@@ -1279,6 +1305,24 @@ input {
   }
   .items-spaced-list-design__item:nth-child(even) {
     margin-top: 0;
+  }
+}
+
+@media (max-width: 1020px) {
+  .section--cat .cont {
+    max-width: 660px;
+  }
+  .slider__track .card {
+    padding-top: 11px;
+    padding-bottom: 18px;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .slider__track {
+    grid-auto-columns: 266px;
+  }
+  .card__title--w-2nd-line {
+    font-size: 20px;
   }
 }
 
@@ -1424,6 +1468,46 @@ input {
   }
 }
 
+@media (max-width: 812px) {
+  .show-after-812 {
+    display: none;
+  }
+  .show-before-812 {
+    display: inline;
+  }
+
+  .section--cat .cont {
+    max-width: 520px;
+  }
+  .slider__track {
+    grid-auto-columns: 215px;
+    column-gap: 14px;
+  }
+  .logo--small__container {
+    padding: 6px 7px;
+    line-height: 0;
+  }
+  .card__img-cont {
+    display: flex;
+    align-items: center;
+  }
+  .card__img {
+    height: 75%;
+  }
+  .section--cat .card__title {
+    font-size: 16px;
+  }
+  .section--cat .text--larger {
+    font-size: 15px;
+  }
+  .card__list--w-2nd-line::before {
+    top: -14px;
+  }
+  .section--cat .card__btn {
+    font-size: 16px;
+  }
+}
+
 @media (max-width: 790px) {
   .section--cap .cont {
     padding-left: 20px;
@@ -1448,20 +1532,42 @@ input {
   }
 }
 
-@media (max-width: 753px) {
-  .slider__btn-slider {
-    display: none;
-  }
-  .slider__track {
-    column-gap: 1.5%;
-    grid-auto-columns: 33%;
-    /* TODO:  */
-  }
-}
-
 @media (max-width: 732px) {
   .the-best {
     bottom: 15.5px;
+  }
+}
+
+@media (max-width: 670px) {
+  .section--cat {
+    padding-bottom: 88px;
+  }
+  .section--cat .cont {
+    max-width: 572px;
+  }
+  .btn-slider {display: none;}
+  .slider__track {
+    grid-auto-columns: 226px;
+    column-gap: 17px;
+  }
+  .card__img-cont {
+    max-height: 100px;
+  }
+  .slider__btns-mob {display: block;}
+  .btn-slider--mob {display: flex;}
+  .slider__btn-slider--prev {
+    left: 0;
+    left: 15px;
+    top: 20px;
+  }
+  .slider__btn-slider--next {
+    right: 0;
+    right: 15px;
+    top: 20px;
+  }
+  .btn-slider--inactive svg path {
+    fill: none;
+    stroke: gray;
   }
 }
 
@@ -1486,9 +1592,34 @@ input {
   }
 }
 
+@media (max-width: 600px) {
+  .section--cat .cont {
+    max-width: 535px;
+  }
+}
+
+@media (max-width: 577px) {
+  .section--cat .cont {
+    max-width: 505px;
+  }
+  .slider__track {
+    grid-auto-columns: 218px;
+  }
+}
+
 @media (max-width: 575px) {
   .the-best {
     font-size: 25px;
+  }
+}
+
+@media (max-width: 540px) {
+  .section--cat .cont {
+    max-width: 450px;
+  }
+  .slider__track {
+    grid-auto-columns: 200px;
+    column-gap: 10px;
   }
 }
 
@@ -1522,6 +1653,16 @@ input {
 
   .the-best {
     font-size: 25px;
+  }
+}
+
+@media (max-width: 476px) {
+  .section--cat .cont {
+    max-width: 390px;
+  }
+  .slider__track {
+    grid-auto-columns: 158px;
+    column-gap: 8px;
   }
 }
 
