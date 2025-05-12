@@ -7,6 +7,7 @@
   <meta name="robots" content="noindex,nofollow,noarchive">
   <link rel="stylesheet" href="css/style-v1.css">
   <script src="js/main.js" defer></script>
+  <script src="js/slider.js" defer></script>
   <title>Sprava</title>
 </head>
 <body>
@@ -115,16 +116,18 @@
 
     <div class="slider">
       <div class="slider__wrapper">
-        <button id="btnPrev" class="btn-slider slider__btn-slider btn-slider--prev slider__btn-slider--prev btn-slider--inactive" type="button">
+        <button id="btnPrev" class="btn-slider slider__btn-slider btn-slider--prev slider__btn-slider--prev btn-slider--inactive" type="button" disabled>
           <svg width="26" height="26" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M7.15685 0.798306L0.792893 7.27983C0.402369 7.67757 0.402369 8.32243 0.792893 8.72017L7.15686 15.2017C7.54738 15.5994 8.18055 15.5994 8.57107 15.2017C8.96159 14.804 8.96159 14.1591 8.57107 13.7614L3.91421 9.01848L24.5 9.01847C25.0523 9.01847 25.5 8.56249 25.5 8C25.5 7.43751 25.0523 6.98153 24.5 6.98153L3.91421 6.98153L8.57107 2.23864C8.96159 1.84091 8.96159 1.19604 8.57107 0.798306C8.18054 0.400567 7.54738 0.400567 7.15685 0.798306Z" fill="#FEDE32"/>
           </svg>
         </button>
         <div id="track" class="slider__track">
-          <div class="card">
+          <div class="card" data-card-id="1">
             <div class="card__img-cont">
               <div class="logo--small__container">
-                <img src="img/logo--small.svg">
+                <img class="show-after-812" src="img/logo--small.svg">
+                <img class="show-before-812" src="img/logo--small--mob.svg">
+                <img class="show-before-476" src="img/logo--small--mob--small.svg">
               </div>
               <img class="card__img" src="img/catalog-normal-res/kist.png" alt="Кисти малярные">
             </div>
@@ -137,15 +140,17 @@
             <a class="btn card__btn" href="catalog.html"><b>В КАТАЛОГ</b></a>
           </div>
 
-          <div class="card">
+          <div class="card" data-card-id="2">
             <div class="card__img-cont">
               <div class="logo--small__container">
-                <img src="img/logo--small.svg">
+                <img class="show-after-812" src="img/logo--small.svg">
+                <img class="show-before-812" src="img/logo--small--mob.svg">
+                <img class="show-before-476" src="img/logo--small--mob--small.svg">
               </div>
               <img class="card__img" src="img/catalog-normal-res/krug-w-logo.png" alt="Абразивные алмазные материалы и оснастка">
             </div>
-            <h3 class="card__title">Абразивные алмазные <span class="card__title__2nd-line">материалы и оснастка</span></h3>
-            <ul class="card__list">
+            <h3 class="card__title card__title--w-2nd-line">Абразивные алмазные <span class="card__title__2nd-line card__title__2nd-line--abraziv">материалы и оснастка</span></h3>
+            <ul class="card__list card__list--w-2nd-line">
               <li class="text--larger"><span class="card__list__item-text">Отрезные круги</span></li>
               <li class="text--larger"><span class="card__list__item-text">Алмазные диски</span></li>
               <li class="text--larger"><span class="card__list__item-text">Насадки, кордщетки на УШМ</span></li>
@@ -153,10 +158,12 @@
             <a class="btn card__btn" href="catalog.html"><b>В КАТАЛОГ</b></a>
           </div>
 
-          <div class="card">
+          <div class="card" data-card-id="3">
             <div class="card__img-cont">
               <div class="logo--small__container">
-                <img src="img/logo--small.svg">
+                <img class="show-after-812" src="img/logo--small.svg">
+                <img class="show-before-812" src="img/logo--small--mob.svg">
+                <img class="show-before-476" src="img/logo--small--mob--small.svg">
               </div>
               <img class="card__img" src="img/catalog-normal-res/valik.png" alt="Валики малярные">
             </div>
@@ -169,10 +176,12 @@
             <a class="btn card__btn" href="catalog.html"><b>В КАТАЛОГ</b></a>
           </div>
 
-          <div class="card">
+          <div class="card" data-card-id="4">
             <div class="card__img-cont">
               <div class="logo--small__container">
-                <img src="img/logo--small.svg">
+                <img class="show-after-812" src="img/logo--small.svg">
+                <img class="show-before-812" src="img/logo--small--mob.svg">
+                <img class="show-before-476" src="img/logo--small--mob--small.svg">
               </div>
               <img class="card__img" src="img/catalog-normal-res/nozh.png" alt="Ножи и лезвия">
             </div>
@@ -184,10 +193,12 @@
             <a class="btn card__btn" href="catalog.html"><b>В КАТАЛОГ</b></a>
           </div>
 
-          <div class="card">
+          <div class="card" data-card-id="5">
             <div class="card__img-cont">
               <div class="logo--small__container">
-                <img src="img/logo--small.svg">
+                <img class="show-after-812" src="img/logo--small.svg">
+                <img class="show-before-812" src="img/logo--small--mob.svg">
+                <img class="show-before-476" src="img/logo--small--mob--small.svg">
               </div>
               <img class="card__img" src="img/catalog-normal-res/ruletka.png" alt="Вспомогательный инструмент">
             </div>
@@ -204,6 +215,19 @@
         <button id="btnNext" class="btn-slider slider__btn-slider btn-slider--next slider__btn-slider--next" type="button">
           <svg width="26" height="26" viewBox="0 0 26 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M18.8431 0.798306L25.2071 7.27983C25.5976 7.67757 25.5976 8.32243 25.2071 8.72017L18.8431 15.2017C18.4526 15.5994 17.8195 15.5994 17.4289 15.2017C17.0384 14.804 17.0384 14.1591 17.4289 13.7614L22.0858 9.01848L1.5 9.01847C0.947714 9.01847 0.499999 8.56249 0.499999 8C0.499999 7.43751 0.947715 6.98153 1.5 6.98153L22.0858 6.98153L17.4289 2.23864C17.0384 1.84091 17.0384 1.19604 17.4289 0.798306C17.8195 0.400567 18.4526 0.400567 18.8431 0.798306Z" fill="#FEDE32"/>
+          </svg>
+        </button>
+      </div>
+
+      <div class="slider__btns-mob">
+        <button id="btnPrevMob" class="btn-slider btn-slider--mob slider__btn-slider btn-slider--prev slider__btn-slider--prev btn-slider--inactive" type="button" disabled>
+          <svg width="13" height="23" viewBox="0 0 13 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11.9644 22L1.7554 12.2234C1.3438 11.8292 1.34434 11.1713 1.75657 10.7778L12 1" stroke="white" stroke-width="2.62591"/>
+          </svg>
+        </button>
+        <button id="btnNextMob" class="btn-slider btn-slider--mob slider__btn-slider btn-slider--next slider__btn-slider--next" type="button">
+          <svg width="14" height="25" viewBox="0 0 14 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.03235 23L11.3454 13.1896C11.7121 12.8033 11.7116 12.1972 11.3442 11.8115L2 2" stroke="white" stroke-width="3"/>
           </svg>
         </button>
       </div>
@@ -331,8 +355,8 @@
 <section class="section section--black pb section--contacts">
   <h2 class="title-section section--black__title-section">Наши контакты</h2>
 
-  <div class="cont contacts__cont">
-    <div class="contacts__col-left">
+  <div class="contacts__cont">
+    <div class="cont contacts__col-left">
       <p class="text--big p--lower-margin p--no-mt">ООО “Рошма”</p>
       <p class="text--big p--lower-margin">Адрес офиса и склада:</p>
       <div class="text-with-icon">
@@ -352,7 +376,7 @@
       <div class="text-with-icon">
         <img class="text-with-icon__icon" src="img/icons/phone--larger.svg" width="24" height="22">
         <div class="text-with-icon__text-cont text-with-icon--pin__text-cont">
-          <span class="text--larger">+375 (29) 305-11-11, +375 (17) 225-76-37,<br> +375 (17) 225-76-31</span>
+          <span class="text--larger">+375 (29) 305-11-11,<br class="show-below-577"> +375 (17) 225-76-37,<br> +375 (17) 225-76-31</span>
         </div>
       </div>
       <p class="text--big p--lower-margin">E-mail:</p>
@@ -363,18 +387,18 @@
         </div>
       </div>
       <p class="link-social-cont link-social-cont--farther">
-        <a href="javascript:void(0)" class="link-social link-social--whatsapp">
+        <a href="javascript:void(0)" class="link-social link-social--whatsapp link-social--mob">
           <img src="img/icons/whatsapp.svg" width="24" height="24" alt="Ссылка на Whatsapp">
         </a>
-        <a href="javascript:void(0)" class="link-social link-social--viber">
+        <a href="javascript:void(0)" class="link-social link-social--viber link-social--mob">
           <img src="img/icons/viber.svg" width="13" height="14" alt="Ссылка на Viber">
         </a>
-        <a href="javascript:void(0)" class="link-social link-social--telegram">
+        <a href="javascript:void(0)" class="link-social link-social--telegram link-social--mob">
           <img src="img/icons/telegram.svg" width="24" height="24" alt="Ссылка на Telegram">
         </a>
       </p>
     </div>
-    <div class="contacts__col-right">
+    <div class="cont contacts__col-right">
       <iframe class="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A5bcc38858272f3bfeb3d0787101495c43108dba0782f18498c74386b4d02da4a&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>      
     </div>
   </div>
@@ -399,7 +423,7 @@
     <div class="footer__cont">
       <div class="footer__col-1">
         <img src="img/logo.svg" width="148" height="20" alt="Логотип Sprava">
-        <div class="link-social-cont link-social-cont--bigger">
+        <div class="link-social-cont link-social-cont--bigger hide-below-800">
           <a href="javascript:void(0)" class="link-social link-social--bigger link-social--whatsapp">
             <img src="img/icons/whatsapp.svg" width="30" height="30" alt="Ссылка на Whatsapp">
           </a>
@@ -410,11 +434,11 @@
             <img src="img/icons/telegram.svg" width="30" height="30" alt="Ссылка на Telegram">
           </a>
         </div>
-        <div class="footer__copyright">© 2025 Все права защищены</div>
+        <div class="footer__copyright hide-below-800">© 2025 Все права защищены</div>
       </div>
 
       <div class="footer__col-2">
-        <p class="footer__nav-title text--larger text--bold">Навигация</p>
+        <p class="footer__nav-title text--larger text--bold hide-below-800">Навигация</p>
         <a class="footer__nav-link" href="/">Главная</a>
         <a class="footer__nav-link" href="about-company.html">О компании</a>
         <a class="footer__nav-link" href="catalog.html">Каталог</a>
@@ -447,6 +471,21 @@
             <span class="text--small"><span class="text--bold">Пн-Пт:</span> 8:30-17:00, <span class="text--bold">выходные:</span> Сб - Вс</span>
           </div>
         </div>
+        <p class="link-social-cont link-social-cont--farther link-social-cont--footer show-below-800--flex">
+          <a href="javascript:void(0)" class="link-social link-social--whatsapp link-social--mob">
+            <img src="img/icons/whatsapp.svg" width="24" height="24" alt="Ссылка на Whatsapp">
+          </a>
+          <a href="javascript:void(0)" class="link-social link-social--viber link-social--mob">
+            <img src="img/icons/viber.svg" width="13" height="14" alt="Ссылка на Viber">
+          </a>
+          <a href="javascript:void(0)" class="link-social link-social--telegram link-social--mob">
+            <img src="img/icons/telegram.svg" width="24" height="24" alt="Ссылка на Telegram">
+          </a>
+        </p>
+      </div>
+
+      <div class="footer__col-4 show-below-800">
+        <div class="footer__copyright" style="color: #707070;">© 2025 Все права защищены</div>
       </div>
     </div>
   </div>
