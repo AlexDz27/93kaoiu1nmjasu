@@ -122,3 +122,5 @@ window.addEventListener('keydown', (e) => {
 //     btnPrev.classList.remove('btn-slider--inactive')
 //   })
 // }
+
+/** SOME MEDIA STUFF **/

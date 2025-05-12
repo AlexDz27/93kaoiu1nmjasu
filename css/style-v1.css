@@ -213,6 +213,7 @@ the buttons will not be shown. TODO: maybe i can make it better */
   transition: transform 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
   column-gap: 22.5px;
   grid-auto-columns: 385px;
+  touch-action: pan-y;
 }
 .slider__btns-mob {
   display: none;
@@ -318,6 +319,9 @@ the buttons will not be shown. TODO: maybe i can make it better */
 }
 .link-social-cont--bigger {
   column-gap: 16px;
+}
+.link-social-cont--footer {
+  column-gap: 27px;
 }
 .link-social {
   width: 24px;
@@ -533,6 +537,7 @@ the buttons will not be shown. TODO: maybe i can make it better */
   padding-top: 20px;
   position: relative;
   margin-bottom: 18px;
+  word-break: break-word;
 }
 .card__list li {
   margin-bottom: 12px;
@@ -749,9 +754,17 @@ the buttons will not be shown. TODO: maybe i can make it better */
   column-gap: 35px;
   margin-bottom: 61px;
 }
+.contacts__cont b {
+  font-weight: 500;
+}
+.cont.contacts__col-right {
+  /* max-width: 100%; */
+  /* width: auto; */
+  margin: 0 0;
+}
 .contacts__cont-2 {
   display: grid;
-  grid-template-columns: 40% 58%;
+  grid-template-columns: 1fr 1fr;
   column-gap: 242px;
   position: relative;
 }
@@ -764,7 +777,7 @@ the buttons will not be shown. TODO: maybe i can make it better */
 
 .map {
   border-radius: 35px;
-  width: 95%;
+  width: 93%;
   position: relative;
   top: 4px;
 }
@@ -1217,6 +1230,25 @@ the buttons will not be shown. TODO: maybe i can make it better */
   border: none;
 }
 
+.show-below-800 {
+  display: none;
+}
+.show-below-800--flex {
+  display: none;
+}
+.hide-below-800 {
+  display: block;
+}
+.show-below-577 {
+  display: none;
+}
+.show-before-812 {
+  display: none;
+}
+.show-before-476 {
+  display: none;
+}
+
 @media (max-width: 1365px) {
   .section--cat .cont {
     max-width: 1000px;
@@ -1254,6 +1286,11 @@ the buttons will not be shown. TODO: maybe i can make it better */
     padding-left: 44px;
     padding-right: 44px;
   }
+
+  .footer .cont {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
 
 @media (max-width: 1170px) {
@@ -1287,8 +1324,15 @@ the buttons will not be shown. TODO: maybe i can make it better */
   }
 }
 
+@media (max-width: 1145px) {
+  .section--contacts .cont {
+    padding-left: 25px;
+    padding-right: 30px;
+  }
+}
+
 @media (max-width: 1080px) {
-  .link-social-cont {display: none;}
+  .header .link-social-cont {display: none;}
 
   .section--cap .cont {
     max-width: 900px;
@@ -1308,9 +1352,47 @@ the buttons will not be shown. TODO: maybe i can make it better */
   }
 }
 
+@media (max-width: 1025px) {
+  .link-social--mob {
+    width: 36px;
+    height: 36px;
+  }
+  .link-social--mob img {
+    width: 36px;
+    height: 36px;
+  }
+  .link-social--mob.link-social--viber img {
+    width: 20px;
+    height: 21px;
+  }
+  .link-social--mob.link-social--viber {
+    line-height: 44.5px;
+  }
+
+  .contacts__cont {
+    display: block;
+  }
+  .section--contacts .contacts__col-left {
+    padding-left: 70px;
+    margin-bottom: 27px;
+  }
+  .cont.contacts__col-right {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .map {
+    margin: 0 auto;
+    display: block;
+    width: 97%;
+  }
+}
+
 @media (max-width: 1020px) {
   .section--cat .cont {
     max-width: 660px;
+  }
+  .slider__track {
+    grid-auto-columns: 266px;
   }
   .slider__track .card {
     padding-top: 11px;
@@ -1318,8 +1400,11 @@ the buttons will not be shown. TODO: maybe i can make it better */
     padding-left: 11px;
     padding-right: 11px;
   }
-  .slider__track {
-    grid-auto-columns: 266px;
+  .slider__track .card .card__list::before {
+    top: -30px;
+  }
+  .card__list--w-2nd-line::before {
+    top: -20px !important;
   }
   .card__title--w-2nd-line {
     font-size: 20px;
@@ -1390,6 +1475,9 @@ the buttons will not be shown. TODO: maybe i can make it better */
   .title-section {
     font-size: 31px;
   }
+  .title-section--mb {
+    margin-bottom: 38px;
+  }
 
   .section--cap {
     padding-bottom: 90px;
@@ -1408,7 +1496,7 @@ the buttons will not be shown. TODO: maybe i can make it better */
     font-size: 96px;
     line-height: 85px;
   }
-  .items-spaced-list-design__line {display: none;}
+  .section--cap .items-spaced-list-design__line {display: none;}
 
   .card--full__point {
     font-size: 29px;
@@ -1437,6 +1525,10 @@ the buttons will not be shown. TODO: maybe i can make it better */
   .card--full__points {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  .footer__cont {
+    column-gap: 7%;
+  }
 }
 
 @media (max-width: 905px) {
@@ -1448,7 +1540,7 @@ the buttons will not be shown. TODO: maybe i can make it better */
     top: -46px;
   }
   .the-best-and-logo-line {
-    bottom: 154.5px;
+    bottom: 144.5px;
   }
   .the-best {
     padding-top: 28px;
@@ -1465,6 +1557,10 @@ the buttons will not be shown. TODO: maybe i can make it better */
     /* TODO: preserve proper aspect ratio */
     width: 150px;
     height: 19px;
+  }
+
+  .contacts__cont-2 {
+    column-gap: max(62px, 20%);
   }
 }
 
@@ -1497,14 +1593,46 @@ the buttons will not be shown. TODO: maybe i can make it better */
   .section--cat .card__title {
     font-size: 16px;
   }
+  .section--cat .card__list li {
+    line-height: 15px;
+  }
   .section--cat .text--larger {
     font-size: 15px;
   }
   .card__list--w-2nd-line::before {
-    top: -14px;
+    top: -26px !important;
   }
   .section--cat .card__btn {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 800px) {
+  .show-below-800 {
+    display: block;
+  }
+  .show-below-800--flex {
+    display: flex;
+  }
+  .hide-below-800 {
+    display: none;
+  }
+
+  .footer__cont {
+    grid-template-columns: none;
+    row-gap: 35px;
+    padding-left: 70px;
+  }
+  .footer__col-2 {
+    order: 2;
+    margin-top: -15px;
+    gap: 20px;
+  }
+  .footer__col-3 {
+    order: 1;
+  }
+  .footer__col-4 {
+    order: 3;
   }
 }
 
@@ -1523,6 +1651,12 @@ the buttons will not be shown. TODO: maybe i can make it better */
   }
   .items-spaced-list-design .title-and-text__text {
     font-size: 17px;
+  }
+}
+
+@media (max-width: 770px) {
+  .section--cat {
+    margin-bottom: 55px;
   }
 }
 
@@ -1545,6 +1679,12 @@ the buttons will not be shown. TODO: maybe i can make it better */
   .section--cat .cont {
     max-width: 572px;
   }
+  .section--cat .card {
+    border-radius: 35px;
+  }
+  .card__img-cont {
+    border-radius: 25px;
+  }
   .btn-slider {display: none;}
   .slider__track {
     grid-auto-columns: 226px;
@@ -1552,6 +1692,20 @@ the buttons will not be shown. TODO: maybe i can make it better */
   }
   .card__img-cont {
     max-height: 100px;
+  }
+  .section--cat .card__list {
+    padding-top: 0;
+  }
+  .section--cat .card__title {
+    margin-top: 10px;
+  }
+  .section--cat .card__list::before {
+    top: -10px !important;
+    left: 0;
+  }
+  .section--cat .card__list {
+    list-style: none;
+    padding-left: 0;
   }
   .slider__btns-mob {display: block;}
   .btn-slider--mob {display: flex;}
@@ -1590,6 +1744,14 @@ the buttons will not be shown. TODO: maybe i can make it better */
   .the-best {
     font-size: 25px;
   }
+
+  .footer.cont {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .footer__cont {
+    padding-left: 0;
+  }
 }
 
 @media (max-width: 600px) {
@@ -1599,11 +1761,23 @@ the buttons will not be shown. TODO: maybe i can make it better */
 }
 
 @media (max-width: 577px) {
+  .show-below-577 {display: inline;}
+
   .section--cat .cont {
     max-width: 505px;
   }
   .slider__track {
     grid-auto-columns: 218px;
+  }
+
+  .contacts__col-left {
+    padding-left: 0;
+  }
+  .section--contacts .contacts__col-left {
+    padding-left: 25px;
+  }
+  .contacts__cont .text--big {
+    font-size: 20px;
   }
 }
 
@@ -1657,12 +1831,36 @@ the buttons will not be shown. TODO: maybe i can make it better */
 }
 
 @media (max-width: 476px) {
+  .show-before-476 {
+    display: inline;
+  }
+
   .section--cat .cont {
     max-width: 390px;
   }
   .slider__track {
     grid-auto-columns: 158px;
     column-gap: 8px;
+  }
+  .logo--small__container {
+    padding: 2.5px 6px;
+  }
+  .section--cat .card__title {
+    font-size: 14px;
+  }
+  .card__title--w-2nd-line {
+    word-break: break-all !important;
+    font-size: 12px !important;
+  }
+  .card__title__2nd-line--abraziv {
+    position: static;
+    display: inline;
+  }
+  .section--cat .card__list--w-2nd-line::before {
+    top: -20px !important;
+  }
+  .section--cat .text--larger {
+    font-size: 14px;
   }
 }
 
@@ -1678,14 +1876,14 @@ the buttons will not be shown. TODO: maybe i can make it better */
     font-size: 43px;
   }
   .card__title {
-    font-size: 18px;
+    font-size: 16px;
   }
   .items-spaced-list-design .title-and-text__text {
     font-size: 14px;
   }
 
   .the-best-and-logo-line {
-    bottom: 291.5px;
+    bottom: 145.5px;
   }
   .logo-line {
     padding-top: 20px;
@@ -1700,5 +1898,25 @@ the buttons will not be shown. TODO: maybe i can make it better */
     padding-top: 19px;
     padding-bottom: 19px;
     bottom: 57px;
+  }
+
+  .contacts__cont-2 .title-and-text__text {
+    font-size: 15px;
+  }
+  .items-spaced-list-design__line {
+    height: 94%;
+  }
+  .items-spaced-list-design__line::before {
+    width: 22px;
+    height: 22px;
+    left: -15.8px;
+  }
+  .items-spaced-list-design__line::after {
+    width: 22px;
+    height: 22px;
+    left: -15.8px;
+  }
+  .pb {
+    padding-bottom: 70px;
   }
 }

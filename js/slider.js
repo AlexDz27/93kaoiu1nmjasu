@@ -32,6 +32,9 @@ class Slider {
     if (window.innerWidth <= 540) {
       this.changeSlideDistance = 210
     }
+    if (window.innerWidth <= 476) {
+      this.changeSlideDistance = 166
+    }
     window.addEventListener('resize', () => {
       this.changeSlideDistance = 407.5
       if (window.innerWidth <= 1365) {
@@ -52,7 +55,14 @@ class Slider {
       if (window.innerWidth <= 540) {
         this.changeSlideDistance = 210
       }
+      if (window.innerWidth <= 476) {
+        this.changeSlideDistance = 166
+      }
     })
+
+    this.touchStartX = 0
+    this.touchEndX = 0
+    this._threshold = 50 // Minimum swipe distance to trigger slide change
 
     this.init()
   }
@@ -90,6 +100,16 @@ class Slider {
         this.track.style.transition = 'transform 400ms cubic-bezier(0.165, 0.84, 0.44, 1)'
       }
     })
+
+    this.track.addEventListener('touchstart', (e) => {
+      this.touchStartX = e.changedTouches[0].screenX
+      // console.log(this.touchStartX)
+    }, {passive: true})
+    this.track.addEventListener('touchend', (e) => {
+      this.touchEndX = e.changedTouches[0].screenX
+      // console.log(this.touchEndX)
+      this._handleSwipe()
+    }, {passive: true})
   }
 
   slidePrev() {
@@ -112,6 +132,18 @@ class Slider {
 
   _slide(windowPos) {
     this.track.style.transform = `translate3d(-${this.changeSlideDistance * windowPos}px, 0, 0)`
+  }
+
+  _handleSwipe() {
+    const difference = this.touchStartX - this.touchEndX;
+    console.log(difference)
+    if (difference > this._threshold) {
+      // Swipe left - go to next slide
+      this.slideNext();
+    } else if (difference < -this._threshold) {
+      // Swipe right - go to previous slide
+      this.slidePrev();
+    }
   }
 
   get windowPos() {
