@@ -9,7 +9,7 @@
   <script src="js/main.js" defer></script>
   <title>Sprava</title>
 </head>
-<body>
+<body class="catalog">
   
 <header class="header cont">
   <div class="text-with-icon text-with-icon--pin">
@@ -84,7 +84,7 @@
   <button class="header--mob__btn-phone"><img src="img/icons/burger.svg" width="36" height="26"></button>
 </header>
 
-<section class="section-design--about">
+<section class="page-title-cont section-design--about">
   <div class="cont yellow">
     <nav>
       <a class="yellow__link" href="/">Главная</a>
@@ -95,8 +95,15 @@
 </section>
 
 <section class="section section--black section--black--more-pt section--black--contacts">
+  <div class="cont--mob--fluid yellow shown-below-630">
+    <nav>
+      <a class="yellow__link" href="/">Главная</a>
+      <a class="yellow__link yellow__link--active" href="catalog.html">Каталог</a>
+    </nav>
+  </div>
+
   <div class="cont">
-    <div style="display: flex; justify-content: space-between; margin-bottom: 50px;">
+    <div class="qs__cont">
       <button id="kisti" class="q q--active" type="button">Кисти малярные</button>
       <button id="abraziv" class="q q--with-second-line" type="button"><span class="q__text--with-second-line">Абразивные алмазные<span class="card__title__2nd-line">материалы и оснастка</span></span></button>
       <button id="valiki" class="q" type="button">Валики и ролики</button>

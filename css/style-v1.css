@@ -593,10 +593,8 @@ the buttons will not be shown. TODO: maybe i can make it better */
   margin-bottom: 7.5px;
 }
 .card-values__cont {
-  display: grid;
-  grid-template-columns: 688px 1fr;
+  display: flex;
   column-gap: 80px;
-  grid-template-rows: none;
 }
 
 .title-and-text__title {
@@ -622,7 +620,6 @@ the buttons will not be shown. TODO: maybe i can make it better */
   display: block;
   width: 3px;
   height: 100%;
-  /* height: 500px; */
   background-color: red;
   position: absolute;
   left: calc(50% - 2px);
@@ -861,11 +858,11 @@ the buttons will not be shown. TODO: maybe i can make it better */
   text-decoration: underline;
 }
 .yellow__link::after {
-  content: url("../img/icons/nav-circle.svg");
+  content: url("../img/icons/bread-arrow.svg");
   display: inline-block;
   position: absolute;
-  right: -16px;
-  line-height: 113%;
+  right: -17px;
+  line-height: 22px;
 }
 .yellow__link:last-child::after {
   content: "";
@@ -890,6 +887,12 @@ the buttons will not be shown. TODO: maybe i can make it better */
 .numbers {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 45px;
+}
+.number {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
 }
 .number__number {
   font-size: 50px;
@@ -899,6 +902,7 @@ the buttons will not be shown. TODO: maybe i can make it better */
 }
 .number__text {
   margin-top: 4px;
+  /* padding-left: 15px; */
 }
 
 .stage__num {
@@ -979,6 +983,27 @@ the buttons will not be shown. TODO: maybe i can make it better */
   text-decoration: underline;
 }
 
+.qs__cont {
+  /* display: flex; justify-content: space-between; width: 1200px; margin: 0 auto; margin-bottom: 50px; overflow-x: auto; overflow-y: hidden; */
+
+  /* display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 230px;
+  column-gap: 22.5px;
+  overflow-x: auto;
+  overflow-y: hidden; */ /* this kinda works, but i want my initial setup */
+
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #ccc transparent; /* For Firefox */
+  /* Hide scrollbar when not interacting (for WebKit browsers) */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+
+  margin-bottom: 50px;
+}
 .q {
   border: 1.5px solid #F5F5F5;
   background-color: transparent;
@@ -988,6 +1013,15 @@ the buttons will not be shown. TODO: maybe i can make it better */
   cursor: pointer;
   border-radius: 60px;
   padding: 26px 33px;
+
+  text-align: left;
+  flex-shrink: 0;
+}
+@media (max-width: 1195px) {
+  .q {
+    margin-right: 16px;
+  }
+  .q:last-child {margin-right: 0;}
 }
 .q--with-second-line {
   padding: 26px 24px;
@@ -1237,7 +1271,10 @@ the buttons will not be shown. TODO: maybe i can make it better */
   display: none;
 }
 .hide-below-800 {
-  display: block;
+  display: flex;
+}
+.shown-below-630 {
+  display: none;
 }
 .show-below-577 {
   display: none;
@@ -1247,6 +1284,9 @@ the buttons will not be shown. TODO: maybe i can make it better */
 }
 .show-before-476 {
   display: none;
+}
+.hide-before-476 {
+  display: inline;
 }
 
 @media (max-width: 1365px) {
@@ -1287,6 +1327,11 @@ the buttons will not be shown. TODO: maybe i can make it better */
     padding-right: 44px;
   }
 
+  .section--black--stages .cont {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
   .footer .cont {
     padding-left: 16px;
     padding-right: 16px;
@@ -1309,6 +1354,9 @@ the buttons will not be shown. TODO: maybe i can make it better */
   .the-best-and-logo-line {
     bottom: 267.5px;
   }
+  .about-company .the-best-and-logo-line {
+    bottom: 66.5px;
+  }
 
   .section--cat .cont {
     max-width: 845px;
@@ -1328,6 +1376,15 @@ the buttons will not be shown. TODO: maybe i can make it better */
   .section--contacts .cont {
     padding-left: 25px;
     padding-right: 30px;
+  }
+}
+
+@media (max-width: 1096px) {
+  .numbers {
+    grid-template-columns: 340px 340px;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    margin-left: 107px;
   }
 }
 
@@ -1414,6 +1471,10 @@ the buttons will not be shown. TODO: maybe i can make it better */
 @media (max-width: 960px) {
   .the-best {
     font-size: 31px;
+  }
+
+  .cont--text {
+    padding: 0 15px;
   }
 }
 
@@ -1519,6 +1580,16 @@ the buttons will not be shown. TODO: maybe i can make it better */
   .card--full__points__postface-p {
     margin-top: 0;
   }
+
+  .section--black--our-values {
+    padding-bottom: 60px;
+  }
+  .yellow-text-design {
+    font-size: 22px;
+  }
+  .cont--text .text--larger {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 933px) {
@@ -1538,6 +1609,9 @@ the buttons will not be shown. TODO: maybe i can make it better */
   .section--with-lines {
     padding-bottom: 203px;
     top: -46px;
+  }
+  .about-company .section--with-lines {
+    padding-bottom: 122.5px;
   }
   .the-best-and-logo-line {
     bottom: 144.5px;
@@ -1559,8 +1633,48 @@ the buttons will not be shown. TODO: maybe i can make it better */
     height: 19px;
   }
 
+  .section--about-numbers {
+    margin-top: -46px;
+    padding-bottom: 80px;
+  }
+
   .contacts__cont-2 {
     column-gap: max(62px, 20%);
+  }
+
+  .page-title-cont {
+    padding-top: 20px;
+  }
+  .yellow__title {
+    margin-bottom: 30px;
+  }
+
+  .contacts .page-title-cont {
+    padding-bottom: 1px;
+  }
+
+  .card-values__cont {
+    column-gap: 65px;
+  }
+
+  .section--black--stages {
+    padding-bottom: 90px;
+  }
+
+  .catalog .page-title-cont {
+    padding-bottom: 12px;
+  }
+}
+
+@media (max-width: 845px) {
+  .card-values__cont {
+    flex-direction: column;
+    row-gap: 40px;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 
@@ -1605,6 +1719,10 @@ the buttons will not be shown. TODO: maybe i can make it better */
   .section--cat .card__btn {
     font-size: 16px;
   }
+  
+  .about__stages {
+    column-gap: 21%;
+  }
 }
 
 @media (max-width: 800px) {
@@ -1648,6 +1766,9 @@ the buttons will not be shown. TODO: maybe i can make it better */
   /* TODO: careful here: card__title also resides in slider */
   .card__title {
     font-size: 20px;
+  }
+  .about__stages .card__title {
+    font-size: 34px;
   }
   .items-spaced-list-design .title-and-text__text {
     font-size: 17px;
@@ -1723,10 +1844,40 @@ the buttons will not be shown. TODO: maybe i can make it better */
     fill: none;
     stroke: gray;
   }
+
+  .section--black--stages .cont {
+    padding-left: 12px;
+    padding-right: 8px;
+  }
+  .about__stages {
+    column-gap: 14%;
+  }
+  .about__stages .title-and-text__text {
+    font-size: 14px;
+    word-break: normal;
+  }
+  .about__stages .items-spaced-list-design__line {
+    height: 97.6%;
+    left: calc(45.9% - 2px);
+  }
+  .about__stages .items-spaced-list-design__line::before {
+    width: 22px;
+    height: 22px;
+    left: -15.8px;
+  }
+  .about__stages .items-spaced-list-design__line::after {
+    width: 22px;
+    height: 22px;
+    left: -15.8px;
+  }
 }
 
 @media (max-width: 630px) {
   .br--desk {display: none;}
+
+  .title-section {
+    font-size: 28px;
+  }
 
   .card--full {
     padding-top: 40px;
@@ -1752,6 +1903,51 @@ the buttons will not be shown. TODO: maybe i can make it better */
   .footer__cont {
     padding-left: 0;
   }
+
+  .page-title-cont {
+    padding-top: 10px;
+  }
+  .catalog .page-title-cont {
+    padding-top: 12px;
+  }
+  .catalog .yellow__title {
+    margin-bottom: 0;
+  }
+  .yellow__title {
+    margin-bottom: 11px;
+    font-size: 32px;
+  }
+  .yellow nav {display: none;}
+  .shown-below-630 {
+    display: block;
+  }
+  .yellow.shown-below-630 nav {display: block;}
+  .yellow__link {
+    color: #707070;
+  }
+  .yellow__link--active {
+    color: #CAC9C9;
+  }
+  .yellow nav {
+    position: relative;
+    top: -57px;
+    left: 2px;
+  }
+
+  .section--about-numbers {
+    padding-top: 83px;
+  }
+
+  .numbers {
+    grid-template-columns: 1fr 1fr;
+    margin-left: 7%;
+  }
+  .number__number {
+    font-size: 36px;
+  }
+  .number__text {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -1762,6 +1958,9 @@ the buttons will not be shown. TODO: maybe i can make it better */
 
 @media (max-width: 577px) {
   .show-below-577 {display: inline;}
+  .dn-below-577 {
+    display: none;
+  }
 
   .section--cat .cont {
     max-width: 505px;
@@ -1824,6 +2023,16 @@ the buttons will not be shown. TODO: maybe i can make it better */
   .card--full__points {
     column-gap: 18px;
   }
+  .card-values__cont {
+    row-gap: 15px;
+  }
+  .card-values__cont img {
+    width: 125px;
+    height: 125px;
+  }
+  .card-values__cont .card__ul li.text--larger {
+    font-size: 15px;
+  }
 
   .the-best {
     font-size: 25px;
@@ -1833,6 +2042,9 @@ the buttons will not be shown. TODO: maybe i can make it better */
 @media (max-width: 476px) {
   .show-before-476 {
     display: inline;
+  }
+  .hide-before-476 {
+    display: none;
   }
 
   .section--cat .cont {
@@ -1861,6 +2073,11 @@ the buttons will not be shown. TODO: maybe i can make it better */
   }
   .section--cat .text--larger {
     font-size: 14px;
+  }
+
+  .numbers {
+    grid-template-columns: 1fr 1fr;
+    margin-left: 1.5%;
   }
 }
 
@@ -1902,6 +2119,7 @@ the buttons will not be shown. TODO: maybe i can make it better */
 
   .contacts__cont-2 .title-and-text__text {
     font-size: 15px;
+    word-break: normal;
   }
   .items-spaced-list-design__line {
     height: 94%;
