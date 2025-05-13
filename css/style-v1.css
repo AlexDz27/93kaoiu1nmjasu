@@ -1043,7 +1043,7 @@ the buttons will not be shown. TODO: maybe i can make it better */
   background-color: #FEDE32;
   border: none;
   color: #494547;
-  box-shadow: 3px 5px 15px rgba(255, 242, 25, 0.4);
+  box-shadow: 0 3px 5px rgba(255, 242, 25, 0.4);
 }
 .q--active::after {
   border-bottom: 1.5px solid #DF2623;
