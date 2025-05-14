@@ -848,8 +848,7 @@ the buttons will not be shown. TODO: maybe i can make it better */
   text-align: center;
 }
 .yellow__link {
-  color: #393738;
-  opacity: .7;
+  color: rgba(112, 112, 112, 0.7);
   text-decoration: none;
   margin-right: 21px;
   position: relative;
@@ -1199,6 +1198,11 @@ the buttons will not be shown. TODO: maybe i can make it better */
 }
 .product__mb {
   margin-bottom: 30px;
+  display: flex;
+  justify-content: start;
+}
+.product__go-to-cat {
+  font-weight: 600;
 }
 .product__info {
   background-color: #fff;
@@ -1379,6 +1383,12 @@ the buttons will not be shown. TODO: maybe i can make it better */
   }
 }
 
+@media (max-width: 1141px) {
+  .product__title {
+    font-size: 30px;
+  }
+}
+
 @media (max-width: 1096px) {
   .numbers {
     grid-template-columns: 340px 340px;
@@ -1406,6 +1416,36 @@ the buttons will not be shown. TODO: maybe i can make it better */
   }
   .items-spaced-list-design__item:nth-child(even) {
     margin-top: 0;
+  }
+}
+
+@media (max-width: 1058px) {
+  .product {
+    grid-template-columns: 1fr;
+    grid-template-rows: 83px 25px 1fr 32px auto;
+  }
+
+  .product__col-imgs {
+    line-height: 75px;
+    font-size: 45px;
+  }
+
+  .product--hit .product__col-img::before {
+    width: 64px;
+    height: 64px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .product__col-img {
+    border-radius: 40px;
+    padding: 6.5% 0;
+  }
+  .product__col-img img {
+    width: 67%;
+    min-width: 440px;
+  }
+  .product__col-text {
+    margin-bottom: 3%;
   }
 }
 
@@ -1589,6 +1629,10 @@ the buttons will not be shown. TODO: maybe i can make it better */
   }
   .cont--text .text--larger {
     font-size: 16px;
+  }
+
+  .page--product .section-design--about {
+    padding-top: 23px;
   }
 }
 
@@ -1793,6 +1837,16 @@ the buttons will not be shown. TODO: maybe i can make it better */
   }
 }
 
+@media (max-width: 689px) {
+  .product__mb {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .product__btn {
+    margin-right: 0;
+  }
+}
+
 @media (max-width: 670px) {
   .section--cat {
     padding-bottom: 88px;
@@ -1918,6 +1972,12 @@ the buttons will not be shown. TODO: maybe i can make it better */
     font-size: 32px;
   }
   .yellow nav {display: none;}
+  .page--product .yellow nav {
+    display: block;
+    position: static;
+    font-size: 13px;
+    line-height: 20px;
+  }
   .shown-below-630 {
     display: block;
   }
@@ -1948,11 +2008,64 @@ the buttons will not be shown. TODO: maybe i can make it better */
   .number__text {
     font-size: 16px;
   }
+
+  .product__title {
+    font-size: 24px;
+  }
+  .product__art {
+    font-size: 16px;
+  }
+  .product__price {
+    font-size: 18px;
+  }
+  .product__detail__1 {
+    font-size: 16px;
+  }
+  .product__detail__2 {
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .product__info__contents {
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    font-size: 16px;
+  }
+
+  .product__info__btn {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 600px) {
   .section--cat .cont {
     max-width: 535px;
+  }
+}
+
+@media (max-width: 580px) {
+  .product {
+    padding-top: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .product--hit .product__col-img::before {
+    left: 14px;
+    top: 9px;
+  }
+  .product__col-img img {
+    width: 85%;
+    min-width: auto;
+  }
+
+  .product__info {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .product__info__contents {
+    padding-left: 18px;
+    padding-right: 18px;
   }
 }
 
@@ -2037,6 +2150,17 @@ the buttons will not be shown. TODO: maybe i can make it better */
   .the-best {
     font-size: 25px;
   }
+}
+
+@media (max-width: 497px) {
+  .page--product .yellow__link--active::before {
+    content: url(../img/icons/bread-arrow.svg);
+    display: inline-block;
+    position: absolute;
+    left: -17px;
+    line-height: 22px;
+  }
+  .page--product .yellow__link--abraziv::after {content: "";}
 }
 
 @media (max-width: 476px) {
@@ -2136,5 +2260,30 @@ the buttons will not be shown. TODO: maybe i can make it better */
   }
   .pb {
     padding-bottom: 70px;
+  }
+}
+
+@media (max-width: 450px) {
+  .product__title {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .product__art {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 446px) {
+  .product--hit .product__col-img::before {
+    width: 50px;
+    height: 50px;
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+
+@media (max-width: 398px) {
+  .product__col-img img {
+    width: 100%;
   }
 }
