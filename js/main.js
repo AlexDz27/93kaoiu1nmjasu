@@ -36,20 +36,31 @@ window.addEventListener('click', (e) => {
 })
 
 /** NAV **/
-const navAndOverlay = document.getElementById('navAndOverlay')
-const nav = document.getElementById('nav')
-const btnNavClose = document.getElementById('btnNavClose')
 const btnNav = document.getElementById('btnNav')
+const overlay = document.getElementById('overlay')
+const nav = document.getElementById('nav')
+const navBtnClose = document.getElementById('navBtnClose')
 btnNav.addEventListener('click', () => {
-  navAndOverlay.classList.add('nav-overlay--active')
-  btnNavClose.focus()
+  overlay.classList.add('overlay--db')
+  void overlay.offsetWidth
+  overlay.classList.add('overlay--blur')
+
+  nav.classList.add('nav--db')
+  void nav.offsetWidth
+  nav.classList.add('nav--active')
+  navBtnClose.focus()
 })
-btnNavClose.addEventListener('click', () => {
-  navAndOverlay.classList.remove('nav-overlay--active')
+navBtnClose.addEventListener('click', () => {
+  overlay.classList.remove('overlay--db')
+  overlay.classList.remove('overlay--blur')
+  nav.classList.remove('nav--db')
+  nav.classList.remove('nav--active')
 })
-navAndOverlay.addEventListener('click', (e) => {
-  if (nav.contains(e.target)) return
-  navAndOverlay.classList.remove('nav-overlay--active')
+overlay.addEventListener('click', () => {
+  overlay.classList.remove('overlay--db')
+  overlay.classList.remove('overlay--blur')
+  nav.classList.remove('nav--db')
+  nav.classList.remove('nav--active')
 })
 /** NAV MOBILE BUTTON **/
 // TODO: 
@@ -58,7 +69,11 @@ navAndOverlay.addEventListener('click', (e) => {
 window.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') {
     search.classList.remove('search--active')
-    navAndOverlay.classList.remove('nav-overlay--active')
+    
+    overlay.classList.remove('overlay--db')
+    overlay.classList.remove('overlay--blur')
+    nav.classList.remove('nav--db')
+    nav.classList.remove('nav--active')
   }
 })
 
@@ -123,4 +138,8 @@ window.addEventListener('keydown', (e) => {
 //   })
 // }
 
-/** SOME MEDIA STUFF **/
+/** YMAPS PROBE **/
+setTimeout(() => {
+  const iframe = document.querySelector('.map')
+  console.log(iframe.querySelector('.map-circle-placemark__caption'))
+}, 2000)
