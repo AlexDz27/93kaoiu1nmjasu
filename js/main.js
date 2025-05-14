@@ -138,8 +138,55 @@ window.addEventListener('keydown', (e) => {
 //   })
 // }
 
-/** YMAPS PROBE **/
-setTimeout(() => {
-  const iframe = document.querySelector('.map')
-  console.log(iframe.querySelector('.map-circle-placemark__caption'))
-}, 2000)
+/** YMAPS **/
+main()
+async function main() {
+  await ymaps3.ready;
+
+  const {YMap, YMapDefaultSchemeLayer, YMapDefaultFeaturesLayer, YMapMarker} = ymaps3;
+  
+  // Иницилиазируем карту
+    const map = new YMap(
+        // Передаём ссылку на HTMLElement контейнера
+        document.getElementById('map'),
+
+        // Передаём параметры инициализации карты
+        {
+            location: {
+                // Координаты центра карты
+                center: [27.576033, 53.808046],
+
+                // Уровень масштабирования
+                zoom: 16
+            }
+        }
+    );
+
+    // Добавляем слой для отображения схематической карты
+    map.addChild(new YMapDefaultSchemeLayer());
+
+    // Добавьте слой для маркеров
+    map.addChild(new YMapDefaultFeaturesLayer());
+
+    // Создайте DOM-элемент для содержимого маркера.
+    // Важно это сделать до инициализации маркера!
+    // Элемент можно создавать пустым. Добавить HTML-разметку внутрь можно после инициализации маркера.
+    const content = document.createElement('section');
+
+    // Инициализируйте маркер
+    const marker = new YMapMarker(
+      {
+        coordinates: [27.576033, 53.808046],
+      },
+      content
+    );
+    map.addChild(marker);
+    content.innerHTML = `
+      <section class="pin">
+        <img class="pin" src="img/icons/pin-ymap.svg" style="position: relative; top: -63.5px; left: -28px;">
+        <span>ООО “Рошма”</span>
+      </section>
+    `;
+
+    document.querySelector('ymaps').style = 'border-radius: 30px;'
+}
