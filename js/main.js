@@ -145,7 +145,7 @@ window.addEventListener('keydown', (e) => {
 // }
 
 /** YMAPS **/
-main()
+if (document.getElementById('map')) main()
 async function main() {
   await ymaps3.ready;
 
