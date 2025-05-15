@@ -82,7 +82,6 @@ class Slider {
       this.slideNext()
       this.btnNext.disabled = true // [1] hack to prevent going too much farther when clicking fast
     }
-    // TODO: make sure the logic with dots also works for mobile
     this.btnNextMob.onclick = () => {
       this.slideNext()
       this.btnNextMob.disabled = true

@@ -1894,7 +1894,7 @@ the buttons will not be shown. TODO: maybe i can make it better */
 
 @media (max-width: 670px) {
   .section--cat {
-    padding-bottom: 88px;
+    padding-bottom: 36px;
   }
   .section--cat .cont {
     max-width: 572px;
@@ -1927,7 +1927,10 @@ the buttons will not be shown. TODO: maybe i can make it better */
     list-style: none;
     padding-left: 0;
   }
-  .slider__btns-mob {display: block;}
+  .slider__btns-mob {
+    display: block;
+    top: -53px;
+  }
   .btn-slider--mob {display: flex;}
   .slider__btn-slider--prev {
     left: 0;
@@ -1942,6 +1945,9 @@ the buttons will not be shown. TODO: maybe i can make it better */
   .btn-slider--inactive svg path {
     fill: none;
     stroke: gray;
+  }
+  .slider__dots__dot {
+
   }
 
   .section--black--stages .cont {
