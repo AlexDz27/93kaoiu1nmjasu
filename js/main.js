@@ -5,12 +5,6 @@ const searchResults = document.getElementById('searchResults')
 searchInput.onfocus = () => {
   search.classList.add('search--active')
 }
-// searchInput.onblur = (e) => {
-//   // console.log(e.target.id)
-//   setTimeout(() => {
-//     search.classList.remove('search--active')
-//   }, 50)
-// }
 window.addEventListener('click', (e) => {
   if (search.contains(e.target)) return
   search.classList.remove('search--active')

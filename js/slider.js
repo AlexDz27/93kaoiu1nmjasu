@@ -1,16 +1,18 @@
 class Slider {
-  constructor(trackId, btnPrevId, btnNextId, btnPrevMob, btnNextMob) {
+  constructor(trackId, btnPrevId, btnNextId, btnPrevMob, btnNextMob, dots) {
     this.track = document.getElementById(trackId)
     this.btnPrev = document.getElementById(btnPrevId)
     this.btnPrevMob = document.getElementById(btnPrevMob)
     this.btnNext = document.getElementById(btnNextId)
     this.btnNextMob = document.getElementById(btnNextMob)
+    this.dotsCont = document.getElementById(dots)
+    this.dots = this.dotsCont.children
 
     this.cards = this.track.children
     this.initCardsCount = this.cards.length
 
     this._windowPos = 0 // Notion of 'window' represents viewing window for the cards, e.g. [[1, 2, 3], 4, 5,], and it could be [[1, 2], 3, 4, 5] for mobile
-    this.WINDOW_POS_MAX = 2
+    this.WINDOW_POS_MAX = 2 // FIXME: bad. i understand now that the notion is ruined when started working with dots. I need to rewrite the whole code
 
     // FIXME: mb i can do the same as _windowPos kinda..
     this.changeSlideDistance = 407.5 // .slider__track's children grid-auto-columns + column-gap
@@ -76,18 +78,31 @@ class Slider {
     }
 
     this.btnNext.onclick = () => {
+      console.log(this.windowPos, this._windowPos)
       this.slideNext()
-      this.btnNext.disabled = true // [1] hack to prevent going too much farher when clicking fast
+      this.btnNext.disabled = true // [1] hack to prevent going too much farther when clicking fast
     }
+    // TODO: make sure the logic with dots also works for mobile
     this.btnNextMob.onclick = () => {
       this.slideNext()
       this.btnNextMob.disabled = true
+    }
+
+    for (let i = 0; i < this.dots.length; i++) {
+      const dot = this.dots[i]
+      dot.onclick = () => {
+        this.dotsCont.querySelector('.slider__dots__dot--active').classList.remove('slider__dots__dot--active')
+        dot.classList.add('slider__dots__dot--active')
+
+        this.slideToPos(i)
+      }
     }
 
     this.track.addEventListener('transitionend', () => {
       this.btnNext.disabled = false // [2] hack to prevent going too much farher when clicking fast
       this.btnNextMob.disabled = false
 
+      console.log(`trans: ${this.windowPos} === ${this.initCardsCount}`)
       if (this.windowPos === this.initCardsCount) {
         for (let i = 0; i < 5; i++) {
           this.track.firstElementChild.remove()
@@ -103,11 +118,9 @@ class Slider {
 
     this.track.addEventListener('touchstart', (e) => {
       this.touchStartX = e.changedTouches[0].screenX
-      // console.log(this.touchStartX)
     }, {passive: true})
     this.track.addEventListener('touchend', (e) => {
       this.touchEndX = e.changedTouches[0].screenX
-      // console.log(this.touchEndX)
       this._handleSwipe()
     }, {passive: true})
   }
@@ -119,15 +132,10 @@ class Slider {
   slideNext() {
     this.windowPos++
     this._slide(this.windowPos)
-
-    if (this.windowPos === this.WINDOW_POS_MAX) {
-      const fragment = document.createDocumentFragment()
-      for (const card of this.cards) {
-        const clone = card.cloneNode(true)
-        fragment.appendChild(clone)
-      }
-      this.track.appendChild(fragment)
-    }
+  }
+  slideToPos(pos) {
+    this.windowPos = pos
+    this._slide(this.windowPos)
   }
 
   _slide(windowPos) {
@@ -136,7 +144,6 @@ class Slider {
 
   _handleSwipe() {
     const difference = this.touchStartX - this.touchEndX;
-    console.log(difference)
     if (difference > this._threshold) {
       // Swipe left - go to next slide
       this.slideNext();
@@ -163,10 +170,30 @@ class Slider {
       this.btnPrev.classList.add('btn-slider--inactive')
       this.btnPrevMob.classList.add('btn-slider--inactive')
     }
+
+    if (this.windowPos === this.WINDOW_POS_MAX) {
+      console.log(this.track.children.length)
+      if (this.track.children.length >= 10) return  // fix bug: if clicking on last dot, unnecessary cards are created which then could make the slider lag
+      const fragment = document.createDocumentFragment()
+      for (const card of this.cards) {
+        const clone = card.cloneNode(true)
+        fragment.appendChild(clone)
+      }
+      this.track.appendChild(fragment)
+    }
+
+    // console.log(this.windowPos, this._windowPos)
+    let numberForDot = this.windowPos
+    if (this.windowPos > this.WINDOW_POS_MAX) {
+      numberForDot = 2
+    }
+    const neededDot = this.dots[numberForDot]
+    this.dotsCont.querySelector('.slider__dots__dot--active').classList.remove('slider__dots__dot--active')
+    neededDot.classList.add('slider__dots__dot--active')
   }
 }
 
-const slider = new Slider('track', 'btnPrev', 'btnNext', 'btnPrevMob', 'btnNextMob')
+const slider = new Slider('track', 'btnPrev', 'btnNext', 'btnPrevMob', 'btnNextMob', 'dots')
 
 /* Utilities for Slider */
 function getNonNegative(num) {
