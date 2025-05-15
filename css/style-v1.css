@@ -953,6 +953,7 @@ the buttons will not be shown. TODO: maybe i can make it better */
   padding-right: 40px;
   box-sizing: border-box;
   transition: transform 0.3s;
+  will-change: transform;
 }
 .nav--db {
   display: block;
