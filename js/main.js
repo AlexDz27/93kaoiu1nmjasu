@@ -56,8 +56,20 @@ overlay.addEventListener('click', () => {
   nav.classList.remove('nav--db')
   nav.classList.remove('nav--active')
 })
-/** NAV MOBILE BUTTON **/
-// TODO: 
+/** NAV MOBILE **/
+const btnNavMob = document.getElementById('btnNavMob')
+const navMob = document.getElementById('navMob')
+const btnNavCloseMob = document.getElementById('btnNavCloseMob')
+btnNavMob.onclick = () => {
+  navMob.classList.add('nav-mob--active')
+}
+btnNavCloseMob.onclick = () => {
+  navMob.classList.remove('nav-mob--active')
+}
+window.addEventListener('click', (e) => {
+  if (btnNavMob.contains(e.target) || navMob.contains(e.target)) return
+  navMob.classList.remove('nav-mob--active')
+})
 
 /** ESCAPE: turn off modals **/
 window.addEventListener('keydown', (e) => {
