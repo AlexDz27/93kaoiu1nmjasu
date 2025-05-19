@@ -193,6 +193,10 @@ input {
 .slider--cat {
   overflow-x: hidden;
 }
+.slider--cat--up {
+  overflow-y: hidden;
+  max-height: 1824px;
+}
 /* Wrapper is needed because by design there are buttons outside of slider's intrinsic width. If omitting __wrapper,
 the buttons will not be shown. TODO: maybe i can make it better */
 .slider__wrapper {
@@ -261,6 +265,10 @@ the buttons will not be shown. TODO: maybe i can make it better */
 .slider__btns-mob {
   display: none;
   position: relative;
+}
+.slider__btns--up {
+  position: relative;
+  top: -564px;
 }
 
 .search {
@@ -1098,9 +1106,11 @@ the buttons will not be shown. TODO: maybe i can make it better */
   -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
 
   margin-bottom: 50px;
+  padding: 5px;
 }
 .q {
-  border: 1.5px solid #F5F5F5;
+  outline: 1.5px solid #F5F5F5;
+  border: none;
   background-color: transparent;
   font-weight: 600;
   font-size: 18px;
@@ -1136,7 +1146,7 @@ the buttons will not be shown. TODO: maybe i can make it better */
 }
 .q--active {
   background-color: #FEDE32;
-  border: none;
+  outline: none;
   color: #494547;
   box-shadow: 0 3px 5px rgba(255, 242, 25, 0.4);
 }
@@ -1386,6 +1396,15 @@ the buttons will not be shown. TODO: maybe i can make it better */
 .header--mob__btn-phone {
   background-color: transparent;
   border: none;
+}
+
+.catalog #titleSection {
+  display: none;
+  margin-top: -10px;
+  margin-bottom: 34px;
+}
+@media (max-width: 830px) {
+  .catalog #titleSection {display: block;}
 }
 
 .show-below-800 {
@@ -2065,9 +2084,6 @@ the buttons will not be shown. TODO: maybe i can make it better */
     fill: none;
     stroke: gray;
   }
-  .slider__dots__dot {
-
-  }
 
   .section--black--stages .cont {
     padding-left: 12px;
@@ -2093,6 +2109,20 @@ the buttons will not be shown. TODO: maybe i can make it better */
     width: 22px;
     height: 22px;
     left: -15.8px;
+  }
+
+  .qs__cont {
+    margin-top: -10px;
+  }
+  .q {
+    font-size: 14px;
+  }
+  .t {
+    border-radius: 30px;
+  }
+  .t__img-cont {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
   }
 }
 
@@ -2358,6 +2388,7 @@ the buttons will not be shown. TODO: maybe i can make it better */
   }
   .section--cat .card__title {
     font-size: 14px;
+    word-break: normal !important;
   }
   .card__title--w-2nd-line {
     word-break: break-all !important;

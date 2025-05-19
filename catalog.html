@@ -106,11 +106,13 @@
   <div class="cont">
     <div id="qs" class="qs__cont">
       <button id="kisti" class="q q--active" type="button">Кисти малярные</button>
-      <button id="abraziv" class="q q--with-second-line" type="button"><span class="q__text--with-second-line">Абразивные алмазные<span class="card__title__2nd-line">материалы и оснастка</span></span></button>
+      <button id="abraziv" class="q q--with-second-line" type="button"><span class="q__text--with-second-line">Абразивные алмазные<span class="card__title__2nd-line"> материалы и оснастка</span></span></button>
       <button id="valiki" class="q" type="button">Валики и ролики</button>
-      <button id="vspomogat" class="q q--with-second-line" type="button"><span class="q__text--with-second-line">Вспомогательный<span class="card__title__2nd-line">инструмент</span></span></button>
+      <button id="vspomogat" class="q q--with-second-line" type="button"><span class="q__text--with-second-line">Вспомогательный<span class="card__title__2nd-line"> инструмент</span></span></button>
       <button id="nozhi" class="q" type="button">Ножи и лезвия</button>
     </div>
+
+    <h2 id="titleSection" class="title-section title-section--mob">Кисти малярные</h2>
 
     <div class="slider--cat">
       <div id="track" class="slider--cat__track t-list__mb">
@@ -559,7 +561,7 @@
   <div class="text-with-icon nav__row-2">
     <img class="text-with-icon__icon" src="img/icons/phone.svg" width="21" height="21">
     <div class="text-with-icon__text-cont text-with-icon__adjust-1">
-      <span class="text--semibold">+375 (29) 305-11-11</span>
+      <a style="text-decoration: none;" href="tel:+375293051111" class="text--semibold">+375 (29) 305-11-11</a>
     </div>
   </div>
   <div class="text-with-icon nav__row-2">
@@ -590,12 +592,14 @@
   const btnValiki = document.getElementById('valiki')
   const btnVspomogat = document.getElementById('vspomogat')
   const btnNozhi = document.getElementById('nozhi')
+  const titleSection = document.getElementById('titleSection')
+  const curCar = 'kisti'  // TODO: unused mb del?
   const catBtns = [btnKisti, btnAbraziv, btnValiki, btnVspomogat, btnNozhi]
-  const curCar = 'kisti'
   for (const btn of catBtns) {
     btn.onclick = () => {
       document.querySelector('.q--active').classList.remove('q--active')
       btn.classList.add('q--active')
+      titleSection.textContent = btn.textContent
     }
   }  
 </script>
