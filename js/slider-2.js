@@ -16,7 +16,7 @@ class Slider {
     }
 
     this.btnNext.onclick = () => {
-      this.track.style.transform = `translate3d(-100%, 0, 0)`
+      this.track.style.transform = `translate3d(calc(-100% - 5px), 0, 0)`
       smoothScrollTo(document.getElementById('qs').offsetTop - 30, 800)
     }
 
