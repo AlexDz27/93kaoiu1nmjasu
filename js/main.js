@@ -196,3 +196,13 @@ async function main() {
 
     document.querySelector('ymaps').style = 'border-radius: 30px;'
 }
+
+/** Галочка **/
+const galLink = document.getElementById('gal')
+const gal = document.querySelector('.gal')
+let showGal = false
+galLink.onclick = () => {
+  showGal = showGal ? false : true
+  galLink.textContent = showGal ? 'Выключить галочку' : 'Включить галочку'
+  gal.classList.toggle('gal--active', showGal)
+}

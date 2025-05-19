@@ -271,6 +271,18 @@ the buttons will not be shown. TODO: maybe i can make it better */
   top: -564px;
 }
 
+.gal {
+  display: none;
+  position: fixed;
+  top: 110px;
+  right: 19px;
+  width: 24px;
+  height: 24px;
+}
+.gal--active {
+  display: block;
+}
+
 .search {
   position: relative;
   display: inline-block;
