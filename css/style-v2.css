@@ -1450,6 +1450,9 @@ the buttons will not be shown. TODO: maybe i can make it better */
   background-color: transparent;
   border: none;
 }
+.header--mob__btn-phone--real {
+  padding-left: 6px;
+}
 
 .catalog #titleSection {
   display: none;
