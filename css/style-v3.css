@@ -1686,6 +1686,10 @@ the buttons will not be shown. TODO: maybe i can make it better */
   #map {
     padding: 0 16px;
   }
+  .contacts #map {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
   .link-social--mob {
     width: 36px;
