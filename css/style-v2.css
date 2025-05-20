@@ -2114,6 +2114,7 @@ the buttons will not be shown. TODO: maybe i can make it better */
   }
   .section--cat .card {
     border-radius: 35px;
+    max-height: 430px;
   }
   .card__img-cont {
     border-radius: 25px;
@@ -2540,18 +2541,18 @@ the buttons will not be shown. TODO: maybe i can make it better */
     padding-bottom: 15px;
     font-size: 14px;
   }
+
+  .card--bad-pr {
+    padding-right: 9px !important;
+  }
+  .card--bad-pr .card__list {
+    margin-top: 4px;
+  }
+  .card--bad-pr .card__list--w-2nd-line::before {
+    top: -9px !important;
+  }
 }
 
-/* TODO: uncomment if wants to see lower fz version */
-/* @media (max-width: 473px) {
-  .text-design {
-    font-size: 12px;
-  }
-  .section-design--about__text--big {
-    font-size: 13px;
-    margin-top: 25px;
-  }
-} */
 
 @media (max-width: 460px) {
   .title-section--mob {
