@@ -57,6 +57,7 @@ overlay.addEventListener('click', () => {
   nav.classList.remove('nav--active')
 })
 /** NAV MOBILE **/
+let mode = 'show nav items'  // WARNING: This is important in the mobile search block of code
 const btnNavMob = document.getElementById('btnNavMob')
 const navMob = document.getElementById('navMob')
 const btnNavCloseMob = document.getElementById('btnNavCloseMob')
@@ -64,12 +65,40 @@ btnNavMob.onclick = () => {
   navMob.classList.add('nav-mob--active')
 }
 btnNavCloseMob.onclick = () => {
-  navMob.classList.remove('nav-mob--active')
+  if (mode === 'hide nav items') {
+    mode = mode === 'show nav items' ? 'hide nav items' : 'show nav items'
+    navMobContCont.style.display = mode === 'show nav items' ? 'block' : 'none'
+    searchMob.style.display = mode === 'show nav items' ? 'none' : 'inline-block'
+    navMobContSearchResults.style.display = 'none'
+  } else if (mode === 'show nav items') {
+    navMob.classList.remove('nav-mob--active')
+  }
 }
 window.addEventListener('click', (e) => {
   if (btnNavMob.contains(e.target) || navMob.contains(e.target)) return
   navMob.classList.remove('nav-mob--active')
 })
+
+const btnNavMobSearch = document.getElementById('btnNavMobSearch')
+const navMobCont = document.getElementById('navMobCont')
+const navMobContCont = document.getElementById('navMobContCont')
+const navMobContSearchResults = document.getElementById('navMobContSearchResults')
+const searchMob = document.getElementById('searchMob')
+const searchInputMob = document.getElementById('searchInputMob')
+btnNavMobSearch.onclick = () => {
+  mode = mode === 'show nav items' ? 'hide nav items' : 'show nav items'
+  navMobContCont.style.display = mode === 'show nav items' ? 'block' : 'none'
+  searchMob.style.display = mode === 'show nav items' ? 'none' : 'inline-block'
+
+  searchInputMob.focus()
+  if (searchInputMob.value) {
+    navMobContSearchResults.style.display = 'block'
+  }
+}
+searchInputMob.oninput = (e) => {
+  if (e.target.value === '') navMobContSearchResults.style.display = 'none'
+  else navMobContSearchResults.style.display = 'block'
+}
 
 /** ESCAPE: turn off modals **/
 window.addEventListener('keydown', (e) => {

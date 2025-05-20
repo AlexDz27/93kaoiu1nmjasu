@@ -292,6 +292,15 @@ the buttons will not be shown. TODO: maybe i can make it better */
   position: relative;
   display: inline-block;
 }
+.search--mob {
+  margin-right: 0 !important;
+  position: relative;
+  top: -4px;
+}
+.search--mob .search__input {
+  border-radius: 0;
+  padding-right: 14px;
+}
 .search--active .search__input {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -326,6 +335,16 @@ the buttons will not be shown. TODO: maybe i can make it better */
   background-color: #fff;
   width: 100%;
   z-index: 3;
+}
+.search__results--active {
+  display: block;
+  position: static;
+}
+#searchResultsMob .search__results__item {
+  border-bottom: 1px solid #eee;
+}
+#searchResultsMob .search__results__item:last-child {
+  border-bottom: none;
 }
 .search__results__item {
   padding-top: 12px;
