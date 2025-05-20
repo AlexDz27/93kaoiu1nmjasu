@@ -23,7 +23,15 @@ class Slider {
 
   init() {
     this.btnPrev.onclick = () => {
+      this.btnPrev.disabled = true
+      this.btnNext.disabled = false
+      this.btnNext.classList.remove('btn-slider--inactive')
+      this.btnPrev.classList.add('btn-slider--inactive')
+      this.dots[1].classList.remove('slider__dots__dot--active')
+      this.dots[0].classList.add('slider__dots__dot--active')
+
       this.track.style.transform = `translate3d(0, 0, 0)`
+
       smoothScrollTo(document.getElementById('qs').offsetTop - 30, 800)
       setTimeout(() => {
         sliderBtns.classList.remove(sliderBtnsUpClass)
@@ -32,7 +40,15 @@ class Slider {
     }
 
     this.btnNext.onclick = () => {
+      this.btnPrev.disabled = false
+      this.btnNext.disabled = true
+      this.btnPrev.classList.remove('btn-slider--inactive')
+      this.btnNext.classList.add('btn-slider--inactive')
+      this.dots[0].classList.remove('slider__dots__dot--active')
+      this.dots[1].classList.add('slider__dots__dot--active')
+
       this.track.style.transform = `translate3d(calc(-100% - 5px), 0, 0)`
+
       smoothScrollTo(document.getElementById('qs').offsetTop - 30, 800)
       setTimeout(() => {
         sliderBtns.classList.add(sliderBtnsUpClass)
@@ -43,7 +59,11 @@ class Slider {
     for (let i = 0; i < this.dots.length; i++) {
       const dot = this.dots[i]
       dot.onclick = () => {
-        console.log(i)
+        if (i === 0) {
+          this.btnPrev.click()
+        } else if (i === 1) {
+          this.btnNext.click()
+        }
       }
     }
   }
