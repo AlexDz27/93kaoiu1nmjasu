@@ -3,6 +3,12 @@
 const sliderCat = document.querySelector('.slider--cat')
 const sliderBtns = document.querySelector('.slider__btns')
 
+let sliderCatUpClass = 'slider--cat--up'
+let sliderBtnsUpClass = 'slider__btns--up'
+if (showFullListColsCount === 3) {
+  sliderBtnsUpClass = 'slider__btns--up--3'
+}
+
 // TODO: real: count children when working with dots
 class Slider {
   constructor(trackId, btnPrevId, btnNextId, dotsContId) {
@@ -20,8 +26,8 @@ class Slider {
       this.track.style.transform = `translate3d(0, 0, 0)`
       smoothScrollTo(document.getElementById('qs').offsetTop - 30, 800)
       setTimeout(() => {
-        sliderBtns.classList.remove('slider__btns--up')
-        sliderCat.classList.remove('slider--cat--up')
+        sliderBtns.classList.remove(sliderBtnsUpClass)
+        sliderCat.classList.remove(sliderCatUpClass)
       }, 800)
     }
 
@@ -29,8 +35,8 @@ class Slider {
       this.track.style.transform = `translate3d(calc(-100% - 5px), 0, 0)`
       smoothScrollTo(document.getElementById('qs').offsetTop - 30, 800)
       setTimeout(() => {
-        sliderBtns.classList.add('slider__btns--up')
-        sliderCat.classList.add('slider--cat--up')
+        sliderBtns.classList.add(sliderBtnsUpClass)
+        sliderCat.classList.add(sliderCatUpClass)
       }, 800)
     }
 

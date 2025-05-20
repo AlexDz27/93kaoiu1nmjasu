@@ -270,6 +270,10 @@ the buttons will not be shown. TODO: maybe i can make it better */
   position: relative;
   top: -564px;
 }
+.slider__btns--up--3 {
+  position: relative;
+  top: -1430px;
+}
 
 .gal {
   display: none;
@@ -764,6 +768,9 @@ the buttons will not be shown. TODO: maybe i can make it better */
   margin-bottom: 0;
   padding-bottom: 145px;
 }
+.section--black--contacts--cat {
+  padding-bottom: 78px;
+}
 
 .the-best {
   background-color: #393738;
@@ -1166,6 +1173,20 @@ the buttons will not be shown. TODO: maybe i can make it better */
   border-bottom: 1.5px solid #DF2623;
 }
 
+.btn-collapse {
+  width: 100%;
+  position: relative;
+}
+.btn-collapse::after {
+  content: "";
+  position: absolute;
+  margin-left: 18px;
+  margin-top: 7.5px;
+  transform: translateX(-50%);
+  border-left: 8.5px solid transparent;
+  border-right: 8.5px solid transparent;
+  border-bottom: 8.5px solid white;
+}
 .t-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -2129,12 +2150,20 @@ the buttons will not be shown. TODO: maybe i can make it better */
   .q {
     font-size: 14px;
   }
+  .t-list {
+    grid-template-columns: 1fr 1fr;
+  }
   .t {
     border-radius: 30px;
   }
   .t__img-cont {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+    min-height: 115px;
+  }
+  
+  .slider__dots--cat {
+    display: none;
   }
 }
 
@@ -2420,6 +2449,24 @@ the buttons will not be shown. TODO: maybe i can make it better */
   .numbers {
     grid-template-columns: 1fr 1fr;
     margin-left: 1.5%;
+  }
+
+  .t__img-cont img {
+    width: 59%;
+  }
+  .t--hit::before {
+    width: 39px;
+    height: 39.5px;
+    font-size: 12px;
+    line-height: 13px;
+    left: 11px;
+    top: 12px;
+  }
+  .t__text {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    font-size: 14px;
   }
 }
 
