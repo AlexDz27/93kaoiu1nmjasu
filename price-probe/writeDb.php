@@ -18,10 +18,7 @@ foreach ($db as $datum) {
     'upakKrup' => {$datum['upakKrup']},
     'uri' => '{$datum['uri']}',
     'img' => '{$datum['img']}',
-    'galleryImgs' => [
-      'some/path/to/img-1',
-      'some/path/to/img-2',
-    ],
+    'galleryImgs' => [],
 ],
 
 HEREDOC;

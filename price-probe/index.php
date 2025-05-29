@@ -21,7 +21,7 @@ $map = [
 $spreadsheet = IOFactory::load('Price-2025.05.27.xlsx');
 $activeSheet = $spreadsheet->getActiveSheet();
 $rows = [];
-for ($i = 5; $i <= 11; $i++) {
+for ($i = 5; $i <= 22; $i++) {
   $row = [];
   for ($k = 1; $k <= 8; $k++) {
     $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
@@ -30,16 +30,3 @@ for ($i = 5; $i <= 11; $i++) {
   unset($row['some_math']);
   $rows[] = $row;
 }
-
-// var_dump($rows);
-
-
-// var_dump($activeSheet->getCell('A5')->getValue());
-// die();
-
-// $highestRow = $activeSheet->getHighestRow();
-// $columnValues = [];
-// for ($row = 1; $row <= $highestRow; $row++) {
-//   $cellValue = $activeSheet->getCellByColumnAndRow(1, $row)->getValue();
-//   $columnValues[] = $cellValue;
-// }

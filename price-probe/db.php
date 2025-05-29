@@ -11,10 +11,7 @@ return [
     'upakKrup' => 1200,
     'uri' => '/catalog/kisti-malyarnyie/kist-plosk-stndrt-nat-vors-',
     'img' => '',
-    'galleryImgs' => [
-      'some/path/to/img-1',
-      'some/path/to/img-2',
-    ],
+    'galleryImgs' => [],
   ],
   '0100-0000-15' => [
     'price' => 1.25,
