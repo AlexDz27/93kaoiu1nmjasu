@@ -2,8 +2,6 @@
 
 require 'generateDb.php';
 
-// $fileName = 'writtenDb.php';
-
 $insertedMain = '';
 $inserted = '';
 foreach ($db as $datum) {
