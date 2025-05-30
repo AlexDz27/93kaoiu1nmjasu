@@ -1,7 +1,7 @@
 <?php
 
 return [
-    '0100-0000-10' => [
+  '0100-0000-10' => [
     'price' => 1.02,
     'category' => 'Кисти малярные',
     'model' => 'Кисть плоская СТАНДАРТ, натуральный ворс',
@@ -214,6 +214,42 @@ return [
     'upakMal' => 6,
     'upakKrup' => 120,
     'uri' => '/catalog/kisti-malyarnyie/kist-lavkovets-mini-nat-vors-150-50',
+    'img' => '',
+    'galleryImgs' => [],
+],
+  '0180-0000-10' => [
+    'price' => 2.56,
+    'category' => 'Кисти малярные',
+    'model' => 'Кисть радиаторная,                                                                                                                                                                                                                                                                                                                                                                                        ',
+    'variant' => '1,0/25мм',
+    'unit' => 'шт.',
+    'upakMal' => 12,
+    'upakKrup' => 240,
+    'uri' => '/catalog/kisti-malyarnyie/kist-radiatornaya-evro-nat-vors-1,0-25',
+    'img' => '',
+    'galleryImgs' => [],
+],
+  '0180-0000-15' => [
+    'price' => 2.94,
+    'category' => 'Кисти малярные',
+    'model' => 'натуральный ворс',
+    'variant' => '1,5/38мм',
+    'unit' => 'шт',
+    'upakMal' => 12,
+    'upakKrup' => 240,
+    'uri' => '/catalog/kisti-malyarnyie/kist-plosk-stndrt-nat-vors-1,5-38',
+    'img' => '',
+    'galleryImgs' => [],
+],
+  '0180-0000-20' => [
+    'price' => 4.07,
+    'category' => 'Кисти малярные',
+    'model' => 'натуральный ворс',
+    'variant' => '2,0/50мм',
+    'unit' => 'шт',
+    'upakMal' => 12,
+    'upakKrup' => 180,
+    'uri' => '/catalog/kisti-malyarnyie/kist-plosk-stndrt-nat-vors-2,0-50',
     'img' => '',
     'galleryImgs' => [],
 ],

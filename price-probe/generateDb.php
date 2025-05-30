@@ -26,17 +26,18 @@ foreach ($rows as $r) {
 
 
 function handleUri(&$dbD) {
-  if (str_contains($dbD['model'], 'Кисть плоская ЕВРО')) {
-    $parts = explode('/', $dbD['variant']);
-    $parts[1] = extractNumbers($parts[1]);
-    $dbD['uri'] = '/catalog/kisti-malyarnyie/kist-plosk-evro-nat-vors-';  
-  } else if (str_contains($dbD['model'], 'Кисть лавковец мини')) {
+  if (str_contains($dbD['model'], 'Кисть лавковец мини')) {
     $parts = explode('х', $dbD['variant']);
     $parts[1] = extractNumbers($parts[1]);
     $dbD['uri'] = '/catalog/kisti-malyarnyie/kist-lavkovets-mini-nat-vors-';  
   } else {
     $parts = explode('/', $dbD['variant']);
     $parts[1] = extractNumbers($parts[1]);
+    if (str_contains($dbD['model'], 'Кисть плоская ЕВРО')) {
+      $dbD['uri'] = '/catalog/kisti-malyarnyie/kist-plosk-evro-nat-vors-';  
+    } else if (str_contains($dbD['model'], 'Кисть радиаторная')) {
+      $dbD['uri'] = '/catalog/kisti-malyarnyie/kist-radiatornaya-evro-nat-vors-';  
+    }
   }
   $dbD['uri'] .= $parts[0] . '-' . $parts[1];
 }
