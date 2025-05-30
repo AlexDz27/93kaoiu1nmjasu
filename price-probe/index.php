@@ -133,18 +133,6 @@ for ($i = 38; $i <= 41; $i++) {
 
   $rows[] = $row;
 }
-for ($i = 38; $i <= 41; $i++) {
-  $row = [];
-  for ($k = 1; $k <= 8; $k++) {
-    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
-    $row[$map[$k - 1]] = $val;
-  }
-  $row['category'] = 'Валики малярные';
-  $row['model'] = 'Валик нитевой "пчелка", полиакрил, ручка 6мм';
-  unset($row['some_math']);
-
-  $rows[] = $row;
-}
 for ($i = 42; $i <= 45; $i++) {
   $row = [];
   for ($k = 1; $k <= 8; $k++) {
@@ -188,7 +176,7 @@ for ($i = 50; $i <= 53; $i++) {
     $row[$map[$k - 1]] = $val;
   }
   $row['category'] = 'Валики малярные';
-  $row['model'] = 'Запаска велюровая, к ручке 6мм';
+  $row['model'] = 'Запаска велюровая , к ручке 6мм';
   unset($row['some_math']);
 
   $rows[] = $row;

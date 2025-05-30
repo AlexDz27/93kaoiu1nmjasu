@@ -19,7 +19,7 @@ foreach ($rows as $r) {
   $db[] = $dbD;
 }
 
-var_dump($db);
+// var_dump($db);
 
 // For products: set explode char -> set uri
 function handleUri(&$dbD) {
@@ -43,11 +43,11 @@ function handleUri(&$dbD) {
       $explodeChar = '/';
       $dbD['uri'] = '/catalog/kisti-malyarnyie/kist-radiatornaya-nat-vors-';
       break;
-    case str_contains($dbD['model'], 'Запаска нитевая'):
+    case str_contains($dbD['model'], 'Запаска нитевая "стандарт"'):
       $explodeChar = 'х';
       $dbD['uri'] = '/catalog/valiki-malyarnyie/zapaska-nitevaya-stndrt-';
       break;
-    case str_contains($dbD['model'], 'Валик нитевой'):
+    case str_contains($dbD['model'], 'Валик нитевой "стандарт"'):
       $explodeChar = 'х';
       $dbD['uri'] = '/catalog/valiki-malyarnyie/valik-nitevoi-stndrt-';
       break;
