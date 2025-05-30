@@ -105,6 +105,13 @@ input {
   text-align: center;
 }
 
+.link--no-underline {
+  text-decoration: none;
+}
+.link--no-underline:hover {
+  text-decoration: underline;
+}
+
 .btn {
   /* TODO: различаются цвета элементов и фирменный цвет; в том числе жёлтый */
   background-color: #DF0028;

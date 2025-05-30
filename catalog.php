@@ -108,8 +108,8 @@
       <button id="kisti" class="q q--active" type="button">Кисти малярные</button>
       <button id="abraziv" class="q q--with-second-line" type="button"><span class="q__text--with-second-line">Абразивные алмазные<span class="card__title__2nd-line"> материалы и оснастка</span></span></button>
       <button id="valiki" class="q" type="button">Валики и ролики</button>
-      <button id="vspomogat" class="q q--with-second-line" type="button"><span class="q__text--with-second-line">Вспомогательный<span class="card__title__2nd-line"> инструмент</span></span></button>
       <button id="nozhi" class="q" type="button">Ножи и лезвия</button>
+      <button id="vspomogat" class="q q--with-second-line" type="button"><span class="q__text--with-second-line">Вспомогательный<span class="card__title__2nd-line"> инструмент</span></span></button>
     </div>
 
     <h2 id="titleSection" class="title-section title-section--mob">Кисти малярные</h2>
