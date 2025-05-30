@@ -1031,6 +1031,7 @@ the buttons will not be shown. TODO: maybe i can make it better */
   width: 100%;
   height: 100%;
   opacity: 0;
+  z-index: 5;
   top: 0;
   transition: opacity 0.55s ease, backdrop-filter 0.55s ease;
 }
@@ -1057,6 +1058,7 @@ the buttons will not be shown. TODO: maybe i can make it better */
   box-sizing: border-box;
   transition: transform 0.3s;
   will-change: transform;
+  z-index: 10;
 }
 .nav--db {
   display: block;
@@ -1222,6 +1224,9 @@ the buttons will not be shown. TODO: maybe i can make it better */
   border-left: 8.5px solid transparent;
   border-right: 8.5px solid transparent;
   border-top: 8.5px solid white;
+}
+.btn-collapse--desk {
+  margin-top: 24px;
 }
 .t-list {
   display: grid;
@@ -1834,13 +1839,15 @@ the buttons will not be shown. TODO: maybe i can make it better */
     margin-bottom: 40px;
   }
   .items-spaced-list-design {
-    column-gap: 18px;
+    column-gap: 72px;
   }
   .items-spaced-list-design__num {
     font-size: 96px;
     line-height: 85px;
   }
-  .section--cap .items-spaced-list-design__line {display: none;}
+  .section--cap .items-spaced-list-design__line {
+    left: calc(48% - 2px);
+  }
 
   .card--full__point {
     font-size: 29px;
@@ -2479,6 +2486,13 @@ the buttons will not be shown. TODO: maybe i can make it better */
   .the-best {
     font-size: 25px;
   }
+
+  .contacts__cont .text--larger {
+    font-size: 16px;
+  }
+  .contacts__cont .text--big {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 497px) {
@@ -2562,6 +2576,18 @@ the buttons will not be shown. TODO: maybe i can make it better */
   .card--bad-pr .card__list--w-2nd-line::before {
     top: -9px !important;
   }
+
+  .section-design--about {
+    padding-top: 31px;
+    padding-bottom: 39px;
+  }
+  .text-design {
+    font-size: 12px;
+  }
+  .section-design--about__text--big {
+    font-size: 13px;
+    margin-top: 25px;
+  }
 }
 
 
@@ -2605,7 +2631,10 @@ the buttons will not be shown. TODO: maybe i can make it better */
     font-size: 15px;
     word-break: normal;
   }
-  .items-spaced-list-design__line {
+  .section--cap .items-spaced-list-design__line {
+    left: calc(48.5% - 2px);
+  }
+  .section--contacts .items-spaced-list-design__line {
     height: 94%;
   }
   .items-spaced-list-design__line::before {

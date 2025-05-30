@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- TODO: r this -->
   <meta name="robots" content="noindex,nofollow,noarchive">
-  <link rel="stylesheet" href="css/style-v3.css">
+  <link rel="stylesheet" href="css/style-v4.css">
   <script src="js/main-v2.js" defer></script>
   <script src="js/slider-2.js" defer></script>
   <title>Sprava</title>
@@ -470,7 +470,7 @@
         </button>
       </div>
 
-      <!-- <button id="collapse" class="btn product__btn btn-collapse btn-collapse--show" style=""><b>ОТКРЫТЬ ВЕСЬ СПИСОК</b></button> -->
+      <button id="collapseDesk" class="btn product__btn btn-collapse btn-collapse--desk btn-collapse--show" style=""><b>ОТКРЫТЬ ВЕСЬ СПИСОК</b></button>
     </div>  
   </div>
 </section>
@@ -670,6 +670,11 @@
       }
     }
   }
+
+  /** COLLAPSE BTN ON DESKTOP **/
+  const collapseDesk = document.getElementById('collapseDesk')
+  
+
 
   function smoothScrollTo(targetPosition, duration) {
     const startPosition = window.pageYOffset;
