@@ -451,7 +451,7 @@
          </div>
       </div>
 
-      <button id="collapse" class="btn product__btn btn-collapse btn-collapse--show" style="display: none;"><b>ОТКРЫТЬ ВЕСЬ СПИСОК</b></button>
+      <button id="collapse" class="btn product__btn btn-collapse btn-collapse--show"><b>ОТКРЫТЬ ВЕСЬ СПИСОК</b></button>
 
       <div class="slider__btns">
         <button id="btnPrev" class="btn-slider btn-slider--inactive" disabled>
@@ -631,18 +631,45 @@
     SHOW_FULL_LIST: 'SHOW_FULL_LIST',
     SHOW_IN_SLIDER: 'SHOW_IN_SLIDER'
   }
-  let listViewState = LIST_VIEW_STATE.SHOW_FULL_LIST
-  let showFullListColsCount = 4
+  let listViewState = LIST_VIEW_STATE.SHOW_IN_SLIDER
+  let showColsCount = 4
   if (window.innerWidth <= 830) {
-    showFullListColsCount = 3
-  }
-  if (window.innerWidth <= 670) {
-    listViewState = LIST_VIEW_STATE.SHOW_IN_SLIDER
+    showColsCount = 3
   }
 
-  if (listViewState === LIST_VIEW_STATE.SHOW_IN_SLIDER) {
-    const firstTList = document.querySelector('.t-list')
-    const secondTList = document.querySelector('.t-list--no-stretch')
+  const CATALOG_track = document.getElementById('track')
+  const firstTList = document.querySelector('.t-list')
+  const secondTList = document.querySelector('.t-list--no-stretch')
+  if (window.innerWidth <= 670) {
+    tListManipulations()
+  }
+
+  const CATALOG_sliderBtns = document.querySelector('.slider__btns')
+  const collapseBtn = document.getElementById('collapse')
+  const collapseDeskBtn = document.getElementById('collapseDesk')
+  Array.from([collapseBtn, collapseDeskBtn]).forEach(i => {
+    i.onclick = () => {
+      listViewState = listViewState === LIST_VIEW_STATE.SHOW_IN_SLIDER ? LIST_VIEW_STATE.SHOW_FULL_LIST : LIST_VIEW_STATE.SHOW_IN_SLIDER
+
+      if (listViewState === LIST_VIEW_STATE.SHOW_FULL_LIST) {
+        if (window.innerWidth > 670) tListManipulations()
+        firstTList.classList.add('t-list--return')
+        CATALOG_sliderBtns.classList.add('slider__btns--hidden')
+        i.innerHTML = '<b>СВЕРНУТЬ СПИСОК</b>'
+        i.classList.remove('btn-collapse--show')
+        i.classList.add('btn-collapse--collapse')
+      } else if (listViewState === LIST_VIEW_STATE.SHOW_IN_SLIDER) {
+        if (window.innerWidth > 670) undoTListManipulations()
+        firstTList.classList.remove('t-list--return')
+        CATALOG_sliderBtns.classList.remove('slider__btns--hidden')
+        i.innerHTML = '<b>ОТКРЫТЬ ВЕСЬ СПИСОК</b>'
+        i.classList.remove('btn-collapse--collapse')
+        i.classList.add('btn-collapse--show')
+        smoothScrollTo(document.getElementById('qs').offsetTop - 30, 800)
+      }
+    }
+  })
+  function tListManipulations() {
     const fragment = document.createDocumentFragment()
     for (const t of secondTList.children) {
       const clone = t.cloneNode(true)
@@ -650,30 +677,22 @@
     }
     firstTList.appendChild(fragment)
     secondTList.remove()
-
-    const collapseBtn = document.getElementById('collapse')
-    collapseBtn.style.display = 'block'
-    collapseBtn.onclick = () => {
-      listViewState = listViewState === LIST_VIEW_STATE.SHOW_IN_SLIDER ? LIST_VIEW_STATE.SHOW_FULL_LIST : LIST_VIEW_STATE.SHOW_IN_SLIDER
-
-      if (listViewState === LIST_VIEW_STATE.SHOW_FULL_LIST) {
-        firstTList.classList.add('t-list--return')
-        collapseBtn.innerHTML = '<b>СВЕРНУТЬ СПИСОК</b>'
-        collapseBtn.classList.remove('btn-collapse--show')
-        collapseBtn.classList.add('btn-collapse--collapse')
-      } else if (listViewState === LIST_VIEW_STATE.SHOW_IN_SLIDER) {
-        firstTList.classList.remove('t-list--return')
-        collapseBtn.innerHTML = '<b>ОТКРЫТЬ ВЕСЬ СПИСОК</b>'
-        collapseBtn.classList.remove('btn-collapse--collapse')
-        collapseBtn.classList.add('btn-collapse--show')
-        smoothScrollTo(document.getElementById('qs').offsetTop - 30, 800)
-      }
-    }
   }
+  function undoTListManipulations() {
+    const fragment = document.createDocumentFragment()
+    console.log(firstTList.children.length)
+    for (let i = firstTList.children.length - 1; i > 15; i--) {
+      const t = firstTList.children[i]
+      const clone = t.cloneNode(true)
+      fragment.appendChild(clone)
 
-  /** COLLAPSE BTN ON DESKTOP **/
-  const collapseDesk = document.getElementById('collapseDesk')
-  
+      t.remove()
+    }
+    const newSecondTList = document.createElement('div')
+    newSecondTList.classList.add('t-list', 't-list--no-stretch')
+    newSecondTList.appendChild(fragment)
+    CATALOG_track.appendChild(newSecondTList)
+  }
 
 
   function smoothScrollTo(targetPosition, duration) {

@@ -1,11 +1,12 @@
 // TODO: if there'll be more products, add logic with multipliers inst of translate 100%
+// TODO: 40 штук валиков будет - надо как-то по архе подумать)
 
 const sliderCat = document.querySelector('.slider--cat')
 const sliderBtns = document.querySelector('.slider__btns')
 
 let sliderCatUpClass = 'slider--cat--up'
 let sliderBtnsUpClass = 'slider__btns--up'
-if (showFullListColsCount === 3) {
+if (showColsCount === 3) {
   sliderBtnsUpClass = 'slider__btns--up--3'
 }
 

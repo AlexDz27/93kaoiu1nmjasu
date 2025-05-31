@@ -269,6 +269,9 @@ the buttons will not be shown. TODO: maybe i can make it better */
   align-items: center;
   padding-bottom: 10px;
 }
+.slider__btns--hidden {
+  display: none;
+}
 .slider__btns-mob {
   display: none;
   position: relative;
@@ -1204,6 +1207,7 @@ the buttons will not be shown. TODO: maybe i can make it better */
 }
 
 .btn-collapse {
+  display: none;
   width: 100%;
   position: relative;
 }
@@ -1226,7 +1230,12 @@ the buttons will not be shown. TODO: maybe i can make it better */
   border-top: 8.5px solid white;
 }
 .btn-collapse--desk {
+  display: block;
   margin-top: 24px;
+}
+@media (max-width: 670px) {
+  .btn-collapse {display: block;}
+  .btn-collapse--desk {display: none;}
 }
 .t-list {
   display: grid;
