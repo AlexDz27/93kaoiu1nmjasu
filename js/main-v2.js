@@ -177,6 +177,7 @@ window.addEventListener('keydown', (e) => {
 if (document.getElementById('map')) main()
 async function main() {
   await ymaps3.ready;
+  const {YMapOpenMapsButton} = await ymaps3.import('@yandex/ymaps3-default-ui-theme-extra')
 
   const {YMap, YMapDefaultSchemeLayer, YMapDefaultFeaturesLayer, YMapMarker} = ymaps3;
   
