@@ -1335,7 +1335,7 @@ the buttons will not be shown. TODO: maybe i can make it better */
   color: white;
 }
 .product__col-img {
-  border: 1px solid gray;
+  border: 1px solid #E7E3E3;
   border-radius: 60px;
   display: flex;
   justify-content: center;
