@@ -11,8 +11,8 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    /* padding-top: 8px; */
+    /* padding-bottom: 8px; */
   }
 
   .product-slider__btn {
@@ -21,7 +21,8 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
     cursor: pointer;
   }
   .product-slider__btn--prev {
-    
+    position: relative;
+    bottom: 5px;
   }
   .product-slider__btn--next {
     
@@ -31,7 +32,31 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
   }
 
   .product-slider__track {
-
+    display: grid;
+    row-gap: 9px;
+    /* max-height: 375px; */
+    /* overflow-x: hidden; */
+    /* overflow-y: auto; */
+    margin-left: 3px;
+  }
+  .product-slider__track__img-cont {
+    width: 75px;
+    height: 87px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .product-slider__track__img-cont--active {
+    border: 2px solid #FEDE32;
+    border-radius: 20px;
+  }
+  .product-slider__track__img-cont img {
+    width: 88%;
+    width: 81%;
+    /* object-fit: contain; */
+    margin: 0 auto;
+    display: block;
   }
 </style>
 <body class="<?= $bodyClass ?>">
@@ -128,7 +153,25 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
           </svg>
         </button>
         <div class="product-slider__track">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati corporis autem nem sapiente unde at ipsam illum fuga repellat Beatae, quibusdam suscipit?
+          <div class="product-slider__track__img-cont product-slider__track__img-cont--active">
+            <img src="img/product/2897-0125-10_resized.jpg">
+          </div>
+          <div class="product-slider__track__img-cont">
+            <img src="img/product/2897-0125-10_resized.jpg">
+          </div>
+          <div class="product-slider__track__img-cont">
+            <img src="img/product/2897-0125-10_resized.jpg">
+          </div>
+          <div class="product-slider__track__img-cont">
+            <img src="img/product/2897-0125-10_resized.jpg">
+          </div>
+          <div class="product-slider__track__img-cont">
+            <img src="img/product/2897-0125-10_resized.jpg">
+          </div>
+
+          <div class="product-slider__track__img-cont">
+            <img src="img/product/2897-0125-10_resized.jpg">
+          </div>
         </div>
         <button class="product-slider__btn product-slider__btn--next">
           <svg width="23" height="13" viewBox="0 0 23 13" fill="none" xmlns="http://www.w3.org/2000/svg">
