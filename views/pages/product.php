@@ -34,9 +34,9 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
   .product-slider__track {
     display: grid;
     row-gap: 9px;
-    /* max-height: 375px; */
-    /* overflow-x: hidden; */
-    /* overflow-y: auto; */
+    max-height: 471px;
+    overflow-x: hidden;
+    overflow-y: hidden;
     margin-left: 3px;
   }
   .product-slider__track__img-cont {
@@ -147,13 +147,13 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
   <div class="cont">
     <div class="product product--hit">
       <div class="product-slider">
-        <button class="product-slider__btn product-slider__btn--inactive product-slider__btn--prev" disabled>
+        <button id="btnPrev" class="product-slider__btn product-slider__btn--inactive product-slider__btn--prev" disabled>
           <svg width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M23 12.9644L13.2234 2.7554C12.8292 2.3438 12.1713 2.34434 11.7778 2.75657L2 13" stroke-width="3"/>
           </svg>
         </button>
-        <div class="product-slider__track">
-          <div class="product-slider__track__img-cont product-slider__track__img-cont--active">
+        <div id="track" class="product-slider__track">
+          <div id="theFirstProduct" class="product-slider__track__img-cont product-slider__track__img-cont--active">
             <img src="img/product/2897-0125-10_resized.jpg">
           </div>
           <div class="product-slider__track__img-cont">
@@ -169,11 +169,11 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
             <img src="img/product/2897-0125-10_resized.jpg">
           </div>
 
-          <div class="product-slider__track__img-cont">
-            <img src="img/product/2897-0125-10_resized.jpg">
+          <div id="theNextProduct" class="product-slider__track__img-cont">
+            <img src="img/product/2812-0125-10_resized.jpg">
           </div>
         </div>
-        <button class="product-slider__btn product-slider__btn--next">
+        <button id="btnNext" class="product-slider__btn product-slider__btn--next">
           <svg width="23" height="13" viewBox="0 0 23 13" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M22 1.03559L12.2234 11.2446C11.8292 11.6562 11.1713 11.6557 10.7778 11.2434L1 1" stroke="#494547" stroke-width="2.62591"/>
           </svg>
