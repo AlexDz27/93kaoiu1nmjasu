@@ -6,6 +6,34 @@ $bodyClass = 'page--product';
 load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bodyClass' => $bodyClass]);
 
 ?>
+<style>
+  .product-slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .product-slider__btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .product-slider__btn--prev {
+    
+  }
+  .product-slider__btn--next {
+    
+  }
+  .product-slider__btn--inactive svg path {
+    stroke: #D8D3D3;
+  }
+
+  .product-slider__track {
+
+  }
+</style>
 <body class="<?= $bodyClass ?>">
 <header class="header cont">
   <div class="text-with-icon text-with-icon--pin">
@@ -68,7 +96,6 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
       <img class="btn--dropdown__icon" src="img/icons/arrow-down.svg" width="17" height="10">
       <div class="btn--dropdown__list">
         <a class="btn--dropdown__list__item" href="Price-2025.04.22.xlsx"><b>Скачать прайс</b></a>
-        <!-- TODO: "Посмотреть": в смысле? Это надо обсуждать -->
         <a class="btn--dropdown__list__item" href="Price-2025.04.22.xlsx"><b>Посмотреть прайс</b></a>
       </div>
     </button>
@@ -94,7 +121,21 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
 <section>
   <div class="cont">
     <div class="product product--hit">
-      <div class="product__col-imgs">?</div>
+      <div class="product-slider">
+        <button class="product-slider__btn product-slider__btn--inactive product-slider__btn--prev" disabled>
+          <svg width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M23 12.9644L13.2234 2.7554C12.8292 2.3438 12.1713 2.34434 11.7778 2.75657L2 13" stroke-width="3"/>
+          </svg>
+        </button>
+        <div class="product-slider__track">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati corporis autem nem sapiente unde at ipsam illum fuga repellat Beatae, quibusdam suscipit?
+        </div>
+        <button class="product-slider__btn product-slider__btn--next">
+          <svg width="23" height="13" viewBox="0 0 23 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22 1.03559L12.2234 11.2446C11.8292 11.6562 11.1713 11.6557 10.7778 11.2434L1 1" stroke="#494547" stroke-width="2.62591"/>
+          </svg>
+        </button>
+      </div>
       <div></div>
       <div class="product__col-img">
         <img src="img/catalog-normal-res/krug-w-logo.png" alt="Круг наждачный">
