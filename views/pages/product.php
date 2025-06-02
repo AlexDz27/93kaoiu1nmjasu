@@ -25,7 +25,8 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
     bottom: 5px;
   }
   .product-slider__btn--next {
-    
+    position: relative;
+    top: 5px;
   }
   .product-slider__btn--inactive svg path {
     stroke: #D8D3D3;
@@ -37,7 +38,14 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
     max-height: 471px;
     overflow-x: hidden;
     overflow-y: hidden;
-    margin-left: 3px;
+    padding-left: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  @media (max-width: 1058px) {
+    .product-slider__track {
+      
+    }
   }
   .product-slider__track__img-cont {
     width: 75px;
@@ -46,10 +54,11 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
     display: flex;
     align-items: center;
     cursor: pointer;
+    border-radius: 20px;
+    /* outline: 1px solid #E7E3E3; */
   }
   .product-slider__track__img-cont--active {
-    border: 2px solid #FEDE32;
-    border-radius: 20px;
+    outline: 2px solid #FEDE32;
   }
   .product-slider__track__img-cont img {
     width: 88%;
@@ -153,8 +162,8 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
           </svg>
         </button>
         <div id="track" class="product-slider__track">
-          <div id="theFirstProduct" class="product-slider__track__img-cont product-slider__track__img-cont--active">
-            <img src="img/product/2897-0125-10_resized.jpg">
+          <div class="product-slider__track__img-cont product-slider__track__img-cont--active">
+            <img src="img/catalog-normal-res/krug-w-logo.png">
           </div>
           <div class="product-slider__track__img-cont">
             <img src="img/product/2897-0125-10_resized.jpg">
@@ -169,8 +178,17 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
             <img src="img/product/2897-0125-10_resized.jpg">
           </div>
 
-          <div id="theNextProduct" class="product-slider__track__img-cont">
+          <div class="product-slider__track__img-cont">
             <img src="img/product/2812-0125-10_resized.jpg">
+          </div>
+          <div class="product-slider__track__img-cont">
+            <img src="img/product/2812-0125-12_2_resized.jpg">
+          </div>
+          <div class="product-slider__track__img-cont">
+            <img src="img/catalog-normal-res/krug-w-logo.png">
+          </div>
+          <div class="product-slider__track__img-cont">
+            <img src="img/catalog-normal-res/krug-w-logo.png">
           </div>
         </div>
         <button id="btnNext" class="product-slider__btn product-slider__btn--next">
@@ -181,7 +199,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
       </div>
       <div></div>
       <div class="product__col-img">
-        <img src="img/catalog-normal-res/krug-w-logo.png" alt="Круг наждачный">
+        <img id="showingImg" src="img/catalog-normal-res/krug-w-logo.png" alt="Круг наждачный">
       </div>
       <div></div>
       <div class="product__col-text">
