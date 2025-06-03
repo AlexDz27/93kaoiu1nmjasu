@@ -22,15 +22,15 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName]);
       <input id="searchInput" class="search__input" placeholder="Поиск товаров">
       <button class="btn-icon search__icon" type="button"><img src="img/icons/search.svg" width="15" height="14"></button>
       <div id="searchResults" class="search__results">
-        <a href="product.html" class="search__results__item">
+        <a href="/product" class="search__results__item">
           <img class="search__results__item__img" src="img/catalog/kist.png" width="35" height="35" alt="Кисть">
           <span>Кисть <span class="search__results__item__text--gray">плоская СТАНДАРТ, натуральный ворс, 1/25мм</span></span>
         </a>
-        <a href="product.html" class="search__results__item">
+        <a href="/product" class="search__results__item">
           <img class="search__results__item__img" src="img/catalog/kist.png" width="35" height="35" alt="Кисть">
           <span>Кисть плоская <span class="search__results__item__text--gray">СТАНДАРТ, натуральный ворс, 1/25мм</span></span>
         </a>
-        <a href="product.html" class="search__results__item">
+        <a href="/product" class="search__results__item">
           <img class="search__results__item__img" src="img/catalog/kist.png" width="35" height="35" alt="Кисть">
           <span>Кисть плоская СТАНДАРТ<span class="search__results__item__text--gray">, натуральный ворс, 1/25мм</span></span>
         </a>
@@ -96,8 +96,8 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName]);
       <b>СКАЧАТЬ ПРАЙС</b>
       <img class="btn--dropdown__icon section-design--trust--mob__btn__icon" src="img/icons/arrow-down.svg" width="17" height="10">
       <div class="btn--dropdown__list">
-        <a class="btn--dropdown__list__item" href="javascript:void(0)"><b>Скачать прайс</b></a>
-        <a class="btn--dropdown__list__item" href="javascript:void(0)"><b>Посмотреть прайс</b></a>
+        <a class="btn--dropdown__list__item" href="Price-2025.04.22.xlsx"><b>Скачать прайс</b></a>
+        <a class="btn--dropdown__list__item" href="table.php"><b>Посмотреть прайс</b></a>
       </div>
     </button>
   </div>
@@ -130,7 +130,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName]);
               <li class="text--larger"><span class="card__list__item-text">Кисть Лавковец (макловицы)</span></li>
               <li class="text--larger"><span class="card__list__item-text">Кисти радиаторные</span></li>
             </ul>
-            <a class="btn card__btn" href="catalog.html"><b>В КАТАЛОГ</b></a>
+            <a class="btn card__btn" href="/catalog"><b>В КАТАЛОГ</b></a>
           </div>
 
           <div class="card" data-card-id="2">
@@ -148,7 +148,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName]);
               <li class="text--larger"><span class="card__list__item-text">Алмазные диски</span></li>
               <li class="text--larger"><span class="card__list__item-text">Насадки, кордщетки на УШМ</span></li>
             </ul>
-            <a class="btn card__btn" href="catalog.html"><b>В КАТАЛОГ</b></a>
+            <a class="btn card__btn" href="/catalog"><b>В КАТАЛОГ</b></a>
           </div>
 
           <div class="card" data-card-id="3">
@@ -166,7 +166,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName]);
               <li class="text--larger"><span class="card__list__item-text">Ручки для роликов (запасок)</span></li>
               <li class="text--larger"><span class="card__list__item-text">Валики малярные</span></li>
             </ul>
-            <a class="btn card__btn" href="catalog.html"><b>В КАТАЛОГ</b></a>
+            <a class="btn card__btn" href="/catalog"><b>В КАТАЛОГ</b></a>
           </div>
 
           <div class="card" data-card-id="4">
@@ -183,7 +183,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName]);
               <li class="text--larger"><span class="card__list__item-text">Лезвия запасные для ножей</span></li>
               <li class="text--larger"><span class="card__list__item-text">Ножи обойные</span></li>
             </ul>
-            <a class="btn card__btn" href="catalog.html"><b>В КАТАЛОГ</b></a>
+            <a class="btn card__btn" href="/catalog"><b>В КАТАЛОГ</b></a>
           </div>
 
           <div class="card card--bad-pr" data-card-id="5">
@@ -202,7 +202,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName]);
               <li class="text--larger"><span class="card__list__item-text">Пистолеты для пены и герметиков</span></li>
               <li class="text--larger"><span class="card__list__item-text">Прочий вспомогательный инструмент</span></li>
             </ul>
-            <a class="btn card__btn" href="catalog.html"><b>В КАТАЛОГ</b></a>
+            <a class="btn card__btn" href="/catalog"><b>В КАТАЛОГ</b></a>
           </div>
         </div>
         <button id="btnNext" class="btn-slider slider__btn-slider btn-slider--next slider__btn-slider--next" type="button">
@@ -332,7 +332,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName]);
 
       <br class="br--desk">
       <br class="br--desk">
-      <a class="card__link--red" href="about-company.html"><b>Узнать о нас больше</b></a>
+      <a class="card__link--red" href="/about-company"><b>Узнать о нас больше</b></a>
       <br class="br--mob">
     </div>
   </div>

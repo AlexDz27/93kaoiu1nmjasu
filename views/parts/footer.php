@@ -22,9 +22,9 @@
       <div class="footer__col-2">
         <p class="footer__nav-title text--larger text--bold hide-below-800">Навигация</p>
         <a class="footer__nav-link" href="/">Главная</a>
-        <a class="footer__nav-link" href="about-company.html">О компании</a>
-        <a class="footer__nav-link" href="catalog.html">Каталог</a>
-        <a class="footer__nav-link" href="contacts.html">Контакты</a>
+        <a class="footer__nav-link" href="/about-company">О компании</a>
+        <a class="footer__nav-link" href="/catalog">Каталог</a>
+        <a class="footer__nav-link" href="/contacts">Контакты</a>
       </div>
 
       <div class="footer__col-3">
@@ -79,9 +79,9 @@
     <button id="navBtnClose" class="btn-nav-close" type="button"></button>
   </div>
   <div class="nav__row"><a class="nav__link" href="/">ГЛАВНАЯ</a></div>
-  <div class="nav__row"><a class="nav__link" href="about-company.html">О КОМПАНИИ</a></div>
-  <div class="nav__row"><a class="nav__link" href="catalog.html">КАТАЛОГ</a></div>
-  <div class="nav__row"><a class="nav__link" href="contacts.html">КОНТАКТЫ</a></div>
+  <div class="nav__row"><a class="nav__link" href="/about-company">О КОМПАНИИ</a></div>
+  <div class="nav__row"><a class="nav__link" href="/catalog">КАТАЛОГ</a></div>
+  <div class="nav__row"><a class="nav__link" href="/contacts">КОНТАКТЫ</a></div>
 </nav>
 
 <nav id="navMob" class="nav-mob">
@@ -101,9 +101,9 @@
   <div id="navMobCont" style="min-height: 422px;">
     <div id="navMobContCont">
       <div class="nav__row"><a class="nav__link" href="/">ГЛАВНАЯ</a></div>
-      <div class="nav__row"><a class="nav__link" href="about-company.html">О КОМПАНИИ</a></div>
-      <div class="nav__row"><a class="nav__link" href="catalog.html">КАТАЛОГ</a></div>
-      <div class="nav__row nav__row__some-mb"><a class="nav__link" href="contacts.html">КОНТАКТЫ</a></div>
+      <div class="nav__row"><a class="nav__link" href="/about-company">О КОМПАНИИ</a></div>
+      <div class="nav__row"><a class="nav__link" href="/catalog">КАТАЛОГ</a></div>
+      <div class="nav__row nav__row__some-mb"><a class="nav__link" href="/contacts">КОНТАКТЫ</a></div>
 
       <div class="text-with-icon nav__row-2">
         <img class="text-with-icon__icon" src="img/icons/phone.svg" width="21" height="21">
@@ -133,15 +133,15 @@
 
     <div id="navMobContSearchResults" style="display: none;">
       <div id="searchResultsMob" class="search__results search__results--active">
-        <a href="product.html" class="search__results__item">
+        <a href="/product" class="search__results__item">
           <img class="search__results__item__img" src="img/catalog/kist.png" width="35" height="35" alt="Кисть">
           <span>Кисть <span class="search__results__item__text--gray">плоская СТАНДАРТ, натуральный ворс, 1/25мм</span></span>
         </a>
-        <a href="product.html" class="search__results__item">
+        <a href="/product" class="search__results__item">
           <img class="search__results__item__img" src="img/catalog/kist.png" width="35" height="35" alt="Кисть">
           <span>Кисть плоская <span class="search__results__item__text--gray">СТАНДАРТ, натуральный ворс, 1/25мм</span></span>
         </a>
-        <a href="product.html" class="search__results__item">
+        <a href="/product" class="search__results__item">
           <img class="search__results__item__img" src="img/catalog/kist.png" width="35" height="35" alt="Кисть">
           <span>Кисть плоская СТАНДАРТ<span class="search__results__item__text--gray">, натуральный ворс, 1/25мм</span></span>
         </a>

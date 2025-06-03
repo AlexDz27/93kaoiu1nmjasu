@@ -23,15 +23,15 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
       <input id="searchInput" class="search__input" placeholder="Поиск товаров">
       <button class="btn-icon search__icon" type="button"><img src="img/icons/search.svg" width="15" height="14"></button>
       <div id="searchResults" class="search__results">
-        <a href="product.html" class="search__results__item">
+        <a href="/product" class="search__results__item">
           <img class="search__results__item__img" src="img/catalog/kist.png" width="35" height="35" alt="Кисть">
           <span>Кисть <span class="search__results__item__text--gray">плоская СТАНДАРТ, натуральный ворс, 1/25мм</span></span>
         </a>
-        <a href="product.html" class="search__results__item">
+        <a href="/product" class="search__results__item">
           <img class="search__results__item__img" src="img/catalog/kist.png" width="35" height="35" alt="Кисть">
           <span>Кисть плоская <span class="search__results__item__text--gray">СТАНДАРТ, натуральный ворс, 1/25мм</span></span>
         </a>
-        <a href="product.html" class="search__results__item">
+        <a href="/product" class="search__results__item">
           <img class="search__results__item__img" src="img/catalog/kist.png" width="35" height="35" alt="Кисть">
           <span>Кисть плоская СТАНДАРТ<span class="search__results__item__text--gray">, натуральный ворс, 1/25мм</span></span>
         </a>
@@ -121,7 +121,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <div class="t__text">
                 <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
                 <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="product.html"><b>Подробнее</b></a>
+                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
               </div>
             </div>
           </div>
@@ -134,7 +134,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <div class="t__text">
                 <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
                 <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="product.html"><b>Подробнее</b></a>
+                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
               </div>
             </div>
           </div>
@@ -147,7 +147,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <div class="t__text">
                 <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
                 <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="product.html"><b>Подробнее</b></a>
+                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
               </div>
             </div>
           </div>
@@ -160,7 +160,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <div class="t__text">
                 <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
                 <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="product.html"><b>Подробнее</b></a>
+                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
               </div>
             </div>
           </div>
@@ -174,7 +174,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <div class="t__text">
                 <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
                 <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="product.html"><b>Подробнее</b></a>
+                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
               </div>
             </div>
           </div>
@@ -187,7 +187,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <div class="t__text">
                 <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
                 <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="product.html"><b>Подробнее</b></a>
+                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
               </div>
             </div>
           </div>
@@ -200,7 +200,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <div class="t__text">
                 <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
                 <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="product.html"><b>Подробнее</b></a>
+                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
               </div>
             </div>
           </div>
@@ -213,7 +213,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <div class="t__text">
                 <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
                 <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="product.html"><b>Подробнее</b></a>
+                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
               </div>
             </div>
           </div>
@@ -227,7 +227,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <div class="t__text">
                 <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
                 <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="product.html"><b>Подробнее</b></a>
+                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
               </div>
             </div>
           </div>
@@ -240,7 +240,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <div class="t__text">
                 <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
                 <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="product.html"><b>Подробнее</b></a>
+                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
               </div>
             </div>
           </div>
@@ -253,7 +253,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <div class="t__text">
                 <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
                 <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="product.html"><b>Подробнее</b></a>
+                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
               </div>
             </div>
           </div>
@@ -266,7 +266,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <div class="t__text">
                 <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
                 <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="product.html"><b>Подробнее</b></a>
+                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
               </div>
             </div>
           </div>
@@ -280,7 +280,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <div class="t__text">
                 <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
                 <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="product.html"><b>Подробнее</b></a>
+                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
               </div>
             </div>
           </div>
@@ -293,7 +293,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <div class="t__text">
                 <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
                 <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="product.html"><b>Подробнее</b></a>
+                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
               </div>
             </div>
           </div>
@@ -306,7 +306,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <div class="t__text">
                 <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
                 <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="product.html"><b>Подробнее</b></a>
+                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
               </div>
             </div>
           </div>
@@ -319,7 +319,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <div class="t__text">
                 <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
                 <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="product.html"><b>Подробнее</b></a>
+                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
               </div>
             </div>
           </div>
@@ -335,7 +335,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <div class="t__text">
                 <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
                 <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="product.html"><b>Подробнее</b></a>
+                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
               </div>
             </div>
           </div>
@@ -348,7 +348,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <div class="t__text">
                 <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
                 <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="product.html"><b>Подробнее</b></a>
+                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
               </div>
             </div>
           </div>
@@ -361,7 +361,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <div class="t__text">
                 <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
                 <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="product.html"><b>Подробнее</b></a>
+                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
               </div>
             </div>
           </div>
@@ -374,7 +374,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <div class="t__text">
                 <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
                 <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="product.html"><b>Подробнее</b></a>
+                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
               </div>
             </div>
           </div>
@@ -387,7 +387,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <div class="t__text">
                 <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
                 <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="product.html"><b>Подробнее</b></a>
+                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
               </div>
             </div>
           </div>
@@ -400,7 +400,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <div class="t__text">
                 <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
                 <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="product.html"><b>Подробнее</b></a>
+                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
               </div>
             </div>
           </div>
@@ -413,7 +413,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <div class="t__text">
                 <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
                 <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="product.html"><b>Подробнее</b></a>
+                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
               </div>
             </div>
           </div>
@@ -426,7 +426,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <div class="t__text">
                 <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
                 <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="product.html"><b>Подробнее</b></a>
+                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
               </div>
             </div>
           </div>
@@ -439,7 +439,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <div class="t__text">
                 <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
                 <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="product.html"><b>Подробнее</b></a>
+                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
               </div>
             </div>
           </div>
