@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- TODO: r this -->
   <meta name="robots" content="noindex,nofollow,noarchive">
-  <link rel="stylesheet" href="css/style-v4.css">
+  <link rel="stylesheet" href="css/style-v5.css">
   <?php if ($pageName === 'home' || $pageName === 'contacts'): ?>
     <script src="https://api-maps.yandex.ru/v3/?apikey=2b7d9147-4a30-4c29-9a2f-594b90fa8c59&lang=ru_RU" defer></script>
   <?php endif ?>
-  <script src="js/main-v2.js" defer></script>
+  <script src="js/main-v3.js" defer></script>
   <?php if ($pageName === 'home'): ?>
     <script src="js/slider.js" defer></script>
   <?php elseif ($pageName === 'catalog'): ?>
