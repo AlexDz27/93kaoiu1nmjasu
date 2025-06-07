@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/style-v5.css">
   <?php if ($pageName === 'home' || $pageName === 'contacts'): ?>
     <script src="https://api-maps.yandex.ru/v3/?apikey=2b7d9147-4a30-4c29-9a2f-594b90fa8c59&lang=ru_RU" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/" defer></script>
   <?php endif ?>
   <script src="js/main-v3.js" defer></script>
   <?php if ($pageName === 'home'): ?>

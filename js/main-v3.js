@@ -112,73 +112,17 @@ window.addEventListener('keydown', (e) => {
   }
 })
 
-/** SLIDER **/
-// const track = document.getElementById('track')
-// if (track) {
-//   const cards = track.children
-//   const btnPrev = document.getElementById('btnPrev')
-//   const btnNext = document.getElementById('btnNext')
-//   const CARD_AND_GAP_WIDTH = 407.5 // .slider__track's children grid-auto-columns + column-gap
-//   let slideWindowCount = 0
-//   btnPrev.addEventListener('click', () => {
-//     slideWindowCount--
-//     btnNext.disabled = false
-//     if (slideWindowCount === 0) {
-//       btnPrev.classList.add('btn-slider--inactive')
-//       btnPrev.disabled = true
-//     }
-
-//     track.style.transform = `translate3d(-${CARD_AND_GAP_WIDTH * slideWindowCount}px, 0, 0)`
-
-//     btnNext.classList.remove('btn-slider--inactive')
-//   })
-//   btnNext.addEventListener('click', () => {
-//     slideWindowCount++
-//     btnPrev.disabled = false
-//     console.log(slideWindowCount)
-//     if (slideWindowCount === 2) {
-//       const fragment = document.createDocumentFragment()
-//       let lastCardId = 5
-//       for (const card of cards) {
-//         const clone = card.cloneNode(true)
-//         clone.dataset.cardId = ++lastCardId
-//         fragment.appendChild(clone)
-//       }
-//       track.appendChild(fragment)
-//       console.log('done cloning')
-//     }
-//     if (slideWindowCount === 5) {
-//       track.style.transform = `translate3d(-${CARD_AND_GAP_WIDTH * slideWindowCount}px, 0, 0)`
-//       setTimeout(() => {
-//         for (i = 0; i < 5; i++) {
-//           track.firstElementChild.remove()
-//         }
-//         track.style.transition = 'none'
-//         track.style.transform = `translate3d(0px, 0, 0)`
-//         slideWindowCount = 0
-//       }, 800)
-//       setTimeout(() => {
-//         track.style.transition = 'transform 400ms cubic-bezier(0.165, 0.84, 0.44, 1)'
-//       }, 900)
-
-//       // slideWindowCount = 0
-//       // btnPrev.classList.add('btn-slider--inactive')
-//       // btnPrev.disabled = true
-//       return
-//     }
-
-//     track.style.transform = `translate3d(-${CARD_AND_GAP_WIDTH * slideWindowCount}px, 0, 0)`
-
-//     btnPrev.classList.remove('btn-slider--inactive')
-//   })
-// }
-
 /** YMAPS **/
 if (document.getElementById('map')) main()
 async function main() {
   await ymaps3.ready;
 
-  const {YMap, YMapDefaultSchemeLayer, YMapDefaultFeaturesLayer, YMapMarker} = ymaps3;
+  const {YMap, YMapDefaultSchemeLayer, YMapDefaultFeaturesLayer, YMapMarker, YMapControls} = ymaps3;
+
+  const controls = new YMapControls({position: 'bottom left'});
+  const {YMapOpenMapsButton} = await ymaps3.import('@yandex/ymaps3-controls-extra');
+  const openMapsButton = new YMapOpenMapsButton({});
+  controls.addChild(openMapsButton);
   
   // Иницилиазируем карту
     const map = new YMap(
@@ -224,4 +168,9 @@ async function main() {
     `;
 
     document.querySelector('ymaps').style = 'border-radius: 30px;'
+
+    map.addChild(controls);
+    document.querySelector('ymaps').querySelector('.ymaps3x0--control-button').onclick = () => {
+      window.open("https://yandex.by/maps/org/roshma/191733208246/?ll=27.576254%2C53.807521&z=16.6", "_blank")
+    }
 }
