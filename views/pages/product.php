@@ -19,9 +19,9 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
     background-color: transparent;
     border: none;
     cursor: pointer;
+    position: relative;
   }
   .product-slider__btn--prev {
-    position: relative;
     bottom: 5px;
   }
   .product-slider__btn--next {
@@ -158,7 +158,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
       <div class="product-slider">
         <button id="btnPrev" class="product-slider__btn product-slider__btn--inactive product-slider__btn--prev" disabled>
           <svg width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M23 12.9644L13.2234 2.7554C12.8292 2.3438 12.1713 2.34434 11.7778 2.75657L2 13" stroke-width="3"/>
+            <path d="M23 12.9644L13.2234 2.7554C12.8292 2.3438 12.1713 2.34434 11.7778 2.75657L2 13" stroke-width="3" stroke="#494547" />
           </svg>
         </button>
         <div id="track" class="product-slider__track">

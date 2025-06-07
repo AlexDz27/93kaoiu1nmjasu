@@ -44,6 +44,17 @@ class Slider {
     this.showingImg.src = currentImgCont.querySelector('img').src
     
     this.btnPrev.disabled = this._currentImgIdx > 0 ? false : true
+    if (this.btnPrev.disabled) {
+      this.btnPrev.classList.add('product-slider__btn--inactive')
+    } else {
+      this.btnPrev.classList.remove('product-slider__btn--inactive')
+    }
+    this.btnNext.disabled = this._currentImgIdx === this.track.children.length - 1 ? true : false
+    if (this.btnNext.disabled) {
+      this.btnNext.classList.add('product-slider__btn--inactive')
+    } else {
+      this.btnNext.classList.remove('product-slider__btn--inactive')
+    }
   }
 
   _changeDistance(mult, goingBack) {
@@ -63,14 +74,13 @@ class Slider {
         this.track.scrollTop += shift
       }
       
-
       if (goingBack) {
-        if (this.track.scrollTop > (87 + 9) * mult) {
+        if (this.track.scrollTop > (87 + 7) * mult) {
           requestAnimationFrame(step)
         }
       } else {
         if (this.track.scrollTop === 384) return
-        if (this.track.scrollTop < (87 + 9) * mult) {
+        if (this.track.scrollTop < (87 + 7) * mult) {
           requestAnimationFrame(step)
         }
       }
