@@ -49,10 +49,7 @@ class Slider {
   _changeDistance(mult, goingBack) {
     let start
 
-    // console.log(this.track.scrollTop)
     const step = (timestamp) => {
-      console.log('cur sT:', this.track.scrollTop)
-      // console.log('gb:', goingBack)
       if (start === undefined) {
         start = timestamp
       }
@@ -68,20 +65,18 @@ class Slider {
       
 
       if (goingBack) {
-        if (this.track.scrollTop > 87 * mult) {
+        if (this.track.scrollTop > (87 + 9) * mult) {
           requestAnimationFrame(step)
         }
       } else {
         if (this.track.scrollTop === 384) return
-        if (this.track.scrollTop < 87 * mult) {
+        if (this.track.scrollTop < (87 + 9) * mult) {
           requestAnimationFrame(step)
         }
       }
     }
 
     requestAnimationFrame(step)
-
-    // this.track.scrollTop = 87 * mult
   }
 }
 
