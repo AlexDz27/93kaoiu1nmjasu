@@ -197,11 +197,27 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
           </svg>
         </button>
       </div>
-      <div></div>
       <div class="product__col-img">
         <img id="showingImg" src="img/catalog-normal-res/krug-w-logo.png" alt="Круг наждачный">
+        <div id="dots" class="slider__dots slider__dots--product">
+          <span class="slider__dots__dot slider__dots__dot--active"></span>
+          <span class="slider__dots__dot"></span>
+          <span class="slider__dots__dot"></span>
+          <span class="slider__dots__dot"></span>
+          <span class="slider__dots__dot"></span>
+          <span class="slider__dots__dot"></span>
+
+          <!-- <span class="slider__dots__dot"></span>
+          <span class="slider__dots__dot"></span>
+          <span class="slider__dots__dot"></span>
+          <span class="slider__dots__dot"></span> -->
+
+          <!-- <span class="slider__dots__dot"></span>
+          <span class="slider__dots__dot"></span>
+          <span class="slider__dots__dot"></span>
+          <span class="slider__dots__dot"></span> -->
+        </div>
       </div>
-      <div></div>
       <div class="product__col-text">
         <p class="product__title">Круг наждачный лепестковый, 125х22, 2мм, “СТАНДАРТ” Р100</p>
         <p class="product__art text--larger">Артикул: 0795-0224-10</p>
@@ -210,7 +226,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
         <p class="product__detail product__detail--last text--larger"><span class="product__detail__1">Фасовка</span> <span class="product__detail__2">10</span></p>
         <p class="product__mb">
           <button class="btn product__btn" type="button"><b>СКАЧАТЬ ПРАЙС</b></button>
-          <button class="btn product__btn product__btn--outlined t__btn" type="button"><b>ПОСМОТРЕТЬ ПРАЙС</b></button>
+          <a class="btn product__btn product__btn--outlined t__btn" target="_blank" href="/table.php"><b>ПОСМОТРЕТЬ ПРАЙС</b></a>
         </p>
         <a class="product__go-to-cat text--larger" href="catalog.html">Перейти в каталог</a>
       </div>

@@ -1,10 +1,11 @@
 // TODO: ЧЕКНУТЬ У СЕРОГО В САФАРИ
 
 class Slider {
-  constructor(trackId, btnPrevId, btnNextId, showingImg) {
+  constructor(trackId, btnPrevId, btnNextId, dotsContId, showingImg) {
     this.track = document.getElementById(trackId)
     this.btnPrev = document.getElementById(btnPrevId)
     this.btnNext = document.getElementById(btnNextId)
+    this.dotsCont = document.getElementById(dotsContId)
     this.showingImg = document.getElementById(showingImg)
     
     this._currentImgIdx = 0
@@ -24,6 +25,16 @@ class Slider {
       const imgCont = this.track.children[i]
       imgCont.onclick = () => {
         this.currentImgIdx = i
+      }
+    }
+
+    for (let i = 0; i < this.dotsCont.children.length; i++) {
+      const dot = this.dotsCont.children[i]
+      dot.onclick = () => {
+        this.currentImgIdx = i
+
+        this.dotsCont.querySelector('.slider__dots__dot--active').classList.remove('slider__dots__dot--active')
+        dot.classList.add('slider__dots__dot--active')
       }
     }
   }
@@ -90,7 +101,7 @@ class Slider {
   }
 }
 
-const slider = new Slider('track', 'btnPrev', 'btnNext', 'showingImg')
+const slider = new Slider('track', 'btnPrev', 'btnNext', 'dots', 'showingImg')
 
 
 /* Utilities for Slider */
