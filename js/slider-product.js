@@ -1,12 +1,15 @@
 // TODO: ЧЕКНУТЬ У СЕРОГО В САФАРИ
 
 class Slider {
-  constructor(trackId, btnPrevId, btnNextId, dotsContId, showingImg) {
+  constructor(trackId, btnPrevId, btnNextId, dotsContId, dotsContIdMob, showingImg, btnPrevIdMob, btnNextIdMob) {
     this.track = document.getElementById(trackId)
     this.btnPrev = document.getElementById(btnPrevId)
     this.btnNext = document.getElementById(btnNextId)
     this.dotsCont = document.getElementById(dotsContId)
+    this.dotsContMob = document.getElementById(dotsContIdMob)
     this.showingImg = document.getElementById(showingImg)
+    this.btnPrevMob = document.getElementById(btnPrevIdMob)
+    this.btnNextMob = document.getElementById(btnNextIdMob)
     
     this._currentImgIdx = 0
     
@@ -14,12 +17,16 @@ class Slider {
   }
   
   init() {
-    this.btnPrev.onclick = () => {
-      this.currentImgIdx--
-    }
-    this.btnNext.onclick = () => {
-      this.currentImgIdx++
-    }
+    Array.from([this.btnPrev, this.btnPrevMob]).forEach(b => {
+      b.onclick = () => {
+        this.currentImgIdx--
+      }
+    })
+    Array.from([this.btnNext, this.btnNextMob]).forEach(b => {
+      b.onclick = () => {
+        this.currentImgIdx++
+      }
+    })
     
     for (let i = 0; i < this.track.children.length; i++) {
       const imgCont = this.track.children[i]
@@ -32,9 +39,12 @@ class Slider {
       const dot = this.dotsCont.children[i]
       dot.onclick = () => {
         this.currentImgIdx = i
-
-        this.dotsCont.querySelector('.slider__dots__dot--active').classList.remove('slider__dots__dot--active')
-        dot.classList.add('slider__dots__dot--active')
+      }
+    }
+    for (let i = 0; i < this.dotsContMob.children.length; i++) {
+      const dot = this.dotsContMob.children[i]
+      dot.onclick = () => {
+        this.currentImgIdx = i
       }
     }
   }
@@ -53,6 +63,11 @@ class Slider {
     this._changeDistance(this._currentImgIdx, goingBack)
     
     this.showingImg.src = currentImgCont.querySelector('img').src
+
+    this.dotsCont.querySelector('.slider__dots__dot--active').classList.remove('slider__dots__dot--active')
+    this.dotsCont.children[this._currentImgIdx].classList.add('slider__dots__dot--active')
+    this.dotsContMob.querySelector('.slider__dots__dot--active').classList.remove('slider__dots__dot--active')
+    this.dotsContMob.children[this._currentImgIdx].classList.add('slider__dots__dot--active')
     
     this.btnPrev.disabled = this._currentImgIdx > 0 ? false : true
     if (this.btnPrev.disabled) {
@@ -69,6 +84,8 @@ class Slider {
   }
 
   _changeDistance(mult, goingBack) {
+    let pointAtoPointBDistance = 87 + 7
+    if (window.innerWidth <= 500) pointAtoPointBDistance = 58 + 4
     let start
 
     const step = (timestamp) => {
@@ -86,12 +103,16 @@ class Slider {
       }
       
       if (goingBack) {
-        if (this.track.scrollTop > (87 + 7) * mult) {
+        if (this.track.scrollTop > pointAtoPointBDistance * mult) {
           requestAnimationFrame(step)
         }
       } else {
-        if (this.track.scrollTop === 384) return
-        if (this.track.scrollTop < (87 + 7) * mult) {
+        if (window.innerWidth <= 500) {
+          if (this.track.scrollTop >= 265) return
+        } else {
+          if (this.track.scrollTop === 384) return
+        }
+        if (this.track.scrollTop < pointAtoPointBDistance * mult) {
           requestAnimationFrame(step)
         }
       }
@@ -101,7 +122,7 @@ class Slider {
   }
 }
 
-const slider = new Slider('track', 'btnPrev', 'btnNext', 'dots', 'showingImg')
+const slider = new Slider('track', 'btnPrev', 'btnNext', 'dots', 'dotsMob', 'showingImg', 'btnPrevMob', 'btnNextMob')
 
 
 /* Utilities for Slider */

@@ -1699,20 +1699,17 @@ the buttons will not be shown. TODO: maybe i can make it better */
 }
 
 @media (max-width: 1058px) {
-  .page--product .cont {
-    padding-left: 0;
-    padding-right: 0;
-  }
   .page--product .cont.yellow {
     padding: 0 13px;
   }
 
   .product {
-    grid-template-columns: 75px 1fr;
+    grid-template-columns: 88px 1fr;
     grid-template-rows: auto auto;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     row-gap: 37px;
+    align-items: center;
   }
 
   .product__col-imgs {
@@ -1729,9 +1726,11 @@ the buttons will not be shown. TODO: maybe i can make it better */
   .product__col-img {
     border-radius: 40px;
     padding: 6.5% 0;
+    height: 570px;
   }
-  .slider__dots--product {
-    display: none;
+  .product__col-img img {
+    height: 100%;
+    object-fit: contain;
   }
 
   .product__col-text {
@@ -2168,6 +2167,10 @@ the buttons will not be shown. TODO: maybe i can make it better */
   .product__btn {
     margin-right: 0;
   }
+
+  .product__col-img {
+    height: 453px;
+  }
 }
 
 @media (max-width: 670px) {
@@ -2540,6 +2543,10 @@ the buttons will not be shown. TODO: maybe i can make it better */
   .contacts__cont .text--big {
     font-size: 18px;
   }
+
+  .product__col-img {
+    height: 357px;
+  }
 }
 
 @media (max-width: 497px) {
@@ -2715,6 +2722,10 @@ the buttons will not be shown. TODO: maybe i can make it better */
     height: 50px;
     font-size: 13px;
     line-height: 15px;
+  }
+
+  .product__col-img {
+    height: 332px;
   }
 }
 
