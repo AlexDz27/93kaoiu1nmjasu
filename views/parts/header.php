@@ -16,7 +16,7 @@
   <?php elseif ($pageName === 'catalog'): ?>
     <script src="js/slider-2.js" defer></script>
   <?php elseif ($pageName === 'product'): ?>
-    <script src="js/slider-product.js" defer></script>
+    <script src="js/slider-product-h2.js" defer></script>
   <?php endif; ?>  
   <title><?= $title ?></title>
 </head>

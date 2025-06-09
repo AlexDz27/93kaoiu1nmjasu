@@ -32,8 +32,6 @@ body {
 table {
   color: #494547;
   border-collapse: collapse;
-  /* TODO: pos sticky (дока) */
-  /* TODO: scroll auto для мобилок (мб в доке тоже будет) */
   position: relative;
 }
 th, td {
