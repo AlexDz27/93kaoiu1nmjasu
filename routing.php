@@ -20,10 +20,21 @@ function setRoutes($routes) {
   $method = $_SERVER['REQUEST_METHOD'];
   $route404 = array_pop($routes);
 
+  $counter = 0;
   foreach ($routes as $routeUri => $routePage) {
-    if ($uri === $routeUri) {
-      load($routePage);
-      return;
+    $counter++;
+    if ($counter >= 5) {
+      $productUriToProductMapForRouter = require 'productUriToProductMapForRouter.php';
+      if (isset($productUriToProductMapForRouter[$uri])) {
+        $productPage = $productUriToProductMapForRouter[$uri];
+        load($productPage);
+        return;
+      }
+    } else {
+      if ($uri === $routeUri) {
+        load($routePage);
+        return;
+      }
     }
   }
 

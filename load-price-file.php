@@ -37,6 +37,19 @@ $dbWriter = new PhpArrDbWriter();
 $dbWriter->write($db, 'db.php');
 $excelFileName = 'price-lists/' . $file['name'];
 require 'price-upload/writeProductsToDb.php';
+$db2 = require 'db.php';
+$products2 = $db2['products'];
+$productUriToProductMap = [];
+foreach ($products2 as $artKey => $product) {
+  $uri = $product['uri'];
+  $productUriToProductMap[$uri] = $product;
+}
+$dbWriter->write($productUriToProductMap, 'productUriToProductMap.php');
+$productUriToProductMapForRouter = [];
+foreach ($productUriToProductMap as $productUri => $product) {
+  $productUriToProductMapForRouter[$productUri] = 'views/pages/product.php';
+}
+$dbWriter->write($productUriToProductMapForRouter, 'productUriToProductMapForRouter.php');
 
 $response['status'] = 'OK';
 $response['payload'] = 'Прайс-лист был успешно загружен!';

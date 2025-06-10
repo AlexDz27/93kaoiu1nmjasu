@@ -2,7 +2,6 @@
 
 return [
   'currentPriceList' => 'Price-2025.05.27.xlsx',
-  'someUnneededField' => 42,
   'products' => [
     '0100-0000-10' => [
       'art' => '0100-0000-10',
