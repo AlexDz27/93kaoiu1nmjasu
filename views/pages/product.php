@@ -135,7 +135,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
 <body class="<?= $bodyClass ?>">
 <header class="header cont">
   <div class="text-with-icon text-with-icon--pin">
-    <img class="text-with-icon__icon" src="img/icons/pin.svg" width="14" height="18">
+    <img class="text-with-icon__icon" src="/img/icons/pin.svg" width="14" height="18">
     <div class="text-with-icon__text-cont text-with-icon--pin__text-cont">
       <span class="text--small">223056, Минская обл., Минский р-н, Сеницкий с/с, д. 64, оф. 8</span>
     </div>
@@ -143,28 +143,28 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
   <span class="header__text">Режим работы: Пн-Пт: 8:30-17:00, вых.: Сб-Вс</span>
   <div class="header__row-2-col header__row-2-col--1">
     <a class="header__row-2-col__logo" href="/">
-      <img src="img/logo.svg" width="148" height="20" alt="Логотип Sprava">
+      <img src="/img/logo.svg" width="148" height="20" alt="Логотип Sprava">
     </a>
     <div id="search" class="search header__search">
       <input id="searchInput" class="search__input" placeholder="Поиск товаров">
-      <button class="btn-icon search__icon" type="button"><img src="img/icons/search.svg" width="15" height="14"></button>
+      <button class="btn-icon search__icon" type="button"><img src="/img/icons/search.svg" width="15" height="14"></button>
       <div id="searchResults" class="search__results">
         <a href="product.html" class="search__results__item">
-          <img class="search__results__item__img" src="img/catalog/kist.png" width="35" height="35" alt="Кисть">
+          <img class="search__results__item__img" src="/img/catalog/kist.png" width="35" height="35" alt="Кисть">
           <span>Кисть <span class="search__results__item__text--gray">плоская СТАНДАРТ, натуральный ворс, 1/25мм</span></span>
         </a>
         <a href="product.html" class="search__results__item">
-          <img class="search__results__item__img" src="img/catalog/kist.png" width="35" height="35" alt="Кисть">
+          <img class="search__results__item__img" src="/img/catalog/kist.png" width="35" height="35" alt="Кисть">
           <span>Кисть плоская <span class="search__results__item__text--gray">СТАНДАРТ, натуральный ворс, 1/25мм</span></span>
         </a>
         <a href="product.html" class="search__results__item">
-          <img class="search__results__item__img" src="img/catalog/kist.png" width="35" height="35" alt="Кисть">
+          <img class="search__results__item__img" src="/img/catalog/kist.png" width="35" height="35" alt="Кисть">
           <span>Кисть плоская СТАНДАРТ<span class="search__results__item__text--gray">, натуральный ворс, 1/25мм</span></span>
         </a>
       </div>
     </div>
     <div class="text-with-icon header__text-with-icon--row-2-col-1">
-      <img class="text-with-icon__icon" src="img/icons/envelope.svg" width="19" height="14">
+      <img class="text-with-icon__icon" src="/img/icons/envelope.svg" width="19" height="14">
       <div class="text-with-icon__text-cont">
         <span class="text--semibold">office@roshma.by</span>
       </div>  
@@ -172,7 +172,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
   </div>
   <div class="header__row-2-col">
     <div class="text-with-icon header__text-with-icon--row-2-col-2">
-      <img class="text-with-icon__icon" src="img/icons/phone.svg" width="18" height="18">
+      <img class="text-with-icon__icon" src="/img/icons/phone.svg" width="18" height="18">
       <div class="text-with-icon__text-cont">
         <span class="text--bold">+375 (29) 305-11-11</span><br>
         <span class="text--bold">+375 (17) 225-76-37 (31)</span>
@@ -180,29 +180,29 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
     </div>
     <div class="link-social-cont">
       <a href="javascript:void(0)" class="link-social link-social--whatsapp">
-        <img src="img/icons/whatsapp.svg" width="24" height="24" alt="Ссылка на Whatsapp">
+        <img src="/img/icons/whatsapp.svg" width="24" height="24" alt="Ссылка на Whatsapp">
       </a>
       <a href="javascript:void(0)" class="link-social link-social--viber">
-        <img src="img/icons/viber.svg" width="13" height="14" alt="Ссылка на Viber">
+        <img src="/img/icons/viber.svg" width="13" height="14" alt="Ссылка на Viber">
       </a>
       <a href="javascript:void(0)" class="link-social link-social--telegram">
-        <img src="img/icons/telegram.svg" width="24" height="24" alt="Ссылка на Telegram">
+        <img src="/img/icons/telegram.svg" width="24" height="24" alt="Ссылка на Telegram">
       </a>
     </div>
     <button id="btnDownloadPrice" class="btn btn--dropdown" type="button">
       <b>СКАЧАТЬ ПРАЙС</b>
-      <img class="btn--dropdown__icon" src="img/icons/arrow-down.svg" width="17" height="10">
+      <img class="btn--dropdown__icon" src="/img/icons/arrow-down.svg" width="17" height="10">
       <div class="btn--dropdown__list">
         <a class="btn--dropdown__list__item" href="Price-2025.04.22.xlsx"><b>Скачать прайс</b></a>
         <a class="btn--dropdown__list__item" href="Price-2025.04.22.xlsx"><b>Посмотреть прайс</b></a>
       </div>
     </button>
-    <button id="btnNav" class="btn-burger"><img src="img/icons/burger.svg" width="36" height="26"></button>
+    <button id="btnNav" class="btn-burger"><img src="/img/icons/burger.svg" width="36" height="26"></button>
   </div>
 </header>
 <header class="header--mob cont--mob--fluid">
-  <a class="header--mob__btn-phone header--mob__btn-phone--real" href="tel:+375293051111"><img src="img/icons/phone--larger.svg" width="32" height="28"></a>
-  <button id="btnNavMob" class="header--mob__btn-phone"><img src="img/icons/burger.svg" width="36" height="26"></button>
+  <a class="header--mob__btn-phone header--mob__btn-phone--real" href="tel:+375293051111"><img src="/img/icons/phone--larger.svg" width="32" height="28"></a>
+  <button id="btnNavMob" class="header--mob__btn-phone"><img src="/img/icons/burger.svg" width="36" height="26"></button>
 </header>
 
 <section class="section-design--about">
@@ -227,32 +227,32 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
         </button>
         <div id="track" class="product-slider__track">
           <div class="product-slider__track__img-cont product-slider__track__img-cont--active">
-            <img src="img/catalog-normal-res/krug-w-logo.png">
+            <img src="/img/catalog-normal-res/krug-w-logo.png">
           </div>
           <div class="product-slider__track__img-cont">
-            <img src="img/product/2897-0125-10_resized_real_640h.jpg">
+            <img src="/img/product/2897-0125-10_resized_real_640h.jpg">
           </div>
           <div class="product-slider__track__img-cont">
-            <img src="img/product/2897-0125-10_resized.jpg">
+            <img src="/img/product/2897-0125-10_resized.jpg">
           </div>
           <div class="product-slider__track__img-cont">
-            <img src="img/product/2897-0125-10_resized.jpg">
+            <img src="/img/product/2897-0125-10_resized.jpg">
           </div>
           <div class="product-slider__track__img-cont">
-            <img src="img/product/2897-0125-10_resized.jpg">
+            <img src="/img/product/2897-0125-10_resized.jpg">
           </div>
 
           <div class="product-slider__track__img-cont">
-            <img src="img/product/2812-0125-10_resized.jpg">
+            <img src="/img/product/2812-0125-10_resized.jpg">
           </div>
           <div class="product-slider__track__img-cont">
-            <img src="img/product/2812-0125-12_2_resized.jpg">
+            <img src="/img/product/2812-0125-12_2_resized.jpg">
           </div>
           <div class="product-slider__track__img-cont">
-            <img src="img/catalog-normal-res/krug-w-logo.png">
+            <img src="/img/catalog-normal-res/krug-w-logo.png">
           </div>
           <div class="product-slider__track__img-cont">
-            <img src="img/catalog-normal-res/krug-w-logo.png">
+            <img src="/img/catalog-normal-res/krug-w-logo.png">
           </div>
         </div>
         <button id="btnNext" class="product-slider__btn product-slider__btn--next">
@@ -262,7 +262,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
         </button>
       </div>
       <div class="product__col-img">
-        <img id="showingImg" src="img/catalog-normal-res/krug-w-logo.png" alt="Круг наждачный">
+        <img id="showingImg" src="/img/catalog-normal-res/krug-w-logo.png" alt="Круг наждачный">
         <div id="dots" class="slider__dots slider__dots--product">
           <span class="slider__dots__dot slider__dots__dot--active"></span>
           <span class="slider__dots__dot"></span>

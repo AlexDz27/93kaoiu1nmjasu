@@ -4,16 +4,16 @@
   <div class="cont">
     <div class="footer__cont">
       <div class="footer__col-1">
-        <img src="img/logo.svg" width="148" height="20" alt="Логотип Sprava">
+        <img src="/img/logo.svg" width="148" height="20" alt="Логотип Sprava">
         <div class="link-social-cont link-social-cont--bigger hide-below-800">
           <a href="javascript:void(0)" class="link-social link-social--bigger link-social--whatsapp">
-            <img src="img/icons/whatsapp.svg" width="30" height="30" alt="Ссылка на Whatsapp">
+            <img src="/img/icons/whatsapp.svg" width="30" height="30" alt="Ссылка на Whatsapp">
           </a>
           <a href="viber://chat?number=%2B375293051111" class="link-social link-social--bigger link-social--viber link-social--bigger--viber">
-            <img src="img/icons/viber.svg" width="19" height="20" alt="Ссылка на Viber">
+            <img src="/img/icons/viber.svg" width="19" height="20" alt="Ссылка на Viber">
           </a>
           <a href="javascript:void(0)" class="link-social link-social--bigger link-social--telegram">
-            <img src="img/icons/telegram.svg" width="30" height="30" alt="Ссылка на Telegram">
+            <img src="/img/icons/telegram.svg" width="30" height="30" alt="Ссылка на Telegram">
           </a>
         </div>
         <div class="footer__copyright hide-below-800">© 2025 Все права защищены</div>
@@ -30,38 +30,38 @@
       <div class="footer__col-3">
         <p class="footer__office-title text--larger text--bold">Офис и склад</p>
         <div class="text-with-icon">
-          <img class="text-with-icon__icon" src="img/icons/pin.svg" width="16" height="21">
+          <img class="text-with-icon__icon" src="/img/icons/pin.svg" width="16" height="21">
           <div class="text-with-icon__text-cont text-with-icon--pin__text-cont">
             <a class="link--no-underline text--small text--semibold" href="https://yandex.by/maps/29630/minsk-district/house/Zk4YcwBmSUYEQFtpfXRxeXxnYg==/?ll=27.576034%2C53.808047&z=16.62">223056, Минская обл., Минский р-н, Сеницкий с/с, д. 64, оф. 8</a>
           </div>
         </div>
         <div class="text-with-icon">
-          <img class="text-with-icon__icon" src="img/icons/phone.svg" width="21" height="21">
+          <img class="text-with-icon__icon" src="/img/icons/phone.svg" width="21" height="21">
           <div class="text-with-icon__text-cont text-with-icon--pin__text-cont">
             <a href="tel:+375293051111" class="link--no-underline text--small text--semibold">+375 (29) 305-11-11</a>, <a href="tel:+375172257637" class="link--no-underline text--small text--bold">+375 (17) 225-76-37 (31)</a>
           </div>
         </div>
         <div class="text-with-icon">
-          <img class="text-with-icon__icon footer__text-with-icon__icon" src="img/icons/envelope.svg" width="19" height="14">
+          <img class="text-with-icon__icon footer__text-with-icon__icon" src="/img/icons/envelope.svg" width="19" height="14">
           <div class="text-with-icon__text-cont text-with-icon--pin__text-cont">
             <a href="mailto:office@roshma.by" class="link--no-underline text--small text--bold">office@roshma.by</a>
           </div>
         </div>
         <div class="text-with-icon">
-          <img class="text-with-icon__icon footer__text-with-icon__icon-2" src="img/icons/clock.svg" width="18" height="18">
+          <img class="text-with-icon__icon footer__text-with-icon__icon-2" src="/img/icons/clock.svg" width="18" height="18">
           <div class="text-with-icon__text-cont text-with-icon--pin__text-cont">
             <span class="text--small"><span class="text--bold">Пн-Пт:</span> 8:30-17:00, <span class="text--bold">выходные:</span> Сб - Вс</span>
           </div>
         </div>
         <p class="link-social-cont link-social-cont--farther link-social-cont--footer show-below-800--flex">
           <a href="javascript:void(0)" class="link-social link-social--whatsapp link-social--mob">
-            <img src="img/icons/whatsapp.svg" width="24" height="24" alt="Ссылка на Whatsapp">
+            <img src="/img/icons/whatsapp.svg" width="24" height="24" alt="Ссылка на Whatsapp">
           </a>
           <a href="viber://chat?number=%2B375293051111" class="link-social link-social--viber link-social--mob">
-            <img src="img/icons/viber.svg" width="13" height="14" alt="Ссылка на Viber">
+            <img src="/img/icons/viber.svg" width="13" height="14" alt="Ссылка на Viber">
           </a>
           <a href="javascript:void(0)" class="link-social link-social--telegram link-social--mob">
-            <img src="img/icons/telegram.svg" width="24" height="24" alt="Ссылка на Telegram">
+            <img src="/img/icons/telegram.svg" width="24" height="24" alt="Ссылка на Telegram">
           </a>
         </p>
       </div>
@@ -106,13 +106,13 @@
       <div class="nav__row nav__row__some-mb"><a class="nav__link" href="/contacts">КОНТАКТЫ</a></div>
 
       <div class="text-with-icon nav__row-2">
-        <img class="text-with-icon__icon" src="img/icons/phone.svg" width="21" height="21">
+        <img class="text-with-icon__icon" src="/img/icons/phone.svg" width="21" height="21">
         <div class="text-with-icon__text-cont text-with-icon__adjust-1">
           <a style="text-decoration: none;" href="tel:+375293051111" class="text--semibold">+375 (29) 305-11-11</a>
         </div>
       </div>
       <div class="text-with-icon nav__row-2">
-        <img class="text-with-icon__icon" src="img/icons/envelope.svg" width="24" height="17">
+        <img class="text-with-icon__icon" src="/img/icons/envelope.svg" width="24" height="17">
         <div class="text-with-icon__text-cont text-with-icon__adjust-2">
           <span class="text--semibold">office@roshma.by</span>
         </div>
@@ -120,13 +120,13 @@
 
       <p class="link-social-cont link-social-cont--farther nav__row-2 nav__row-2__adjust-1">
         <a href="javascript:void(0)" class="link-social link-social--whatsapp link-social--mob">
-          <img src="img/icons/whatsapp.svg" width="24" height="24" alt="Ссылка на Whatsapp">
+          <img src="/img/icons/whatsapp.svg" width="24" height="24" alt="Ссылка на Whatsapp">
         </a>
         <a href="viber://chat?number=%2B375293051111" class="link-social link-social--viber link-social--mob">
-          <img src="img/icons/viber.svg" width="13" height="14" alt="Ссылка на Viber">
+          <img src="/img/icons/viber.svg" width="13" height="14" alt="Ссылка на Viber">
         </a>
         <a href="javascript:void(0)" class="link-social link-social--telegram link-social--mob">
-          <img src="img/icons/telegram.svg" width="24" height="24" alt="Ссылка на Telegram">
+          <img src="/img/icons/telegram.svg" width="24" height="24" alt="Ссылка на Telegram">
         </a>
       </p>
     </div>
@@ -134,15 +134,15 @@
     <div id="navMobContSearchResults" style="display: none;">
       <div id="searchResultsMob" class="search__results search__results--active">
         <a href="/product" class="search__results__item">
-          <img class="search__results__item__img" src="img/catalog/kist.png" width="35" height="35" alt="Кисть">
+          <img class="search__results__item__img" src="/img/catalog/kist.png" width="35" height="35" alt="Кисть">
           <span>Кисть <span class="search__results__item__text--gray">плоская СТАНДАРТ, натуральный ворс, 1/25мм</span></span>
         </a>
         <a href="/product" class="search__results__item">
-          <img class="search__results__item__img" src="img/catalog/kist.png" width="35" height="35" alt="Кисть">
+          <img class="search__results__item__img" src="/img/catalog/kist.png" width="35" height="35" alt="Кисть">
           <span>Кисть плоская <span class="search__results__item__text--gray">СТАНДАРТ, натуральный ворс, 1/25мм</span></span>
         </a>
         <a href="/product" class="search__results__item">
-          <img class="search__results__item__img" src="img/catalog/kist.png" width="35" height="35" alt="Кисть">
+          <img class="search__results__item__img" src="/img/catalog/kist.png" width="35" height="35" alt="Кисть">
           <span>Кисть плоская СТАНДАРТ<span class="search__results__item__text--gray">, натуральный ворс, 1/25мм</span></span>
         </a>
       </div>
