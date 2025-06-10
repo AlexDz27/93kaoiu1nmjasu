@@ -3,7 +3,7 @@
 $title = 'Sprava - строительный инструмент';
 $pageName = 'home';
 $bodyClass = null;
-load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bodyClass' => $bodyClass]);
+load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bodyClass' => $bodyClass, 'lowDb' => $lowDb]);
 
 ?>
 <section class="section-design--about">

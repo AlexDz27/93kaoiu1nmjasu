@@ -19,17 +19,18 @@ function setRoutes($routes) {
   $method = $_SERVER['REQUEST_METHOD'];
   $route404 = array_pop($routes);
 
+  $lowDb = require 'lowDb.php';
   foreach ($routes as $routeUri => $routePage) {
     if ($uri === $routeUri) {
       if ($routeUri === '/catalog') {
         $db = require 'db.php';
         $products = $db['products'];
         $vars = ['products' => $products];
-        load($routePage, ['products' => $products]);
+        load($routePage, ['lowDb' => $lowDb, 'products' => $products]);
         return;
       }
       
-      load($routePage);
+      load($routePage, ['lowDb' => $lowDb]);
       return;
     }
   }
@@ -37,10 +38,10 @@ function setRoutes($routes) {
   $productUriToProductMap = require 'productUriToProductMap.php';
   if (isset($productUriToProductMap[$uri])) {
     $product = $productUriToProductMap[$uri];
-    load('views/pages/product.php', ['product' => $product]);
+    load('views/pages/product.php', ['lowDb' => $lowDb, 'product' => $product]);
     return;
   }
 
   http_response_code(404);
-  load($route404);
+  load($route404, ['lowDb' => $lowDb]);
 }

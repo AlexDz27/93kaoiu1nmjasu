@@ -83,7 +83,7 @@ return [
   ],
   '/catalog/kisti-malyarnye/kist-ploskaya-standart-naturalnyj-vors-4-100mm' => [
     'art' => '0100-0000-40',
-    'price' => '4.00',
+    'price' => '8.00',
     'category' => 'Кисти малярные',
     'model' => 'Кисть плоская СТАНДАРТ, натуральный ворс',
     'variant' => '4/100мм',
@@ -1491,7 +1491,7 @@ return [
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-perforirovannyj-up-5-st-b-r40' => [
     'art' => '0795-0125-40',
-    'price' => '5.30',
+    'price' => '2.65',
     'category' => 'Абразивные алмазные материалы и оснастка',
     'model' => 'Круг наждачный, 125мм с ворсовой подложкой <b>перфорированный (уп. 5 шт.)</b>',
     'variant' => 'Р40',
@@ -1603,7 +1603,7 @@ return [
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/kordsetka-caseobraznaya-myagkaya-m14-100mm' => [
     'art' => '07991-0100-14',
-    'price' => '6.91',
+    'price' => '11.52',
     'category' => 'Абразивные алмазные материалы и оснастка',
     'model' => 'Кордщетка чашеобразная мягкая, М14',
     'variant' => '100мм',

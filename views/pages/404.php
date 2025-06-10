@@ -3,7 +3,7 @@
 $title = 'Sprava | Страница не найдена';
 $pageName = '404';
 $bodyClass = null;
-load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bodyClass' => $bodyClass]);
+load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bodyClass' => $bodyClass, 'lowDb' => $lowDb]);
 
 ?>
 <style>

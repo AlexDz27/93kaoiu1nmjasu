@@ -3,7 +3,7 @@
 $title = $product['model'] . ', ' . $product['variant'];
 $pageName = 'product';
 $bodyClass = 'page--product';
-load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bodyClass' => $bodyClass]);
+load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bodyClass' => $bodyClass, 'lowDb' => $lowDb]);
 
 ?>
 <style>

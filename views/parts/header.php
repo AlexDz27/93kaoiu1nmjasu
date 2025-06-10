@@ -81,8 +81,8 @@
       <b>СКАЧАТЬ ПРАЙС</b>
       <img class="btn--dropdown__icon" src="/img/icons/arrow-down.svg" width="17" height="10">
       <div class="btn--dropdown__list">
-        <a class="btn--dropdown__list__item" href="Price-2025.04.22.xlsx"><b>Скачать прайс</b></a>
-        <a class="btn--dropdown__list__item" target="_blank" href="table.php"><b>Посмотреть прайс</b></a>
+        <a class="btn--dropdown__list__item" href="/price-lists/<?= $lowDb['currentPriceList'] ?>"><b>Скачать прайс</b></a>
+        <a class="btn--dropdown__list__item" target="_blank" href="/table.php"><b>Посмотреть прайс</b></a>
       </div>
     </button>
     <button id="btnNav" class="btn-burger"><img src="/img/icons/burger.svg" width="36" height="26"></button>

@@ -3,7 +3,7 @@
 $title = 'Sprava | Каталог';
 $pageName = 'catalog';
 $bodyClass = 'catalog';
-load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bodyClass' => $bodyClass]);
+load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bodyClass' => $bodyClass, 'lowDb' => $lowDb]);
 
 ?>
 <section class="page-title-cont section-design--about">

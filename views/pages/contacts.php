@@ -3,7 +3,7 @@
 $title = 'Sprava | Контакты';
 $pageName = 'contacts';
 $bodyClass = 'contacts';
-load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bodyClass' => $bodyClass]);
+load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bodyClass' => $bodyClass, 'lowDb' => $lowDb]);
 
 ?>
 <section class="page-title-cont section-design--about">

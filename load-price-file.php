@@ -45,6 +45,10 @@ foreach ($products2 as $artKey => $product) {
   $productUriToProductMap[$uri] = $product;
 }
 $dbWriter->write($productUriToProductMap, 'productUriToProductMap.php');
+// low db
+$db3 = require 'db.php';
+$currentPriceList = $db3['currentPriceList'];
+$dbWriter->write(['currentPriceList' => $currentPriceList], 'lowDb.php');
 
 $response['status'] = 'OK';
 $response['payload'] = 'Прайс-лист был успешно загружен!';
