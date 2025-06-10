@@ -27,6 +27,7 @@ foreach ($rows as $row) {
 }
 
 // var_dump($products);
+// die();
 return $products;
 
 

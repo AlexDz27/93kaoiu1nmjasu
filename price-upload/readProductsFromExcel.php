@@ -278,5 +278,426 @@ for ($i = 68; $i <= 71; $i++) {
 
   $rows[] = $row;
 }
+for ($i = 72; $i <= 78; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Абразивные алмазные материалы и оснастка';
+  $row['model'] = 'Круг наждачный лепестковый 125мм x 22,2мм';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 79; $i <= 79; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Абразивные алмазные материалы и оснастка';
+  $row['model'] = 'Круг зачистной по металлу';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 80; $i <= 81; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Абразивные алмазные материалы и оснастка';
+  $row['model'] = 'Круг алмазный гладкий';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 82; $i <= 82; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Абразивные алмазные материалы и оснастка';
+  $row['model'] = 'Круг алмазный гладкий <b>ультратонкий</b>';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 83; $i <= 84; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Абразивные алмазные материалы и оснастка';
+  $row['model'] = 'Круг алмазный TURBO';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 85; $i <= 87; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Абразивные алмазные материалы и оснастка';
+  $row['model'] = 'Круг алмазный сегментный';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 88; $i <= 88; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Абразивные алмазные материалы и оснастка';
+  $row['model'] = 'Круг алмазный сегментный <b>для Асфальта</b>';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 89; $i <= 89; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Абразивные алмазные материалы и оснастка';
+  $row['model'] = 'Чаша алмазная зачистная двурядная';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 90; $i <= 90; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Абразивные алмазные материалы и оснастка';
+  $row['model'] = 'Насадка дисковая с липучкой, мягкая';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 91; $i <= 91; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Абразивные алмазные материалы и оснастка';
+  $row['model'] = 'Насадка дисковая с липучкой, жесткая';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 92; $i <= 98; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Абразивные алмазные материалы и оснастка';
+  $row['model'] = 'Круг наждачный, 125мм с ворсовой подложкой <b>(уп. 5 шт.)</b>';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 99; $i <= 105; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Абразивные алмазные материалы и оснастка';
+  $row['model'] = 'Круг наждачный, 125мм с ворсовой подложкой <b>перфорированный (уп. 5 шт.)</b>';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 106; $i <= 106; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Абразивные алмазные материалы и оснастка';
+  $row['model'] = 'Кордщетка чашеобразная мягкая, М14';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 107; $i <= 107; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Абразивные алмазные материалы и оснастка';
+  $row['model'] = 'Кордщетка чашеобразная жесткая крученая, М14';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 108; $i <= 108; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Абразивные алмазные материалы и оснастка';
+  $row['model'] = 'Кордщетка коническая мягкая, М14';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 109; $i <= 109; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Абразивные алмазные материалы и оснастка';
+  $row['model'] = 'Кордщетка коническая жесткая крученая, М14';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+
+// Строительные материалы и инструмент (название категории по эксель-файлу)
+// Ножи и лезвия + Вспомогательный инструмент (название категории по логике сайта)
+// Ножи
+for ($i = 111; $i <= 111; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Ножи и лезвия';
+  $row['model'] = 'Нож обойный';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 112; $i <= 113; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Ножи и лезвия';
+  $row['model'] = 'Нож обойный усиленный';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 114; $i <= 115; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Ножи и лезвия';
+  $row['model'] = 'Лезвия запасные для обойного ножа';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+// Вспомогательный инструмент
+for ($i = 116; $i <= 118; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Вспомогательный инструмент';
+  $row['model'] = 'Миксер для смесей оцинкованный SDS-plus';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 119; $i <= 120; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Вспомогательный инструмент';
+  $row['model'] = 'Миксер для смесей оцинкованный';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 121; $i <= 121; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Вспомогательный инструмент';
+  $row['model'] = 'Миксер для смесей оцинкованный, гайкой М14';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 122; $i <= 125; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Вспомогательный инструмент';
+  $row['model'] = 'Рулетка, прорезиненный корпус';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 126; $i <= 126; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Вспомогательный инструмент';
+  $row['model'] = 'Пистолет скелетный для герметиков, 225мм';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 127; $i <= 127; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Вспомогательный инструмент';
+  $row['model'] = 'Карандаш столярный (10 шт)';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 128; $i <= 128; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Вспомогательный инструмент';
+  $row['model'] = 'Щетка проволочная универсальная, латунированная';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 129; $i <= 129; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Вспомогательный инструмент';
+  $row['model'] = 'Щетка деревянная, проволочная';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 130; $i <= 133; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Вспомогательный инструмент';
+  $row['model'] = 'Шпатель фасадный, нержавеющая сталь 0,5мм, пластиковая ручка';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 134; $i <= 139; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Вспомогательный инструмент';
+  $row['model'] = 'Шпатель фасадный, нержавеющая сталь 0,5мм, пластиковая ручка';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 140; $i <= 143; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Вспомогательный инструмент';
+  $row['model'] = 'Шпатель фасадный, нержавеющая сталь 0,5мм, пластиковая ручка, ЗУБЧАТЫЙ';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 144; $i <= 144; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Вспомогательный инструмент';
+  $row['model'] = 'Шпатель резиновый (набор 3 штуки)';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
+for ($i = 145; $i <= 145; $i++) {
+  $row = [];
+  for ($k = 1; $k <= 8; $k++) {
+    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
+    $row[$map[$k - 1]] = $val;
+  }
+  $row['excelFileRowNum'] = $i;
+  $row['category'] = 'Вспомогательный инструмент';
+  $row['model'] = 'Шпатель обойный';
+  unset($row['some_math']);
+
+  $rows[] = $row;
+}
 
 return $rows;

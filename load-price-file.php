@@ -31,7 +31,6 @@ if (!move_uploaded_file($file['tmp_name'], 'price-lists/' . $file['name'])) {
   return;
 }
 
-// TODO: 1. положить его чтоб можно было скачать по кнопке ; 2. сделать db и всё сопутствующее
 $db = require 'db.php';
 $db['currentPriceList'] = $file['name'];
 $dbWriter = new PhpArrDbWriter();
