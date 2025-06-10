@@ -1,91 +1,52 @@
 <?php
 
-// TODO: rename files
-// TODO: rethink flow of uploading file -> resetting prices
-
-require 'index.php';
-
-$dbExample = require 'db.php';
-$dbDExample = $dbExample['0100-0000-10'];
+$rows = require 'readExcel.php';
+$exampleProduct = [
+  'art' => '0100-0000-10',
+  'price' => 1.02,
+  'category' => 'Кисти малярные',
+  'model' => 'Кисть плоская СТАНДАРТ, натуральный ворс',
+  'variant' => '1/25мм',
+  'unit' => 'шт.',
+  'upakMal' => 12,
+  'upakKrup' => 1200,
+  'uri' => '/catalog/kisti-malyarnyie/kist-plosk-stndrt-nat-vors-',
+  'img' => '',
+  'galleryImgs' => [],
+];
 
 $db = [];
-foreach ($rows as $r) {
-  $dbD = $dbDExample;
-  foreach ($r as $key => $data) {
-    $dbD[$key] = $data;
+foreach ($rows as $row) {
+  $dbDatum = $exampleProduct;
+  foreach ($row as $key => $data) {
+    $dbDatum[$key] = $data;
   }
-  handleUri($dbD);
+  handleUri($dbDatum);
 
-  $db[] = $dbD;
+  $db[] = $dbDatum;
 }
 
-// var_dump($db);
+var_dump($db);
 
-// For products: set explode char -> set uri
-function handleUri(&$dbD) {
-  $explodeChar = null;
-  $dbD['uri'] = null;
-
-  switch (true) {
-    case str_contains($dbD['model'], 'Кисть плоская СТАНДАРТ'):
-      $explodeChar = '/';
-      $dbD['uri'] = '/catalog/kisti-malyarnyie/kist-plosk-stndrt-nat-vors-';
-      break;
-    case str_contains($dbD['model'], 'Кисть плоская ЕВРО'):
-      $explodeChar = '/';
-      $dbD['uri'] = '/catalog/kisti-malyarnyie/kist-plosk-evro-nat-vors-';
-      break;
-    case str_contains($dbD['model'], 'Кисть лавковец мини'):
-      $explodeChar = 'х';
-      $dbD['uri'] = '/catalog/kisti-malyarnyie/kist-lavkovets-mini-nat-vors-';
-      break;
-    case str_contains($dbD['model'], 'Кисть радиаторная'):
-      $explodeChar = '/';
-      $dbD['uri'] = '/catalog/kisti-malyarnyie/kist-radiatornaya-nat-vors-';
-      break;
-    case str_contains($dbD['model'], 'Запаска нитевая "стандарт"'):
-      $explodeChar = 'х';
-      $dbD['uri'] = '/catalog/valiki-malyarnyie/zapaska-nitevaya-stndrt-';
-      break;
-    case str_contains($dbD['model'], 'Валик нитевой "стандарт"'):
-      $explodeChar = 'х';
-      $dbD['uri'] = '/catalog/valiki-malyarnyie/valik-nitevoi-stndrt-';
-      break;
-    case str_contains($dbD['model'], 'Запаска нитевая "пчелка"'):
-      $explodeChar = 'х';
-      $dbD['uri'] = '/catalog/valiki-malyarnyie/zapaska-nitevaya-pchelka-';
-      break;
-    case str_contains($dbD['model'], 'Валик нитевой "пчелка"'):
-      $explodeChar = 'х';
-      $dbD['uri'] = '/catalog/valiki-malyarnyie/valik-nitevoi-pchelka-';
-      break;
-    case str_contains($dbD['model'], 'Запаска велюровая'):
-      $explodeChar = 'х';
-      $dbD['uri'] = '/catalog/valiki-malyarnyie/zapaska-velyurovaya-';
-      break;
-    case str_contains($dbD['model'], 'Валик велюровый'):
-      $explodeChar = 'х';
-      $dbD['uri'] = '/catalog/valiki-malyarnyie/valik-velyurovyi-';
-      break;
-    case str_contains($dbD['model'], 'Ручка для валиков'):
-      $explodeChar = 'х';
-      $dbD['uri'] = '/catalog/valiki-malyarnyie/ruchka-dlya-valikov-';
-      break;  
-    default:
-      // var_dump($dbD);
-      throw new Exception('Unknown product model');
-  }
-
-  $parts = explode($explodeChar, $dbD['variant']);
-  if (!isset($parts[1])) {
-    $uriPart = extractNumbers($parts[0]);
-    $dbD['uri'] .= $uriPart;
-  } else {
-    $parts[1] = extractNumbers($parts[1]);
-    $dbD['uri'] .= $parts[0] . '-' . $parts[1];
-  }
+function handleUri(&$dbDatum) {
+  $dbDatum['uri'] = '/catalog/' . slugify($dbDatum['category']) . '/' . slugify($dbDatum['model']) . '-' . slugify($dbDatum['variant']);
 }
 
+
+function slugify($text) {
+  $text = str_replace('х', 'x', $text);
+  $text = str_replace('ь', '', $text);
+  $text = str_replace('ъ', '', $text);
+  $text = str_replace('я', 'ya', $text);
+  // Transliterate to ASCII
+  $text = transliterator_transliterate('Any-Latin; Latin-ASCII; [\u0080-\u7fff] remove', $text);
+  // Replace non-alphanumeric with dashes
+  $text = preg_replace('/[^a-z0-9]+/i', '-', $text);
+  // Trim and lowercase
+  $text = trim($text, '-');
+  $text = strtolower($text);
+  return $text;
+}
 
 function extractNumbers($input) {
     // Using preg_match to find all numbers (including decimals)

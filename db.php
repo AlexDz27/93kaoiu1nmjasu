@@ -1,10 +1,6 @@
 <?php
 
-// TODO: mb AI can help?
-
 return [
-  'currentPriceList' => '',
-  'products' => [
-    // ...
-  ]
+  'currentPriceList' => 'Price-2025.05.27.xlsx',
+  'someUnneededField' => 42,
 ];
