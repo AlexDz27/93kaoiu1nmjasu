@@ -27,10 +27,10 @@ function setRoutes($routes) {
     }
   }
 
-  $productUriToProductMapForRouter = require 'productUriToProductMapForRouter.php';
-  if (isset($productUriToProductMapForRouter[$uri])) {
-    $productPage = $productUriToProductMapForRouter[$uri];
-    load($productPage);
+  $productUriToProductMap = require 'productUriToProductMap.php';
+  if (isset($productUriToProductMap[$uri])) {
+    $product = $productUriToProductMap[$uri];
+    load('views/pages/product.php', ['product' => $product]);
     return;
   }
 

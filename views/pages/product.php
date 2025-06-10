@@ -1,6 +1,6 @@
 <?php
 
-$title = 'Абразивные алмазные материалы и оснастка - Круг наждачный лепестковый 125х22, 2мм, “СТАНДАРТ” Р100 | Sprava';
+$title = $product['model'] . ', ' . $product['variant'];
 $pageName = 'product';
 $bodyClass = 'page--product';
 load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bodyClass' => $bodyClass]);
@@ -131,6 +131,13 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
       position: static !important;
     }
   }
+
+  .product__title b {
+    font-weight: 700;
+  }
+  .product__detail__2::first-letter {
+    text-transform: uppercase;
+  }
 </style>
 <body class="<?= $bodyClass ?>">
 <header class="header cont">
@@ -210,15 +217,15 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
     <nav>
       <a class="yellow__link" href="/">Главная</a>
       <a class="yellow__link" href="catalog.html">Каталог</a>
-      <a class="yellow__link yellow__link--abraziv" href="catalog.html">Абразивные алмазные материалы и оснастка</a>
-      <a class="yellow__link yellow__link--active" href="product.html">Круг наждачный лепестковый</a>
+      <a class="yellow__link yellow__link--abraziv" href="/catalog"><?= $product['category'] ?></a>
+      <a class="yellow__link yellow__link--active" href="<?= $product['uri'] ?>"><?= $product['model'] ?></a>
     </nav>
   </div>
 </section>
 
 <section class="product__wrapper">
   <div class="cont">
-    <div class="product product--hit">
+    <div class="product <?= $product['isHit'] ? 'product--hit' : '' ?>">
       <div class="product-slider">
         <button id="btnPrev" class="product-slider__btn product-slider__btn--inactive product-slider__btn--prev" disabled>
           <svg width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -262,7 +269,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
         </button>
       </div>
       <div class="product__col-img">
-        <img id="showingImg" src="/img/catalog-normal-res/krug-w-logo.png" alt="Круг наждачный">
+        <img id="showingImg" src="/img/catalog-normal-res/krug-w-logo.png" alt="<?= $product['model'] ?>">
         <div id="dots" class="slider__dots slider__dots--product">
           <span class="slider__dots__dot slider__dots__dot--active"></span>
           <span class="slider__dots__dot"></span>
@@ -311,16 +318,21 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
             </svg>
           </button>
         </div>
-        <p class="product__title">Круг наждачный лепестковый, 125х22, 2мм, “СТАНДАРТ” Р100</p>
-        <p class="product__art text--larger">Артикул: 0795-0224-10</p>
-        <p class="product__price"><b>3.85 BYN (с НДС 20%) / шт</b></p>
-        <p class="product__detail text--larger"><span class="product__detail__1">Единица измерения</span> <span class="product__detail__2">Шт.</span></p>
-        <p class="product__detail product__detail--last text--larger"><span class="product__detail__1">Фасовка</span> <span class="product__detail__2">10</span></p>
+        <p class="product__title"><?= $product['model'] . ', ' . $product['variant'] ?></p>
+        <p class="product__art text--larger">Артикул: <?= $product['art'] ?></p>
+        <p class="product__price"><b><?= $product['price'] ?> BYN (с НДС 20%) / <?= $product['unit'] ?></b></p>
+        <p class="product__detail text--larger"><span class="product__detail__1">Единица измерения</span> <span class="product__detail__2"><?= $product['unit'] ?></span></p>
+        <?php if (!empty($product['upakMal'])): ?>
+          <p class="product__detail text--larger"><span class="product__detail__1">Упак. мал.</span> <span class="product__detail__2"><?= $product['upakMal'] ?></span></p>
+        <?php endif ?>
+        <?php if (!empty($product['upakKrup'])): ?>
+          <p class="product__detail product__detail--last text--larger"><span class="product__detail__1">Упак. круп.</span> <span class="product__detail__2"><?= $product['upakKrup'] ?></span></p>
+        <?php endif ?>
         <p class="product__mb">
           <button class="btn product__btn" type="button"><b>СКАЧАТЬ ПРАЙС</b></button>
           <a class="btn product__btn product__btn--outlined t__btn" target="_blank" href="/table.php"><b>ПОСМОТРЕТЬ ПРАЙС</b></a>
         </p>
-        <a class="product__go-to-cat text--larger" href="catalog.html">Перейти в каталог</a>
+        <a class="product__go-to-cat text--larger" href="/catalog">Перейти в каталог</a>
       </div>
     </div>
     <div class="product__info">
@@ -328,7 +340,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
       <button id="details" class="product__info__btn">Детали</button>
     </div>
     <div id="contentsDesc" class="product__info__contents product__info__contents--active">
-      <p>Для шлифования металлических и деревянных поверхностей.</p>
+      <p><?= $product['description'] ?></p>
     </div>
     <div id="contentsDetails" class="product__info__contents">
       <p>Какой-то другой текст.</p>

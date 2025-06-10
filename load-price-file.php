@@ -45,11 +45,6 @@ foreach ($products2 as $artKey => $product) {
   $productUriToProductMap[$uri] = $product;
 }
 $dbWriter->write($productUriToProductMap, 'productUriToProductMap.php');
-$productUriToProductMapForRouter = [];
-foreach ($productUriToProductMap as $productUri => $product) {
-  $productUriToProductMapForRouter[$productUri] = 'views/pages/product.php';
-}
-$dbWriter->write($productUriToProductMapForRouter, 'productUriToProductMapForRouter.php');
 
 $response['status'] = 'OK';
 $response['payload'] = 'Прайс-лист был успешно загружен!';

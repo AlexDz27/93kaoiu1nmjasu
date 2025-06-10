@@ -11,6 +11,8 @@ $exampleProduct = [
   'upakMal' => 12,
   'upakKrup' => 1200,
   'uri' => '/catalog/kisti-malyarnyie/kist-plosk-stndrt-nat-vors-',
+  'description' => 'Для работ со всеми видами лакокрасочных материалов.',
+  'isHit' => false,
   'img' => '',
   'galleryImgs' => [],
 ];
@@ -26,8 +28,6 @@ foreach ($rows as $row) {
   $products[] = $product;
 }
 
-// var_dump($products);
-// die();
 return $products;
 
 
