@@ -1,5 +1,6 @@
 // TODO: if there'll be more products, add logic with multipliers inst of translate 100%
 // TODO: 40 штук валиков будет - надо как-то по архе подумать)
+// TODO: можно просто if else 3 )
 
 const sliderCat = document.querySelector('.slider--cat')
 const sliderBtns = document.querySelector('.slider__btns')

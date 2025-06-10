@@ -6,7 +6,6 @@ $routes = [
   '/about-company' => "views/pages/about-company.php",
   '/contacts' => "views/pages/contacts.php",
   '/catalog' => "views/pages/catalog.php",
-  '/product' => "views/pages/product.php",
 
   '404' => "views/pages/404.php"
 ];
@@ -22,6 +21,14 @@ function setRoutes($routes) {
 
   foreach ($routes as $routeUri => $routePage) {
     if ($uri === $routeUri) {
+      if ($routeUri === '/catalog') {
+        $db = require 'db.php';
+        $products = $db['products'];
+        $vars = ['products' => $products];
+        load($routePage, ['products' => $products]);
+        return;
+      }
+      
       load($routePage);
       return;
     }

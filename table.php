@@ -1,6 +1,6 @@
 <?php
 
-$products = require 'price-probe/writtenDb.php';
+$products = require 'tableDb.php';
 
 ?>
 <!DOCTYPE html>
