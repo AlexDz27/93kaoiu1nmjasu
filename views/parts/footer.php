@@ -82,6 +82,11 @@
   <div class="nav__row"><a class="nav__link" href="/about-company">О КОМПАНИИ</a></div>
   <div class="nav__row"><a class="nav__link" href="/catalog">КАТАЛОГ</a></div>
   <div class="nav__row"><a class="nav__link" href="/contacts">КОНТАКТЫ</a></div>
+
+  <div class="nav__row"><a class="nav__link" href="/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-lepestkovyj-125mm-x-22-2mm-r24">Продукт 1</a></div>
+  <div class="nav__row"><a class="nav__link" href="/catalog/abrazivnye-almaznye-materialy-i-osnastka/kordsetka-caseobraznaya-myagkaya-m14-100mm">Продукт 2</a></div>
+  <div class="nav__row"><a class="nav__link" href="/catalog/kisti-malyarnye/kist-lavkovec-mini-naturalnyj-vors-70x30mm">Продукт 3</a></div>
+  <div class="nav__row"><a class="nav__link" href="/catalog/kisti-malyarnye/kist-ploskaya-standart-naturalnyj-vors-2-5-63mm">Продукт 4</a></div>
 </nav>
 
 <nav id="navMob" class="nav-mob">
@@ -104,6 +109,11 @@
       <div class="nav__row"><a class="nav__link" href="/about-company">О КОМПАНИИ</a></div>
       <div class="nav__row"><a class="nav__link" href="/catalog">КАТАЛОГ</a></div>
       <div class="nav__row nav__row__some-mb"><a class="nav__link" href="/contacts">КОНТАКТЫ</a></div>
+
+      <div class="nav__row nav__row__some-mb"><a class="nav__link" href="/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-lepestkovyj-125mm-x-22-2mm-r24">Продукт 1</a></div>
+      <div class="nav__row nav__row__some-mb"><a class="nav__link" href="/catalog/abrazivnye-almaznye-materialy-i-osnastka/kordsetka-caseobraznaya-myagkaya-m14-100mm">Продукт 2</a></div>
+      <div class="nav__row nav__row__some-mb"><a class="nav__link" href="/catalog/kisti-malyarnye/kist-lavkovec-mini-naturalnyj-vors-70x30mm">Продукт 3</a></div>
+      <div class="nav__row nav__row__some-mb"><a class="nav__link" href="/catalog/kisti-malyarnye/kist-ploskaya-standart-naturalnyj-vors-2-5-63mm">Продукт 4</a></div>
 
       <div class="text-with-icon nav__row-2">
         <img class="text-with-icon__icon" src="/img/icons/phone.svg" width="21" height="21">
