@@ -32,11 +32,12 @@ if (!move_uploaded_file($file['tmp_name'], 'price-lists/' . $file['name'])) {
 }
 
 // TODO: 1. положить его чтоб можно было скачать по кнопке ; 2. сделать db и всё сопутствующее
-// TODO: нужно самому выставлять обновленный. Нельзя делать обновленный только по названию файла, т.к. а вдруг они решат использовать старый прайс
 $db = require 'db.php';
 $db['currentPriceList'] = $file['name'];
 $dbWriter = new PhpArrDbWriter();
 $dbWriter->write($db, 'db.php');
+$excelFileName = 'price-lists/' . $file['name'];
+require 'price-upload/writeProductsToDb.php';
 
 $response['status'] = 'OK';
 $response['payload'] = 'Прайс-лист был успешно загружен!';

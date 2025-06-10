@@ -2,7 +2,7 @@
 
 // TODO: probably '$row['excelFileRowNum'] = $i;' is not really needed
 
-require '../vendor/autoload.php';
+require 'vendor/autoload.php';
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\IOFactory;
 
@@ -17,7 +17,7 @@ $map = [
   7 => 'upakKrup'
 ];
 
-$spreadsheet = IOFactory::load('Price-2025.05.27.xlsx');
+$spreadsheet = IOFactory::load($excelFileName);
 $activeSheet = $spreadsheet->getActiveSheet();
 $rows = [];
 

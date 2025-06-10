@@ -1,6 +1,6 @@
 <?php
 
-$rows = require 'readExcel.php';
+$rows = require 'price-upload/readProductsFromExcel.php';
 $exampleProduct = [
   'art' => '0100-0000-10',
   'price' => 1.02,
@@ -15,22 +15,19 @@ $exampleProduct = [
   'galleryImgs' => [],
 ];
 
-$db = [];
+$products = [];
 foreach ($rows as $row) {
-  $dbDatum = $exampleProduct;
+  $product = $exampleProduct;
   foreach ($row as $key => $data) {
-    $dbDatum[$key] = $data;
+    $product[$key] = $data;
   }
-  handleUri($dbDatum);
+  $product['uri'] = '/catalog/' . slugify($product['category']) . '/' . slugify($product['model']) . '-' . slugify($product['variant']);
 
-  $db[] = $dbDatum;
+  $products[] = $product;
 }
 
-var_dump($db);
-
-function handleUri(&$dbDatum) {
-  $dbDatum['uri'] = '/catalog/' . slugify($dbDatum['category']) . '/' . slugify($dbDatum['model']) . '-' . slugify($dbDatum['variant']);
-}
+// var_dump($products);
+return $products;
 
 
 function slugify($text) {
@@ -46,12 +43,4 @@ function slugify($text) {
   $text = trim($text, '-');
   $text = strtolower($text);
   return $text;
-}
-
-function extractNumbers($input) {
-    // Using preg_match to find all numbers (including decimals)
-    if (preg_match('/^(\d+\.?\d*)/', $input, $matches)) {
-        return $matches[1];
-    }
-    return null; // or return 0 if no numbers found
 }

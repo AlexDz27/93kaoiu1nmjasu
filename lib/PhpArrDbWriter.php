@@ -17,7 +17,7 @@ class PhpArrDbWriter {
         } else if ($value === true) {
           $newDbContents .= "$spaces'$key' => true,\n";
         }
-      } else if (isNumber($value)) {
+      } else if ($this->isNumber($value)) {
         $newDbContents .= "$spaces'$key' => $value,\n";
       } else if (is_string($value)) {
         $newDbContents .= "$spaces'$key' => '$value',\n";
@@ -27,7 +27,7 @@ class PhpArrDbWriter {
         } else {
           $newDbContents .= "$spaces'$key' => [\n";
           $spaces .= '  ';
-          $newDbContents .= $this->update($value, $path, true, $spaces);
+          $newDbContents .= $this->write($value, $path, true, $spaces);
           $spaces = substr($spaces, 0, -2);
           $newDbContents .= "$spaces],\n";
         }
@@ -43,9 +43,8 @@ class PhpArrDbWriter {
     file_put_contents($path, $newDbContents);
     return $newDbContents;
   }
-}
 
-
-function isNumber($value) {
-  return is_int($value) || is_float($value);
+  private function isNumber($value) {
+    return is_int($value) || is_float($value);
+  }
 }
