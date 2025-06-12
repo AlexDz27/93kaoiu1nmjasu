@@ -1243,10 +1243,14 @@ the buttons will not be shown. TODO: maybe i can make it better */
   .btn-collapse--desk {display: none;}
 }
 .t-list {
+  
+}
+.t-list__ts {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 20px;
   row-gap: 30px;
+  margin-bottom: 50px;
 }
 /* FIXME: should be l-mb-<SOME_NUMBER>.. */
 .t-list__mb {
