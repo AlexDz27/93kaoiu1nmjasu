@@ -281,6 +281,10 @@ the buttons will not be shown. TODO: maybe i can make it better */
   position: relative;
   top: -564px;
 }
+.slider__btns--up--kisti {
+  position: relative;
+  top: -1085px;
+}
 .slider__btns--up--3 {
   position: relative;
   top: -1430px;
@@ -1255,6 +1259,8 @@ the buttons will not be shown. TODO: maybe i can make it better */
 }
 .t {
   position: relative;
+  display: flex;
+  height: 100%;
 }
 .t__iz {
   text-align: center;
@@ -1301,6 +1307,8 @@ the buttons will not be shown. TODO: maybe i can make it better */
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 30px;
+  /* display: flex;
+  flex-direction: column; */
 }
 .t__btn {
   background-color: transparent;

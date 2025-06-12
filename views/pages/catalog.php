@@ -38,337 +38,40 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
     <div class="slider--cat">
       <div id="track" class="slider--cat__track t-list__mb">
         <div class="t-list">
-          <div class="t t--hit">
-            <p class="t__iz">1 из 25</p>
-            <div class="t__body">
-              <div class="t__img-cont">
-                <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="Кисть">
-              </div>
-              <div class="t__text">
-                <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
-                <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
-              </div>
-            </div>
-          </div>
-          <div class="t t--hit">
-            <p class="t__iz">2 из 25</p>
-            <div class="t__body">
-              <div class="t__img-cont">
-                <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="Кисть">
-              </div>
-              <div class="t__text">
-                <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
-                <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
+          <?php $count = count($products['Кисти малярные']); ?>
+          <?php for ($i = 0; $i <= 15; $i++): $product = $products['Кисти малярные']["$i"]; ?>
+            <div class="t <?= $product['isHit'] ? 't--hit' : '' ?>">
+              <p class="t__iz"><?= $i + 1 ?> из <?= $count ?></p>
+              <div class="t__body">
+                <div class="t__img-cont">
+                  <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
+                </div>
+                <div class="t__text">
+                  <p><?= $product['model'] . ', ' . $product['variant'] ?></p>
+                  <p class="text--semibold"><?= $product['price'] ?> BYN<br>(с НДС 20%) / <?= $product['unit'] ?></p>
+                  <a class="btn card__btn t__btn" href="<?= $product['uri'] ?>"><b>Подробнее</b></a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="t ">
-            <p class="t__iz">3 из 25</p>
-            <div class="t__body">
-              <div class="t__img-cont">
-                <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="Кисть">
-              </div>
-              <div class="t__text">
-                <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
-                <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
-              </div>
-            </div>
-          </div>
-          <div class="t ">
-            <p class="t__iz">4 из 25</p>
-            <div class="t__body">
-              <div class="t__img-cont">
-                <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="Кисть">
-              </div>
-              <div class="t__text">
-                <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
-                <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="t ">
-            <p class="t__iz">5 из 25</p>
-            <div class="t__body">
-              <div class="t__img-cont">
-                <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="Кисть">
-              </div>
-              <div class="t__text">
-                <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
-                <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
-              </div>
-            </div>
-          </div>
-          <div class="t ">
-            <p class="t__iz">6 из 25</p>
-            <div class="t__body">
-              <div class="t__img-cont">
-                <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="Кисть">
-              </div>
-              <div class="t__text">
-                <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
-                <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
-              </div>
-            </div>
-          </div>
-          <div class="t ">
-            <p class="t__iz">7 из 25</p>
-            <div class="t__body">
-              <div class="t__img-cont">
-                <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="Кисть">
-              </div>
-              <div class="t__text">
-                <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
-                <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
-              </div>
-            </div>
-          </div>
-          <div class="t ">
-            <p class="t__iz">8 из 25</p>
-            <div class="t__body">
-              <div class="t__img-cont">
-                <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="Кисть">
-              </div>
-              <div class="t__text">
-                <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
-                <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="t ">
-            <p class="t__iz">9 из 25</p>
-            <div class="t__body">
-              <div class="t__img-cont">
-                <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="Кисть">
-              </div>
-              <div class="t__text">
-                <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
-                <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
-              </div>
-            </div>
-          </div>
-          <div class="t ">
-            <p class="t__iz">10 из 25</p>
-            <div class="t__body">
-              <div class="t__img-cont">
-                <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="Кисть">
-              </div>
-              <div class="t__text">
-                <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
-                <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
-              </div>
-            </div>
-          </div>
-          <div class="t ">
-            <p class="t__iz">11 из 25</p>
-            <div class="t__body">
-              <div class="t__img-cont">
-                <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="Кисть">
-              </div>
-              <div class="t__text">
-                <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
-                <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
-              </div>
-            </div>
-          </div>
-          <div class="t ">
-            <p class="t__iz">12 из 25</p>
-            <div class="t__body">
-              <div class="t__img-cont">
-                <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="Кисть">
-              </div>
-              <div class="t__text">
-                <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
-                <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="t ">
-            <p class="t__iz">13 из 25</p>
-            <div class="t__body">
-              <div class="t__img-cont">
-                <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="Кисть">
-              </div>
-              <div class="t__text">
-                <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
-                <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
-              </div>
-            </div>
-          </div>
-          <div class="t ">
-            <p class="t__iz">14 из 25</p>
-            <div class="t__body">
-              <div class="t__img-cont">
-                <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="Кисть">
-              </div>
-              <div class="t__text">
-                <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
-                <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
-              </div>
-            </div>
-          </div>
-          <div class="t ">
-            <p class="t__iz">15 из 25</p>
-            <div class="t__body">
-              <div class="t__img-cont">
-                <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="Кисть">
-              </div>
-              <div class="t__text">
-                <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
-                <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
-              </div>
-            </div>
-          </div>
-          <div class="t ">
-            <p class="t__iz">16 из 25</p>
-            <div class="t__body">
-              <div class="t__img-cont">
-                <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="Кисть">
-              </div>
-              <div class="t__text">
-                <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
-                <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
-              </div>
-            </div>
-          </div>
+          <?php endfor ?>
         </div>
         
         <div class="t-list t-list--no-stretch">
-          <div class="t ">
-            <p class="t__iz">17 из 25</p>
-            <div class="t__body">
-              <div class="t__img-cont">
-                <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="Кисть">
-              </div>
-              <div class="t__text">
-                <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
-                <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
-              </div>
-            </div>
-          </div>
-          <div class="t ">
-            <p class="t__iz">18 из 25</p>
-            <div class="t__body">
-              <div class="t__img-cont">
-                <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="Кисть">
-              </div>
-              <div class="t__text">
-                <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
-                <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
+          <?php for ($i = 16; $i < $count; $i++): $product = $products['Кисти малярные']["$i"]; ?>
+            <div class="t">
+              <p class="t__iz"><?= $i + 1 ?> из <?= $count ?></p>
+              <div class="t__body">
+                <div class="t__img-cont">
+                  <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
+                </div>
+                <div class="t__text">
+                  <p><?= $product['model'] . ', ' . $product['variant'] ?></p>
+                  <p class="text--semibold"><?= $product['price'] ?> BYN<br>(с НДС 20%) / <?= $product['unit'] ?></p>
+                  <a class="btn card__btn t__btn" href="<?= $product['uri'] ?>"><b>Подробнее</b></a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="t ">
-            <p class="t__iz">19 из 25</p>
-            <div class="t__body">
-              <div class="t__img-cont">
-                <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="Кисть">
-              </div>
-              <div class="t__text">
-                <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
-                <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
-              </div>
-            </div>
-          </div>
-          <div class="t ">
-            <p class="t__iz">20 из 25</p>
-            <div class="t__body">
-              <div class="t__img-cont">
-                <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="Кисть">
-              </div>
-              <div class="t__text">
-                <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
-                <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
-              </div>
-            </div>
-          </div>
-          <div class="t ">
-            <p class="t__iz">21 из 25</p>
-            <div class="t__body">
-              <div class="t__img-cont">
-                <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="Кисть">
-              </div>
-              <div class="t__text">
-                <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
-                <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
-              </div>
-            </div>
-          </div>
-          <div class="t">
-            <p class="t__iz">22 из 25</p>
-            <div class="t__body">
-              <div class="t__img-cont">
-                <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="Кисть">
-              </div>
-              <div class="t__text">
-                <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
-                <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
-              </div>
-            </div>
-          </div>
-          <div class="t">
-            <p class="t__iz">23 из 25</p>
-            <div class="t__body">
-              <div class="t__img-cont">
-                <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="Кисть">
-              </div>
-              <div class="t__text">
-                <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
-                <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
-              </div>
-            </div>
-          </div>
-          <div class="t">
-            <p class="t__iz">24 из 25</p>
-            <div class="t__body">
-              <div class="t__img-cont">
-                <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="Кисть">
-              </div>
-              <div class="t__text">
-                <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
-                <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
-              </div>
-            </div>
-          </div>
-          <div class="t">
-            <p class="t__iz">25 из 25</p>
-            <div class="t__body">
-              <div class="t__img-cont">
-                <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="Кисть">
-              </div>
-              <div class="t__text">
-                <p>Кисть плоская СТАНДАРТ, натуральный ворс, 1/25мм</p>
-                <p class="text--semibold">1.02 BYN<br>(с НДС 20%) / шт</p>
-                <a class="btn card__btn t__btn" href="/product"><b>Подробнее</b></a>
-              </div>
-            </div>
-          </div>
+          <?php endfor ?>
          </div>
       </div>
 
@@ -396,19 +99,218 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
   </div>
 </section>
 
+<!-- TODO: tmpl for kisti -->
+ <template id="tmpl-kisti">
+  <div class="t-list">
+    <?php $count = count($products['Кисти малярные']); ?>
+    <?php for ($i = 0; $i <= 15; $i++): $product = $products['Кисти малярные']["$i"]; ?>
+      <div class="t <?= $product['isHit'] ? 't--hit' : '' ?>">
+        <p class="t__iz"><?= $i + 1 ?> из <?= $count ?></p>
+        <div class="t__body">
+          <div class="t__img-cont">
+            <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
+          </div>
+          <div class="t__text">
+            <p><?= $product['model'] . ', ' . $product['variant'] ?></p>
+            <p class="text--semibold"><?= $product['price'] ?> BYN<br>(с НДС 20%) / <?= $product['unit'] ?></p>
+            <a class="btn card__btn t__btn" href="<?= $product['uri'] ?>"><b>Подробнее</b></a>
+          </div>
+        </div>
+      </div>
+    <?php endfor ?>
+  </div>
+
+  <div class="t-list t-list--no-stretch">
+    <?php for ($i = 16; $i < $count; $i++): $product = $products['Кисти малярные']["$i"]; ?>
+      <div class="t">
+        <p class="t__iz"><?= $i + 1 ?> из <?= $count ?></p>
+        <div class="t__body">
+          <div class="t__img-cont">
+            <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
+          </div>
+          <div class="t__text">
+            <p><?= $product['model'] . ', ' . $product['variant'] ?></p>
+            <p class="text--semibold"><?= $product['price'] ?> BYN<br>(с НДС 20%) / <?= $product['unit'] ?></p>
+            <a class="btn card__btn t__btn" href="<?= $product['uri'] ?>"><b>Подробнее</b></a>
+          </div>
+        </div>
+      </div>
+    <?php endfor ?>
+  </div>
+</template>
+<template id="tmpl-abraziv">
+  <div class="t-list t-list--no-stretch">
+    <?php $count = count($products['Абразивные алмазные материалы и оснастка']); ?>
+    <?php for ($i = 0; $i <= 15; $i++): $product = $products['Абразивные алмазные материалы и оснастка']["$i"]; ?>
+      <div class="t <?= $product['isHit'] ? 't--hit' : '' ?>">
+        <p class="t__iz"><?= $i + 1 ?> из <?= $count ?></p>
+        <div class="t__body">
+          <div class="t__img-cont">
+            <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
+          </div>
+          <div class="t__text">
+            <p><?= $product['model'] . ', ' . $product['variant'] ?></p>
+            <p class="text--semibold"><?= $product['price'] ?> BYN<br>(с НДС 20%) / <?= $product['unit'] ?></p>
+            <a class="btn card__btn t__btn" href="<?= $product['uri'] ?>"><b>Подробнее</b></a>
+          </div>
+        </div>
+      </div>
+    <?php endfor ?>
+  </div>
+
+  <div class="t-list t-list--no-stretch">
+    <?php for ($i = 16; $i < 32; $i++): $product = $products['Абразивные алмазные материалы и оснастка']["$i"]; ?>
+      <div class="t">
+        <p class="t__iz"><?= $i + 1 ?> из <?= $count ?></p>
+        <div class="t__body">
+          <div class="t__img-cont">
+            <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
+          </div>
+          <div class="t__text">
+            <p><?= $product['model'] . ', ' . $product['variant'] ?></p>
+            <p class="text--semibold"><?= $product['price'] ?> BYN<br>(с НДС 20%) / <?= $product['unit'] ?></p>
+            <a class="btn card__btn t__btn" href="<?= $product['uri'] ?>"><b>Подробнее</b></a>
+          </div>
+        </div>
+      </div>
+    <?php endfor ?>
+  </div>
+
+  <div class="t-list t-list--no-stretch">
+    <?php for ($i = 32; $i < $count; $i++): $product = $products['Абразивные алмазные материалы и оснастка']["$i"]; ?>
+      <div class="t">
+        <p class="t__iz"><?= $i + 1 ?> из <?= $count ?></p>
+        <div class="t__body">
+          <div class="t__img-cont">
+            <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
+          </div>
+          <div class="t__text">
+            <p><?= $product['model'] . ', ' . $product['variant'] ?></p>
+            <p class="text--semibold"><?= $product['price'] ?> BYN<br>(с НДС 20%) / <?= $product['unit'] ?></p>
+            <a class="btn card__btn t__btn" href="<?= $product['uri'] ?>"><b>Подробнее</b></a>
+          </div>
+        </div>
+      </div>
+    <?php endfor ?>
+  </div>
+</template>
+<template id="tmpl-valiki">
+  <div class="t-list">
+    <?php $count = count($products['Валики малярные']); ?>
+    <?php for ($i = 0; $i <= 15; $i++): $product = $products['Валики малярные']["$i"]; ?>
+      <div class="t <?= $product['isHit'] ? 't--hit' : '' ?>">
+        <p class="t__iz"><?= $i + 1 ?> из <?= $count ?></p>
+        <div class="t__body">
+          <div class="t__img-cont">
+            <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
+          </div>
+          <div class="t__text">
+            <p><?= $product['model'] . ', ' . $product['variant'] ?></p>
+            <p class="text--semibold"><?= $product['price'] ?> BYN<br>(с НДС 20%) / <?= $product['unit'] ?></p>
+            <a class="btn card__btn t__btn" href="<?= $product['uri'] ?>"><b>Подробнее</b></a>
+          </div>
+        </div>
+      </div>
+    <?php endfor ?>
+  </div>
+
+  <div class="t-list t-list--no-stretch">
+    <?php for ($i = 16; $i < $count; $i++): $product = $products['Валики малярные']["$i"]; ?>
+      <div class="t">
+        <p class="t__iz"><?= $i + 1 ?> из <?= $count ?></p>
+        <div class="t__body">
+          <div class="t__img-cont">
+            <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
+          </div>
+          <div class="t__text">
+            <p><?= $product['model'] . ', ' . $product['variant'] ?></p>
+            <p class="text--semibold"><?= $product['price'] ?> BYN<br>(с НДС 20%) / <?= $product['unit'] ?></p>
+            <a class="btn card__btn t__btn" href="<?= $product['uri'] ?>"><b>Подробнее</b></a>
+          </div>
+        </div>
+      </div>
+    <?php endfor ?>
+  </div>
+</template>
+<template id="tmpl-nozhi">
+  <div class="t-list">
+    <?php $count = count($products['Ножи и лезвия']); ?>
+    <?php for ($i = 0; $i < $count; $i++): $product = $products['Ножи и лезвия']["$i"]; ?>
+      <div class="t <?= $product['isHit'] ? 't--hit' : '' ?>">
+        <p class="t__iz"><?= $i + 1 ?> из <?= $count ?></p>
+        <div class="t__body">
+          <div class="t__img-cont">
+            <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
+          </div>
+          <div class="t__text">
+            <p><?= $product['model'] . ', ' . $product['variant'] ?></p>
+            <p class="text--semibold"><?= $product['price'] ?> BYN<br>(с НДС 20%) / <?= $product['unit'] ?></p>
+            <a class="btn card__btn t__btn" href="<?= $product['uri'] ?>"><b>Подробнее</b></a>
+          </div>
+        </div>
+      </div>
+    <?php endfor ?>
+  </div>
+</template>
+<template id="tmpl-vspomogat">
+  <div class="t-list">
+    <?php $count = count($products['Вспомогательный инструмент']); ?>
+    <?php for ($i = 0; $i <= 15; $i++): $product = $products['Вспомогательный инструмент']["$i"]; ?>
+      <div class="t <?= $product['isHit'] ? 't--hit' : '' ?>">
+        <p class="t__iz"><?= $i + 1 ?> из <?= $count ?></p>
+        <div class="t__body">
+          <div class="t__img-cont">
+            <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
+          </div>
+          <div class="t__text">
+            <p><?= $product['model'] . ', ' . $product['variant'] ?></p>
+            <p class="text--semibold"><?= $product['price'] ?> BYN<br>(с НДС 20%) / <?= $product['unit'] ?></p>
+            <a class="btn card__btn t__btn" href="<?= $product['uri'] ?>"><b>Подробнее</b></a>
+          </div>
+        </div>
+      </div>
+    <?php endfor ?>
+  </div>
+
+  <div class="t-list t-list--no-stretch">
+    <?php for ($i = 16; $i < $count; $i++): $product = $products['Вспомогательный инструмент']["$i"]; ?>
+      <div class="t">
+        <p class="t__iz"><?= $i + 1 ?> из <?= $count ?></p>
+        <div class="t__body">
+          <div class="t__img-cont">
+            <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
+          </div>
+          <div class="t__text">
+            <p><?= $product['model'] . ', ' . $product['variant'] ?></p>
+            <p class="text--semibold"><?= $product['price'] ?> BYN<br>(с НДС 20%) / <?= $product['unit'] ?></p>
+            <a class="btn card__btn t__btn" href="<?= $product['uri'] ?>"><b>Подробнее</b></a>
+          </div>
+        </div>
+      </div>
+    <?php endfor ?>
+  </div>
+</template>
+
 <script>
   // TODO: put this into main.js and then think how to handle TypeErrors when an element is absent
+  const CATALOG_track = document.getElementById('track')
+
   /** CATALOG CATEGORIES TOGGLE **/
+  let currentCategory = 'kisti'
+
   const btnKisti = document.getElementById('kisti')
   const btnAbraziv = document.getElementById('abraziv')
   const btnValiki = document.getElementById('valiki')
   const btnVspomogat = document.getElementById('vspomogat')
   const btnNozhi = document.getElementById('nozhi')
   const titleSection = document.getElementById('titleSection')
-  const curCar = 'kisti'  // TODO: unused mb del?
   const catBtns = [btnKisti, btnAbraziv, btnValiki, btnVspomogat, btnNozhi]
   for (const btn of catBtns) {
     btn.onclick = () => {
+      currentCategory = btn.id
+      document.querySelectorAll('.t-list').forEach(t => t.remove())
+      CATALOG_track.append(document.getElementById('tmpl-' + currentCategory).content.cloneNode(true))
+
       document.querySelector('.q--active').classList.remove('q--active')
       btn.classList.add('q--active')
       titleSection.textContent = btn.textContent
@@ -426,7 +328,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
     showColsCount = 3
   }
 
-  const CATALOG_track = document.getElementById('track')
+  // TODO: mb this won't work cuz now i use qsAll(.t-list)
   const firstTList = document.querySelector('.t-list')
   const secondTList = document.querySelector('.t-list--no-stretch')
   if (window.innerWidth <= 670) {

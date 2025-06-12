@@ -23,9 +23,8 @@ function setRoutes($routes) {
   foreach ($routes as $routeUri => $routePage) {
     if ($uri === $routeUri) {
       if ($routeUri === '/catalog') {
-        $db = require 'db.php';
-        $products = $db['products'];
-        $vars = ['products' => $products];
+        $catalogViewDb = require 'catalogViewDb.php';
+        $products = $catalogViewDb;
         load($routePage, ['lowDb' => $lowDb, 'products' => $products]);
         return;
       }
