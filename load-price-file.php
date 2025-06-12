@@ -49,6 +49,22 @@ $dbWriter->write($productUriToProductMap, 'productUriToProductMap.php');
 $db3 = require 'db.php';
 $currentPriceList = $db3['currentPriceList'];
 $dbWriter->write(['currentPriceList' => $currentPriceList], 'lowDb.php');
+// catalogViewDb.php
+$db4 = require 'db.php';
+$products4 = $db4['products'];
+$groupedByCategory = [];
+foreach ($products4 as $product4) {
+    $category = $product4['category'];
+    
+    if (!isset($groupedByCategory[$category])) {
+        $groupedByCategory[$category] = [];
+    }
+    
+    $groupedByCategory[$category][] = $product4;
+}
+var_dump($groupedByCategory);
+die();
+$dbWriter->write($groupedByCategory, 'catalogViewDb.php');
 
 $response['status'] = 'OK';
 $response['payload'] = 'Прайс-лист был успешно загружен!';
