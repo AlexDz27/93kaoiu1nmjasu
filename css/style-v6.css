@@ -246,7 +246,9 @@ the buttons will not be shown. TODO: maybe i can make it better */
   margin: 0 auto;
 }
 .slider__dots--cat {
-  width: 91px;
+  width: 116px;
+  justify-content: center;
+  gap: 15px;
 }
 .slider__dots__dot {
   width: 15px;
@@ -1277,6 +1279,8 @@ the buttons will not be shown. TODO: maybe i can make it better */
   background-color: #f5f5f5;
   color: #494547;
   border-radius: 60px;
+  display: flex;
+  flex-direction: column;
 }
 .t--hit .t__body::before {
   content: "ЭТО ХИТ";
@@ -1311,14 +1315,19 @@ the buttons will not be shown. TODO: maybe i can make it better */
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 30px;
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.t__text .text--semibold {
+  margin-top: 0;
 }
 .t__btn {
   background-color: transparent;
   color: #DF0028;
   border: 2px solid #DF0028;
   text-transform: uppercase;
+  margin-top: auto;
 }
 
 .page--product {
