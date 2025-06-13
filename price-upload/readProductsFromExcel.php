@@ -706,7 +706,7 @@ for ($i = 134; $i <= 139; $i++) {
 
   $rows[] = $row;
 }
-for ($i = 140; $i <= 143; $i++) {
+for ($i = 140; $i <= 142; $i++) {
   $row = [];
   for ($k = 1; $k <= 8; $k++) {
     $val = $activeSheet->getCell([$k, $i])->getFormattedValue();

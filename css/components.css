@@ -101,3 +101,4 @@ input {
   text-transform: uppercase;
   margin-top: auto;
 }
+/* Инсайт: для контейнера нужно понятие ЕЩЁ свободного пространства - получается, нужен display flex на .t */
