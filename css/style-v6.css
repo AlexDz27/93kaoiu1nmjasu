@@ -352,6 +352,8 @@ the buttons will not be shown. TODO: maybe i can make it better */
   background-color: #fff;
   width: 100%;
   z-index: 3;
+  overflow-y: auto;
+  max-height: 550px;
 }
 .search__results--active {
   display: block;

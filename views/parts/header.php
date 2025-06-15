@@ -36,20 +36,7 @@
     <div id="search" class="search header__search">
       <input id="searchInput" class="search__input" placeholder="Поиск товаров">
       <button class="btn-icon search__icon" type="button"><img src="/img/icons/search.svg" width="15" height="14"></button>
-      <div id="searchResults" class="search__results">
-        <a href="/product" class="search__results__item">
-          <img class="search__results__item__img" src="/img/catalog/kist.png" width="35" height="35" alt="Кисть">
-          <span>Кисть <span class="search__results__item__text--gray">плоская СТАНДАРТ, натуральный ворс, 1/25мм</span></span>
-        </a>
-        <a href="/product" class="search__results__item">
-          <img class="search__results__item__img" src="/img/catalog/kist.png" width="35" height="35" alt="Кисть">
-          <span>Кисть плоская <span class="search__results__item__text--gray">СТАНДАРТ, натуральный ворс, 1/25мм</span></span>
-        </a>
-        <a href="/product" class="search__results__item">
-          <img class="search__results__item__img" src="/img/catalog/kist.png" width="35" height="35" alt="Кисть">
-          <span>Кисть плоская СТАНДАРТ<span class="search__results__item__text--gray">, натуральный ворс, 1/25мм</span></span>
-        </a>
-      </div>
+      <div id="searchResults" class="search__results"></div>
     </div>
     <div class="text-with-icon header__text-with-icon--row-2-col-1">
       <img class="text-with-icon__icon" src="/img/icons/envelope.svg" width="19" height="14">

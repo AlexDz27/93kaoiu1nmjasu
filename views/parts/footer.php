@@ -142,20 +142,7 @@
     </div>
 
     <div id="navMobContSearchResults" style="display: none;">
-      <div id="searchResultsMob" class="search__results search__results--active">
-        <a href="/product" class="search__results__item">
-          <img class="search__results__item__img" src="/img/catalog/kist.png" width="35" height="35" alt="Кисть">
-          <span>Кисть <span class="search__results__item__text--gray">плоская СТАНДАРТ, натуральный ворс, 1/25мм</span></span>
-        </a>
-        <a href="/product" class="search__results__item">
-          <img class="search__results__item__img" src="/img/catalog/kist.png" width="35" height="35" alt="Кисть">
-          <span>Кисть плоская <span class="search__results__item__text--gray">СТАНДАРТ, натуральный ворс, 1/25мм</span></span>
-        </a>
-        <a href="/product" class="search__results__item">
-          <img class="search__results__item__img" src="/img/catalog/kist.png" width="35" height="35" alt="Кисть">
-          <span>Кисть плоская СТАНДАРТ<span class="search__results__item__text--gray">, натуральный ворс, 1/25мм</span></span>
-        </a>
-      </div>
+      <div id="searchResultsMob" class="search__results search__results--active"></div>
     </div>
   </div>
 </nav>

@@ -662,7 +662,6 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
         i.classList.remove('btn-collapse--collapse')
         i.classList.add('btn-collapse--show')
       })
-      smoothScrollTo(document.getElementById('qs').offsetTop - 30, 800)
     }
   }
   setElements()
