@@ -1244,9 +1244,6 @@ the buttons will not be shown. TODO: maybe i can make it better */
   .btn-collapse {display: block;}
   .btn-collapse--desk {display: none;}
 }
-.t-list {
-  
-}
 .t-list__ts {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -2060,7 +2057,7 @@ the buttons will not be shown. TODO: maybe i can make it better */
 }
 
 @media (max-width: 830px) {
-  .t-list {
+  .t-list__ts {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
@@ -2282,11 +2279,16 @@ the buttons will not be shown. TODO: maybe i can make it better */
   .q {
     font-size: 14px;
   }
-  .t-list {
+  .t {
+    flex-direction: column;
+  }
+  /* HERE */
+  .t-list__ts {
     grid-template-columns: 1fr 1fr;
   }
   .t__body {
     border-radius: 30px;
+    flex-grow: 1;
   }
   .t__img-cont {
     border-top-left-radius: 30px;
@@ -2311,6 +2313,9 @@ the buttons will not be shown. TODO: maybe i can make it better */
   }
 
   .t-list {
+    
+  }
+  .t-list__ts {
     grid-template-columns: none;
     grid-auto-columns: 45%;
     grid-auto-flow: column;

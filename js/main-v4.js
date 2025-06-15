@@ -1,15 +1,3 @@
-/** SEARCH **/
-const search = document.getElementById('search')
-const searchInput = document.getElementById('searchInput')
-const searchResults = document.getElementById('searchResults')
-searchInput.onfocus = () => {
-  search.classList.add('search--active')
-}
-window.addEventListener('click', (e) => {
-  if (search.contains(e.target)) return
-  search.classList.remove('search--active')
-})
-
 /** DOWNLOAD PRICE BUTTON **/
 const btnDownloadPrice = document.getElementById('btnDownloadPrice')
 btnDownloadPrice.addEventListener('click', () => {

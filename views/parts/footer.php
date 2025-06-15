@@ -159,3 +159,5 @@
     </div>
   </div>
 </nav>
+
+<script id="searchH" type="text/plain"><?= $lowDb['searchH'] ?></script>

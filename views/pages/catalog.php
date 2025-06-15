@@ -486,7 +486,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
       </div>
     </div>
     <div class="t-list__open-full-list-btn-cont">
-      <button id="collapseDesk" class="btn product__btn btn-collapse btn-collapse--desk btn-collapse--show" style=""><b>ОТКРЫТЬ ВЕСЬ СПИСОК</b></button>
+      <button style="visibility: hidden;" id="collapseDesk" class="btn product__btn btn-collapse btn-collapse--desk btn-collapse--show" style=""><b>ОТКРЫТЬ ВЕСЬ СПИСОК</b></button>
     </div>
   </div>
 </template>
@@ -591,6 +591,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
       currentCategory = btn.id
       document.querySelectorAll('.t-list').forEach(t => t.remove())
       CATALOG_track.append(document.getElementById('tmpl-' + currentCategory).content.cloneNode(true))
+      setElements()
       const evt = new CustomEvent('changeOfCat', {
         detail: {currentCat: btn.id}
       })
@@ -610,61 +611,85 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
   let listViewState = LIST_VIEW_STATE.SHOW_IN_SLIDER
 
   // TODO: mb this won't work cuz now i use qsAll(.t-list)
-  const firstTList = document.querySelector('.t-list')
-  const secondTList = document.querySelector('.t-list--no-stretch')
-  if (window.innerWidth <= 670) {
-    tListManipulations()
-  }
+  let collapseBtn = document.getElementById('collapse')
+  let collapseDeskBtn = document.getElementById('collapseDesk')
+  let CATALOG_sliderBtns = document.querySelector('.slider__btns')
+  let firstTList = document.querySelector('.t-list')
+  let otherTLists = document.querySelectorAll('.t-list--no-stretch')
+  function setElements() {
+    firstTList = document.querySelector('.t-list')
+    otherTLists = document.querySelectorAll('.t-list--no-stretch')
+    if (window.innerWidth <= 670) {
+      tListManipulations()
+    }
 
-  // collapse че-то
-  const CATALOG_sliderBtns = document.querySelector('.slider__btns')
-  const collapseBtn = document.getElementById('collapse')
-  const collapseDeskBtn = document.getElementById('collapseDesk')
-  Array.from([collapseBtn, collapseDeskBtn]).forEach(i => {
-    i.onclick = () => {
-      listViewState = listViewState === LIST_VIEW_STATE.SHOW_IN_SLIDER ? LIST_VIEW_STATE.SHOW_FULL_LIST : LIST_VIEW_STATE.SHOW_IN_SLIDER
+    CATALOG_sliderBtns = document.querySelector('.slider__btns')
+    collapseBtn = document.getElementById('collapse')
+    collapseDeskBtn = document.getElementById('collapseDesk')
 
-      if (listViewState === LIST_VIEW_STATE.SHOW_FULL_LIST) {
-        if (window.innerWidth > 670) tListManipulations()
-        firstTList.classList.add('t-list--return')
-        CATALOG_sliderBtns.classList.add('slider__btns--hidden')
-        i.innerHTML = '<b>СВЕРНУТЬ СПИСОК</b>'
-        i.classList.remove('btn-collapse--show')
-        i.classList.add('btn-collapse--collapse')
-      } else if (listViewState === LIST_VIEW_STATE.SHOW_IN_SLIDER) {
-        if (window.innerWidth > 670) undoTListManipulations()
-        firstTList.classList.remove('t-list--return')
-        CATALOG_sliderBtns.classList.remove('slider__btns--hidden')
+    Array.from([collapseBtn, collapseDeskBtn]).forEach(i => {
+      i.onclick = () => {
+        listViewState = listViewState === LIST_VIEW_STATE.SHOW_IN_SLIDER ? LIST_VIEW_STATE.SHOW_FULL_LIST : LIST_VIEW_STATE.SHOW_IN_SLIDER
+
+        if (listViewState === LIST_VIEW_STATE.SHOW_FULL_LIST) {
+          if (window.innerWidth > 670) tListManipulations()
+          firstTList.querySelector('.t-list__ts').classList.add('t-list--return')
+          CATALOG_sliderBtns.classList.add('slider__btns--hidden')
+          i.innerHTML = '<b>СВЕРНУТЬ СПИСОК</b>'
+          i.classList.remove('btn-collapse--show')
+          i.classList.add('btn-collapse--collapse')
+        } else if (listViewState === LIST_VIEW_STATE.SHOW_IN_SLIDER) {
+          if (window.innerWidth > 670) undoTListManipulations()
+          firstTList.querySelector('.t-list__ts').classList.remove('t-list--return')
+          CATALOG_sliderBtns.classList.remove('slider__btns--hidden')
+          i.innerHTML = '<b>ОТКРЫТЬ ВЕСЬ СПИСОК</b>'
+          i.classList.remove('btn-collapse--collapse')
+          i.classList.add('btn-collapse--show')
+          smoothScrollTo(document.getElementById('qs').offsetTop - 30, 800)
+        }
+      }
+    })
+
+    // fix bug: when on mobile, when opened, click btn.id -> not correct state of LIST_VIEW_STATE
+    // WARNING: COPY-PASTE FROM 642-648
+    if (window.innerWidth <= 670) {
+      listViewState = LIST_VIEW_STATE.SHOW_IN_SLIDER
+      if (window.innerWidth > 670) undoTListManipulations()
+      firstTList.querySelector('.t-list__ts').classList.remove('t-list--return')
+      CATALOG_sliderBtns.classList.remove('slider__btns--hidden')
+      Array.from([collapseBtn, collapseDeskBtn]).forEach(i => {
         i.innerHTML = '<b>ОТКРЫТЬ ВЕСЬ СПИСОК</b>'
         i.classList.remove('btn-collapse--collapse')
         i.classList.add('btn-collapse--show')
-        smoothScrollTo(document.getElementById('qs').offsetTop - 30, 800)
-      }
+      })
+      smoothScrollTo(document.getElementById('qs').offsetTop - 30, 800)
     }
-  })
+  }
+  setElements()
+  // put the rest of ts into first t-list and destroy the rest
   function tListManipulations() {
     const fragment = document.createDocumentFragment()
-    for (const t of secondTList.children) {
-      const clone = t.cloneNode(true)
-      fragment.appendChild(clone)
+    const firstTList = document.querySelector('.t-list')
+    const otherTLists = document.querySelectorAll('.t-list--no-stretch')
+    for (const otherTList of otherTLists) {
+      for (const t of otherTList.querySelector('.t-list__ts').children) {
+        const clone = t.cloneNode(true)
+        fragment.appendChild(clone)
+      }
+
+      otherTList.remove()
     }
-    firstTList.appendChild(fragment)
-    secondTList.remove()
+    
+    firstTList.querySelector('.t-list__ts').appendChild(fragment)
   }
   function undoTListManipulations() {
-    const fragment = document.createDocumentFragment()
-    console.log(firstTList.children.length)
-    for (let i = firstTList.children.length - 1; i > 15; i--) {
-      const t = firstTList.children[i]
-      const clone = t.cloneNode(true)
-      fragment.appendChild(clone)
-
-      t.remove()
-    }
-    const newSecondTList = document.createElement('div')
-    newSecondTList.classList.add('t-list', 't-list--no-stretch')
-    newSecondTList.appendChild(fragment)
-    CATALOG_track.appendChild(newSecondTList)
+    document.querySelectorAll('.t-list').forEach(t => t.remove())
+    CATALOG_track.append(document.getElementById('tmpl-' + currentCategory).content.cloneNode(true))
+    setElements()
+    const evt = new CustomEvent('changeOfCat', {
+      detail: {currentCat: currentCategory}
+    })
+    window.dispatchEvent(evt)
   }
 
 
@@ -694,4 +719,4 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
   }
 </script>
 
-<?php load('views/parts/footer.php') ?>
+<?php load('views/parts/footer.php', ['lowDb' => $lowDb]) ?>

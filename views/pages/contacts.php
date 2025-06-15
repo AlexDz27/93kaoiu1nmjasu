@@ -89,4 +89,4 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
   </div>
 </section>
 
-<?php load('views/parts/footer.php') ?>
+<?php load('views/parts/footer.php', ['lowDb' => $lowDb]) ?>

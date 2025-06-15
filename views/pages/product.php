@@ -292,4 +292,4 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
   }
 </script>
 
-<?php load('views/parts/footer.php') ?>
+<?php load('views/parts/footer.php', ['lowDb' => $lowDb]) ?>

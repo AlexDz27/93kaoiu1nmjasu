@@ -1,5 +1,35 @@
-// TODO: 1. Загрузка сайта -> 2. Запихнуть данные в lS -> 3. Пользоваться lS
-// TODO: бля, не, хуйня скорее всего. Это то же самое, что и просто в память объект загружать по обычному.
-// Надо думать когда есть силы, короче (завтра)
+// TODO: правильное (а не руками) подтягивание search -- потом доделаю
 
-console.log('hesear')
+// Load search data in needed
+let searchData = localStorage.getItem('search')
+if (!searchData) {
+  fetch('search.json')
+    .then(r => r.text())
+    .then(r => {
+      localStorage.setItem('search', r)
+    })
+} else {
+  searchData = JSON.parse(searchData)
+  const h = searchData.h
+  const hFromServer = Number(document.getElementById('searchH').text)
+  if (h !== hFromServer) {
+    fetch('search.json')
+      .then(r => r.text())
+      .then(r => {
+        localStorage.setItem('search', r)
+      })
+  }
+}
+
+// Use search data
+/** SEARCH **/
+const search = document.getElementById('search')
+const searchInput = document.getElementById('searchInput')
+const searchResults = document.getElementById('searchResults')
+searchInput.onfocus = () => {
+  search.classList.add('search--active')
+}
+window.addEventListener('click', (e) => {
+  if (search.contains(e.target)) return
+  search.classList.remove('search--active')
+})

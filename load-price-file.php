@@ -48,7 +48,8 @@ $dbWriter->write($productUriToProductMap, 'productUriToProductMap.php');
 // low db
 $db3 = require 'db.php';
 $currentPriceList = $db3['currentPriceList'];
-$dbWriter->write(['currentPriceList' => $currentPriceList], 'lowDb.php');
+$lowDb0 = require 'lowDb.php';
+$dbWriter->write(['currentPriceList' => $currentPriceList, 'searchH' => $lowDb0['searchH']], 'lowDb.php');
 // catalogViewDb.php
 $db4 = require 'db.php';
 $products4 = $db4['products'];
@@ -62,9 +63,32 @@ foreach ($products4 as $product4) {
     
     $groupedByCategory[$category][] = $product4;
 }
-var_dump($groupedByCategory);
-die();
 $dbWriter->write($groupedByCategory, 'catalogViewDb.php');
+// json for search via js
+$db5 = require 'db.php';
+$products5 = $db5['products'];
+$lowDb1 = require 'lowDb.php';
+$jsonProducts = [
+  'h' => $lowDb1['searchH'] + 1,
+  'products' => []
+];
+foreach ($products5 as $product5) {
+  unset($product5['art']);
+  unset($product5['price']);
+  unset($product5['category']);
+  unset($product5['unit']);
+  unset($product5['upakMal']);
+  unset($product5['upakKrup']);
+  unset($product5['description']);
+  unset($product5['isHit']);
+  unset($product5['galleryImgs']);
+  unset($product5['excelFileRowNum']);
+
+  $jsonProducts['products'][] = $product5;
+}
+file_put_contents('search.json', json_encode($jsonProducts, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES));
+$lowDb2 = require 'lowDb.php';
+$dbWriter->write(['currentPriceList' => $currentPriceList, 'searchH' => $lowDb2['searchH'] + 1], 'lowDb.php');
 
 $response['status'] = 'OK';
 $response['payload'] = 'Прайс-лист был успешно загружен!';
