@@ -4,7 +4,7 @@
 let products = null
 let searchData = localStorage.getItem('search')
 if (!searchData) {
-  fetch('search.json')
+  fetch('/search.json')
     .then(r => r.text())
     .then(r => {
       localStorage.setItem('search', r)
@@ -17,7 +17,7 @@ if (!searchData) {
   const h = searchData.h
   const hFromServer = Number(document.getElementById('searchH').text)
   if (h !== hFromServer) {
-    fetch('search.json')
+    fetch('/search.json')
       .then(r => r.text())
       .then(r => {
         localStorage.setItem('search', r)

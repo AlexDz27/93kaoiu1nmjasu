@@ -196,7 +196,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
         </button>
       </div>
       <div class="product__col-img">
-        <img id="showingImg" src="/img/catalog-normal-res/krug-w-logo.png" alt="<?= $product['model'] ?>">
+        <img id="showingImg" src="<?= $product['img'] ? $product['img'] : '/img/catalog-normal-res/krug-w-logo.png' ?>" alt="<?= $product['model'] ?>">
         <div id="dots" class="slider__dots slider__dots--product">
           <span class="slider__dots__dot slider__dots__dot--active"></span>
           <span class="slider__dots__dot"></span>
