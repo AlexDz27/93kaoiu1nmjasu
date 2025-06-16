@@ -13,7 +13,7 @@ $exampleProduct = [
   'uri' => '/catalog/kisti-malyarnyie/kist-plosk-stndrt-nat-vors-',
   'description' => 'Для работ со всеми видами лакокрасочных материалов.',
   'isHit' => false,
-  'img' => '',
+  'img' => '/img/catalog-normal-res/kist.png',
   'galleryImgs' => [],
 ];
 

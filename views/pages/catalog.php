@@ -6,6 +6,13 @@ $bodyClass = 'catalog';
 load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bodyClass' => $bodyClass, 'lowDb' => $lowDb]);
 
 ?>
+<style>
+  .t__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+</style>
 <section class="page-title-cont section-design--about">
   <div class="cont yellow">
     <nav>
@@ -45,7 +52,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
                 <p class="t__iz"><?= $i + 1 ?> из <?= $count ?></p>
                 <div class="t__body">
                   <div class="t__img-cont">
-                    <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
+                    <img width="150" height="150" src="<?= $product['img'] ?>" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
                   </div>
                   <div class="t__text">
                     <p><?= $product['model'] . ', ' . $product['variant'] ?></p>
@@ -86,7 +93,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
                 <p class="t__iz"><?= $i + 1 ?> из <?= $count ?></p>
                 <div class="t__body">
                   <div class="t__img-cont">
-                    <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
+                    <img width="150" height="150" src="<?= $product['img'] ?>" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
                   </div>
                   <div class="t__text">
                     <p><?= $product['model'] . ', ' . $product['variant'] ?></p>
@@ -132,7 +139,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
           <p class="t__iz"><?= $i + 1 ?> из <?= $count ?></p>
           <div class="t__body">
             <div class="t__img-cont">
-              <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
+              <img width="150" height="150" src="<?= $product['img'] ?>" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
             </div>
             <div class="t__text">
               <p><?= $product['model'] . ', ' . $product['variant'] ?></p>
@@ -173,7 +180,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
           <p class="t__iz"><?= $i + 1 ?> из <?= $count ?></p>
           <div class="t__body">
             <div class="t__img-cont">
-              <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
+              <img width="150" height="150" src="<?= $product['img'] ?>" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
             </div>
             <div class="t__text">
               <p><?= $product['model'] . ', ' . $product['variant'] ?></p>
@@ -213,7 +220,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
           <p class="t__iz"><?= $i + 1 ?> из <?= $count ?></p>
           <div class="t__body">
             <div class="t__img-cont">
-              <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
+              <img class="t__img" src="<?= $product['img'] ?>" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
             </div>
             <div class="t__text">
               <p><?= $product['model'] . ', ' . $product['variant'] ?></p>
@@ -255,7 +262,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
           <p class="t__iz"><?= $i + 1 ?> из <?= $count ?></p>
           <div class="t__body">
             <div class="t__img-cont">
-              <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
+              <img class="t__img" src="<?= $product['img'] ?>" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
             </div>
             <div class="t__text">
               <p><?= $product['model'] . ', ' . $product['variant'] ?></p>
@@ -294,7 +301,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
           <p class="t__iz"><?= $i + 1 ?> из <?= $count ?></p>
           <div class="t__body">
             <div class="t__img-cont">
-              <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
+              <img class="t__img" src="<?= $product['img'] ?>" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
             </div>
             <div class="t__text">
               <p><?= $product['model'] . ', ' . $product['variant'] ?></p>
@@ -335,7 +342,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
           <p class="t__iz"><?= $i + 1 ?> из <?= $count ?></p>
           <div class="t__body">
             <div class="t__img-cont">
-              <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
+              <img class="t__img" src="<?= $product['img'] ?>" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
             </div>
             <div class="t__text">
               <p><?= $product['model'] . ', ' . $product['variant'] ?></p>
@@ -377,7 +384,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
           <p class="t__iz"><?= $i + 1 ?> из <?= $count ?></p>
           <div class="t__body">
             <div class="t__img-cont">
-              <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
+              <img class="t__img" src="<?= $product['img'] ?>" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
             </div>
             <div class="t__text">
               <p><?= $product['model'] . ', ' . $product['variant'] ?></p>
@@ -416,7 +423,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
           <p class="t__iz"><?= $i + 1 ?> из <?= $count ?></p>
           <div class="t__body">
             <div class="t__img-cont">
-              <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
+              <img class="t__img" src="<?= $product['img'] ?>" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
             </div>
             <div class="t__text">
               <p><?= $product['model'] . ', ' . $product['variant'] ?></p>
@@ -457,7 +464,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
           <p class="t__iz"><?= $i + 1 ?> из <?= $count ?></p>
           <div class="t__body">
             <div class="t__img-cont">
-              <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
+              <img class="t__img" src="<?= $product['img'] ?>" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
             </div>
             <div class="t__text">
               <p><?= $product['model'] . ', ' . $product['variant'] ?></p>
@@ -499,7 +506,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
           <p class="t__iz"><?= $i + 1 ?> из <?= $count ?></p>
           <div class="t__body">
             <div class="t__img-cont">
-              <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
+              <img class="t__img" src="<?= $product['img'] ?>" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
             </div>
             <div class="t__text">
               <p><?= $product['model'] . ', ' . $product['variant'] ?></p>
@@ -540,7 +547,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
           <p class="t__iz"><?= $i + 1 ?> из <?= $count ?></p>
           <div class="t__body">
             <div class="t__img-cont">
-              <img width="150" height="150" src="img/catalog-normal-res/kist.png" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
+              <img class="t__img" src="<?= $product['img'] ?>" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
             </div>
             <div class="t__text">
               <p><?= $product['model'] . ', ' . $product['variant'] ?></p>

@@ -26,7 +26,7 @@ $tableViewDb = require 'tableViewDb.php';
   <tbody>
     <tr class="title-columns">
       <th>Артикул</th>
-      <th style="line-height: 13px;">Наименование товаров <br><span style="font-size: 10px;">+ внешний вид (одного из товаров в модельном ряду)</span></th>
+      <th style="line-height: 18px;">Наименование товаров <br><span style="font-size: 13px;">+ внешний вид (одного из товаров в модельном ряду)</span></th>
       <th>Размер</th>
       <th>Цена с НДС, руб.</th>
       <th class="text--regular">Единица изм.</th>
@@ -52,7 +52,7 @@ $tableViewDb = require 'tableViewDb.php';
               <?php elseif (isset($modelDatum['howMany'])): ?>
                 <td><?= $modelDatum['art'] ?></td>
                 <td class="td--holding-img" rowspan="<?= $modelDatum['howMany'] ?>">
-                  <img class="td--holding-img__img" src="/img/catalog-normal-res/kist.png" alt="">
+                  <img class="td--holding-img__img" src="<?= $modelDatum['img'] ? $modelDatum['img'] : '/img/catalog-normal-res/kist.png' ?>" alt="">
                 </td>
                 <td><?= $modelDatum['variant'] ?></td>
                 <th><?= $modelDatum['price'] ?></th>
@@ -61,9 +61,9 @@ $tableViewDb = require 'tableViewDb.php';
                 <td><?= $modelDatum['upakKrup'] ?></td>
               <?php elseif (isset($modelDatum['imgsNeedsOnlyOneRow'])): ?>
                 <td><?= $modelDatum['art'] ?></td>
-                <td>
-                  <p><?= $modelDatum['model'] ?></p>
-                  <p><img class="td--holding-img__img" src="/img/catalog-normal-res/kist.png" alt=""></p>
+                <td class="td--model--imgs-needs-only-one-row">
+                  <p class="td--model--imgs-needs-only-one-row__text"><?= $modelDatum['model'] ?></p>
+                  <p class="td--model--imgs-needs-only-one-row__img__cont"><img class="td--holding-img__img" src="<?= $modelDatum['img'] ?>" alt=""></p>
                 </td>
                 <td><?= $modelDatum['variant'] ?></td>
                 <th><?= $modelDatum['price'] ?></th>

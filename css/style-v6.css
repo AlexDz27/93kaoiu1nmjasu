@@ -1305,6 +1305,7 @@ the buttons will not be shown. TODO: maybe i can make it better */
   border-top-left-radius: 60px;
   border-top-right-radius: 60px;
   min-height: 188px;
+  max-height: 188px;
   display: flex;
   justify-content: center;
   align-items: center;

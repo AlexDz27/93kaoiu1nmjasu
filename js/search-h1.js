@@ -50,7 +50,7 @@ searchInput.oninput = (e) => {
         if (modelAndVariant.toLowerCase().includes(searchInput.value.toLowerCase())) {
           searchResults.innerHTML += `
             <a href="${p.uri}" class="search__results__item">
-              <img class="search__results__item__img" src="/img/catalog/kist.png" width="35" height="35" alt="${modelAndVariant}">
+              <img class="search__results__item__img" src="${p.img}" width="35" height="35" alt="${modelAndVariant}">
               <span>${p.model}, <span class="search__results__item__text--gray">${p.variant}</span></span>
             </a>
           `
@@ -65,7 +65,7 @@ searchInput.oninput = (e) => {
       if (modelAndVariant.toLowerCase().includes(searchInput.value.toLowerCase())) {
         searchResults.innerHTML += `
           <a href="${p.uri}" class="search__results__item">
-            <img class="search__results__item__img" src="/img/catalog/kist.png" width="35" height="35" alt="${modelAndVariant}">
+            <img class="search__results__item__img" src="${p.img}" width="35" height="35" alt="${modelAndVariant}">
             <span>${p.model}, <span class="search__results__item__text--gray">${p.variant}</span></span>
           </a>
         `
@@ -85,7 +85,7 @@ searchInput.onfocus = () => {
     if (modelAndVariant.toLowerCase().includes(searchInput.value.toLowerCase())) {
       searchResults.innerHTML += `
         <a href="${p.uri}" class="search__results__item">
-          <img class="search__results__item__img" src="/img/catalog/kist.png" width="35" height="35" alt="Кисть">
+          <img class="search__results__item__img" src="${p.img}" width="35" height="35" alt="Кисть">
           <span>${p.model}, <span class="search__results__item__text--gray">${p.variant}</span></span>
         </a>
       `
@@ -155,7 +155,7 @@ searchInputMob.oninput = (e) => {
         if (modelAndVariant.toLowerCase().includes(input.toLowerCase())) {
           navMobContSearchResultsReal.innerHTML += `
             <a href="${p.uri}" class="search__results__item">
-              <img class="search__results__item__img" src="/img/catalog/kist.png" width="35" height="35" alt="${modelAndVariant}">
+              <img class="search__results__item__img" src="${p.img}" width="35" height="35" alt="${modelAndVariant}">
               <span>${p.model}, <span class="search__results__item__text--gray">${p.variant}</span></span>
             </a>
           `
@@ -170,7 +170,7 @@ searchInputMob.oninput = (e) => {
       if (modelAndVariant.toLowerCase().includes(input.toLowerCase())) {
         navMobContSearchResultsReal.innerHTML += `
           <a href="${p.uri}" class="search__results__item">
-            <img class="search__results__item__img" src="/img/catalog/kist.png" width="35" height="35" alt="${modelAndVariant}">
+            <img class="search__results__item__img" src="${p.img}" width="35" height="35" alt="${modelAndVariant}">
             <span>${p.model}, <span class="search__results__item__text--gray">${p.variant}</span></span>
           </a>
         `

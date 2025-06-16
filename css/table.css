@@ -80,9 +80,21 @@ thead th, thead td {
   text-align: center;
   padding: 0;
   background-color: #fff;
+  padding: 15px;
 }
 .td--holding-img__img {
   max-width: 30%;
+}
+.td--model--imgs-needs-only-one-row {
+  padding: 0;
+}
+.td--model--imgs-needs-only-one-row__text {
+  padding: 9px;
+}
+.td--model--imgs-needs-only-one-row__img__cont {
+  background-color: white;
+  text-align: center;
+  margin-bottom: 0;
 }
 
 .table-switcher-pane {
