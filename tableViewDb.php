@@ -19,6 +19,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 5,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -136,6 +137,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 12,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -237,6 +239,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 18,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -322,6 +325,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 23,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -377,6 +381,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 26,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -446,6 +451,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 30,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -515,6 +521,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 34,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -552,6 +559,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 36,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -589,6 +597,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 38,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -658,6 +667,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 42,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -727,6 +737,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 46,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -764,6 +775,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 48,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -801,6 +813,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 50,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -870,6 +883,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 54,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -939,6 +953,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 58,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -976,6 +991,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 60,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -1013,6 +1029,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 62,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -1066,6 +1083,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 65,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -1105,6 +1123,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 68,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -1174,6 +1193,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 72,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -1291,6 +1311,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 79,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
       ],
     ],
     'Круг алмазный гладкий' => [
@@ -1310,6 +1331,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 80,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -1347,6 +1369,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 82,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
       ],
     ],
     'Круг алмазный TURBO' => [
@@ -1366,6 +1389,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 83,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -1403,6 +1427,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 85,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -1456,6 +1481,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 88,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
       ],
     ],
     'Чаша алмазная зачистная двурядная' => [
@@ -1475,6 +1501,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 89,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
       ],
     ],
     'Насадка дисковая с липучкой, мягкая' => [
@@ -1494,6 +1521,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 90,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
       ],
     ],
     'Насадка дисковая с липучкой, жесткая' => [
@@ -1513,6 +1541,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 91,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
       ],
     ],
     'Круг наждачный, 125мм с ворсовой подложкой <b>(уп. 5 шт.)</b>' => [
@@ -1532,6 +1561,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 92,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -1649,6 +1679,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 99,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -1766,6 +1797,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 106,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
       ],
     ],
     'Кордщетка чашеобразная жесткая крученая, М14' => [
@@ -1785,6 +1817,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 107,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
       ],
     ],
     'Кордщетка коническая мягкая, М14' => [
@@ -1804,6 +1837,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 108,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
       ],
     ],
     'Кордщетка коническая жесткая крученая, М14' => [
@@ -1823,6 +1857,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 109,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
       ],
     ],
   ],
@@ -1844,6 +1879,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 111,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
       ],
     ],
     'Нож обойный усиленный' => [
@@ -1863,6 +1899,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 112,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -1900,6 +1937,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 114,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -1939,6 +1977,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 116,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -1992,6 +2031,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 119,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -2029,6 +2069,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 121,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
       ],
     ],
     'Рулетка, прорезиненный корпус' => [
@@ -2048,6 +2089,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 122,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -2117,6 +2159,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 126,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
       ],
     ],
     'Карандаш столярный (10 шт)' => [
@@ -2136,6 +2179,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 127,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
       ],
     ],
     'Щетка проволочная универсальная, латунированная' => [
@@ -2155,6 +2199,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 128,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
       ],
     ],
     'Щетка деревянная, проволочная' => [
@@ -2174,6 +2219,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 129,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
       ],
     ],
     'Шпатель фасадный, нержавеющая сталь 0,5мм, пластиковая ручка' => [
@@ -2193,6 +2239,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 130,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -2358,6 +2405,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 140,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
         'imgNeedsOtherRows' => true,
       ],
       '1' => [
@@ -2411,6 +2459,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 144,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
       ],
     ],
     'Шпатель обойный' => [
@@ -2430,6 +2479,7 @@ return [
         'galleryImgs' => [],
         'excelFileRowNum' => 145,
         'isFirst' => true,
+        'imgsNeedsOnlyOneRow' => true,
       ],
     ],
   ],

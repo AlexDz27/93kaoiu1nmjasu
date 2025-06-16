@@ -86,11 +86,13 @@ foreach ($tableViewDb as $cat => &$datum) {
 
     if ($isFirst) {
       $insideCatDatum['isFirst'] = true;
+      $insideCatDatum['imgsNeedsOnlyOneRow'] = true;
     }
 
     $datum[$insideCatDatum['model']][] = $insideCatDatum;
 
     if (count($datum[$insideCatDatum['model']]) > 1) {
+      unset($insideCatDatum['imgsNeedsOnlyOneRow']);
       $datum[$insideCatDatum['model']][0]['imgNeedsOtherRows'] = true;
       $datum[$insideCatDatum['model']][1]['howMany'] = count($datum[$insideCatDatum['model']]) - 1;
     }

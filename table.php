@@ -26,7 +26,7 @@ $tableViewDb = require 'tableViewDb.php';
   <tbody>
     <tr class="title-columns">
       <th>Артикул</th>
-      <th style="line-height: 13px;">Наименование товаров <br><span style="font-size: 10px;">+ внешний вид (одного из товаров)</span></th>
+      <th style="line-height: 13px;">Наименование товаров <br><span style="font-size: 10px;">+ внешний вид (одного из товаров в модельном ряду)</span></th>
       <th>Размер</th>
       <th>Цена с НДС, руб.</th>
       <th class="text--regular">Единица изм.</th>
@@ -53,6 +53,17 @@ $tableViewDb = require 'tableViewDb.php';
                 <td><?= $modelDatum['art'] ?></td>
                 <td class="td--holding-img" rowspan="<?= $modelDatum['howMany'] ?>">
                   <img class="td--holding-img__img" src="/img/catalog-normal-res/kist.png" alt="">
+                </td>
+                <td><?= $modelDatum['variant'] ?></td>
+                <th><?= $modelDatum['price'] ?></th>
+                <td><?= $modelDatum['unit'] ?></td>
+                <td><?= $modelDatum['upakMal'] ?></td>
+                <td><?= $modelDatum['upakKrup'] ?></td>
+              <?php elseif (isset($modelDatum['imgsNeedsOnlyOneRow'])): ?>
+                <td><?= $modelDatum['art'] ?></td>
+                <td>
+                  <p><?= $modelDatum['model'] ?></p>
+                  <p><img class="td--holding-img__img" src="/img/catalog-normal-res/kist.png" alt=""></p>
                 </td>
                 <td><?= $modelDatum['variant'] ?></td>
                 <th><?= $modelDatum['price'] ?></th>
