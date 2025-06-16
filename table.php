@@ -2,7 +2,7 @@
 
 $lowDb = require 'lowDb.php';
 $currentPriceListDate = $lowDb['currentPriceListDate'];
-$products = require 'tableDb.php';
+$tableViewDb = require 'tableViewDb.php';
 
 ?>
 <!DOCTYPE html>
@@ -19,45 +19,46 @@ $products = require 'tableDb.php';
   <thead>
     <tr class="thead__tr">
       <th class="important"><?= $currentPriceListDate ?></th>
+      <!-- TODO: js for SPRAVA <-> ROSHMA -->
       <th class="title" colspan="6">Прайс-лист торговой марки SPRAVA</th>
     </tr>
   </thead>
   <tbody>
     <tr class="title-columns">
       <th>Артикул</th>
-      <th>Наименование товаров</th>
-      <th style="line-height: 13px;">Внешний вид <br><span style="font-size: 10px;">(одного из товаров в модельном ряду)</span></th>
+      <th style="line-height: 13px;">Наименование товаров <br><span style="font-size: 10px;">+ внешний вид (одного из товаров)</span></th>
       <th>Размер</th>
       <th>Цена с НДС, руб.</th>
       <th class="text--regular">Единица изм.</th>
       <th class="text--regular">Упак. мал.</th>
       <th class="text--regular">Упак. круп.</th>
     </tr>
-    <tr>
-      <td class="category" colspan="8">Кисти малярные</td>
-    </tr>
-    <?php
-      $lastModel = $products[array_key_first($products)]['model'];
-    ?>
-    <?php foreach ($products as $art => $product): ?>
-      <?php
-        $class = '';
-        $currentModel = $product['model'];
-        // means we that this is the first product in model list, and we should separate it with thickier border
-        if ($lastModel !== $currentModel) {
-          $lastModel = $currentModel;
-          $class = 'first-product-in-model';
-        }
-      ?>
-      <tr class="<?= $class ?>">
-        <td><?= $art ?></td>
-        <td><?= $product['model'] ?></td>
-        <td>—</td>
-        <td><?= $product['variant'] ?></td>
-        <th><?= $product['price'] ?></th>
-        <td><?= $product['unit'] ?></td>
-        <td><?= $product['upakMal'] ?></td>
-        <td><?= $product['upakKrup'] ?></td>
+
+    <?php $placedImg = false; ?>
+    <?php foreach ($tableViewDb as $catName => $cat): ?>
+      <tr>
+        <td class="category" colspan="7"><?= $catName ?></td>
+        <?php foreach ($cat as $model): ?>
+          <?php foreach ($model as $modelDatum): ?>
+            <tr class="<?= isset($modelDatum['isFirst']) ? 'first-product-in-model' : '' ?>">
+              <td><?= $modelDatum['art'] ?></td>
+              <td class="<?= (!isset($modelDatum['imgNeedsOtherRows'])) ? 'td--holding-img' : '' ?>" rowspan="<?= isset($modelDatum['imgNeedsOtherRows']) ? $modelDatum['howMany'] : '1' ?>">
+                <?php if (isset($modelDatum['imgNeedsOtherRows'])): ?>
+                  <?= $modelDatum['model'] ?>
+                  <?php $placedImg = false; ?>
+                <?php else: ?>
+                  <img class="td--holding-img__img" src="/img/catalog-normal-res/kist.png" alt="">
+                  <?php $placedImg = true; ?>
+                <?php endif ?>
+              </td>
+              <td><?= $modelDatum['variant'] ?></td>
+              <th><?= $modelDatum['price'] ?></th>
+              <td><?= $modelDatum['unit'] ?></td>
+              <td><?= $modelDatum['upakMal'] ?></td>
+              <td><?= $modelDatum['upakKrup'] ?></td>
+            </tr>
+          <?php endforeach ?>
+        <?php endforeach ?>
       </tr>
     <?php endforeach ?>
   </tbody>

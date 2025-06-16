@@ -76,6 +76,14 @@ thead th, thead td {
 .first-product-in-model {
   border-top: 2px solid black;
 }
+.td--holding-img {
+  text-align: center;
+  padding: 0;
+  background-color: #fff;
+}
+.td--holding-img__img {
+  max-width: 30%;
+}
 
 .table-switcher-pane {
 

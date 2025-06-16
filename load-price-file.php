@@ -75,11 +75,25 @@ $tableViewDb = [
 ];
 foreach ($tableViewDb as $cat => &$datum) {
   $insideCat = $groupedByCategory[$cat];
-  foreach ($insideCat as $insideCatDatum) {
+  foreach ($insideCat as $key => $insideCatDatum) {
+    $isFirst = false;
+
     if (empty($datum[$insideCatDatum['model']])) {
       $datum[$insideCatDatum['model']] = [];
+
+      $isFirst = true;
     }
+
+    if ($isFirst) {
+      $insideCatDatum['isFirst'] = true;
+    }
+
     $datum[$insideCatDatum['model']][] = $insideCatDatum;
+
+    if (count($datum[$insideCatDatum['model']]) > 1) {
+      $datum[$insideCatDatum['model']][0]['imgNeedsOtherRows'] = true;
+      $datum[$insideCatDatum['model']][0]['howMany'] = count($datum[$insideCatDatum['model']]) - 1;
+    }
   }
 }
 $dbWriter->write($tableViewDb, 'tableViewDb.php');
