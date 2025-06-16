@@ -48,8 +48,9 @@ $dbWriter->write($productUriToProductMap, 'productUriToProductMap.php');
 // low db
 $db3 = require 'db.php';
 $currentPriceList = $db3['currentPriceList'];
+$currentPriceListDate = date('d.m.Y');
 $lowDb0 = require 'lowDb.php';
-$dbWriter->write(['currentPriceList' => $currentPriceList, 'searchH' => $lowDb0['searchH']], 'lowDb.php');
+$dbWriter->write(['currentPriceList' => $currentPriceList, 'currentPriceListDate' => $currentPriceListDate, 'searchH' => $lowDb0['searchH']], 'lowDb.php');
 // catalogViewDb.php + tableViewDb.php
 $db4 = require 'db.php';
 $products4 = $db4['products'];
@@ -106,7 +107,7 @@ foreach ($products5 as $product5) {
 }
 file_put_contents('search.json', json_encode($jsonProducts, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES));
 $lowDb2 = require 'lowDb.php';
-$dbWriter->write(['currentPriceList' => $currentPriceList, 'searchH' => $lowDb2['searchH'] + 1], 'lowDb.php');
+$dbWriter->write(['currentPriceList' => $currentPriceList, 'currentPriceListDate' => $currentPriceListDate, 'searchH' => $lowDb2['searchH'] + 1], 'lowDb.php');
 
 $response['status'] = 'OK';
 $response['payload'] = 'Прайс-лист был успешно загружен!';

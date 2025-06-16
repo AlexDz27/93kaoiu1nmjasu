@@ -1,5 +1,7 @@
 <?php
 
+$lowDb = require 'lowDb.php';
+$currentPriceListDate = $lowDb['currentPriceListDate'];
 $products = require 'tableDb.php';
 
 ?>
@@ -16,7 +18,7 @@ $products = require 'tableDb.php';
 <table class="cont">
   <thead>
     <tr class="thead__tr">
-      <th class="important">27.05.2025</th>
+      <th class="important"><?= $currentPriceListDate ?></th>
       <th class="title" colspan="6">Прайс-лист торговой марки SPRAVA</th>
     </tr>
   </thead>
