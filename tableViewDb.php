@@ -20,7 +20,6 @@ return [
         'excelFileRowNum' => 5,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 6,
       ],
       '1' => [
         'art' => '0100-0000-15',
@@ -37,6 +36,7 @@ return [
         'img' => '/img/product/kisti/0100-0000-10.jpg',
         'galleryImgs' => [],
         'excelFileRowNum' => 6,
+        'howMany' => 6,
       ],
       '2' => [
         'art' => '0100-0000-20',
@@ -137,7 +137,6 @@ return [
         'excelFileRowNum' => 12,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 5,
       ],
       '1' => [
         'art' => '0110-0000-15',
@@ -154,6 +153,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 13,
+        'howMany' => 5,
       ],
       '2' => [
         'art' => '0110-0000-20',
@@ -238,7 +238,6 @@ return [
         'excelFileRowNum' => 18,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 4,
       ],
       '1' => [
         'art' => '0230-0030-10',
@@ -255,6 +254,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 19,
+        'howMany' => 4,
       ],
       '2' => [
         'art' => '0230-0030-12',
@@ -323,7 +323,6 @@ return [
         'excelFileRowNum' => 23,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 2,
       ],
       '1' => [
         'art' => '0180-0000-15',
@@ -340,6 +339,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 24,
+        'howMany' => 2,
       ],
       '2' => [
         'art' => '0180-0000-20',
@@ -378,7 +378,6 @@ return [
         'excelFileRowNum' => 26,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 3,
       ],
       '1' => [
         'art' => '0300-0615-10',
@@ -395,6 +394,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 27,
+        'howMany' => 3,
       ],
       '2' => [
         'art' => '0300-0630-10',
@@ -447,7 +447,6 @@ return [
         'excelFileRowNum' => 30,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 3,
       ],
       '1' => [
         'art' => '0301-11100000',
@@ -464,6 +463,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 31,
+        'howMany' => 3,
       ],
       '2' => [
         'art' => '0301-11130000',
@@ -516,7 +516,6 @@ return [
         'excelFileRowNum' => 34,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 1,
       ],
       '1' => [
         'art' => '0300-2-01848-23',
@@ -533,6 +532,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 35,
+        'howMany' => 1,
       ],
     ],
     'Валик нитевой "стандарт", полиакрил, к ручке 8мм' => [
@@ -553,7 +553,6 @@ return [
         'excelFileRowNum' => 36,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 1,
       ],
       '1' => [
         'art' => '0302-22400000',
@@ -570,6 +569,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 37,
+        'howMany' => 1,
       ],
     ],
     'Запаска нитевая "пчелка", полиакрил, к ручке 6мм' => [
@@ -590,7 +590,6 @@ return [
         'excelFileRowNum' => 38,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 3,
       ],
       '1' => [
         'art' => '0301-0615-10',
@@ -607,6 +606,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 39,
+        'howMany' => 3,
       ],
       '2' => [
         'art' => '0301-0615-30',
@@ -659,7 +659,6 @@ return [
         'excelFileRowNum' => 42,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 3,
       ],
       '1' => [
         'art' => '0301-0601-015',
@@ -676,6 +675,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 43,
+        'howMany' => 3,
       ],
       '2' => [
         'art' => '0301-0601-030',
@@ -728,7 +728,6 @@ return [
         'excelFileRowNum' => 46,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 1,
       ],
       '1' => [
         'art' => '0310-1848-23',
@@ -745,6 +744,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 47,
+        'howMany' => 1,
       ],
     ],
     'Валик нитевой "пчелка", полиакрил, ручка 8мм' => [
@@ -765,7 +765,6 @@ return [
         'excelFileRowNum' => 48,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 1,
       ],
       '1' => [
         'art' => '0311-24000000',
@@ -782,6 +781,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 49,
+        'howMany' => 1,
       ],
     ],
     'Запаска велюровая , к ручке 6мм' => [
@@ -802,7 +802,6 @@ return [
         'excelFileRowNum' => 50,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 3,
       ],
       '1' => [
         'art' => '0450-0615-10',
@@ -819,6 +818,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 51,
+        'howMany' => 3,
       ],
       '2' => [
         'art' => '0450-0615-15',
@@ -871,7 +871,6 @@ return [
         'excelFileRowNum' => 54,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 3,
       ],
       '1' => [
         'art' => '0451-31100000',
@@ -888,6 +887,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 55,
+        'howMany' => 3,
       ],
       '2' => [
         'art' => '0451-31500000',
@@ -940,7 +940,6 @@ return [
         'excelFileRowNum' => 58,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 1,
       ],
       '1' => [
         'art' => '0451-0848-24',
@@ -957,6 +956,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 59,
+        'howMany' => 1,
       ],
     ],
     'Валик велюровый, к ручке 8мм' => [
@@ -977,7 +977,6 @@ return [
         'excelFileRowNum' => 60,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 1,
       ],
       '1' => [
         'art' => '0540-0848-24',
@@ -994,6 +993,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 61,
+        'howMany' => 1,
       ],
     ],
     'Ручка для валиков, диаметр 6,0мм' => [
@@ -1014,7 +1014,6 @@ return [
         'excelFileRowNum' => 62,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 2,
       ],
       '1' => [
         'art' => '0575-0600-10',
@@ -1031,6 +1030,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 63,
+        'howMany' => 2,
       ],
       '2' => [
         'art' => '0575-0600-15',
@@ -1067,7 +1067,6 @@ return [
         'excelFileRowNum' => 65,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 1,
       ],
       '1' => [
         'art' => '0580-0800-24',
@@ -1084,6 +1083,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 66,
+        'howMany' => 1,
       ],
     ],
   ],
@@ -1106,7 +1106,6 @@ return [
         'excelFileRowNum' => 68,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 3,
       ],
       '1' => [
         'art' => '2897-0125-12',
@@ -1123,6 +1122,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 69,
+        'howMany' => 3,
       ],
       '2' => [
         'art' => '2897-0230-16',
@@ -1175,7 +1175,6 @@ return [
         'excelFileRowNum' => 72,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 6,
       ],
       '1' => [
         'art' => '2812-0125-26',
@@ -1192,6 +1191,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 73,
+        'howMany' => 6,
       ],
       '2' => [
         'art' => '2812-0125-04',
@@ -1311,7 +1311,6 @@ return [
         'excelFileRowNum' => 80,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 1,
       ],
       '1' => [
         'art' => '0797-0230-00',
@@ -1328,6 +1327,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 81,
+        'howMany' => 1,
       ],
     ],
     'Круг алмазный гладкий <b>ультратонкий</b>' => [
@@ -1367,7 +1367,6 @@ return [
         'excelFileRowNum' => 83,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 1,
       ],
       '1' => [
         'art' => '0797-2230-00',
@@ -1384,6 +1383,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 84,
+        'howMany' => 1,
       ],
     ],
     'Круг алмазный сегментный' => [
@@ -1404,7 +1404,6 @@ return [
         'excelFileRowNum' => 85,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 2,
       ],
       '1' => [
         'art' => '0797-1230-00',
@@ -1421,6 +1420,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 86,
+        'howMany' => 2,
       ],
       '2' => [
         'art' => '0797-1350-20',
@@ -1533,7 +1533,6 @@ return [
         'excelFileRowNum' => 92,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 6,
       ],
       '1' => [
         'art' => '2902-0160-60',
@@ -1550,6 +1549,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 93,
+        'howMany' => 6,
       ],
       '2' => [
         'art' => '2902-0180-80',
@@ -1650,7 +1650,6 @@ return [
         'excelFileRowNum' => 99,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 6,
       ],
       '1' => [
         'art' => '0795-0125-60',
@@ -1667,6 +1666,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 100,
+        'howMany' => 6,
       ],
       '2' => [
         'art' => '0795-0125-80',
@@ -1864,7 +1864,6 @@ return [
         'excelFileRowNum' => 112,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 1,
       ],
       '1' => [
         'art' => '0890-0000-25',
@@ -1881,6 +1880,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 113,
+        'howMany' => 1,
       ],
     ],
     'Лезвия запасные для обойного ножа' => [
@@ -1901,7 +1901,6 @@ return [
         'excelFileRowNum' => 114,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 1,
       ],
       '1' => [
         'art' => '0890-0010-25',
@@ -1918,6 +1917,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 115,
+        'howMany' => 1,
       ],
     ],
   ],
@@ -1940,7 +1940,6 @@ return [
         'excelFileRowNum' => 116,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 2,
       ],
       '1' => [
         'art' => '0990-0400-10',
@@ -1957,6 +1956,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 117,
+        'howMany' => 2,
       ],
       '2' => [
         'art' => '0990-0600-12',
@@ -1993,7 +1993,6 @@ return [
         'excelFileRowNum' => 119,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 1,
       ],
       '1' => [
         'art' => '0980-0600-10',
@@ -2010,6 +2009,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 120,
+        'howMany' => 1,
       ],
     ],
     'Миксер для смесей оцинкованный, гайкой М14' => [
@@ -2049,7 +2049,6 @@ return [
         'excelFileRowNum' => 122,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 3,
       ],
       '1' => [
         'art' => '1051-0000-05',
@@ -2066,6 +2065,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 123,
+        'howMany' => 3,
       ],
       '2' => [
         'art' => '1051-0000-75',
@@ -2194,7 +2194,6 @@ return [
         'excelFileRowNum' => 130,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 9,
       ],
       '1' => [
         'art' => '1004-0000-06',
@@ -2211,6 +2210,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 131,
+        'howMany' => 9,
       ],
       '2' => [
         'art' => '1004-0000-08',
@@ -2359,7 +2359,6 @@ return [
         'excelFileRowNum' => 140,
         'isFirst' => true,
         'imgNeedsOtherRows' => true,
-        'howMany' => 2,
       ],
       '1' => [
         'art' => '1004-0001-25',
@@ -2376,6 +2375,7 @@ return [
         'img' => '',
         'galleryImgs' => [],
         'excelFileRowNum' => 141,
+        'howMany' => 2,
       ],
       '2' => [
         'art' => '1004-0001-35',

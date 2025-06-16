@@ -41,21 +41,32 @@ $tableViewDb = require 'tableViewDb.php';
         <?php foreach ($cat as $model): ?>
           <?php foreach ($model as $modelDatum): ?>
             <tr class="<?= isset($modelDatum['isFirst']) ? 'first-product-in-model' : '' ?>">
-              <td><?= $modelDatum['art'] ?></td>
-              <td class="<?= (!isset($modelDatum['imgNeedsOtherRows'])) ? 'td--holding-img' : '' ?>" rowspan="<?= isset($modelDatum['imgNeedsOtherRows']) ? $modelDatum['howMany'] : '1' ?>">
-                <?php if (isset($modelDatum['imgNeedsOtherRows'])): ?>
-                  <?= $modelDatum['model'] ?>
-                  <?php $placedImg = false; ?>
-                <?php else: ?>
+              <?php if (isset($modelDatum['imgNeedsOtherRows'])): ?>
+                <td><?= $modelDatum['art'] ?></td>
+                <td><?= $modelDatum['model'] ?></td>
+                <td><?= $modelDatum['variant'] ?></td>
+                <th><?= $modelDatum['price'] ?></th>
+                <td><?= $modelDatum['unit'] ?></td>
+                <td><?= $modelDatum['upakMal'] ?></td>
+                <td><?= $modelDatum['upakKrup'] ?></td>
+              <?php elseif (isset($modelDatum['howMany'])): ?>
+                <td><?= $modelDatum['art'] ?></td>
+                <td class="td--holding-img" rowspan="<?= $modelDatum['howMany'] ?>">
                   <img class="td--holding-img__img" src="/img/catalog-normal-res/kist.png" alt="">
-                  <?php $placedImg = true; ?>
-                <?php endif ?>
-              </td>
-              <td><?= $modelDatum['variant'] ?></td>
-              <th><?= $modelDatum['price'] ?></th>
-              <td><?= $modelDatum['unit'] ?></td>
-              <td><?= $modelDatum['upakMal'] ?></td>
-              <td><?= $modelDatum['upakKrup'] ?></td>
+                </td>
+                <td><?= $modelDatum['variant'] ?></td>
+                <th><?= $modelDatum['price'] ?></th>
+                <td><?= $modelDatum['unit'] ?></td>
+                <td><?= $modelDatum['upakMal'] ?></td>
+                <td><?= $modelDatum['upakKrup'] ?></td>
+              <?php else: ?>
+                <td><?= $modelDatum['art'] ?></td>
+                <td><?= $modelDatum['variant'] ?></td>
+                <th><?= $modelDatum['price'] ?></th>
+                <td><?= $modelDatum['unit'] ?></td>
+                <td><?= $modelDatum['upakMal'] ?></td>
+                <td><?= $modelDatum['upakKrup'] ?></td>
+              <?php endif ?>
             </tr>
           <?php endforeach ?>
         <?php endforeach ?>

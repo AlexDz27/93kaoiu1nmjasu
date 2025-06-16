@@ -92,7 +92,7 @@ foreach ($tableViewDb as $cat => &$datum) {
 
     if (count($datum[$insideCatDatum['model']]) > 1) {
       $datum[$insideCatDatum['model']][0]['imgNeedsOtherRows'] = true;
-      $datum[$insideCatDatum['model']][0]['howMany'] = count($datum[$insideCatDatum['model']]) - 1;
+      $datum[$insideCatDatum['model']][1]['howMany'] = count($datum[$insideCatDatum['model']]) - 1;
     }
   }
 }
