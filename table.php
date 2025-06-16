@@ -24,7 +24,7 @@ $products = require 'tableDb.php';
     <tr class="title-columns">
       <th>Артикул</th>
       <th>Наименование товаров</th>
-      <th>Внешний вид</th>
+      <th style="line-height: 13px;">Внешний вид <br><span style="font-size: 10px;">(одного из товаров в модельном ряду)</span></th>
       <th>Размер</th>
       <th>Цена с НДС, руб.</th>
       <th class="text--regular">Единица изм.</th>

@@ -50,7 +50,7 @@ $db3 = require 'db.php';
 $currentPriceList = $db3['currentPriceList'];
 $lowDb0 = require 'lowDb.php';
 $dbWriter->write(['currentPriceList' => $currentPriceList, 'searchH' => $lowDb0['searchH']], 'lowDb.php');
-// catalogViewDb.php
+// catalogViewDb.php + tableViewDb.php
 $db4 = require 'db.php';
 $products4 = $db4['products'];
 $groupedByCategory = [];
@@ -64,6 +64,24 @@ foreach ($products4 as $product4) {
     $groupedByCategory[$category][] = $product4;
 }
 $dbWriter->write($groupedByCategory, 'catalogViewDb.php');
+
+$tableViewDb = [
+  'Кисти малярные' => [],
+  'Валики малярные' => [],
+  'Абразивные алмазные материалы и оснастка' => [],
+  'Ножи и лезвия' => [],
+  'Вспомогательный инструмент' => [],
+];
+foreach ($tableViewDb as $cat => &$datum) {
+  $insideCat = $groupedByCategory[$cat];
+  foreach ($insideCat as $insideCatDatum) {
+    if (empty($datum[$insideCatDatum['model']])) {
+      $datum[$insideCatDatum['model']] = [];
+    }
+    $datum[$insideCatDatum['model']][] = $insideCatDatum;
+  }
+}
+$dbWriter->write($tableViewDb, 'tableViewDb.php');
 // json for search via js
 $db5 = require 'db.php';
 $products5 = $db5['products'];
