@@ -125,6 +125,7 @@ class Slider {
         if (window.innerWidth <= 500) {
           if (this.track.scrollTop >= 130) return
         } else {
+          if (this.track.children.length === 6 && this.track.scrollTop === 96) return
           if (this.track.scrollTop === 192) return
         }
         if (this.track.scrollTop < pointAtoPointBDistance * mult) {
