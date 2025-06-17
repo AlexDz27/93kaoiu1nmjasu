@@ -122,6 +122,7 @@ class Slider {
           requestAnimationFrame(step)
         }
       } else {
+        // TODO: use this.track.children.length-related calculations inst of hardcoding
         if (window.innerWidth <= 500) {
           if (this.track.scrollTop >= 130) return
         } else {
