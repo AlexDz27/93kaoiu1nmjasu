@@ -255,7 +255,7 @@ $db['products']['1051-0000-05']['galleryImgs'] = ['/img/product/vspomogat/1051-0
 $db['products']['1051-0000-75']['img'] = '/img/product/vspomogat/1051-0000-75_3.jpg';
 $db['products']['1051-0000-75']['galleryImgs'] = ['/img/product/vspomogat/1051-0000-75_1.jpg', '/img/product/vspomogat/1051-0000-75_2.jpg', '/img/product/vspomogat/1051-0000-75_6.jpg', '/img/product/vspomogat/1051-0000-75_4.jpg', '/img/product/vspomogat/1051-0000-75.jpg', '/img/product/vspomogat/1051-0000-75_5.jpg'];
 $db['products']['1051-0000-10']['img'] = '/img/product/vspomogat/1051-0000-10_3.jpg';
-$db['products']['1051-0000-10']['galleryImgs'] = ['/img/product/vspomogat/1051-0000-10_1.jpg', '/img/product/vspomogat/1051-0000-10_2.jpg', '/img/product/vspomogat/1051-0000-10_6.jpg', '/img/product/vspomogat/1051-0000-10_4.jpg', '/img/product/vspomogat/1051-0000-10.jpg', '/img/product/vspomogat/1051-0000-10_5.jpg'];
+$db['products']['1051-0000-10']['galleryImgs'] = ['/img/product/vspomogat/1051-0000-10_1.jpg', '/img/product/vspomogat/1051-0000-10_2.jpg', '/img/product/vspomogat/1051-0000-10_4_6.jpg', '/img/product/vspomogat/1051-0000-10_4_4.jpg', '/img/product/vspomogat/1051-0000-10.jpg', '/img/product/vspomogat/1051-0000-10_4_5.jpg'];
 // TODO: put normal image or fix it
 // $db['products']['1002-0001-31']['img'] = '/img/product/vspomogat/1002-0001-31.gif';
 // TODO: no img
