@@ -14,7 +14,11 @@ return [
     'description' => 'Для работ со всеми видами лакокрасочных материалов.',
     'isHit' => true,
     'img' => '/img/product/kisti/0100-0000-10_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/kisti/0100-0000-10_2.jpg',
+      '1' => '/img/product/kisti/0100-0000-10_4.jpg',
+      '2' => '/img/product/kisti/0100-0000-10.jpg',
+    ],
     'excelFileRowNum' => 5,
   ],
   '/catalog/kisti-malyarnye/kist-ploskaya-standart-naturalnyj-vors-1-5-38mm' => [
@@ -30,7 +34,11 @@ return [
     'description' => 'Для работ со всеми видами лакокрасочных материалов.',
     'isHit' => true,
     'img' => '/img/product/kisti/0100-0000-10_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/kisti/0100-0000-10_2.jpg',
+      '1' => '/img/product/kisti/0100-0000-10_4.jpg',
+      '2' => '/img/product/kisti/0100-0000-10.jpg',
+    ],
     'excelFileRowNum' => 6,
   ],
   '/catalog/kisti-malyarnye/kist-ploskaya-standart-naturalnyj-vors-2-50mm' => [
@@ -46,7 +54,11 @@ return [
     'description' => 'Для работ со всеми видами лакокрасочных материалов.',
     'isHit' => false,
     'img' => '/img/product/kisti/0100-0000-20_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/kisti/0100-0000-20_2.jpg',
+      '1' => '/img/product/kisti/0100-0000-20_4.jpg',
+      '2' => '/img/product/kisti/0100-0000-20.jpg',
+    ],
     'excelFileRowNum' => 7,
   ],
   '/catalog/kisti-malyarnye/kist-ploskaya-standart-naturalnyj-vors-2-5-63mm' => [
@@ -62,7 +74,11 @@ return [
     'description' => 'Для работ со всеми видами лакокрасочных материалов.',
     'isHit' => false,
     'img' => '/img/product/kisti/0100-0000-25_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/kisti/0100-0000-25_2.jpg',
+      '1' => '/img/product/kisti/0100-0000-25_4.jpg',
+      '2' => '/img/product/kisti/0100-0000-25.jpg',
+    ],
     'excelFileRowNum' => 8,
   ],
   '/catalog/kisti-malyarnye/kist-ploskaya-standart-naturalnyj-vors-3-75mm' => [
@@ -78,7 +94,11 @@ return [
     'description' => 'Для работ со всеми видами лакокрасочных материалов.',
     'isHit' => false,
     'img' => '/img/product/kisti/0100-0000-30_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/kisti/0100-0000-30_2.jpg',
+      '1' => '/img/product/kisti/0100-0000-30_4.jpg',
+      '2' => '/img/product/kisti/0100-0000-30.jpg',
+    ],
     'excelFileRowNum' => 9,
   ],
   '/catalog/kisti-malyarnye/kist-ploskaya-standart-naturalnyj-vors-4-100mm' => [
@@ -94,7 +114,11 @@ return [
     'description' => 'Для работ со всеми видами лакокрасочных материалов.',
     'isHit' => false,
     'img' => '/img/product/kisti/0100-0000-40_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/kisti/0100-0000-40_2.jpg',
+      '1' => '/img/product/kisti/0100-0000-40_4.jpg',
+      '2' => '/img/product/kisti/0100-0000-40.jpg',
+    ],
     'excelFileRowNum' => 10,
   ],
   '/catalog/kisti-malyarnye/kist-ploskaya-standart-naturalnyj-vors-5-125mm' => [
@@ -110,7 +134,11 @@ return [
     'description' => 'Для работ со всеми видами лакокрасочных материалов.',
     'isHit' => false,
     'img' => '/img/product/kisti/0100-0000-50_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/kisti/0100-0000-50_2.jpg',
+      '1' => '/img/product/kisti/0100-0000-50_4.jpg',
+      '2' => '/img/product/kisti/0100-0000-50.jpg',
+    ],
     'excelFileRowNum' => 11,
   ],
   '/catalog/kisti-malyarnye/kist-ploskaya-evro-naturalnyj-vors-1-25mm' => [
@@ -126,7 +154,11 @@ return [
     'description' => 'Для работ со всеми видами лакокрасочных материалов.',
     'isHit' => false,
     'img' => '/img/product/kisti/0110-0000-10_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/kisti/0110-0000-10_2.jpg',
+      '1' => '/img/product/kisti/0110-0000-10_4.jpg',
+      '2' => '/img/product/kisti/0110-0000-10.jpg',
+    ],
     'excelFileRowNum' => 12,
   ],
   '/catalog/kisti-malyarnye/kist-ploskaya-evro-naturalnyj-vors-1-5-38mm' => [
@@ -142,7 +174,11 @@ return [
     'description' => 'Для работ со всеми видами лакокрасочных материалов.',
     'isHit' => false,
     'img' => '/img/product/kisti/0110-0000-15_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/kisti/0110-0000-15_2.jpg',
+      '1' => '/img/product/kisti/0110-0000-15_4.jpg',
+      '2' => '/img/product/kisti/0110-0000-15.jpg',
+    ],
     'excelFileRowNum' => 13,
   ],
   '/catalog/kisti-malyarnye/kist-ploskaya-evro-naturalnyj-vors-2-50mm' => [
@@ -158,7 +194,11 @@ return [
     'description' => 'Для работ со всеми видами лакокрасочных материалов.',
     'isHit' => false,
     'img' => '/img/product/kisti/0110-0000-20_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/kisti/0110-0000-20_2.jpg',
+      '1' => '/img/product/kisti/0110-0000-20_4.jpg',
+      '2' => '/img/product/kisti/0110-0000-20.jpg',
+    ],
     'excelFileRowNum' => 14,
   ],
   '/catalog/kisti-malyarnye/kist-ploskaya-evro-naturalnyj-vors-2-5-63mm' => [
@@ -174,7 +214,11 @@ return [
     'description' => 'Для работ со всеми видами лакокрасочных материалов.',
     'isHit' => false,
     'img' => '/img/product/kisti/0110-0000-25_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/kisti/0110-0000-25_2.jpg',
+      '1' => '/img/product/kisti/0110-0000-25_4.jpg',
+      '2' => '/img/product/kisti/0110-0000-25.jpg',
+    ],
     'excelFileRowNum' => 15,
   ],
   '/catalog/kisti-malyarnye/kist-ploskaya-evro-naturalnyj-vors-3-75mm' => [
@@ -190,7 +234,11 @@ return [
     'description' => 'Для работ со всеми видами лакокрасочных материалов.',
     'isHit' => false,
     'img' => '/img/product/kisti/0110-0000-30_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/kisti/0110-0000-30_2.jpg',
+      '1' => '/img/product/kisti/0110-0000-30_4.jpg',
+      '2' => '/img/product/kisti/0110-0000-30.jpg',
+    ],
     'excelFileRowNum' => 16,
   ],
   '/catalog/kisti-malyarnye/kist-ploskaya-evro-naturalnyj-vors-4-100mm' => [
@@ -206,7 +254,11 @@ return [
     'description' => 'Для работ со всеми видами лакокрасочных материалов.',
     'isHit' => false,
     'img' => '/img/product/kisti/0110-0000-40_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/kisti/0110-0000-40_2.jpg',
+      '1' => '/img/product/kisti/0110-0000-40_4.jpg',
+      '2' => '/img/product/kisti/0110-0000-40.jpg',
+    ],
     'excelFileRowNum' => 17,
   ],
   '/catalog/kisti-malyarnye/kist-lavkovec-mini-naturalnyj-vors-70x30mm' => [
@@ -222,7 +274,11 @@ return [
     'description' => 'Для размывки потолков, грунтовки и побелки больших поверхностей.',
     'isHit' => false,
     'img' => '/img/product/kisti/0230-0030-07_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/kisti/0230-0030-07_2.jpg',
+      '1' => '/img/product/kisti/0230-0030-07_4.jpg',
+      '2' => '/img/product/kisti/0230-0030-07.jpg',
+    ],
     'excelFileRowNum' => 18,
   ],
   '/catalog/kisti-malyarnye/kist-lavkovec-mini-naturalnyj-vors-100x30mm' => [
@@ -238,7 +294,11 @@ return [
     'description' => 'Для размывки потолков, грунтовки и побелки больших поверхностей.',
     'isHit' => false,
     'img' => '/img/product/kisti/0230-0030-10_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/kisti/0230-0030-10_2.jpg',
+      '1' => '/img/product/kisti/0230-0030-10_4.jpg',
+      '2' => '/img/product/kisti/0230-0030-10.jpg',
+    ],
     'excelFileRowNum' => 19,
   ],
   '/catalog/kisti-malyarnye/kist-lavkovec-mini-naturalnyj-vors-120x30mm' => [
@@ -254,7 +314,11 @@ return [
     'description' => 'Для размывки потолков, грунтовки и побелки больших поверхностей.',
     'isHit' => false,
     'img' => '/img/product/kisti/0230-0030-12_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/kisti/0230-0030-12_2.jpg',
+      '1' => '/img/product/kisti/0230-0030-12_4.jpg',
+      '2' => '/img/product/kisti/0230-0030-12.jpg',
+    ],
     'excelFileRowNum' => 20,
   ],
   '/catalog/kisti-malyarnye/kist-lavkovec-mini-naturalnyj-vors-140x40mm' => [
@@ -270,7 +334,11 @@ return [
     'description' => 'Для размывки потолков, грунтовки и побелки больших поверхностей.',
     'isHit' => false,
     'img' => '/img/product/kisti/0230-0040-14_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/kisti/0230-0040-14_2.jpg',
+      '1' => '/img/product/kisti/0230-0040-14_4.jpg',
+      '2' => '/img/product/kisti/0230-0040-14.jpg',
+    ],
     'excelFileRowNum' => 21,
   ],
   '/catalog/kisti-malyarnye/kist-lavkovec-mini-naturalnyj-vors-150x50mm' => [
@@ -286,7 +354,11 @@ return [
     'description' => 'Для размывки потолков, грунтовки и побелки больших поверхностей.',
     'isHit' => false,
     'img' => '/img/product/kisti/0230-0050-15_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/kisti/0230-0050-15_2.jpg',
+      '1' => '/img/product/kisti/0230-0050-15_4.jpg',
+      '2' => '/img/product/kisti/0230-0050-15.jpg',
+    ],
     'excelFileRowNum' => 22,
   ],
   '/catalog/kisti-malyarnye/kist-radiatornaya-naturalnyj-vors-1-0-25mm' => [
@@ -302,7 +374,11 @@ return [
     'description' => 'Для работы в труднодоступных местах со всеми видами лакокрасочных материалов.',
     'isHit' => false,
     'img' => '/img/product/kisti/0180-0000-10_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/kisti/0180-0000-10_2.jpg',
+      '1' => '/img/product/kisti/0180-0000-10_4_5.jpg',
+      '2' => '/img/product/kisti/0180-0000-10.jpg',
+    ],
     'excelFileRowNum' => 23,
   ],
   '/catalog/kisti-malyarnye/kist-radiatornaya-naturalnyj-vors-1-5-38mm' => [
@@ -318,7 +394,11 @@ return [
     'description' => 'Для работы в труднодоступных местах со всеми видами лакокрасочных материалов.',
     'isHit' => false,
     'img' => '/img/product/kisti/0180-0000-15_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/kisti/0180-0000-15_2.jpg',
+      '1' => '/img/product/kisti/0180-0000-15_4_5.jpg',
+      '2' => '/img/product/kisti/0180-0000-15.jpg',
+    ],
     'excelFileRowNum' => 24,
   ],
   '/catalog/kisti-malyarnye/kist-radiatornaya-naturalnyj-vors-2-0-50mm' => [
@@ -334,7 +414,11 @@ return [
     'description' => 'Для работы в труднодоступных местах со всеми видами лакокрасочных материалов.',
     'isHit' => false,
     'img' => '/img/product/kisti/0180-0000-20_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/kisti/0180-0000-20_2.jpg',
+      '1' => '/img/product/kisti/0180-0000-20_4_5.jpg',
+      '2' => '/img/product/kisti/0180-0000-20.jpg',
+    ],
     'excelFileRowNum' => 25,
   ],
   '/catalog/valiki-malyarnye/zapaska-nitevaya-standart-poliakril-k-rucke-6mm-60x15mm-vors-11mm' => [
@@ -350,7 +434,12 @@ return [
     'description' => 'Для окрашивания поверхностей красками на водной основе.',
     'isHit' => false,
     'img' => '/img/product/valiki/0300-0615-10_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0300-0615-10_4.jpg',
+      '1' => '/img/product/valiki/0300-0615-10_3.jpg',
+      '2' => '/img/product/valiki/0300-0615-10.jpg',
+      '3' => '/img/product/valiki/0300-0615-10_5.jpg',
+    ],
     'excelFileRowNum' => 26,
   ],
   '/catalog/valiki-malyarnye/zapaska-nitevaya-standart-poliakril-k-rucke-6mm-100x15mm-vors-11mm' => [
@@ -366,7 +455,12 @@ return [
     'description' => 'Для окрашивания поверхностей красками на водной основе.',
     'isHit' => false,
     'img' => '/img/product/valiki/0300-0615-10_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0300-0615-10_4.jpg',
+      '1' => '/img/product/valiki/0300-0615-10_3.jpg',
+      '2' => '/img/product/valiki/0300-0615-10.jpg',
+      '3' => '/img/product/valiki/0300-0615-10_5.jpg',
+    ],
     'excelFileRowNum' => 27,
   ],
   '/catalog/valiki-malyarnye/zapaska-nitevaya-standart-poliakril-k-rucke-6mm-100x30mm-vors-11mm' => [
@@ -382,7 +476,12 @@ return [
     'description' => 'Для окрашивания поверхностей красками на водной основе.',
     'isHit' => false,
     'img' => '/img/product/valiki/0300-0630-10_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0300-0630-10_4.jpg',
+      '1' => '/img/product/valiki/0300-0630-10_3.jpg',
+      '2' => '/img/product/valiki/0300-0630-10.jpg',
+      '3' => '/img/product/valiki/0300-0630-10_5.jpg',
+    ],
     'excelFileRowNum' => 28,
   ],
   '/catalog/valiki-malyarnye/zapaska-nitevaya-standart-poliakril-k-rucke-6mm-150x30mm-vors-11mm' => [
@@ -398,7 +497,12 @@ return [
     'description' => 'Для окрашивания поверхностей красками на водной основе.',
     'isHit' => false,
     'img' => '/img/product/valiki/0300-0630-15_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0300-0630-15_4.jpg',
+      '1' => '/img/product/valiki/0300-0630-15_3.jpg',
+      '2' => '/img/product/valiki/0300-0630-15.jpg',
+      '3' => '/img/product/valiki/0300-0630-15_5.jpg',
+    ],
     'excelFileRowNum' => 29,
   ],
   '/catalog/valiki-malyarnye/valik-nitevoj-standart-poliakril-rucka-6mm-60x15mm-vors-11mm' => [
@@ -414,7 +518,11 @@ return [
     'description' => 'Для окрашивания поверхностей красками на водной основе.',
     'isHit' => false,
     'img' => '/img/product/valiki/0301-11100000_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0301-11100000_4.jpg',
+      '1' => '/img/product/valiki/0301-11100000_5.jpg',
+      '2' => '/img/product/valiki/0301-11100000.jpg',
+    ],
     'excelFileRowNum' => 30,
   ],
   '/catalog/valiki-malyarnye/valik-nitevoj-standart-poliakril-rucka-6mm-100x15mm-vors-11mm' => [
@@ -430,7 +538,11 @@ return [
     'description' => 'Для окрашивания поверхностей красками на водной основе.',
     'isHit' => false,
     'img' => '/img/product/valiki/0301-11100000_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0301-11100000_4.jpg',
+      '1' => '/img/product/valiki/0301-11100000_5.jpg',
+      '2' => '/img/product/valiki/0301-11100000.jpg',
+    ],
     'excelFileRowNum' => 31,
   ],
   '/catalog/valiki-malyarnye/valik-nitevoj-standart-poliakril-rucka-6mm-100x30mm-vors-11mm' => [
@@ -446,7 +558,11 @@ return [
     'description' => 'Для окрашивания поверхностей красками на водной основе.',
     'isHit' => false,
     'img' => '/img/product/valiki/0301-11130000_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0301-11130000_4.jpg',
+      '1' => '/img/product/valiki/0301-11130000_5.jpg',
+      '2' => '/img/product/valiki/0301-11130000.jpg',
+    ],
     'excelFileRowNum' => 32,
   ],
   '/catalog/valiki-malyarnye/valik-nitevoj-standart-poliakril-rucka-6mm-150x30mm-vors-11mm' => [
@@ -462,7 +578,11 @@ return [
     'description' => 'Для окрашивания поверхностей красками на водной основе.',
     'isHit' => false,
     'img' => '/img/product/valiki/0301-11500000_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0301-11500000_4.jpg',
+      '1' => '/img/product/valiki/0301-11500000_5.jpg',
+      '2' => '/img/product/valiki/0301-11500000.jpg',
+    ],
     'excelFileRowNum' => 33,
   ],
   '/catalog/valiki-malyarnye/zapaska-nitevaya-standart-poliakril-k-rucke-8mm-180x48mm-vors-18mm' => [
@@ -478,7 +598,12 @@ return [
     'description' => 'Для окрашивания поверхностей красками на водной основе.',
     'isHit' => false,
     'img' => '/img/product/valiki/0300-2-01848-18_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0300-2-01848-18_4.jpg',
+      '1' => '/img/product/valiki/0300-2-01848-18_3.jpg',
+      '2' => '/img/product/valiki/0300-2-01848-18.jpg',
+      '3' => '/img/product/valiki/0300-2-01848-18_5.jpg',
+    ],
     'excelFileRowNum' => 34,
   ],
   '/catalog/valiki-malyarnye/zapaska-nitevaya-standart-poliakril-k-rucke-8mm-240x48mm-vors-18mm' => [
@@ -494,7 +619,12 @@ return [
     'description' => 'Для окрашивания поверхностей красками на водной основе.',
     'isHit' => false,
     'img' => '/img/product/valiki/0300-2-01848-23_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0300-2-01848-23_4.jpg',
+      '1' => '/img/product/valiki/0300-2-01848-23_3.jpg',
+      '2' => '/img/product/valiki/0300-2-01848-23.jpg',
+      '3' => '/img/product/valiki/0300-2-01848-23_5.jpg',
+    ],
     'excelFileRowNum' => 35,
   ],
   '/catalog/valiki-malyarnye/valik-nitevoj-standart-poliakril-k-rucke-8mm-180x48mm-vors-18mm' => [
@@ -510,7 +640,11 @@ return [
     'description' => 'Для окрашивания поверхностей красками на водной основе.',
     'isHit' => false,
     'img' => '/img/product/valiki/0302-21800000_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0302-21800000_4.jpg',
+      '1' => '/img/product/valiki/0302-21800000_5.jpg',
+      '2' => '/img/product/valiki/0302-21800000.jpg',
+    ],
     'excelFileRowNum' => 36,
   ],
   '/catalog/valiki-malyarnye/valik-nitevoj-standart-poliakril-k-rucke-8mm-240x48mm-vors-18mm' => [
@@ -526,7 +660,11 @@ return [
     'description' => 'Для окрашивания поверхностей красками на водной основе.',
     'isHit' => false,
     'img' => '/img/product/valiki/0302-22400000_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0302-22400000_3.jpg',
+      '1' => '/img/product/valiki/0302-22400000_2.jpg',
+      '2' => '/img/product/valiki/0302-22400000.jpg',
+    ],
     'excelFileRowNum' => 37,
   ],
   '/catalog/valiki-malyarnye/zapaska-nitevaya-pcelka-poliakril-k-rucke-6mm-60x15mm-vors-12mm' => [
@@ -542,7 +680,12 @@ return [
     'description' => 'Для окрашивания поверхностей красками на водной основе.',
     'isHit' => false,
     'img' => '/img/product/valiki/0301-0615-05_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0301-0615-05_4.jpg',
+      '1' => '/img/product/valiki/0301-0615-05_3.jpg',
+      '2' => '/img/product/valiki/0301-0615-05.jpg',
+      '3' => '/img/product/valiki/0301-0615-05_5.jpg',
+    ],
     'excelFileRowNum' => 38,
   ],
   '/catalog/valiki-malyarnye/zapaska-nitevaya-pcelka-poliakril-k-rucke-6mm-100x15mm-vors-12mm' => [
@@ -558,7 +701,12 @@ return [
     'description' => 'Для окрашивания поверхностей красками на водной основе.',
     'isHit' => false,
     'img' => '/img/product/valiki/0301-0615-10_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0301-0615-10_4.jpg',
+      '1' => '/img/product/valiki/0301-0615-10_3.jpg',
+      '2' => '/img/product/valiki/0301-0615-10.jpg',
+      '3' => '/img/product/valiki/0301-0615-10_5.jpg',
+    ],
     'excelFileRowNum' => 39,
   ],
   '/catalog/valiki-malyarnye/zapaska-nitevaya-pcelka-poliakril-k-rucke-6mm-100x30mm-vors-12mm' => [
@@ -574,7 +722,12 @@ return [
     'description' => 'Для окрашивания поверхностей красками на водной основе.',
     'isHit' => false,
     'img' => '/img/product/valiki/0301-0630-30_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0301-0630-30_4.jpg',
+      '1' => '/img/product/valiki/0301-0630-30_3.jpg',
+      '2' => '/img/product/valiki/0301-0630-30.jpg',
+      '3' => '/img/product/valiki/0301-0630-30_5.jpg',
+    ],
     'excelFileRowNum' => 40,
   ],
   '/catalog/valiki-malyarnye/zapaska-nitevaya-pcelka-poliakril-k-rucke-6mm-150x30mm-vors-12mm' => [
@@ -590,7 +743,12 @@ return [
     'description' => 'Для окрашивания поверхностей красками на водной основе.',
     'isHit' => false,
     'img' => '/img/product/valiki/0301-0630-30_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0301-0630-30_4.jpg',
+      '1' => '/img/product/valiki/0301-0630-30_3.jpg',
+      '2' => '/img/product/valiki/0301-0630-30.jpg',
+      '3' => '/img/product/valiki/0301-0630-30_5.jpg',
+    ],
     'excelFileRowNum' => 41,
   ],
   '/catalog/valiki-malyarnye/valik-nitevoj-pcelka-poliakril-rucka-6mm-60x15mm-vors-12mm' => [
@@ -606,7 +764,11 @@ return [
     'description' => 'Для окрашивания поверхностей красками на водной основе.',
     'isHit' => false,
     'img' => '/img/product/valiki/0301-0601-006_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0301-0601-006_4.jpg',
+      '1' => '/img/product/valiki/0301-0601-006_5.jpg',
+      '2' => '/img/product/valiki/0301-0601-006.jpg',
+    ],
     'excelFileRowNum' => 42,
   ],
   '/catalog/valiki-malyarnye/valik-nitevoj-pcelka-poliakril-rucka-6mm-100x15mm-vors-12mm' => [
@@ -622,7 +784,11 @@ return [
     'description' => 'Для окрашивания поверхностей красками на водной основе.',
     'isHit' => false,
     'img' => '/img/product/valiki/0301-0601-015_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0301-0601-015_4.jpg',
+      '1' => '/img/product/valiki/0301-0601-015_5.jpg',
+      '2' => '/img/product/valiki/0301-0601-015.jpg',
+    ],
     'excelFileRowNum' => 43,
   ],
   '/catalog/valiki-malyarnye/valik-nitevoj-pcelka-poliakril-rucka-6mm-100x30mm-vors-12mm' => [
@@ -638,7 +804,11 @@ return [
     'description' => 'Для окрашивания поверхностей красками на водной основе.',
     'isHit' => false,
     'img' => '/img/product/valiki/0301-0601-030_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0301-0601-030_4.jpg',
+      '1' => '/img/product/valiki/0301-0601-030_5.jpg',
+      '2' => '/img/product/valiki/0301-0601-030.jpg',
+    ],
     'excelFileRowNum' => 44,
   ],
   '/catalog/valiki-malyarnye/valik-nitevoj-pcelka-poliakril-rucka-6mm-150x30mm-vors-12mm' => [
@@ -654,7 +824,11 @@ return [
     'description' => 'Для окрашивания поверхностей красками на водной основе.',
     'isHit' => false,
     'img' => '/img/product/valiki/0301-0601-130_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0301-0601-130_4.jpg',
+      '1' => '/img/product/valiki/0301-0601-130_5.jpg',
+      '2' => '/img/product/valiki/0301-0601-130.jpg',
+    ],
     'excelFileRowNum' => 45,
   ],
   '/catalog/valiki-malyarnye/zapaska-nitevaya-pcelka-poliakril-dlya-rucki-8mm-180x48mm-vors-10mm' => [
@@ -670,7 +844,12 @@ return [
     'description' => 'Для окрашивания поверхностей красками на водной основе.',
     'isHit' => false,
     'img' => '/img/product/valiki/0310-1848-18_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0310-1848-18_4.jpg',
+      '1' => '/img/product/valiki/0310-1848-18_3.jpg',
+      '2' => '/img/product/valiki/0310-1848-18.jpg',
+      '3' => '/img/product/valiki/0310-1848-18_5.jpg',
+    ],
     'excelFileRowNum' => 46,
   ],
   '/catalog/valiki-malyarnye/zapaska-nitevaya-pcelka-poliakril-dlya-rucki-8mm-240x48mm-vors-10mm' => [
@@ -686,7 +865,12 @@ return [
     'description' => 'Для окрашивания поверхностей красками на водной основе.',
     'isHit' => false,
     'img' => '/img/product/valiki/0310-1848-23_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0310-1848-23_4.jpg',
+      '1' => '/img/product/valiki/0310-1848-23_3.jpg',
+      '2' => '/img/product/valiki/0310-1848-23.jpg',
+      '3' => '/img/product/valiki/0310-1848-23.jpg',
+    ],
     'excelFileRowNum' => 47,
   ],
   '/catalog/valiki-malyarnye/valik-nitevoj-pcelka-poliakril-rucka-8mm-180x48mm-vors-10mm' => [
@@ -702,7 +886,11 @@ return [
     'description' => 'Для окрашивания поверхностей красками на водной основе.',
     'isHit' => false,
     'img' => '/img/product/valiki/0311-11800000_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0311-11800000_4.jpg',
+      '1' => '/img/product/valiki/0311-11800000_5.jpg',
+      '2' => '/img/product/valiki/0311-11800000.jpg',
+    ],
     'excelFileRowNum' => 48,
   ],
   '/catalog/valiki-malyarnye/valik-nitevoj-pcelka-poliakril-rucka-8mm-240x48mm-vors-10mm' => [
@@ -718,7 +906,11 @@ return [
     'description' => 'Для окрашивания поверхностей красками на водной основе.',
     'isHit' => false,
     'img' => '/img/product/valiki/0311-24000000_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0311-24000000_4.jpg',
+      '1' => '/img/product/valiki/0311-24000000_5.jpg',
+      '2' => '/img/product/valiki/0311-24000000.jpg',
+    ],
     'excelFileRowNum' => 49,
   ],
   '/catalog/valiki-malyarnye/zapaska-velurovaya-k-rucke-6mm-60x15mm-vors-5mm' => [
@@ -734,7 +926,13 @@ return [
     'description' => 'Для окрашивания ровных поверхностей эмалями и лаками.',
     'isHit' => false,
     'img' => '/img/product/valiki/0450-0615-05_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0450-0615-05_3.jpg',
+      '1' => '/img/product/valiki/0450-0615-05_5.jpg',
+      '2' => '/img/product/valiki/0450-0615-05_4.jpg',
+      '3' => '/img/product/valiki/0450-0615-05.jpg',
+      '4' => '/img/product/valiki/0450-0615-05_6.jpg',
+    ],
     'excelFileRowNum' => 50,
   ],
   '/catalog/valiki-malyarnye/zapaska-velurovaya-k-rucke-6mm-100x15mm-vors-5mm' => [
@@ -750,7 +948,12 @@ return [
     'description' => 'Для окрашивания ровных поверхностей эмалями и лаками.',
     'isHit' => false,
     'img' => '/img/product/valiki/0450-0615-10_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0450-0615-10_4.jpg',
+      '1' => '/img/product/valiki/0450-0615-10_3.jpg',
+      '2' => '/img/product/valiki/0450-0615-10.jpg',
+      '3' => '/img/product/valiki/0450-0615-10_5.jpg',
+    ],
     'excelFileRowNum' => 51,
   ],
   '/catalog/valiki-malyarnye/zapaska-velurovaya-k-rucke-6mm-100x30mm-vors-5mm' => [
@@ -766,7 +969,12 @@ return [
     'description' => 'Для окрашивания ровных поверхностей эмалями и лаками.',
     'isHit' => false,
     'img' => '/img/product/valiki/0450-0615-15_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0450-0615-15_4.jpg',
+      '1' => '/img/product/valiki/0450-0615-15_3.jpg',
+      '2' => '/img/product/valiki/0450-0615-15.jpg',
+      '3' => '/img/product/valiki/0450-0615-15_5.jpg',
+    ],
     'excelFileRowNum' => 52,
   ],
   '/catalog/valiki-malyarnye/zapaska-velurovaya-k-rucke-6mm-150x30mm-vors-5mm' => [
@@ -782,7 +990,12 @@ return [
     'description' => 'Для окрашивания ровных поверхностей эмалями и лаками.',
     'isHit' => false,
     'img' => '/img/product/valiki/0450-0630-10_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0450-0630-10_4.jpg',
+      '1' => '/img/product/valiki/0450-0630-10_3.jpg',
+      '2' => '/img/product/valiki/0450-0630-10.jpg',
+      '3' => '/img/product/valiki/0450-0630-10_5.jpg',
+    ],
     'excelFileRowNum' => 53,
   ],
   '/catalog/valiki-malyarnye/valik-velurovyj-k-rucke-6mm-60x15mm-vors-5mm' => [
@@ -798,7 +1011,11 @@ return [
     'description' => 'Для окрашивания ровных поверхностей эмалями и лаками.',
     'isHit' => false,
     'img' => '/img/product/valiki/0451-30600000_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0451-30600000_4.jpg',
+      '1' => '/img/product/valiki/0451-30600000_5.jpg',
+      '2' => '/img/product/valiki/0451-30600000.jpg',
+    ],
     'excelFileRowNum' => 54,
   ],
   '/catalog/valiki-malyarnye/valik-velurovyj-k-rucke-6mm-100x15mm-vors-5mm' => [
@@ -814,7 +1031,11 @@ return [
     'description' => 'Для окрашивания ровных поверхностей эмалями и лаками.',
     'isHit' => false,
     'img' => '/img/product/valiki/0451-31100000_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0451-31100000_4.jpg',
+      '1' => '/img/product/valiki/0451-31100000_5.jpg',
+      '2' => '/img/product/valiki/0451-31100000.jpg',
+    ],
     'excelFileRowNum' => 55,
   ],
   '/catalog/valiki-malyarnye/valik-velurovyj-k-rucke-6mm-100x30mm-vors-5mm' => [
@@ -830,7 +1051,11 @@ return [
     'description' => 'Для окрашивания ровных поверхностей эмалями и лаками.',
     'isHit' => false,
     'img' => '/img/product/valiki/0451-31500000_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0451-31500000_4.jpg',
+      '1' => '/img/product/valiki/0451-31500000_5.jpg',
+      '2' => '/img/product/valiki/0451-31500000.jpg',
+    ],
     'excelFileRowNum' => 56,
   ],
   '/catalog/valiki-malyarnye/valik-velurovyj-k-rucke-6mm-150x30mm-vors-5mm' => [
@@ -846,7 +1071,11 @@ return [
     'description' => 'Для окрашивания ровных поверхностей эмалями и лаками.',
     'isHit' => false,
     'img' => '/img/product/valiki/0451-31130000_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0451-31130000_4.jpg',
+      '1' => '/img/product/valiki/0451-31130000_5.jpg',
+      '2' => '/img/product/valiki/0451-31130000.jpg',
+    ],
     'excelFileRowNum' => 57,
   ],
   '/catalog/valiki-malyarnye/zapaska-velurovaya-k-rucke-8mm-180x48mm-vors-5mm' => [
@@ -862,7 +1091,12 @@ return [
     'description' => 'Для окрашивания ровных поверхностей эмалями и лаками.',
     'isHit' => false,
     'img' => '/img/product/valiki/0451-0848-18_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0451-0848-18_4.jpg',
+      '1' => '/img/product/valiki/0451-0848-18_3.jpg',
+      '2' => '/img/product/valiki/0451-0848-18.jpg',
+      '3' => '/img/product/valiki/0451-0848-18_5.jpg',
+    ],
     'excelFileRowNum' => 58,
   ],
   '/catalog/valiki-malyarnye/zapaska-velurovaya-k-rucke-8mm-240x48mm-vors-5mm' => [
@@ -878,7 +1112,12 @@ return [
     'description' => 'Для окрашивания ровных поверхностей эмалями и лаками.',
     'isHit' => false,
     'img' => '/img/product/valiki/0451-0848-24_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0451-0848-24_4.jpg',
+      '1' => '/img/product/valiki/0451-0848-24_3.jpg',
+      '2' => '/img/product/valiki/0451-0848-24.jpg',
+      '3' => '/img/product/valiki/0451-0848-24_5.jpg',
+    ],
     'excelFileRowNum' => 59,
   ],
   '/catalog/valiki-malyarnye/valik-velurovyj-k-rucke-8mm-180x48mm-vors-5mm' => [
@@ -894,7 +1133,11 @@ return [
     'description' => 'Для окрашивания ровных поверхностей эмалями и лаками.',
     'isHit' => false,
     'img' => '/img/product/valiki/0540-0848-18_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0540-0848-18_4.jpg',
+      '1' => '/img/product/valiki/0540-0848-18_5.jpg',
+      '2' => '/img/product/valiki/0540-0848-18.jpg',
+    ],
     'excelFileRowNum' => 60,
   ],
   '/catalog/valiki-malyarnye/valik-velurovyj-k-rucke-8mm-240x48mm-vors-5mm' => [
@@ -910,7 +1153,11 @@ return [
     'description' => 'Для окрашивания ровных поверхностей эмалями и лаками.',
     'isHit' => false,
     'img' => '/img/product/valiki/0540-0848-24_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/valiki/0540-0848-24_4.jpg',
+      '1' => '/img/product/valiki/0540-0848-24_5.jpg',
+      '2' => '/img/product/valiki/0540-0848-24.jpg',
+    ],
     'excelFileRowNum' => 61,
   ],
   '/catalog/valiki-malyarnye/rucka-dlya-valikov-diametr-6-0mm-50x200mm' => [
@@ -1006,7 +1253,12 @@ return [
     'description' => 'Для быстрого и точного разреза обычной и нержавеющей стали. Используется на ручных, угловых, шлифовальных машинах (УШМ)',
     'isHit' => false,
     'img' => '/img/product/abraziv/2897-0125-10_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/2897-0125-10_2.jpg',
+      '1' => '/img/product/abraziv/2897-0125-10_5.jpg',
+      '2' => '/img/product/abraziv/2897-0125-10_4.jpg',
+      '3' => '/img/product/abraziv/2897-0125-10.jpg',
+    ],
     'excelFileRowNum' => 68,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-otreznoj-po-metallu-125x1-2x22-2mm' => [
@@ -1022,7 +1274,12 @@ return [
     'description' => 'Для быстрого и точного разреза обычной и нержавеющей стали. Используется на ручных, угловых, шлифовальных машинах (УШМ)',
     'isHit' => false,
     'img' => '/img/product/abraziv/2897-0125-12_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/2897-0125-12_2.jpg',
+      '1' => '/img/product/abraziv/2897-0125-12_5.jpg',
+      '2' => '/img/product/abraziv/2897-0125-12_4.jpg',
+      '3' => '/img/product/abraziv/2897-0125-12.jpg',
+    ],
     'excelFileRowNum' => 69,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-otreznoj-po-metallu-230x1-6x22-2mm' => [
@@ -1038,7 +1295,12 @@ return [
     'description' => 'Для быстрого и точного разреза обычной и нержавеющей стали. Используется на ручных, угловых, шлифовальных машинах (УШМ)',
     'isHit' => false,
     'img' => '/img/product/abraziv/2897-0230-16_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/2897-0230-16_2.jpg',
+      '1' => '/img/product/abraziv/2897-0230-16_5.jpg',
+      '2' => '/img/product/abraziv/2897-0230-16_4.jpg',
+      '3' => '/img/product/abraziv/2897-0230-16.jpg',
+    ],
     'excelFileRowNum' => 70,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-otreznoj-po-metallu-230x2-0x22-2mm' => [
@@ -1054,7 +1316,12 @@ return [
     'description' => 'Для быстрого и точного разреза обычной и нержавеющей стали. Используется на ручных, угловых, шлифовальных машинах (УШМ)',
     'isHit' => false,
     'img' => '/img/product/abraziv/2897-0123-20_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/2897-0123-20_2.jpg',
+      '1' => '/img/product/abraziv/2897-0123-20_5.jpg',
+      '2' => '/img/product/abraziv/2897-0123-20_4.jpg',
+      '3' => '/img/product/abraziv/2897-0123-20.jpg',
+    ],
     'excelFileRowNum' => 71,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-lepestkovyj-125mm-x-22-2mm-r24' => [
@@ -1086,7 +1353,12 @@ return [
     'description' => 'Для шлифования металлических и деревянных поверхностей.',
     'isHit' => false,
     'img' => '/img/product/abraziv/2812-0125-26_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/2812-0125-26_2.jpg',
+      '1' => '/img/product/abraziv/2812-0125-26_5.jpg',
+      '2' => '/img/product/abraziv/2812-0125-26_4.jpg',
+      '3' => '/img/product/abraziv/2812-0125-26.jpg',
+    ],
     'excelFileRowNum' => 73,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-lepestkovyj-125mm-x-22-2mm-r40' => [
@@ -1102,7 +1374,12 @@ return [
     'description' => 'Для шлифования металлических и деревянных поверхностей.',
     'isHit' => false,
     'img' => '/img/product/abraziv/2812-0125-04_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/2812-0125-04_2.jpg',
+      '1' => '/img/product/abraziv/2812-0125-04_5.jpg',
+      '2' => '/img/product/abraziv/2812-0125-04_4.jpg',
+      '3' => '/img/product/abraziv/2812-0125-04.jpg',
+    ],
     'excelFileRowNum' => 74,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-lepestkovyj-125mm-x-22-2mm-r60' => [
@@ -1118,7 +1395,12 @@ return [
     'description' => 'Для шлифования металлических и деревянных поверхностей.',
     'isHit' => false,
     'img' => '/img/product/abraziv/2812-0125-06_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/2812-0125-06_2.jpg',
+      '1' => '/img/product/abraziv/2812-0125-06_5.jpg',
+      '2' => '/img/product/abraziv/2812-0125-06_4.jpg',
+      '3' => '/img/product/abraziv/2812-0125-06.jpg',
+    ],
     'excelFileRowNum' => 75,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-lepestkovyj-125mm-x-22-2mm-r80' => [
@@ -1134,7 +1416,12 @@ return [
     'description' => 'Для шлифования металлических и деревянных поверхностей.',
     'isHit' => false,
     'img' => '/img/product/abraziv/2812-0125-08_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/2812-0125-08_2.jpg',
+      '1' => '/img/product/abraziv/2812-0125-08_5.jpg',
+      '2' => '/img/product/abraziv/2812-0125-08_4.jpg',
+      '3' => '/img/product/abraziv/2812-0125-08.jpg',
+    ],
     'excelFileRowNum' => 76,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-lepestkovyj-125mm-x-22-2mm-r100' => [
@@ -1150,7 +1437,12 @@ return [
     'description' => 'Для шлифования металлических и деревянных поверхностей.',
     'isHit' => false,
     'img' => '/img/product/abraziv/2812-0125-10_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/2812-0125-10_2.jpg',
+      '1' => '/img/product/abraziv/2812-0125-10_5.jpg',
+      '2' => '/img/product/abraziv/2812-0125-10_4.jpg',
+      '3' => '/img/product/abraziv/2812-0125-10.jpg',
+    ],
     'excelFileRowNum' => 77,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-lepestkovyj-125mm-x-22-2mm-r120' => [
@@ -1166,7 +1458,12 @@ return [
     'description' => 'Для шлифования металлических и деревянных поверхностей.',
     'isHit' => false,
     'img' => '/img/product/abraziv/2812-0125-12_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/2812-0125-12_2.jpg',
+      '1' => '/img/product/abraziv/2812-0125-12_5.jpg',
+      '2' => '/img/product/abraziv/2812-0125-12_4.jpg',
+      '3' => '/img/product/abraziv/2812-0125-12.jpg',
+    ],
     'excelFileRowNum' => 78,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-zacistnoj-po-metallu-125x6-0x22-2mm' => [
@@ -1182,7 +1479,12 @@ return [
     'description' => 'Для шлифования и очистки изделий из металла.',
     'isHit' => false,
     'img' => '/img/product/abraziv/0796-0125-60_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/0796-0125-60_2.jpg',
+      '1' => '/img/product/abraziv/0796-0125-60_5.jpg',
+      '2' => '/img/product/abraziv/0796-0125-60_4.jpg',
+      '3' => '/img/product/abraziv/0796-0125-60.jpg',
+    ],
     'excelFileRowNum' => 79,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-almaznyj-gladkij-125mmx2-0x20-22-2' => [
@@ -1198,7 +1500,12 @@ return [
     'description' => 'Для разреза изделий из кирпича, бетона, камня, керамической плитки. Не требует водяного охлаждения.',
     'isHit' => false,
     'img' => '/img/product/abraziv/0797-0125-00_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/0797-0125-00_2.jpg',
+      '1' => '/img/product/abraziv/0797-0125-00_4.jpg',
+      '2' => '/img/product/abraziv/0797-0125-00_3.jpg',
+      '3' => '/img/product/abraziv/0797-0125-00.jpg',
+    ],
     'excelFileRowNum' => 80,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-almaznyj-gladkij-230mmx2-9x20-22-2' => [
@@ -1214,7 +1521,12 @@ return [
     'description' => 'Для разреза изделий из кирпича, бетона, камня, керамической плитки. Не требует водяного охлаждения.',
     'isHit' => false,
     'img' => '/img/product/abraziv/0797-0230-00_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/0797-0230-00_2.jpg',
+      '1' => '/img/product/abraziv/0797-0230-00_4.jpg',
+      '2' => '/img/product/abraziv/0797-0230-00_3.jpg',
+      '3' => '/img/product/abraziv/0797-0230-00.jpg',
+    ],
     'excelFileRowNum' => 81,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-almaznyj-gladkij-b-ultratonkij-b-125mmx1-1x20-22-2' => [
@@ -1230,7 +1542,12 @@ return [
     'description' => 'Для разреза изделий из кирпича, бетона, камня, керамической плитки. Не требует водяного охлаждения.',
     'isHit' => false,
     'img' => '/img/product/abraziv/0797-0125-01_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/0797-0125-01_2.jpg',
+      '1' => '/img/product/abraziv/0797-0125-01_4.jpg',
+      '2' => '/img/product/abraziv/0797-0125-01_3.jpg',
+      '3' => '/img/product/abraziv/0797-0125-01.jpg',
+    ],
     'excelFileRowNum' => 82,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-almaznyj-turbo-125mmx2-2x20-22-2' => [
@@ -1246,7 +1563,12 @@ return [
     'description' => 'Для разреза изделий из кирпича, бетона, камня, керамической плитки. Не требует водяного охлаждения.',
     'isHit' => false,
     'img' => '/img/product/abraziv/0797-2125-00_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/0797-2125-00_2.jpg',
+      '1' => '/img/product/abraziv/0797-2125-00_4.jpg',
+      '2' => '/img/product/abraziv/0797-2125-00_3.jpg',
+      '3' => '/img/product/abraziv/0797-2125-00.jpg',
+    ],
     'excelFileRowNum' => 83,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-almaznyj-turbo-230mmx2-8x20-22-2' => [
@@ -1262,7 +1584,12 @@ return [
     'description' => 'Для разреза изделий из кирпича, бетона, камня, керамической плитки. Не требует водяного охлаждения.',
     'isHit' => false,
     'img' => '/img/product/abraziv/0797-2230-00_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/0797-2230-00_2.jpg',
+      '1' => '/img/product/abraziv/0797-2230-00_4.jpg',
+      '2' => '/img/product/abraziv/0797-2230-00_3.jpg',
+      '3' => '/img/product/abraziv/0797-2230-00.jpg',
+    ],
     'excelFileRowNum' => 84,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-almaznyj-segmentnyj-125mmx2-2x20-22-2' => [
@@ -1278,7 +1605,12 @@ return [
     'description' => 'Для разреза изделий из кирпича, бетона, камня, керамической плитки. Не требует водяного охлаждения.',
     'isHit' => false,
     'img' => '/img/product/abraziv/0797-1230-00_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/0797-1230-00_2.jpg',
+      '1' => '/img/product/abraziv/0797-1230-00_4.jpg',
+      '2' => '/img/product/abraziv/0797-1230-00_3.jpg',
+      '3' => '/img/product/abraziv/0797-1230-00.jpg',
+    ],
     'excelFileRowNum' => 85,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-almaznyj-segmentnyj-230mmx3-0x20-22-2' => [
@@ -1294,7 +1626,12 @@ return [
     'description' => 'Для разреза изделий из кирпича, бетона, камня, керамической плитки. Не требует водяного охлаждения.',
     'isHit' => false,
     'img' => '/img/product/abraziv/0797-1230-00_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/0797-1350-21_2.jpg',
+      '1' => '/img/product/abraziv/0797-1350-21_4.jpg',
+      '2' => '/img/product/abraziv/0797-1350-21_3.jpg',
+      '3' => '/img/product/abraziv/0797-1350-21.jpg',
+    ],
     'excelFileRowNum' => 86,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-almaznyj-segmentnyj-350mmx3-5x25-4-20-0' => [
@@ -1326,7 +1663,12 @@ return [
     'description' => 'Для разреза изделий из кирпича, бетона, камня, керамической плитки. Не требует водяного охлаждения.',
     'isHit' => false,
     'img' => '/img/product/abraziv/0797-1350-21_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/0797-1350-21_2.jpg',
+      '1' => '/img/product/abraziv/0797-1350-21_4.jpg',
+      '2' => '/img/product/abraziv/0797-1350-21_3.jpg',
+      '3' => '/img/product/abraziv/0797-1350-21.jpg',
+    ],
     'excelFileRowNum' => 88,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/casa-almaznaya-zacistnaya-dvuryadnaya-125x22-2mm' => [
@@ -1342,7 +1684,12 @@ return [
     'description' => 'Для шлифования и обработки бетонных, кирпичных, газосиликатных и гранитных поверхностей.',
     'isHit' => false,
     'img' => '/img/product/abraziv/0798-1856278 D_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/0798-1856278 D_2.jpg',
+      '1' => '/img/product/abraziv/0798-1856278 D_3.jpg',
+      '2' => '/img/product/abraziv/0798-1856278 D.jpg',
+      '3' => '/img/product/abraziv/0798-1856278 D_4.jpg',
+    ],
     'excelFileRowNum' => 89,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/nasadka-diskovaya-s-lipuckoj-myagkaya-125mm-m14' => [
@@ -1358,7 +1705,14 @@ return [
     'description' => 'Для шлифования поверхностей с использованием круга наждачного на ворсовой подложке.',
     'isHit' => false,
     'img' => '/img/product/abraziv/0799-0125-00_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/0799-0125-00_6.jpg',
+      '1' => '/img/product/abraziv/0799-0125-00_2.jpg',
+      '2' => '/img/product/abraziv/0799-0125-00_3.jpg',
+      '3' => '/img/product/abraziv/0799-0125-00_4.jpg',
+      '4' => '/img/product/abraziv/0799-0125-00_9.jpg',
+      '5' => '/img/product/abraziv/0799-0125-00.jpg',
+    ],
     'excelFileRowNum' => 90,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/nasadka-diskovaya-s-lipuckoj-zestkaya-125mm-m14' => [
@@ -1374,7 +1728,14 @@ return [
     'description' => 'Для шлифования поверхностей с использованием круга наждачного на ворсовой подложке.',
     'isHit' => false,
     'img' => '/img/product/abraziv/0799-0125-01_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/0799-0125-01_6.jpg',
+      '1' => '/img/product/abraziv/0799-0125-01_2.jpg',
+      '2' => '/img/product/abraziv/0799-0125-01_3.jpg',
+      '3' => '/img/product/abraziv/0799-0125-01_4.jpg',
+      '4' => '/img/product/abraziv/0799-0125-01_9.jpg',
+      '5' => '/img/product/abraziv/0799-0125-01.jpg',
+    ],
     'excelFileRowNum' => 91,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-up-5-st-b-r40' => [
@@ -1390,7 +1751,12 @@ return [
     'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
     'isHit' => false,
     'img' => '/img/product/abraziv/2902-0140-40_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/2902-0140-40_0.jpg',
+      '1' => '/img/product/abraziv/2902-0140-40_2.jpg',
+      '2' => '/img/product/abraziv/2902-0140-40_3.jpg',
+      '3' => '/img/product/abraziv/2902-0140-40.jpg',
+    ],
     'excelFileRowNum' => 92,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-up-5-st-b-r60' => [
@@ -1406,7 +1772,12 @@ return [
     'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
     'isHit' => false,
     'img' => '/img/product/abraziv/2902-0160-60_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/2902-0160-60_0.jpg',
+      '1' => '/img/product/abraziv/2902-0160-60_2.jpg',
+      '2' => '/img/product/abraziv/2902-0160-60_3.jpg',
+      '3' => '/img/product/abraziv/2902-0160-60.jpg',
+    ],
     'excelFileRowNum' => 93,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-up-5-st-b-p80' => [
@@ -1422,7 +1793,12 @@ return [
     'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
     'isHit' => false,
     'img' => '/img/product/abraziv/2902-0180-80_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/2902-0180-80_0.jpg',
+      '1' => '/img/product/abraziv/2902-0180-80_2.jpg',
+      '2' => '/img/product/abraziv/2902-0180-80_3.jpg',
+      '3' => '/img/product/abraziv/2902-0180-80.jpg',
+    ],
     'excelFileRowNum' => 94,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-up-5-st-b-r100' => [
@@ -1438,7 +1814,12 @@ return [
     'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
     'isHit' => false,
     'img' => '/img/product/abraziv/2902-0100-10_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/2902-0100-10_0.jpg',
+      '1' => '/img/product/abraziv/2902-0100-10_2.jpg',
+      '2' => '/img/product/abraziv/2902-0100-10_3.jpg',
+      '3' => '/img/product/abraziv/2902-0100-10.jpg',
+    ],
     'excelFileRowNum' => 95,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-up-5-st-b-r120' => [
@@ -1454,7 +1835,12 @@ return [
     'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
     'isHit' => false,
     'img' => '/img/product/abraziv/2902-0120-12_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/2902-0120-12_0.jpg',
+      '1' => '/img/product/abraziv/2902-0120-12_2.jpg',
+      '2' => '/img/product/abraziv/2902-0120-12_3.jpg',
+      '3' => '/img/product/abraziv/2902-0120-12.jpg',
+    ],
     'excelFileRowNum' => 96,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-up-5-st-b-r180' => [
@@ -1470,7 +1856,12 @@ return [
     'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
     'isHit' => false,
     'img' => '/img/product/abraziv/2902-0180-18_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/2902-0180-18_0.jpg',
+      '1' => '/img/product/abraziv/2902-0180-18_2.jpg',
+      '2' => '/img/product/abraziv/2902-0180-18_3.jpg',
+      '3' => '/img/product/abraziv/2902-0180-18.jpg',
+    ],
     'excelFileRowNum' => 97,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-up-5-st-b-r320' => [
@@ -1486,7 +1877,12 @@ return [
     'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
     'isHit' => false,
     'img' => '/img/product/abraziv/2902-0320-32_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/2902-0320-32_0.jpg',
+      '1' => '/img/product/abraziv/2902-0320-32_2.jpg',
+      '2' => '/img/product/abraziv/2902-0320-32_3.jpg',
+      '3' => '/img/product/abraziv/2902-0320-32.jpg',
+    ],
     'excelFileRowNum' => 98,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-perforirovannyj-up-5-st-b-r40' => [
@@ -1502,7 +1898,12 @@ return [
     'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
     'isHit' => false,
     'img' => '/img/product/abraziv/0795-0125-40_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/0795-0125-40_0.jpg',
+      '1' => '/img/product/abraziv/0795-0125-40_2.jpg',
+      '2' => '/img/product/abraziv/0795-0125-40_3.jpg',
+      '3' => '/img/product/abraziv/0795-0125-40.jpg',
+    ],
     'excelFileRowNum' => 99,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-perforirovannyj-up-5-st-b-r60' => [
@@ -1518,7 +1919,12 @@ return [
     'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
     'isHit' => false,
     'img' => '/img/product/abraziv/0795-0125-60_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/0795-0125-60_0.jpg',
+      '1' => '/img/product/abraziv/0795-0125-60_2.jpg',
+      '2' => '/img/product/abraziv/0795-0125-60_3.jpg',
+      '3' => '/img/product/abraziv/0795-0125-60.jpg',
+    ],
     'excelFileRowNum' => 100,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-perforirovannyj-up-5-st-b-p80' => [
@@ -1534,7 +1940,12 @@ return [
     'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
     'isHit' => false,
     'img' => '/img/product/abraziv/0795-0125-80_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/0795-0125-80_0.jpg',
+      '1' => '/img/product/abraziv/0795-0125-80_2.jpg',
+      '2' => '/img/product/abraziv/0795-0125-80_3.jpg',
+      '3' => '/img/product/abraziv/0795-0125-80.jpg',
+    ],
     'excelFileRowNum' => 101,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-perforirovannyj-up-5-st-b-r100' => [
@@ -1550,7 +1961,12 @@ return [
     'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
     'isHit' => false,
     'img' => '/img/product/abraziv/0795-0125-10_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/0795-0125-10_0.jpg',
+      '1' => '/img/product/abraziv/0795-0125-10_2.jpg',
+      '2' => '/img/product/abraziv/0795-0125-10_3.jpg',
+      '3' => '/img/product/abraziv/0795-0125-10.jpg',
+    ],
     'excelFileRowNum' => 102,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-perforirovannyj-up-5-st-b-r120' => [
@@ -1566,7 +1982,12 @@ return [
     'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
     'isHit' => false,
     'img' => '/img/product/abraziv/0795-0125-12_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/0795-0125-12_0.jpg',
+      '1' => '/img/product/abraziv/0795-0125-12_2.jpg',
+      '2' => '/img/product/abraziv/0795-0125-12_3.jpg',
+      '3' => '/img/product/abraziv/0795-0125-12.jpg',
+    ],
     'excelFileRowNum' => 103,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-perforirovannyj-up-5-st-b-r180' => [
@@ -1582,7 +2003,12 @@ return [
     'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
     'isHit' => false,
     'img' => '/img/product/abraziv/0795-0125-18_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/0795-0125-18_0.jpg',
+      '1' => '/img/product/abraziv/0795-0125-18_2.jpg',
+      '2' => '/img/product/abraziv/0795-0125-18_3.jpg',
+      '3' => '/img/product/abraziv/0795-0125-18.jpg',
+    ],
     'excelFileRowNum' => 104,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-perforirovannyj-up-5-st-b-r320' => [
@@ -1598,7 +2024,12 @@ return [
     'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
     'isHit' => false,
     'img' => '/img/product/abraziv/0795-0125-32_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/0795-0125-32_0.jpg',
+      '1' => '/img/product/abraziv/0795-0125-32_2.jpg',
+      '2' => '/img/product/abraziv/0795-0125-32_3.jpg',
+      '3' => '/img/product/abraziv/0795-0125-32.jpg',
+    ],
     'excelFileRowNum' => 105,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/kordsetka-caseobraznaya-myagkaya-m14-100mm' => [
@@ -1614,7 +2045,14 @@ return [
     'description' => 'Для очистки металлических поверхностей от ржавчины и грязи.',
     'isHit' => false,
     'img' => '/img/product/abraziv/07991-0100-14_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/07991-0100-14_5.jpg',
+      '1' => '/img/product/abraziv/07991-0100-14_3.jpg',
+      '2' => '/img/product/abraziv/07991-0100-14_1.jpg',
+      '3' => '/img/product/abraziv/07991-0100-14_4.jpg',
+      '4' => '/img/product/abraziv/07991-0100-14_6.jpg',
+      '5' => '/img/product/abraziv/07991-0100-14.jpg',
+    ],
     'excelFileRowNum' => 106,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/kordsetka-caseobraznaya-zestkaya-krucenaya-m14-100mm' => [
@@ -1630,7 +2068,14 @@ return [
     'description' => 'Для очистки металлических поверхностей от ржавчины и грязи.',
     'isHit' => false,
     'img' => '/img/product/abraziv/07992-0100-14_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/07992-0100-14_5.jpg',
+      '1' => '/img/product/abraziv/07992-0100-14_3.jpg',
+      '2' => '/img/product/abraziv/07992-0100-14_1.jpg',
+      '3' => '/img/product/abraziv/07992-0100-14_4.jpg',
+      '4' => '/img/product/abraziv/07992-0100-14.jpg',
+      '5' => '/img/product/abraziv/07992-0100-14_6.jpg',
+    ],
     'excelFileRowNum' => 107,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/kordsetka-koniceskaya-myagkaya-m14-115mm' => [
@@ -1646,7 +2091,14 @@ return [
     'description' => 'Для очистки металлических поверхностей от ржавчины и грязи.',
     'isHit' => false,
     'img' => '/img/product/abraziv/07993-0115-14_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/07993-0115-14_5.jpg',
+      '1' => '/img/product/abraziv/07993-0115-14_3.jpg',
+      '2' => '/img/product/abraziv/07993-0115-14_1.jpg',
+      '3' => '/img/product/abraziv/07993-0115-14_4.jpg',
+      '4' => '/img/product/abraziv/07993-0115-14.jpg',
+      '5' => '/img/product/abraziv/07993-0115-14_6.jpg',
+    ],
     'excelFileRowNum' => 108,
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/kordsetka-koniceskaya-zestkaya-krucenaya-m14-115mm' => [
@@ -1662,7 +2114,14 @@ return [
     'description' => 'Для очистки металлических поверхностей от ржавчины и грязи.',
     'isHit' => false,
     'img' => '/img/product/abraziv/07994-0115-14_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/07994-0115-14_0.jpg',
+      '1' => '/img/product/abraziv/07994-0115-14_4_1.jpg',
+      '2' => '/img/product/abraziv/07994-0115-14_1.jpg',
+      '3' => '/img/product/abraziv/07994-0115-14_4.jpg',
+      '4' => '/img/product/abraziv/07994-0115-14.jpg',
+      '5' => '/img/product/abraziv/07994-0115-14_5.jpg',
+    ],
     'excelFileRowNum' => 109,
   ],
   '/catalog/nozi-i-lezviya/noz-obojnyj-lezvie-18mm' => [
@@ -1678,7 +2137,14 @@ return [
     'description' => 'Для разрезания бумаги, картона и прочих материлов с применением значительных усилий.',
     'isHit' => false,
     'img' => '/img/product/nozhi/0890-0000-18_6.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/nozhi/0890-0000-18_3.jpg',
+      '1' => '/img/product/nozhi/0890-0000-18_4.jpg',
+      '2' => '/img/product/nozhi/0890-0000-18_5.jpg',
+      '3' => '/img/product/nozhi/0890-0000-18.jpg',
+      '4' => '/img/product/nozhi/0890-0000-18_1.jpg',
+      '5' => '/img/product/nozhi/0890-0000-18_9.jpg',
+    ],
     'excelFileRowNum' => 111,
   ],
   '/catalog/nozi-i-lezviya/noz-obojnyj-usilennyj-lezvie-18mm' => [
@@ -1694,7 +2160,14 @@ return [
     'description' => 'Для разрезания бумаги, картона и прочих материлов с применением значительных усилий.',
     'isHit' => false,
     'img' => '/img/product/nozhi/0890-0000-18_6.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/nozhi/0890-0000-18_3.jpg',
+      '1' => '/img/product/nozhi/0890-0000-18_4.jpg',
+      '2' => '/img/product/nozhi/0890-0000-18_5.jpg',
+      '3' => '/img/product/nozhi/0890-0000-18.jpg',
+      '4' => '/img/product/nozhi/0890-0000-18_1.jpg',
+      '5' => '/img/product/nozhi/0890-0000-18_9.jpg',
+    ],
     'excelFileRowNum' => 112,
   ],
   '/catalog/nozi-i-lezviya/noz-obojnyj-usilennyj-lezvie-25mm' => [
@@ -1710,7 +2183,14 @@ return [
     'description' => 'Для разрезания бумаги, картона и прочих материлов с применением значительных усилий.',
     'isHit' => false,
     'img' => '/img/product/nozhi/0890-0000-25_6.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/nozhi/0890-0000-25_3.jpg',
+      '1' => '/img/product/nozhi/0890-0000-25_4.jpg',
+      '2' => '/img/product/nozhi/0890-0000-25_5.jpg',
+      '3' => '/img/product/nozhi/0890-0000-25.jpg',
+      '4' => '/img/product/nozhi/0890-0000-25_1.jpg',
+      '5' => '/img/product/nozhi/0890-0000-25_9.jpg',
+    ],
     'excelFileRowNum' => 113,
   ],
   '/catalog/nozi-i-lezviya/lezviya-zapasnye-dlya-obojnogo-noza-18mm-10st-x-0-5mm' => [
@@ -1726,7 +2206,11 @@ return [
     'description' => 'Для обойных ножей.',
     'isHit' => false,
     'img' => '/img/product/nozhi/0890-0010-18_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/nozhi/0890-0010-18_1.jpg',
+      '1' => '/img/product/nozhi/0890-0010-18.jpg',
+      '2' => '/img/product/nozhi/0890-0010-18_3.jpg',
+    ],
     'excelFileRowNum' => 114,
   ],
   '/catalog/nozi-i-lezviya/lezviya-zapasnye-dlya-obojnogo-noza-25mm-10st-x-0-7mm' => [
@@ -1742,7 +2226,11 @@ return [
     'description' => 'Для обойных ножей.',
     'isHit' => false,
     'img' => '/img/product/nozhi/0890-0010-25_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/nozhi/0890-0010-25_1.jpg',
+      '1' => '/img/product/nozhi/0890-0010-25.jpg',
+      '2' => '/img/product/nozhi/0890-0010-25_3.jpg',
+    ],
     'excelFileRowNum' => 115,
   ],
   '/catalog/vspomogatelnyj-instrument/mikser-dlya-smesej-ocinkovannyj-sds-plus-80x400mm' => [
@@ -1758,7 +2246,10 @@ return [
     'description' => 'Для смешивания тяжелых строительных масс.',
     'isHit' => false,
     'img' => '/img/product/vspomogat/0990-0400-08_1_3.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/vspomogat/0990-0400-08_1_4.jpg',
+      '1' => '/img/product/vspomogat/0990-0400-08_1.jpg',
+    ],
     'excelFileRowNum' => 116,
   ],
   '/catalog/vspomogatelnyj-instrument/mikser-dlya-smesej-ocinkovannyj-sds-plus-100x600mm' => [
@@ -1774,7 +2265,10 @@ return [
     'description' => 'Для смешивания тяжелых строительных масс.',
     'isHit' => false,
     'img' => '/img/product/vspomogat/0990-0400-08_1_3.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/vspomogat/0990-0400-08_1_4.jpg',
+      '1' => '/img/product/vspomogat/0990-0400-08_1.jpg',
+    ],
     'excelFileRowNum' => 117,
   ],
   '/catalog/vspomogatelnyj-instrument/mikser-dlya-smesej-ocinkovannyj-sds-plus-120x600mm' => [
@@ -1790,7 +2284,10 @@ return [
     'description' => 'Для смешивания тяжелых строительных масс.',
     'isHit' => false,
     'img' => '/img/product/vspomogat/0990-0600-12_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/vspomogat/0990-0600-12_1.jpg',
+      '1' => '/img/product/vspomogat/0990-0600-12.jpg',
+    ],
     'excelFileRowNum' => 118,
   ],
   '/catalog/vspomogatelnyj-instrument/mikser-dlya-smesej-ocinkovannyj-80x400mm' => [
@@ -1806,7 +2303,10 @@ return [
     'description' => 'Для смешивания тяжелых строительных масс.',
     'isHit' => false,
     'img' => '/img/product/vspomogat/0980-0400-08_2_4.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/vspomogat/0980-0400-08_2.jpg',
+      '1' => '/img/product/vspomogat/0980-0400-08.jpg',
+    ],
     'excelFileRowNum' => 119,
   ],
   '/catalog/vspomogatelnyj-instrument/mikser-dlya-smesej-ocinkovannyj-100x600mm' => [
@@ -1822,7 +2322,10 @@ return [
     'description' => 'Для смешивания тяжелых строительных масс.',
     'isHit' => false,
     'img' => '/img/product/vspomogat/0980-0600-10_2.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/vspomogat/0980-0600-10_3.jpg',
+      '1' => '/img/product/vspomogat/0980-0600-10.jpg',
+    ],
     'excelFileRowNum' => 120,
   ],
   '/catalog/vspomogatelnyj-instrument/mikser-dlya-smesej-ocinkovannyj-gajkoj-m14-120x600mm' => [
@@ -1838,7 +2341,10 @@ return [
     'description' => 'Для смешивания тяжелых строительных масс.',
     'isHit' => false,
     'img' => '/img/product/vspomogat/0975-0600-12_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/vspomogat/0975-0600-12_2.jpg',
+      '1' => '/img/product/vspomogat/0975-0600-12.jpg',
+    ],
     'excelFileRowNum' => 121,
   ],
   '/catalog/vspomogatelnyj-instrument/ruletka-prorezinennyj-korpus-3m-x-19mm' => [
@@ -1854,7 +2360,14 @@ return [
     'description' => 'Для измерения размеров объекта.',
     'isHit' => false,
     'img' => '/img/product/vspomogat/1051-0000-03_3.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/vspomogat/1051-0000-03_1.jpg',
+      '1' => '/img/product/vspomogat/1051-0000-03_2.jpg',
+      '2' => '/img/product/vspomogat/1051-0000-03_6.jpg',
+      '3' => '/img/product/vspomogat/1051-0000-03_4.jpg',
+      '4' => '/img/product/vspomogat/1051-0000-03.jpg',
+      '5' => '/img/product/vspomogat/1051-0000-03_5.jpg',
+    ],
     'excelFileRowNum' => 122,
   ],
   '/catalog/vspomogatelnyj-instrument/ruletka-prorezinennyj-korpus-5m-x-25mm' => [
@@ -1870,7 +2383,14 @@ return [
     'description' => 'Для измерения размеров объекта.',
     'isHit' => false,
     'img' => '/img/product/vspomogat/1051-0000-03_3.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/vspomogat/1051-0000-03_1.jpg',
+      '1' => '/img/product/vspomogat/1051-0000-03_2.jpg',
+      '2' => '/img/product/vspomogat/1051-0000-03_6.jpg',
+      '3' => '/img/product/vspomogat/1051-0000-03_4.jpg',
+      '4' => '/img/product/vspomogat/1051-0000-03.jpg',
+      '5' => '/img/product/vspomogat/1051-0000-03_5.jpg',
+    ],
     'excelFileRowNum' => 123,
   ],
   '/catalog/vspomogatelnyj-instrument/ruletka-prorezinennyj-korpus-7-5m-x-25mm' => [
@@ -1886,7 +2406,14 @@ return [
     'description' => 'Для измерения размеров объекта.',
     'isHit' => false,
     'img' => '/img/product/vspomogat/1051-0000-75_3.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/vspomogat/1051-0000-75_1.jpg',
+      '1' => '/img/product/vspomogat/1051-0000-75_2.jpg',
+      '2' => '/img/product/vspomogat/1051-0000-75_6.jpg',
+      '3' => '/img/product/vspomogat/1051-0000-75_4.jpg',
+      '4' => '/img/product/vspomogat/1051-0000-75.jpg',
+      '5' => '/img/product/vspomogat/1051-0000-75_5.jpg',
+    ],
     'excelFileRowNum' => 124,
   ],
   '/catalog/vspomogatelnyj-instrument/ruletka-prorezinennyj-korpus-10m-x-25mm' => [
@@ -1902,7 +2429,13 @@ return [
     'description' => 'Для измерения размеров объекта.',
     'isHit' => false,
     'img' => '/img/product/vspomogat/1051-0000-10_3.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/vspomogat/0700-0000-30_2.jpg',
+      '1' => '/img/product/vspomogat/AU2A9218_1.jpg',
+      '2' => '/img/product/vspomogat/0700-0000-30_3.jpg',
+      '3' => '/img/product/vspomogat/0700-0000-30.jpg',
+      '4' => '/img/product/vspomogat/0700-0000-30_4.jpg',
+    ],
     'excelFileRowNum' => 125,
   ],
   '/catalog/vspomogatelnyj-instrument/pistolet-skeletnyj-dlya-germetikov-225mm-310ml' => [
@@ -2190,7 +2723,11 @@ return [
     'description' => 'Для нанесения и выравнивания строительных смесей.',
     'isHit' => false,
     'img' => '/img/product/vspomogat/2755-0001-H4_1.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/vspomogat/2755-0001-H4_2.jpg',
+      '1' => '/img/product/vspomogat/2755-0001-H4_3.jpg',
+      '2' => '/img/product/vspomogat/2755-0001-H4.jpg',
+    ],
     'excelFileRowNum' => 144,
   ],
   '/catalog/vspomogatelnyj-instrument/spatel-obojnyj-28sm' => [
@@ -2206,7 +2743,18 @@ return [
     'description' => 'Для нанесения и выравнивания строительных смесей.',
     'isHit' => false,
     'img' => '/img/product/vspomogat/0901-0000-20.jpg',
-    'galleryImgs' => [],
+    'galleryImgs' => [
+      '0' => '/img/product/vspomogat/0901-0000-20_1.jpg',
+      '1' => '/img/product/vspomogat/0901-0000-20_3.jpg',
+    ],
     'excelFileRowNum' => 145,
+  ],
+  '' => [
+    'galleryImgs' => [
+      '0' => '/img/product/abraziv/2812-0125-26_2.jpg',
+      '1' => '/img/product/abraziv/2812-0125-26_5.jpg',
+      '2' => '/img/product/abraziv/2812-0125-26_4.jpg',
+      '3' => '/img/product/abraziv/2812-0125-26.jpg',
+    ],
   ],
 ];

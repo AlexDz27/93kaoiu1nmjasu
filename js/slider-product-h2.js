@@ -81,6 +81,19 @@ class Slider {
     } else {
       this.btnNext.classList.remove('product-slider__btn--inactive')
     }
+    // mob btns
+    this.btnPrevMob.disabled = this._currentImgIdx > 0 ? false : true
+    if (this.btnPrevMob.disabled) {
+      this.btnPrevMob.classList.add('product-slider__btn--inactive')
+    } else {
+      this.btnPrevMob.classList.remove('product-slider__btn--inactive')
+    }
+    this.btnNextMob.disabled = this._currentImgIdx === this.track.children.length - 1 ? true : false
+    if (this.btnNextMob.disabled) {
+      this.btnNextMob.classList.add('product-slider__btn--inactive')
+    } else {
+      this.btnNextMob.classList.remove('product-slider__btn--inactive')
+    }
   }
 
   _changeDistance(mult, goingBack) {

@@ -2,6 +2,6 @@
 
 return [
   'currentPriceList' => 'Price-2025.05.27--fiddle-2.xlsx',
-  'currentPriceListDate' => '16.06.2025',
-  'searchH' => 34,
+  'currentPriceListDate' => '17.06.2025',
+  'searchH' => 38,
 ];

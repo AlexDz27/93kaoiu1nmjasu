@@ -143,7 +143,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
   <div class="cont yellow">
     <nav>
       <a class="yellow__link" href="/">Главная</a>
-      <a class="yellow__link" href="catalog.html">Каталог</a>
+      <a class="yellow__link" href="/catalog">Каталог</a>
       <a class="yellow__link yellow__link--abraziv" href="/catalog"><?= $product['category'] ?></a>
       <a class="yellow__link yellow__link--active" href="<?= $product['uri'] ?>"><?= $product['model'] ?></a>
     </nav>
@@ -161,33 +161,14 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
         </button>
         <div id="track" class="product-slider__track">
           <div class="product-slider__track__img-cont product-slider__track__img-cont--active">
-            <img src="/img/catalog-normal-res/krug-w-logo.png">
+            <img src="<?= $product['img'] ?>">
           </div>
-          <div class="product-slider__track__img-cont">
-            <img src="/img/product/2897-0125-10_resized_real_640h.jpg">
-          </div>
-          <div class="product-slider__track__img-cont">
-            <img src="/img/product/2897-0125-10_resized.jpg">
-          </div>
-          <div class="product-slider__track__img-cont">
-            <img src="/img/product/2897-0125-10_resized.jpg">
-          </div>
-          <div class="product-slider__track__img-cont">
-            <img src="/img/product/2897-0125-10_resized.jpg">
-          </div>
-
-          <div class="product-slider__track__img-cont">
-            <img src="/img/product/2812-0125-10_resized.jpg">
-          </div>
-          <div class="product-slider__track__img-cont">
-            <img src="/img/product/2812-0125-12_2_resized.jpg">
-          </div>
-          <div class="product-slider__track__img-cont">
-            <img src="/img/catalog-normal-res/krug-w-logo.png">
-          </div>
-          <div class="product-slider__track__img-cont">
-            <img src="/img/catalog-normal-res/krug-w-logo.png">
-          </div>
+          <?php $galleryImgs = $product['galleryImgs']; ?>
+          <?php for ($i = 0; $i < count($galleryImgs); $i++): $galleryImg = $galleryImgs[$i]; ?>
+            <div class="product-slider__track__img-cont">
+              <img src="<?= $galleryImg ?>">
+            </div>
+          <?php endfor ?>
         </div>
         <button id="btnNext" class="product-slider__btn product-slider__btn--next">
           <svg width="23" height="13" viewBox="0 0 23 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -199,25 +180,9 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
         <img id="showingImg" src="<?= $product['img'] ? $product['img'] : '/img/catalog-normal-res/krug-w-logo.png' ?>" alt="<?= $product['model'] ?>">
         <div id="dots" class="slider__dots slider__dots--product">
           <span class="slider__dots__dot slider__dots__dot--active"></span>
-          <span class="slider__dots__dot"></span>
-          <span class="slider__dots__dot"></span>
-          <span class="slider__dots__dot"></span>
-          <span class="slider__dots__dot"></span>
-          <span class="slider__dots__dot"></span>
-
-          <span class="slider__dots__dot"></span>
-          <span class="slider__dots__dot"></span>
-          <span class="slider__dots__dot"></span>
-
-          <!-- <span class="slider__dots__dot"></span>
-          <span class="slider__dots__dot"></span>
-          <span class="slider__dots__dot"></span>
-          <span class="slider__dots__dot"></span> -->
-
-          <!-- <span class="slider__dots__dot"></span>
-          <span class="slider__dots__dot"></span>
-          <span class="slider__dots__dot"></span>
-          <span class="slider__dots__dot"></span> -->
+          <?php for ($i = 0; $i < count($galleryImgs); $i++): ?>
+            <span class="slider__dots__dot"></span>
+          <?php endfor ?>
         </div>
       </div>
       <div class="product__col-text">
@@ -229,15 +194,9 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
           </button>
           <div id="dotsMob" class="slider__dots slider__dots--mob slider__dots--product">
             <span class="slider__dots__dot slider__dots__dot--active"></span>
-            <span class="slider__dots__dot"></span>
-            <span class="slider__dots__dot"></span>
-            <span class="slider__dots__dot"></span>
-            <span class="slider__dots__dot"></span>
-            <span class="slider__dots__dot"></span>
-
-            <span class="slider__dots__dot"></span>
-            <span class="slider__dots__dot"></span>
-            <span class="slider__dots__dot"></span>
+            <?php for ($i = 0; $i < count($galleryImgs); $i++): ?>
+              <span class="slider__dots__dot"></span>
+            <?php endfor ?>
           </div>
           <button id="btnNextMob" class="product-slider__btn product-slider__btn--mob product-slider__btn--next">
             <svg width="14" height="25" viewBox="0 0 14 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -256,7 +215,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
           <p class="product__detail product__detail--last text--larger"><span class="product__detail__1">Упак. круп.</span> <span class="product__detail__2"><?= $product['upakKrup'] ?></span></p>
         <?php endif ?>
         <p class="product__mb">
-          <button class="btn product__btn" type="button"><b>СКАЧАТЬ ПРАЙС</b></button>
+          <a class="btn product__btn" href="/price-lists/<?= $lowDb['currentPriceList'] ?>"><b>СКАЧАТЬ ПРАЙС</b></a>
           <a class="btn product__btn product__btn--outlined t__btn" target="_blank" href="/table.php"><b>ПОСМОТРЕТЬ ПРАЙС</b></a>
         </p>
         <a class="product__go-to-cat text--larger" href="/catalog">Перейти в каталог</a>

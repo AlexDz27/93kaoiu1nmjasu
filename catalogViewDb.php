@@ -15,7 +15,11 @@ return [
       'description' => 'Для работ со всеми видами лакокрасочных материалов.',
       'isHit' => true,
       'img' => '/img/product/kisti/0100-0000-10_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/kisti/0100-0000-10_2.jpg',
+        '1' => '/img/product/kisti/0100-0000-10_4.jpg',
+        '2' => '/img/product/kisti/0100-0000-10.jpg',
+      ],
       'excelFileRowNum' => 5,
     ],
     '1' => [
@@ -31,7 +35,11 @@ return [
       'description' => 'Для работ со всеми видами лакокрасочных материалов.',
       'isHit' => true,
       'img' => '/img/product/kisti/0100-0000-10_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/kisti/0100-0000-10_2.jpg',
+        '1' => '/img/product/kisti/0100-0000-10_4.jpg',
+        '2' => '/img/product/kisti/0100-0000-10.jpg',
+      ],
       'excelFileRowNum' => 6,
     ],
     '2' => [
@@ -47,7 +55,11 @@ return [
       'description' => 'Для работ со всеми видами лакокрасочных материалов.',
       'isHit' => false,
       'img' => '/img/product/kisti/0100-0000-20_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/kisti/0100-0000-20_2.jpg',
+        '1' => '/img/product/kisti/0100-0000-20_4.jpg',
+        '2' => '/img/product/kisti/0100-0000-20.jpg',
+      ],
       'excelFileRowNum' => 7,
     ],
     '3' => [
@@ -63,7 +75,11 @@ return [
       'description' => 'Для работ со всеми видами лакокрасочных материалов.',
       'isHit' => false,
       'img' => '/img/product/kisti/0100-0000-25_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/kisti/0100-0000-25_2.jpg',
+        '1' => '/img/product/kisti/0100-0000-25_4.jpg',
+        '2' => '/img/product/kisti/0100-0000-25.jpg',
+      ],
       'excelFileRowNum' => 8,
     ],
     '4' => [
@@ -79,7 +95,11 @@ return [
       'description' => 'Для работ со всеми видами лакокрасочных материалов.',
       'isHit' => false,
       'img' => '/img/product/kisti/0100-0000-30_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/kisti/0100-0000-30_2.jpg',
+        '1' => '/img/product/kisti/0100-0000-30_4.jpg',
+        '2' => '/img/product/kisti/0100-0000-30.jpg',
+      ],
       'excelFileRowNum' => 9,
     ],
     '5' => [
@@ -95,7 +115,11 @@ return [
       'description' => 'Для работ со всеми видами лакокрасочных материалов.',
       'isHit' => false,
       'img' => '/img/product/kisti/0100-0000-40_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/kisti/0100-0000-40_2.jpg',
+        '1' => '/img/product/kisti/0100-0000-40_4.jpg',
+        '2' => '/img/product/kisti/0100-0000-40.jpg',
+      ],
       'excelFileRowNum' => 10,
     ],
     '6' => [
@@ -111,7 +135,11 @@ return [
       'description' => 'Для работ со всеми видами лакокрасочных материалов.',
       'isHit' => false,
       'img' => '/img/product/kisti/0100-0000-50_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/kisti/0100-0000-50_2.jpg',
+        '1' => '/img/product/kisti/0100-0000-50_4.jpg',
+        '2' => '/img/product/kisti/0100-0000-50.jpg',
+      ],
       'excelFileRowNum' => 11,
     ],
     '7' => [
@@ -127,7 +155,11 @@ return [
       'description' => 'Для работ со всеми видами лакокрасочных материалов.',
       'isHit' => false,
       'img' => '/img/product/kisti/0110-0000-10_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/kisti/0110-0000-10_2.jpg',
+        '1' => '/img/product/kisti/0110-0000-10_4.jpg',
+        '2' => '/img/product/kisti/0110-0000-10.jpg',
+      ],
       'excelFileRowNum' => 12,
     ],
     '8' => [
@@ -143,7 +175,11 @@ return [
       'description' => 'Для работ со всеми видами лакокрасочных материалов.',
       'isHit' => false,
       'img' => '/img/product/kisti/0110-0000-15_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/kisti/0110-0000-15_2.jpg',
+        '1' => '/img/product/kisti/0110-0000-15_4.jpg',
+        '2' => '/img/product/kisti/0110-0000-15.jpg',
+      ],
       'excelFileRowNum' => 13,
     ],
     '9' => [
@@ -159,7 +195,11 @@ return [
       'description' => 'Для работ со всеми видами лакокрасочных материалов.',
       'isHit' => false,
       'img' => '/img/product/kisti/0110-0000-20_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/kisti/0110-0000-20_2.jpg',
+        '1' => '/img/product/kisti/0110-0000-20_4.jpg',
+        '2' => '/img/product/kisti/0110-0000-20.jpg',
+      ],
       'excelFileRowNum' => 14,
     ],
     '10' => [
@@ -175,7 +215,11 @@ return [
       'description' => 'Для работ со всеми видами лакокрасочных материалов.',
       'isHit' => false,
       'img' => '/img/product/kisti/0110-0000-25_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/kisti/0110-0000-25_2.jpg',
+        '1' => '/img/product/kisti/0110-0000-25_4.jpg',
+        '2' => '/img/product/kisti/0110-0000-25.jpg',
+      ],
       'excelFileRowNum' => 15,
     ],
     '11' => [
@@ -191,7 +235,11 @@ return [
       'description' => 'Для работ со всеми видами лакокрасочных материалов.',
       'isHit' => false,
       'img' => '/img/product/kisti/0110-0000-30_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/kisti/0110-0000-30_2.jpg',
+        '1' => '/img/product/kisti/0110-0000-30_4.jpg',
+        '2' => '/img/product/kisti/0110-0000-30.jpg',
+      ],
       'excelFileRowNum' => 16,
     ],
     '12' => [
@@ -207,7 +255,11 @@ return [
       'description' => 'Для работ со всеми видами лакокрасочных материалов.',
       'isHit' => false,
       'img' => '/img/product/kisti/0110-0000-40_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/kisti/0110-0000-40_2.jpg',
+        '1' => '/img/product/kisti/0110-0000-40_4.jpg',
+        '2' => '/img/product/kisti/0110-0000-40.jpg',
+      ],
       'excelFileRowNum' => 17,
     ],
     '13' => [
@@ -223,7 +275,11 @@ return [
       'description' => 'Для размывки потолков, грунтовки и побелки больших поверхностей.',
       'isHit' => false,
       'img' => '/img/product/kisti/0230-0030-07_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/kisti/0230-0030-07_2.jpg',
+        '1' => '/img/product/kisti/0230-0030-07_4.jpg',
+        '2' => '/img/product/kisti/0230-0030-07.jpg',
+      ],
       'excelFileRowNum' => 18,
     ],
     '14' => [
@@ -239,7 +295,11 @@ return [
       'description' => 'Для размывки потолков, грунтовки и побелки больших поверхностей.',
       'isHit' => false,
       'img' => '/img/product/kisti/0230-0030-10_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/kisti/0230-0030-10_2.jpg',
+        '1' => '/img/product/kisti/0230-0030-10_4.jpg',
+        '2' => '/img/product/kisti/0230-0030-10.jpg',
+      ],
       'excelFileRowNum' => 19,
     ],
     '15' => [
@@ -255,7 +315,11 @@ return [
       'description' => 'Для размывки потолков, грунтовки и побелки больших поверхностей.',
       'isHit' => false,
       'img' => '/img/product/kisti/0230-0030-12_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/kisti/0230-0030-12_2.jpg',
+        '1' => '/img/product/kisti/0230-0030-12_4.jpg',
+        '2' => '/img/product/kisti/0230-0030-12.jpg',
+      ],
       'excelFileRowNum' => 20,
     ],
     '16' => [
@@ -271,7 +335,11 @@ return [
       'description' => 'Для размывки потолков, грунтовки и побелки больших поверхностей.',
       'isHit' => false,
       'img' => '/img/product/kisti/0230-0040-14_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/kisti/0230-0040-14_2.jpg',
+        '1' => '/img/product/kisti/0230-0040-14_4.jpg',
+        '2' => '/img/product/kisti/0230-0040-14.jpg',
+      ],
       'excelFileRowNum' => 21,
     ],
     '17' => [
@@ -287,7 +355,11 @@ return [
       'description' => 'Для размывки потолков, грунтовки и побелки больших поверхностей.',
       'isHit' => false,
       'img' => '/img/product/kisti/0230-0050-15_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/kisti/0230-0050-15_2.jpg',
+        '1' => '/img/product/kisti/0230-0050-15_4.jpg',
+        '2' => '/img/product/kisti/0230-0050-15.jpg',
+      ],
       'excelFileRowNum' => 22,
     ],
     '18' => [
@@ -303,7 +375,11 @@ return [
       'description' => 'Для работы в труднодоступных местах со всеми видами лакокрасочных материалов.',
       'isHit' => false,
       'img' => '/img/product/kisti/0180-0000-10_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/kisti/0180-0000-10_2.jpg',
+        '1' => '/img/product/kisti/0180-0000-10_4_5.jpg',
+        '2' => '/img/product/kisti/0180-0000-10.jpg',
+      ],
       'excelFileRowNum' => 23,
     ],
     '19' => [
@@ -319,7 +395,11 @@ return [
       'description' => 'Для работы в труднодоступных местах со всеми видами лакокрасочных материалов.',
       'isHit' => false,
       'img' => '/img/product/kisti/0180-0000-15_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/kisti/0180-0000-15_2.jpg',
+        '1' => '/img/product/kisti/0180-0000-15_4_5.jpg',
+        '2' => '/img/product/kisti/0180-0000-15.jpg',
+      ],
       'excelFileRowNum' => 24,
     ],
     '20' => [
@@ -335,7 +415,11 @@ return [
       'description' => 'Для работы в труднодоступных местах со всеми видами лакокрасочных материалов.',
       'isHit' => false,
       'img' => '/img/product/kisti/0180-0000-20_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/kisti/0180-0000-20_2.jpg',
+        '1' => '/img/product/kisti/0180-0000-20_4_5.jpg',
+        '2' => '/img/product/kisti/0180-0000-20.jpg',
+      ],
       'excelFileRowNum' => 25,
     ],
   ],
@@ -353,7 +437,12 @@ return [
       'description' => 'Для окрашивания поверхностей красками на водной основе.',
       'isHit' => false,
       'img' => '/img/product/valiki/0300-0615-10_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0300-0615-10_4.jpg',
+        '1' => '/img/product/valiki/0300-0615-10_3.jpg',
+        '2' => '/img/product/valiki/0300-0615-10.jpg',
+        '3' => '/img/product/valiki/0300-0615-10_5.jpg',
+      ],
       'excelFileRowNum' => 26,
     ],
     '1' => [
@@ -369,7 +458,12 @@ return [
       'description' => 'Для окрашивания поверхностей красками на водной основе.',
       'isHit' => false,
       'img' => '/img/product/valiki/0300-0615-10_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0300-0615-10_4.jpg',
+        '1' => '/img/product/valiki/0300-0615-10_3.jpg',
+        '2' => '/img/product/valiki/0300-0615-10.jpg',
+        '3' => '/img/product/valiki/0300-0615-10_5.jpg',
+      ],
       'excelFileRowNum' => 27,
     ],
     '2' => [
@@ -385,7 +479,12 @@ return [
       'description' => 'Для окрашивания поверхностей красками на водной основе.',
       'isHit' => false,
       'img' => '/img/product/valiki/0300-0630-10_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0300-0630-10_4.jpg',
+        '1' => '/img/product/valiki/0300-0630-10_3.jpg',
+        '2' => '/img/product/valiki/0300-0630-10.jpg',
+        '3' => '/img/product/valiki/0300-0630-10_5.jpg',
+      ],
       'excelFileRowNum' => 28,
     ],
     '3' => [
@@ -401,7 +500,12 @@ return [
       'description' => 'Для окрашивания поверхностей красками на водной основе.',
       'isHit' => false,
       'img' => '/img/product/valiki/0300-0630-15_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0300-0630-15_4.jpg',
+        '1' => '/img/product/valiki/0300-0630-15_3.jpg',
+        '2' => '/img/product/valiki/0300-0630-15.jpg',
+        '3' => '/img/product/valiki/0300-0630-15_5.jpg',
+      ],
       'excelFileRowNum' => 29,
     ],
     '4' => [
@@ -417,7 +521,11 @@ return [
       'description' => 'Для окрашивания поверхностей красками на водной основе.',
       'isHit' => false,
       'img' => '/img/product/valiki/0301-11100000_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0301-11100000_4.jpg',
+        '1' => '/img/product/valiki/0301-11100000_5.jpg',
+        '2' => '/img/product/valiki/0301-11100000.jpg',
+      ],
       'excelFileRowNum' => 30,
     ],
     '5' => [
@@ -433,7 +541,11 @@ return [
       'description' => 'Для окрашивания поверхностей красками на водной основе.',
       'isHit' => false,
       'img' => '/img/product/valiki/0301-11100000_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0301-11100000_4.jpg',
+        '1' => '/img/product/valiki/0301-11100000_5.jpg',
+        '2' => '/img/product/valiki/0301-11100000.jpg',
+      ],
       'excelFileRowNum' => 31,
     ],
     '6' => [
@@ -449,7 +561,11 @@ return [
       'description' => 'Для окрашивания поверхностей красками на водной основе.',
       'isHit' => false,
       'img' => '/img/product/valiki/0301-11130000_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0301-11130000_4.jpg',
+        '1' => '/img/product/valiki/0301-11130000_5.jpg',
+        '2' => '/img/product/valiki/0301-11130000.jpg',
+      ],
       'excelFileRowNum' => 32,
     ],
     '7' => [
@@ -465,7 +581,11 @@ return [
       'description' => 'Для окрашивания поверхностей красками на водной основе.',
       'isHit' => false,
       'img' => '/img/product/valiki/0301-11500000_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0301-11500000_4.jpg',
+        '1' => '/img/product/valiki/0301-11500000_5.jpg',
+        '2' => '/img/product/valiki/0301-11500000.jpg',
+      ],
       'excelFileRowNum' => 33,
     ],
     '8' => [
@@ -481,7 +601,12 @@ return [
       'description' => 'Для окрашивания поверхностей красками на водной основе.',
       'isHit' => false,
       'img' => '/img/product/valiki/0300-2-01848-18_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0300-2-01848-18_4.jpg',
+        '1' => '/img/product/valiki/0300-2-01848-18_3.jpg',
+        '2' => '/img/product/valiki/0300-2-01848-18.jpg',
+        '3' => '/img/product/valiki/0300-2-01848-18_5.jpg',
+      ],
       'excelFileRowNum' => 34,
     ],
     '9' => [
@@ -497,7 +622,12 @@ return [
       'description' => 'Для окрашивания поверхностей красками на водной основе.',
       'isHit' => false,
       'img' => '/img/product/valiki/0300-2-01848-23_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0300-2-01848-23_4.jpg',
+        '1' => '/img/product/valiki/0300-2-01848-23_3.jpg',
+        '2' => '/img/product/valiki/0300-2-01848-23.jpg',
+        '3' => '/img/product/valiki/0300-2-01848-23_5.jpg',
+      ],
       'excelFileRowNum' => 35,
     ],
     '10' => [
@@ -513,7 +643,11 @@ return [
       'description' => 'Для окрашивания поверхностей красками на водной основе.',
       'isHit' => false,
       'img' => '/img/product/valiki/0302-21800000_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0302-21800000_4.jpg',
+        '1' => '/img/product/valiki/0302-21800000_5.jpg',
+        '2' => '/img/product/valiki/0302-21800000.jpg',
+      ],
       'excelFileRowNum' => 36,
     ],
     '11' => [
@@ -529,7 +663,11 @@ return [
       'description' => 'Для окрашивания поверхностей красками на водной основе.',
       'isHit' => false,
       'img' => '/img/product/valiki/0302-22400000_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0302-22400000_3.jpg',
+        '1' => '/img/product/valiki/0302-22400000_2.jpg',
+        '2' => '/img/product/valiki/0302-22400000.jpg',
+      ],
       'excelFileRowNum' => 37,
     ],
     '12' => [
@@ -545,7 +683,12 @@ return [
       'description' => 'Для окрашивания поверхностей красками на водной основе.',
       'isHit' => false,
       'img' => '/img/product/valiki/0301-0615-05_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0301-0615-05_4.jpg',
+        '1' => '/img/product/valiki/0301-0615-05_3.jpg',
+        '2' => '/img/product/valiki/0301-0615-05.jpg',
+        '3' => '/img/product/valiki/0301-0615-05_5.jpg',
+      ],
       'excelFileRowNum' => 38,
     ],
     '13' => [
@@ -561,7 +704,12 @@ return [
       'description' => 'Для окрашивания поверхностей красками на водной основе.',
       'isHit' => false,
       'img' => '/img/product/valiki/0301-0615-10_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0301-0615-10_4.jpg',
+        '1' => '/img/product/valiki/0301-0615-10_3.jpg',
+        '2' => '/img/product/valiki/0301-0615-10.jpg',
+        '3' => '/img/product/valiki/0301-0615-10_5.jpg',
+      ],
       'excelFileRowNum' => 39,
     ],
     '14' => [
@@ -577,7 +725,12 @@ return [
       'description' => 'Для окрашивания поверхностей красками на водной основе.',
       'isHit' => false,
       'img' => '/img/product/valiki/0301-0630-30_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0301-0630-30_4.jpg',
+        '1' => '/img/product/valiki/0301-0630-30_3.jpg',
+        '2' => '/img/product/valiki/0301-0630-30.jpg',
+        '3' => '/img/product/valiki/0301-0630-30_5.jpg',
+      ],
       'excelFileRowNum' => 40,
     ],
     '15' => [
@@ -593,7 +746,12 @@ return [
       'description' => 'Для окрашивания поверхностей красками на водной основе.',
       'isHit' => false,
       'img' => '/img/product/valiki/0301-0630-30_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0301-0630-30_4.jpg',
+        '1' => '/img/product/valiki/0301-0630-30_3.jpg',
+        '2' => '/img/product/valiki/0301-0630-30.jpg',
+        '3' => '/img/product/valiki/0301-0630-30_5.jpg',
+      ],
       'excelFileRowNum' => 41,
     ],
     '16' => [
@@ -609,7 +767,11 @@ return [
       'description' => 'Для окрашивания поверхностей красками на водной основе.',
       'isHit' => false,
       'img' => '/img/product/valiki/0301-0601-006_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0301-0601-006_4.jpg',
+        '1' => '/img/product/valiki/0301-0601-006_5.jpg',
+        '2' => '/img/product/valiki/0301-0601-006.jpg',
+      ],
       'excelFileRowNum' => 42,
     ],
     '17' => [
@@ -625,7 +787,11 @@ return [
       'description' => 'Для окрашивания поверхностей красками на водной основе.',
       'isHit' => false,
       'img' => '/img/product/valiki/0301-0601-015_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0301-0601-015_4.jpg',
+        '1' => '/img/product/valiki/0301-0601-015_5.jpg',
+        '2' => '/img/product/valiki/0301-0601-015.jpg',
+      ],
       'excelFileRowNum' => 43,
     ],
     '18' => [
@@ -641,7 +807,11 @@ return [
       'description' => 'Для окрашивания поверхностей красками на водной основе.',
       'isHit' => false,
       'img' => '/img/product/valiki/0301-0601-030_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0301-0601-030_4.jpg',
+        '1' => '/img/product/valiki/0301-0601-030_5.jpg',
+        '2' => '/img/product/valiki/0301-0601-030.jpg',
+      ],
       'excelFileRowNum' => 44,
     ],
     '19' => [
@@ -657,7 +827,11 @@ return [
       'description' => 'Для окрашивания поверхностей красками на водной основе.',
       'isHit' => false,
       'img' => '/img/product/valiki/0301-0601-130_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0301-0601-130_4.jpg',
+        '1' => '/img/product/valiki/0301-0601-130_5.jpg',
+        '2' => '/img/product/valiki/0301-0601-130.jpg',
+      ],
       'excelFileRowNum' => 45,
     ],
     '20' => [
@@ -673,7 +847,12 @@ return [
       'description' => 'Для окрашивания поверхностей красками на водной основе.',
       'isHit' => false,
       'img' => '/img/product/valiki/0310-1848-18_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0310-1848-18_4.jpg',
+        '1' => '/img/product/valiki/0310-1848-18_3.jpg',
+        '2' => '/img/product/valiki/0310-1848-18.jpg',
+        '3' => '/img/product/valiki/0310-1848-18_5.jpg',
+      ],
       'excelFileRowNum' => 46,
     ],
     '21' => [
@@ -689,7 +868,12 @@ return [
       'description' => 'Для окрашивания поверхностей красками на водной основе.',
       'isHit' => false,
       'img' => '/img/product/valiki/0310-1848-23_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0310-1848-23_4.jpg',
+        '1' => '/img/product/valiki/0310-1848-23_3.jpg',
+        '2' => '/img/product/valiki/0310-1848-23.jpg',
+        '3' => '/img/product/valiki/0310-1848-23.jpg',
+      ],
       'excelFileRowNum' => 47,
     ],
     '22' => [
@@ -705,7 +889,11 @@ return [
       'description' => 'Для окрашивания поверхностей красками на водной основе.',
       'isHit' => false,
       'img' => '/img/product/valiki/0311-11800000_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0311-11800000_4.jpg',
+        '1' => '/img/product/valiki/0311-11800000_5.jpg',
+        '2' => '/img/product/valiki/0311-11800000.jpg',
+      ],
       'excelFileRowNum' => 48,
     ],
     '23' => [
@@ -721,7 +909,11 @@ return [
       'description' => 'Для окрашивания поверхностей красками на водной основе.',
       'isHit' => false,
       'img' => '/img/product/valiki/0311-24000000_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0311-24000000_4.jpg',
+        '1' => '/img/product/valiki/0311-24000000_5.jpg',
+        '2' => '/img/product/valiki/0311-24000000.jpg',
+      ],
       'excelFileRowNum' => 49,
     ],
     '24' => [
@@ -737,7 +929,13 @@ return [
       'description' => 'Для окрашивания ровных поверхностей эмалями и лаками.',
       'isHit' => false,
       'img' => '/img/product/valiki/0450-0615-05_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0450-0615-05_3.jpg',
+        '1' => '/img/product/valiki/0450-0615-05_5.jpg',
+        '2' => '/img/product/valiki/0450-0615-05_4.jpg',
+        '3' => '/img/product/valiki/0450-0615-05.jpg',
+        '4' => '/img/product/valiki/0450-0615-05_6.jpg',
+      ],
       'excelFileRowNum' => 50,
     ],
     '25' => [
@@ -753,7 +951,12 @@ return [
       'description' => 'Для окрашивания ровных поверхностей эмалями и лаками.',
       'isHit' => false,
       'img' => '/img/product/valiki/0450-0615-10_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0450-0615-10_4.jpg',
+        '1' => '/img/product/valiki/0450-0615-10_3.jpg',
+        '2' => '/img/product/valiki/0450-0615-10.jpg',
+        '3' => '/img/product/valiki/0450-0615-10_5.jpg',
+      ],
       'excelFileRowNum' => 51,
     ],
     '26' => [
@@ -769,7 +972,12 @@ return [
       'description' => 'Для окрашивания ровных поверхностей эмалями и лаками.',
       'isHit' => false,
       'img' => '/img/product/valiki/0450-0615-15_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0450-0615-15_4.jpg',
+        '1' => '/img/product/valiki/0450-0615-15_3.jpg',
+        '2' => '/img/product/valiki/0450-0615-15.jpg',
+        '3' => '/img/product/valiki/0450-0615-15_5.jpg',
+      ],
       'excelFileRowNum' => 52,
     ],
     '27' => [
@@ -785,7 +993,12 @@ return [
       'description' => 'Для окрашивания ровных поверхностей эмалями и лаками.',
       'isHit' => false,
       'img' => '/img/product/valiki/0450-0630-10_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0450-0630-10_4.jpg',
+        '1' => '/img/product/valiki/0450-0630-10_3.jpg',
+        '2' => '/img/product/valiki/0450-0630-10.jpg',
+        '3' => '/img/product/valiki/0450-0630-10_5.jpg',
+      ],
       'excelFileRowNum' => 53,
     ],
     '28' => [
@@ -801,7 +1014,11 @@ return [
       'description' => 'Для окрашивания ровных поверхностей эмалями и лаками.',
       'isHit' => false,
       'img' => '/img/product/valiki/0451-30600000_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0451-30600000_4.jpg',
+        '1' => '/img/product/valiki/0451-30600000_5.jpg',
+        '2' => '/img/product/valiki/0451-30600000.jpg',
+      ],
       'excelFileRowNum' => 54,
     ],
     '29' => [
@@ -817,7 +1034,11 @@ return [
       'description' => 'Для окрашивания ровных поверхностей эмалями и лаками.',
       'isHit' => false,
       'img' => '/img/product/valiki/0451-31100000_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0451-31100000_4.jpg',
+        '1' => '/img/product/valiki/0451-31100000_5.jpg',
+        '2' => '/img/product/valiki/0451-31100000.jpg',
+      ],
       'excelFileRowNum' => 55,
     ],
     '30' => [
@@ -833,7 +1054,11 @@ return [
       'description' => 'Для окрашивания ровных поверхностей эмалями и лаками.',
       'isHit' => false,
       'img' => '/img/product/valiki/0451-31500000_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0451-31500000_4.jpg',
+        '1' => '/img/product/valiki/0451-31500000_5.jpg',
+        '2' => '/img/product/valiki/0451-31500000.jpg',
+      ],
       'excelFileRowNum' => 56,
     ],
     '31' => [
@@ -849,7 +1074,11 @@ return [
       'description' => 'Для окрашивания ровных поверхностей эмалями и лаками.',
       'isHit' => false,
       'img' => '/img/product/valiki/0451-31130000_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0451-31130000_4.jpg',
+        '1' => '/img/product/valiki/0451-31130000_5.jpg',
+        '2' => '/img/product/valiki/0451-31130000.jpg',
+      ],
       'excelFileRowNum' => 57,
     ],
     '32' => [
@@ -865,7 +1094,12 @@ return [
       'description' => 'Для окрашивания ровных поверхностей эмалями и лаками.',
       'isHit' => false,
       'img' => '/img/product/valiki/0451-0848-18_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0451-0848-18_4.jpg',
+        '1' => '/img/product/valiki/0451-0848-18_3.jpg',
+        '2' => '/img/product/valiki/0451-0848-18.jpg',
+        '3' => '/img/product/valiki/0451-0848-18_5.jpg',
+      ],
       'excelFileRowNum' => 58,
     ],
     '33' => [
@@ -881,7 +1115,12 @@ return [
       'description' => 'Для окрашивания ровных поверхностей эмалями и лаками.',
       'isHit' => false,
       'img' => '/img/product/valiki/0451-0848-24_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0451-0848-24_4.jpg',
+        '1' => '/img/product/valiki/0451-0848-24_3.jpg',
+        '2' => '/img/product/valiki/0451-0848-24.jpg',
+        '3' => '/img/product/valiki/0451-0848-24_5.jpg',
+      ],
       'excelFileRowNum' => 59,
     ],
     '34' => [
@@ -897,7 +1136,11 @@ return [
       'description' => 'Для окрашивания ровных поверхностей эмалями и лаками.',
       'isHit' => false,
       'img' => '/img/product/valiki/0540-0848-18_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0540-0848-18_4.jpg',
+        '1' => '/img/product/valiki/0540-0848-18_5.jpg',
+        '2' => '/img/product/valiki/0540-0848-18.jpg',
+      ],
       'excelFileRowNum' => 60,
     ],
     '35' => [
@@ -913,7 +1156,11 @@ return [
       'description' => 'Для окрашивания ровных поверхностей эмалями и лаками.',
       'isHit' => false,
       'img' => '/img/product/valiki/0540-0848-24_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/valiki/0540-0848-24_4.jpg',
+        '1' => '/img/product/valiki/0540-0848-24_5.jpg',
+        '2' => '/img/product/valiki/0540-0848-24.jpg',
+      ],
       'excelFileRowNum' => 61,
     ],
     '36' => [
@@ -1011,7 +1258,12 @@ return [
       'description' => 'Для быстрого и точного разреза обычной и нержавеющей стали. Используется на ручных, угловых, шлифовальных машинах (УШМ)',
       'isHit' => false,
       'img' => '/img/product/abraziv/2897-0125-10_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/2897-0125-10_2.jpg',
+        '1' => '/img/product/abraziv/2897-0125-10_5.jpg',
+        '2' => '/img/product/abraziv/2897-0125-10_4.jpg',
+        '3' => '/img/product/abraziv/2897-0125-10.jpg',
+      ],
       'excelFileRowNum' => 68,
     ],
     '1' => [
@@ -1027,7 +1279,12 @@ return [
       'description' => 'Для быстрого и точного разреза обычной и нержавеющей стали. Используется на ручных, угловых, шлифовальных машинах (УШМ)',
       'isHit' => false,
       'img' => '/img/product/abraziv/2897-0125-12_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/2897-0125-12_2.jpg',
+        '1' => '/img/product/abraziv/2897-0125-12_5.jpg',
+        '2' => '/img/product/abraziv/2897-0125-12_4.jpg',
+        '3' => '/img/product/abraziv/2897-0125-12.jpg',
+      ],
       'excelFileRowNum' => 69,
     ],
     '2' => [
@@ -1043,7 +1300,12 @@ return [
       'description' => 'Для быстрого и точного разреза обычной и нержавеющей стали. Используется на ручных, угловых, шлифовальных машинах (УШМ)',
       'isHit' => false,
       'img' => '/img/product/abraziv/2897-0230-16_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/2897-0230-16_2.jpg',
+        '1' => '/img/product/abraziv/2897-0230-16_5.jpg',
+        '2' => '/img/product/abraziv/2897-0230-16_4.jpg',
+        '3' => '/img/product/abraziv/2897-0230-16.jpg',
+      ],
       'excelFileRowNum' => 70,
     ],
     '3' => [
@@ -1059,7 +1321,12 @@ return [
       'description' => 'Для быстрого и точного разреза обычной и нержавеющей стали. Используется на ручных, угловых, шлифовальных машинах (УШМ)',
       'isHit' => false,
       'img' => '/img/product/abraziv/2897-0123-20_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/2897-0123-20_2.jpg',
+        '1' => '/img/product/abraziv/2897-0123-20_5.jpg',
+        '2' => '/img/product/abraziv/2897-0123-20_4.jpg',
+        '3' => '/img/product/abraziv/2897-0123-20.jpg',
+      ],
       'excelFileRowNum' => 71,
     ],
     '4' => [
@@ -1091,7 +1358,12 @@ return [
       'description' => 'Для шлифования металлических и деревянных поверхностей.',
       'isHit' => false,
       'img' => '/img/product/abraziv/2812-0125-26_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/2812-0125-26_2.jpg',
+        '1' => '/img/product/abraziv/2812-0125-26_5.jpg',
+        '2' => '/img/product/abraziv/2812-0125-26_4.jpg',
+        '3' => '/img/product/abraziv/2812-0125-26.jpg',
+      ],
       'excelFileRowNum' => 73,
     ],
     '6' => [
@@ -1107,7 +1379,12 @@ return [
       'description' => 'Для шлифования металлических и деревянных поверхностей.',
       'isHit' => false,
       'img' => '/img/product/abraziv/2812-0125-04_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/2812-0125-04_2.jpg',
+        '1' => '/img/product/abraziv/2812-0125-04_5.jpg',
+        '2' => '/img/product/abraziv/2812-0125-04_4.jpg',
+        '3' => '/img/product/abraziv/2812-0125-04.jpg',
+      ],
       'excelFileRowNum' => 74,
     ],
     '7' => [
@@ -1123,7 +1400,12 @@ return [
       'description' => 'Для шлифования металлических и деревянных поверхностей.',
       'isHit' => false,
       'img' => '/img/product/abraziv/2812-0125-06_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/2812-0125-06_2.jpg',
+        '1' => '/img/product/abraziv/2812-0125-06_5.jpg',
+        '2' => '/img/product/abraziv/2812-0125-06_4.jpg',
+        '3' => '/img/product/abraziv/2812-0125-06.jpg',
+      ],
       'excelFileRowNum' => 75,
     ],
     '8' => [
@@ -1139,7 +1421,12 @@ return [
       'description' => 'Для шлифования металлических и деревянных поверхностей.',
       'isHit' => false,
       'img' => '/img/product/abraziv/2812-0125-08_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/2812-0125-08_2.jpg',
+        '1' => '/img/product/abraziv/2812-0125-08_5.jpg',
+        '2' => '/img/product/abraziv/2812-0125-08_4.jpg',
+        '3' => '/img/product/abraziv/2812-0125-08.jpg',
+      ],
       'excelFileRowNum' => 76,
     ],
     '9' => [
@@ -1155,7 +1442,12 @@ return [
       'description' => 'Для шлифования металлических и деревянных поверхностей.',
       'isHit' => false,
       'img' => '/img/product/abraziv/2812-0125-10_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/2812-0125-10_2.jpg',
+        '1' => '/img/product/abraziv/2812-0125-10_5.jpg',
+        '2' => '/img/product/abraziv/2812-0125-10_4.jpg',
+        '3' => '/img/product/abraziv/2812-0125-10.jpg',
+      ],
       'excelFileRowNum' => 77,
     ],
     '10' => [
@@ -1171,7 +1463,12 @@ return [
       'description' => 'Для шлифования металлических и деревянных поверхностей.',
       'isHit' => false,
       'img' => '/img/product/abraziv/2812-0125-12_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/2812-0125-12_2.jpg',
+        '1' => '/img/product/abraziv/2812-0125-12_5.jpg',
+        '2' => '/img/product/abraziv/2812-0125-12_4.jpg',
+        '3' => '/img/product/abraziv/2812-0125-12.jpg',
+      ],
       'excelFileRowNum' => 78,
     ],
     '11' => [
@@ -1187,7 +1484,12 @@ return [
       'description' => 'Для шлифования и очистки изделий из металла.',
       'isHit' => false,
       'img' => '/img/product/abraziv/0796-0125-60_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/0796-0125-60_2.jpg',
+        '1' => '/img/product/abraziv/0796-0125-60_5.jpg',
+        '2' => '/img/product/abraziv/0796-0125-60_4.jpg',
+        '3' => '/img/product/abraziv/0796-0125-60.jpg',
+      ],
       'excelFileRowNum' => 79,
     ],
     '12' => [
@@ -1203,7 +1505,12 @@ return [
       'description' => 'Для разреза изделий из кирпича, бетона, камня, керамической плитки. Не требует водяного охлаждения.',
       'isHit' => false,
       'img' => '/img/product/abraziv/0797-0125-00_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/0797-0125-00_2.jpg',
+        '1' => '/img/product/abraziv/0797-0125-00_4.jpg',
+        '2' => '/img/product/abraziv/0797-0125-00_3.jpg',
+        '3' => '/img/product/abraziv/0797-0125-00.jpg',
+      ],
       'excelFileRowNum' => 80,
     ],
     '13' => [
@@ -1219,7 +1526,12 @@ return [
       'description' => 'Для разреза изделий из кирпича, бетона, камня, керамической плитки. Не требует водяного охлаждения.',
       'isHit' => false,
       'img' => '/img/product/abraziv/0797-0230-00_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/0797-0230-00_2.jpg',
+        '1' => '/img/product/abraziv/0797-0230-00_4.jpg',
+        '2' => '/img/product/abraziv/0797-0230-00_3.jpg',
+        '3' => '/img/product/abraziv/0797-0230-00.jpg',
+      ],
       'excelFileRowNum' => 81,
     ],
     '14' => [
@@ -1235,7 +1547,12 @@ return [
       'description' => 'Для разреза изделий из кирпича, бетона, камня, керамической плитки. Не требует водяного охлаждения.',
       'isHit' => false,
       'img' => '/img/product/abraziv/0797-0125-01_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/0797-0125-01_2.jpg',
+        '1' => '/img/product/abraziv/0797-0125-01_4.jpg',
+        '2' => '/img/product/abraziv/0797-0125-01_3.jpg',
+        '3' => '/img/product/abraziv/0797-0125-01.jpg',
+      ],
       'excelFileRowNum' => 82,
     ],
     '15' => [
@@ -1251,7 +1568,12 @@ return [
       'description' => 'Для разреза изделий из кирпича, бетона, камня, керамической плитки. Не требует водяного охлаждения.',
       'isHit' => false,
       'img' => '/img/product/abraziv/0797-2125-00_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/0797-2125-00_2.jpg',
+        '1' => '/img/product/abraziv/0797-2125-00_4.jpg',
+        '2' => '/img/product/abraziv/0797-2125-00_3.jpg',
+        '3' => '/img/product/abraziv/0797-2125-00.jpg',
+      ],
       'excelFileRowNum' => 83,
     ],
     '16' => [
@@ -1267,7 +1589,12 @@ return [
       'description' => 'Для разреза изделий из кирпича, бетона, камня, керамической плитки. Не требует водяного охлаждения.',
       'isHit' => false,
       'img' => '/img/product/abraziv/0797-2230-00_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/0797-2230-00_2.jpg',
+        '1' => '/img/product/abraziv/0797-2230-00_4.jpg',
+        '2' => '/img/product/abraziv/0797-2230-00_3.jpg',
+        '3' => '/img/product/abraziv/0797-2230-00.jpg',
+      ],
       'excelFileRowNum' => 84,
     ],
     '17' => [
@@ -1283,7 +1610,12 @@ return [
       'description' => 'Для разреза изделий из кирпича, бетона, камня, керамической плитки. Не требует водяного охлаждения.',
       'isHit' => false,
       'img' => '/img/product/abraziv/0797-1230-00_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/0797-1230-00_2.jpg',
+        '1' => '/img/product/abraziv/0797-1230-00_4.jpg',
+        '2' => '/img/product/abraziv/0797-1230-00_3.jpg',
+        '3' => '/img/product/abraziv/0797-1230-00.jpg',
+      ],
       'excelFileRowNum' => 85,
     ],
     '18' => [
@@ -1299,7 +1631,12 @@ return [
       'description' => 'Для разреза изделий из кирпича, бетона, камня, керамической плитки. Не требует водяного охлаждения.',
       'isHit' => false,
       'img' => '/img/product/abraziv/0797-1230-00_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/0797-1350-21_2.jpg',
+        '1' => '/img/product/abraziv/0797-1350-21_4.jpg',
+        '2' => '/img/product/abraziv/0797-1350-21_3.jpg',
+        '3' => '/img/product/abraziv/0797-1350-21.jpg',
+      ],
       'excelFileRowNum' => 86,
     ],
     '19' => [
@@ -1331,7 +1668,12 @@ return [
       'description' => 'Для разреза изделий из кирпича, бетона, камня, керамической плитки. Не требует водяного охлаждения.',
       'isHit' => false,
       'img' => '/img/product/abraziv/0797-1350-21_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/0797-1350-21_2.jpg',
+        '1' => '/img/product/abraziv/0797-1350-21_4.jpg',
+        '2' => '/img/product/abraziv/0797-1350-21_3.jpg',
+        '3' => '/img/product/abraziv/0797-1350-21.jpg',
+      ],
       'excelFileRowNum' => 88,
     ],
     '21' => [
@@ -1347,7 +1689,12 @@ return [
       'description' => 'Для шлифования и обработки бетонных, кирпичных, газосиликатных и гранитных поверхностей.',
       'isHit' => false,
       'img' => '/img/product/abraziv/0798-1856278 D_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/0798-1856278 D_2.jpg',
+        '1' => '/img/product/abraziv/0798-1856278 D_3.jpg',
+        '2' => '/img/product/abraziv/0798-1856278 D.jpg',
+        '3' => '/img/product/abraziv/0798-1856278 D_4.jpg',
+      ],
       'excelFileRowNum' => 89,
     ],
     '22' => [
@@ -1363,7 +1710,14 @@ return [
       'description' => 'Для шлифования поверхностей с использованием круга наждачного на ворсовой подложке.',
       'isHit' => false,
       'img' => '/img/product/abraziv/0799-0125-00_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/0799-0125-00_6.jpg',
+        '1' => '/img/product/abraziv/0799-0125-00_2.jpg',
+        '2' => '/img/product/abraziv/0799-0125-00_3.jpg',
+        '3' => '/img/product/abraziv/0799-0125-00_4.jpg',
+        '4' => '/img/product/abraziv/0799-0125-00_9.jpg',
+        '5' => '/img/product/abraziv/0799-0125-00.jpg',
+      ],
       'excelFileRowNum' => 90,
     ],
     '23' => [
@@ -1379,7 +1733,14 @@ return [
       'description' => 'Для шлифования поверхностей с использованием круга наждачного на ворсовой подложке.',
       'isHit' => false,
       'img' => '/img/product/abraziv/0799-0125-01_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/0799-0125-01_6.jpg',
+        '1' => '/img/product/abraziv/0799-0125-01_2.jpg',
+        '2' => '/img/product/abraziv/0799-0125-01_3.jpg',
+        '3' => '/img/product/abraziv/0799-0125-01_4.jpg',
+        '4' => '/img/product/abraziv/0799-0125-01_9.jpg',
+        '5' => '/img/product/abraziv/0799-0125-01.jpg',
+      ],
       'excelFileRowNum' => 91,
     ],
     '24' => [
@@ -1395,7 +1756,12 @@ return [
       'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
       'isHit' => false,
       'img' => '/img/product/abraziv/2902-0140-40_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/2902-0140-40_0.jpg',
+        '1' => '/img/product/abraziv/2902-0140-40_2.jpg',
+        '2' => '/img/product/abraziv/2902-0140-40_3.jpg',
+        '3' => '/img/product/abraziv/2902-0140-40.jpg',
+      ],
       'excelFileRowNum' => 92,
     ],
     '25' => [
@@ -1411,7 +1777,12 @@ return [
       'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
       'isHit' => false,
       'img' => '/img/product/abraziv/2902-0160-60_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/2902-0160-60_0.jpg',
+        '1' => '/img/product/abraziv/2902-0160-60_2.jpg',
+        '2' => '/img/product/abraziv/2902-0160-60_3.jpg',
+        '3' => '/img/product/abraziv/2902-0160-60.jpg',
+      ],
       'excelFileRowNum' => 93,
     ],
     '26' => [
@@ -1427,7 +1798,12 @@ return [
       'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
       'isHit' => false,
       'img' => '/img/product/abraziv/2902-0180-80_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/2902-0180-80_0.jpg',
+        '1' => '/img/product/abraziv/2902-0180-80_2.jpg',
+        '2' => '/img/product/abraziv/2902-0180-80_3.jpg',
+        '3' => '/img/product/abraziv/2902-0180-80.jpg',
+      ],
       'excelFileRowNum' => 94,
     ],
     '27' => [
@@ -1443,7 +1819,12 @@ return [
       'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
       'isHit' => false,
       'img' => '/img/product/abraziv/2902-0100-10_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/2902-0100-10_0.jpg',
+        '1' => '/img/product/abraziv/2902-0100-10_2.jpg',
+        '2' => '/img/product/abraziv/2902-0100-10_3.jpg',
+        '3' => '/img/product/abraziv/2902-0100-10.jpg',
+      ],
       'excelFileRowNum' => 95,
     ],
     '28' => [
@@ -1459,7 +1840,12 @@ return [
       'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
       'isHit' => false,
       'img' => '/img/product/abraziv/2902-0120-12_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/2902-0120-12_0.jpg',
+        '1' => '/img/product/abraziv/2902-0120-12_2.jpg',
+        '2' => '/img/product/abraziv/2902-0120-12_3.jpg',
+        '3' => '/img/product/abraziv/2902-0120-12.jpg',
+      ],
       'excelFileRowNum' => 96,
     ],
     '29' => [
@@ -1475,7 +1861,12 @@ return [
       'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
       'isHit' => false,
       'img' => '/img/product/abraziv/2902-0180-18_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/2902-0180-18_0.jpg',
+        '1' => '/img/product/abraziv/2902-0180-18_2.jpg',
+        '2' => '/img/product/abraziv/2902-0180-18_3.jpg',
+        '3' => '/img/product/abraziv/2902-0180-18.jpg',
+      ],
       'excelFileRowNum' => 97,
     ],
     '30' => [
@@ -1491,7 +1882,12 @@ return [
       'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
       'isHit' => false,
       'img' => '/img/product/abraziv/2902-0320-32_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/2902-0320-32_0.jpg',
+        '1' => '/img/product/abraziv/2902-0320-32_2.jpg',
+        '2' => '/img/product/abraziv/2902-0320-32_3.jpg',
+        '3' => '/img/product/abraziv/2902-0320-32.jpg',
+      ],
       'excelFileRowNum' => 98,
     ],
     '31' => [
@@ -1507,7 +1903,12 @@ return [
       'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
       'isHit' => false,
       'img' => '/img/product/abraziv/0795-0125-40_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/0795-0125-40_0.jpg',
+        '1' => '/img/product/abraziv/0795-0125-40_2.jpg',
+        '2' => '/img/product/abraziv/0795-0125-40_3.jpg',
+        '3' => '/img/product/abraziv/0795-0125-40.jpg',
+      ],
       'excelFileRowNum' => 99,
     ],
     '32' => [
@@ -1523,7 +1924,12 @@ return [
       'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
       'isHit' => false,
       'img' => '/img/product/abraziv/0795-0125-60_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/0795-0125-60_0.jpg',
+        '1' => '/img/product/abraziv/0795-0125-60_2.jpg',
+        '2' => '/img/product/abraziv/0795-0125-60_3.jpg',
+        '3' => '/img/product/abraziv/0795-0125-60.jpg',
+      ],
       'excelFileRowNum' => 100,
     ],
     '33' => [
@@ -1539,7 +1945,12 @@ return [
       'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
       'isHit' => false,
       'img' => '/img/product/abraziv/0795-0125-80_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/0795-0125-80_0.jpg',
+        '1' => '/img/product/abraziv/0795-0125-80_2.jpg',
+        '2' => '/img/product/abraziv/0795-0125-80_3.jpg',
+        '3' => '/img/product/abraziv/0795-0125-80.jpg',
+      ],
       'excelFileRowNum' => 101,
     ],
     '34' => [
@@ -1555,7 +1966,12 @@ return [
       'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
       'isHit' => false,
       'img' => '/img/product/abraziv/0795-0125-10_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/0795-0125-10_0.jpg',
+        '1' => '/img/product/abraziv/0795-0125-10_2.jpg',
+        '2' => '/img/product/abraziv/0795-0125-10_3.jpg',
+        '3' => '/img/product/abraziv/0795-0125-10.jpg',
+      ],
       'excelFileRowNum' => 102,
     ],
     '35' => [
@@ -1571,7 +1987,12 @@ return [
       'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
       'isHit' => false,
       'img' => '/img/product/abraziv/0795-0125-12_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/0795-0125-12_0.jpg',
+        '1' => '/img/product/abraziv/0795-0125-12_2.jpg',
+        '2' => '/img/product/abraziv/0795-0125-12_3.jpg',
+        '3' => '/img/product/abraziv/0795-0125-12.jpg',
+      ],
       'excelFileRowNum' => 103,
     ],
     '36' => [
@@ -1587,7 +2008,12 @@ return [
       'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
       'isHit' => false,
       'img' => '/img/product/abraziv/0795-0125-18_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/0795-0125-18_0.jpg',
+        '1' => '/img/product/abraziv/0795-0125-18_2.jpg',
+        '2' => '/img/product/abraziv/0795-0125-18_3.jpg',
+        '3' => '/img/product/abraziv/0795-0125-18.jpg',
+      ],
       'excelFileRowNum' => 104,
     ],
     '37' => [
@@ -1603,7 +2029,12 @@ return [
       'description' => 'Для шлифования металлических и деревянных поверхностей с использованием насадок на электроинструмент.',
       'isHit' => false,
       'img' => '/img/product/abraziv/0795-0125-32_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/0795-0125-32_0.jpg',
+        '1' => '/img/product/abraziv/0795-0125-32_2.jpg',
+        '2' => '/img/product/abraziv/0795-0125-32_3.jpg',
+        '3' => '/img/product/abraziv/0795-0125-32.jpg',
+      ],
       'excelFileRowNum' => 105,
     ],
     '38' => [
@@ -1619,7 +2050,14 @@ return [
       'description' => 'Для очистки металлических поверхностей от ржавчины и грязи.',
       'isHit' => false,
       'img' => '/img/product/abraziv/07991-0100-14_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/07991-0100-14_5.jpg',
+        '1' => '/img/product/abraziv/07991-0100-14_3.jpg',
+        '2' => '/img/product/abraziv/07991-0100-14_1.jpg',
+        '3' => '/img/product/abraziv/07991-0100-14_4.jpg',
+        '4' => '/img/product/abraziv/07991-0100-14_6.jpg',
+        '5' => '/img/product/abraziv/07991-0100-14.jpg',
+      ],
       'excelFileRowNum' => 106,
     ],
     '39' => [
@@ -1635,7 +2073,14 @@ return [
       'description' => 'Для очистки металлических поверхностей от ржавчины и грязи.',
       'isHit' => false,
       'img' => '/img/product/abraziv/07992-0100-14_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/07992-0100-14_5.jpg',
+        '1' => '/img/product/abraziv/07992-0100-14_3.jpg',
+        '2' => '/img/product/abraziv/07992-0100-14_1.jpg',
+        '3' => '/img/product/abraziv/07992-0100-14_4.jpg',
+        '4' => '/img/product/abraziv/07992-0100-14.jpg',
+        '5' => '/img/product/abraziv/07992-0100-14_6.jpg',
+      ],
       'excelFileRowNum' => 107,
     ],
     '40' => [
@@ -1651,7 +2096,14 @@ return [
       'description' => 'Для очистки металлических поверхностей от ржавчины и грязи.',
       'isHit' => false,
       'img' => '/img/product/abraziv/07993-0115-14_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/07993-0115-14_5.jpg',
+        '1' => '/img/product/abraziv/07993-0115-14_3.jpg',
+        '2' => '/img/product/abraziv/07993-0115-14_1.jpg',
+        '3' => '/img/product/abraziv/07993-0115-14_4.jpg',
+        '4' => '/img/product/abraziv/07993-0115-14.jpg',
+        '5' => '/img/product/abraziv/07993-0115-14_6.jpg',
+      ],
       'excelFileRowNum' => 108,
     ],
     '41' => [
@@ -1667,7 +2119,14 @@ return [
       'description' => 'Для очистки металлических поверхностей от ржавчины и грязи.',
       'isHit' => false,
       'img' => '/img/product/abraziv/07994-0115-14_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/07994-0115-14_0.jpg',
+        '1' => '/img/product/abraziv/07994-0115-14_4_1.jpg',
+        '2' => '/img/product/abraziv/07994-0115-14_1.jpg',
+        '3' => '/img/product/abraziv/07994-0115-14_4.jpg',
+        '4' => '/img/product/abraziv/07994-0115-14.jpg',
+        '5' => '/img/product/abraziv/07994-0115-14_5.jpg',
+      ],
       'excelFileRowNum' => 109,
     ],
   ],
@@ -1685,7 +2144,14 @@ return [
       'description' => 'Для разрезания бумаги, картона и прочих материлов с применением значительных усилий.',
       'isHit' => false,
       'img' => '/img/product/nozhi/0890-0000-18_6.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/nozhi/0890-0000-18_3.jpg',
+        '1' => '/img/product/nozhi/0890-0000-18_4.jpg',
+        '2' => '/img/product/nozhi/0890-0000-18_5.jpg',
+        '3' => '/img/product/nozhi/0890-0000-18.jpg',
+        '4' => '/img/product/nozhi/0890-0000-18_1.jpg',
+        '5' => '/img/product/nozhi/0890-0000-18_9.jpg',
+      ],
       'excelFileRowNum' => 111,
     ],
     '1' => [
@@ -1701,7 +2167,14 @@ return [
       'description' => 'Для разрезания бумаги, картона и прочих материлов с применением значительных усилий.',
       'isHit' => false,
       'img' => '/img/product/nozhi/0890-0000-18_6.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/nozhi/0890-0000-18_3.jpg',
+        '1' => '/img/product/nozhi/0890-0000-18_4.jpg',
+        '2' => '/img/product/nozhi/0890-0000-18_5.jpg',
+        '3' => '/img/product/nozhi/0890-0000-18.jpg',
+        '4' => '/img/product/nozhi/0890-0000-18_1.jpg',
+        '5' => '/img/product/nozhi/0890-0000-18_9.jpg',
+      ],
       'excelFileRowNum' => 112,
     ],
     '2' => [
@@ -1717,7 +2190,14 @@ return [
       'description' => 'Для разрезания бумаги, картона и прочих материлов с применением значительных усилий.',
       'isHit' => false,
       'img' => '/img/product/nozhi/0890-0000-25_6.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/nozhi/0890-0000-25_3.jpg',
+        '1' => '/img/product/nozhi/0890-0000-25_4.jpg',
+        '2' => '/img/product/nozhi/0890-0000-25_5.jpg',
+        '3' => '/img/product/nozhi/0890-0000-25.jpg',
+        '4' => '/img/product/nozhi/0890-0000-25_1.jpg',
+        '5' => '/img/product/nozhi/0890-0000-25_9.jpg',
+      ],
       'excelFileRowNum' => 113,
     ],
     '3' => [
@@ -1733,7 +2213,11 @@ return [
       'description' => 'Для обойных ножей.',
       'isHit' => false,
       'img' => '/img/product/nozhi/0890-0010-18_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/nozhi/0890-0010-18_1.jpg',
+        '1' => '/img/product/nozhi/0890-0010-18.jpg',
+        '2' => '/img/product/nozhi/0890-0010-18_3.jpg',
+      ],
       'excelFileRowNum' => 114,
     ],
     '4' => [
@@ -1749,7 +2233,11 @@ return [
       'description' => 'Для обойных ножей.',
       'isHit' => false,
       'img' => '/img/product/nozhi/0890-0010-25_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/nozhi/0890-0010-25_1.jpg',
+        '1' => '/img/product/nozhi/0890-0010-25.jpg',
+        '2' => '/img/product/nozhi/0890-0010-25_3.jpg',
+      ],
       'excelFileRowNum' => 115,
     ],
   ],
@@ -1767,7 +2255,10 @@ return [
       'description' => 'Для смешивания тяжелых строительных масс.',
       'isHit' => false,
       'img' => '/img/product/vspomogat/0990-0400-08_1_3.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/vspomogat/0990-0400-08_1_4.jpg',
+        '1' => '/img/product/vspomogat/0990-0400-08_1.jpg',
+      ],
       'excelFileRowNum' => 116,
     ],
     '1' => [
@@ -1783,7 +2274,10 @@ return [
       'description' => 'Для смешивания тяжелых строительных масс.',
       'isHit' => false,
       'img' => '/img/product/vspomogat/0990-0400-08_1_3.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/vspomogat/0990-0400-08_1_4.jpg',
+        '1' => '/img/product/vspomogat/0990-0400-08_1.jpg',
+      ],
       'excelFileRowNum' => 117,
     ],
     '2' => [
@@ -1799,7 +2293,10 @@ return [
       'description' => 'Для смешивания тяжелых строительных масс.',
       'isHit' => false,
       'img' => '/img/product/vspomogat/0990-0600-12_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/vspomogat/0990-0600-12_1.jpg',
+        '1' => '/img/product/vspomogat/0990-0600-12.jpg',
+      ],
       'excelFileRowNum' => 118,
     ],
     '3' => [
@@ -1815,7 +2312,10 @@ return [
       'description' => 'Для смешивания тяжелых строительных масс.',
       'isHit' => false,
       'img' => '/img/product/vspomogat/0980-0400-08_2_4.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/vspomogat/0980-0400-08_2.jpg',
+        '1' => '/img/product/vspomogat/0980-0400-08.jpg',
+      ],
       'excelFileRowNum' => 119,
     ],
     '4' => [
@@ -1831,7 +2331,10 @@ return [
       'description' => 'Для смешивания тяжелых строительных масс.',
       'isHit' => false,
       'img' => '/img/product/vspomogat/0980-0600-10_2.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/vspomogat/0980-0600-10_3.jpg',
+        '1' => '/img/product/vspomogat/0980-0600-10.jpg',
+      ],
       'excelFileRowNum' => 120,
     ],
     '5' => [
@@ -1847,7 +2350,10 @@ return [
       'description' => 'Для смешивания тяжелых строительных масс.',
       'isHit' => false,
       'img' => '/img/product/vspomogat/0975-0600-12_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/vspomogat/0975-0600-12_2.jpg',
+        '1' => '/img/product/vspomogat/0975-0600-12.jpg',
+      ],
       'excelFileRowNum' => 121,
     ],
     '6' => [
@@ -1863,7 +2369,14 @@ return [
       'description' => 'Для измерения размеров объекта.',
       'isHit' => false,
       'img' => '/img/product/vspomogat/1051-0000-03_3.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/vspomogat/1051-0000-03_1.jpg',
+        '1' => '/img/product/vspomogat/1051-0000-03_2.jpg',
+        '2' => '/img/product/vspomogat/1051-0000-03_6.jpg',
+        '3' => '/img/product/vspomogat/1051-0000-03_4.jpg',
+        '4' => '/img/product/vspomogat/1051-0000-03.jpg',
+        '5' => '/img/product/vspomogat/1051-0000-03_5.jpg',
+      ],
       'excelFileRowNum' => 122,
     ],
     '7' => [
@@ -1879,7 +2392,14 @@ return [
       'description' => 'Для измерения размеров объекта.',
       'isHit' => false,
       'img' => '/img/product/vspomogat/1051-0000-03_3.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/vspomogat/1051-0000-03_1.jpg',
+        '1' => '/img/product/vspomogat/1051-0000-03_2.jpg',
+        '2' => '/img/product/vspomogat/1051-0000-03_6.jpg',
+        '3' => '/img/product/vspomogat/1051-0000-03_4.jpg',
+        '4' => '/img/product/vspomogat/1051-0000-03.jpg',
+        '5' => '/img/product/vspomogat/1051-0000-03_5.jpg',
+      ],
       'excelFileRowNum' => 123,
     ],
     '8' => [
@@ -1895,7 +2415,14 @@ return [
       'description' => 'Для измерения размеров объекта.',
       'isHit' => false,
       'img' => '/img/product/vspomogat/1051-0000-75_3.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/vspomogat/1051-0000-75_1.jpg',
+        '1' => '/img/product/vspomogat/1051-0000-75_2.jpg',
+        '2' => '/img/product/vspomogat/1051-0000-75_6.jpg',
+        '3' => '/img/product/vspomogat/1051-0000-75_4.jpg',
+        '4' => '/img/product/vspomogat/1051-0000-75.jpg',
+        '5' => '/img/product/vspomogat/1051-0000-75_5.jpg',
+      ],
       'excelFileRowNum' => 124,
     ],
     '9' => [
@@ -1911,7 +2438,13 @@ return [
       'description' => 'Для измерения размеров объекта.',
       'isHit' => false,
       'img' => '/img/product/vspomogat/1051-0000-10_3.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/vspomogat/0700-0000-30_2.jpg',
+        '1' => '/img/product/vspomogat/AU2A9218_1.jpg',
+        '2' => '/img/product/vspomogat/0700-0000-30_3.jpg',
+        '3' => '/img/product/vspomogat/0700-0000-30.jpg',
+        '4' => '/img/product/vspomogat/0700-0000-30_4.jpg',
+      ],
       'excelFileRowNum' => 125,
     ],
     '10' => [
@@ -2199,7 +2732,11 @@ return [
       'description' => 'Для нанесения и выравнивания строительных смесей.',
       'isHit' => false,
       'img' => '/img/product/vspomogat/2755-0001-H4_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/vspomogat/2755-0001-H4_2.jpg',
+        '1' => '/img/product/vspomogat/2755-0001-H4_3.jpg',
+        '2' => '/img/product/vspomogat/2755-0001-H4.jpg',
+      ],
       'excelFileRowNum' => 144,
     ],
     '28' => [
@@ -2215,8 +2752,21 @@ return [
       'description' => 'Для нанесения и выравнивания строительных смесей.',
       'isHit' => false,
       'img' => '/img/product/vspomogat/0901-0000-20.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/vspomogat/0901-0000-20_1.jpg',
+        '1' => '/img/product/vspomogat/0901-0000-20_3.jpg',
+      ],
       'excelFileRowNum' => 145,
+    ],
+  ],
+  '' => [
+    '0' => [
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/2812-0125-26_2.jpg',
+        '1' => '/img/product/abraziv/2812-0125-26_5.jpg',
+        '2' => '/img/product/abraziv/2812-0125-26_4.jpg',
+        '3' => '/img/product/abraziv/2812-0125-26.jpg',
+      ],
     ],
   ],
 ];

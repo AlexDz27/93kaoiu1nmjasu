@@ -41,6 +41,10 @@ $db2 = require 'db.php';
 $products2 = $db2['products'];
 $productUriToProductMap = [];
 foreach ($products2 as $artKey => $product) {
+  if (!isset($product['uri'])) {
+    var_dump($product);
+    die();
+  }
   $uri = $product['uri'];
   $productUriToProductMap[$uri] = $product;
 }
