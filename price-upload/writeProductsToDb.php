@@ -85,7 +85,7 @@ $db['products']['0301-0630-30']['galleryImgs'] = ['/img/product/valiki/0301-0630
 $db['products']['0310-1848-18']['img'] = '/img/product/valiki/0310-1848-18_2.jpg';
 $db['products']['0310-1848-18']['galleryImgs'] = ['/img/product/valiki/0310-1848-18_4.jpg', '/img/product/valiki/0310-1848-18_3.jpg', '/img/product/valiki/0310-1848-18.jpg', '/img/product/valiki/0310-1848-18_5.jpg'];
 $db['products']['0310-1848-23']['img'] = '/img/product/valiki/0310-1848-23_2.jpg';
-$db['products']['0310-1848-23']['galleryImgs'] = ['/img/product/valiki/0310-1848-23_4.jpg', '/img/product/valiki/0310-1848-23_3.jpg', '/img/product/valiki/0310-1848-23.jpg', '/img/product/valiki/0310-1848-23.jpg'];
+$db['products']['0310-1848-23']['galleryImgs'] = ['/img/product/valiki/0310-1848-23_4.jpg', '/img/product/valiki/0310-1848-23_3.jpg', '/img/product/valiki/0310-1848-23_5.jpg', '/img/product/valiki/0310-1848-23_00.jpg'];
 $db['products']['0450-0615-05']['img'] = '/img/product/valiki/0450-0615-05_2.jpg';
 $db['products']['0450-0615-05']['galleryImgs'] = ['/img/product/valiki/0450-0615-05_3.jpg', '/img/product/valiki/0450-0615-05_5.jpg', '/img/product/valiki/0450-0615-05_4.jpg', '/img/product/valiki/0450-0615-05.jpg', '/img/product/valiki/0450-0615-05_6.jpg'];
 $db['products']['0450-0615-10']['img'] = '/img/product/valiki/0450-0615-10_2.jpg';
@@ -234,7 +234,7 @@ $db['products']['0890-0000-25']['galleryImgs'] = ['/img/product/nozhi/0890-0000-
 $db['products']['0890-0010-18']['img'] = '/img/product/nozhi/0890-0010-18_2.jpg';
 $db['products']['0890-0010-18']['galleryImgs'] = ['/img/product/nozhi/0890-0010-18_1.jpg', '/img/product/nozhi/0890-0010-18.jpg', '/img/product/nozhi/0890-0010-18_3.jpg'];
 $db['products']['0890-0010-25']['img'] = '/img/product/nozhi/0890-0010-25_2.jpg';
-$db['products']['0890-0010-25']['galleryImgs'] = ['/img/product/nozhi/0890-0010-25_1.jpg', '/img/product/nozhi/0890-0010-25.jpg', '/img/product/nozhi/0890-0010-25_3.jpg'];
+$db['products']['0890-0010-25']['galleryImgs'] = ['/img/product/nozhi/0890-0010-25_1.jpg', '/img/product/nozhi/0890-0010-25.jpg', '/img/product/nozhi/0890-0010-25_4.jpg'];
 // vspomogat
 $db['products']['0990-0400-08']['img'] = '/img/product/vspomogat/0990-0400-08_1_3.jpg';
 $db['products']['0990-0400-08']['galleryImgs'] = ['/img/product/vspomogat/0990-0400-08_1_4.jpg', '/img/product/vspomogat/0990-0400-08_1.jpg'];
@@ -262,7 +262,7 @@ $db['products']['1051-0000-10']['galleryImgs'] = ['/img/product/vspomogat/1051-0
 // $db['products']['1003-0000-12']['img'] = '/img/product/vspomogat/1003-0000-12.jpg';
 // TODO: AU2A9218_1.jpg - картинка ещё одна для щётки
 $db['products']['0700-0000-30']['img'] = '/img/product/vspomogat/0700-0000-30_1.jpg';
-$db['products']['1051-0000-10']['galleryImgs'] = ['/img/product/vspomogat/0700-0000-30_2.jpg', '/img/product/vspomogat/AU2A9218_1.jpg', '/img/product/vspomogat/0700-0000-30_3.jpg', '/img/product/vspomogat/0700-0000-30.jpg', '/img/product/vspomogat/0700-0000-30_4.jpg'];
+$db['products']['0700-0000-30']['galleryImgs'] = ['/img/product/vspomogat/0700-0000-30_2.jpg', '/img/product/vspomogat/AU2A9218_1.jpg', '/img/product/vspomogat/0700-0000-30_3.jpg', '/img/product/vspomogat/0700-0000-30.jpg', '/img/product/vspomogat/0700-0000-30_4.jpg'];
 // TODO: no img
 // $db['products']['1004-0000-01']['img'] = '/img/product/vspomogat/1004-0000-01.jpg';
 // $db['products']['1004-0000-04']['img'] = '/img/product/vspomogat/1004-0000-04.jpg';
