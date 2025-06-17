@@ -11,6 +11,7 @@ $tableViewDb = require 'tableViewDb.php';
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/table.css">
+  <script src="js/table.js" defer></script>
   <title>Document</title>
 </head>
 <body>
@@ -20,7 +21,7 @@ $tableViewDb = require 'tableViewDb.php';
     <tr class="thead__tr">
       <th class="important"><?= $currentPriceListDate ?></th>
       <!-- TODO: js for SPRAVA <-> ROSHMA -->
-      <th class="title" colspan="6">Прайс-лист торговой марки SPRAVA</th>
+      <th class="title" colspan="6">Прайс-лист торговой марки <span id="companyName">SPRAVA</span></th>
     </tr>
   </thead>
   <tbody>
@@ -85,6 +86,11 @@ $tableViewDb = require 'tableViewDb.php';
     <?php endforeach ?>
   </tbody>
 </table>
+
+<div class="table-switcher-pane cont">
+  <button id="SPRAVA" class="table-switcher-pane__btn table-switcher-pane__btn--sprava table-switcher-pane__btn--active">SPRAVA</button>
+  <button id="ROSHMA" class="table-switcher-pane__btn table-switcher-pane__btn--roshma">Рошма</button>
+</div>
   
 </body>
 </html>

@@ -98,8 +98,26 @@ thead th, thead td {
 }
 
 .table-switcher-pane {
-
+  position: fixed;
+  bottom: 0;
+  left: calc(50% - 600px);
 }
 .table-switcher-pane__btn {
-  
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 8px 13px;
+  background-color: #eee;
+}
+.table-switcher-pane__btn--active {
+  font-weight: bold;
+  border: 2px solid black;
+  border-bottom: 5px solid black;
+  opacity: 1;
+}
+.table-switcher-pane__btn--sprava {
+  background-color: #FEDE32;
+}
+.table-switcher-pane__btn--roshma {
+  background-color: rgb(134 209 134);
 }
