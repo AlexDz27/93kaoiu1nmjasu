@@ -34,6 +34,7 @@ table {
   border-collapse: collapse;
   position: relative;
 }
+.table--hidden {display: none;}
 th, td {
   border: 1px solid black;
   padding: 9px;
@@ -101,6 +102,7 @@ thead th, thead td {
   position: fixed;
   bottom: 0;
   left: calc(50% - 600px);
+  z-index: 50;
 }
 .table-switcher-pane__btn {
   background-color: transparent;

@@ -17,15 +17,26 @@ $exampleProduct = [
   'galleryImgs' => [],
 ];
 
-$products = [];
-foreach ($rows as $row) {
+$products = [
+  'sprava' => [],
+  'roshma' => [],
+];
+foreach ($rows['sprava'] as $row) {
   $product = $exampleProduct;
   foreach ($row as $key => $data) {
     $product[$key] = $data;
   }
   $product['uri'] = '/catalog/' . slugify($product['category']) . '/' . slugify($product['model']) . '-' . slugify($product['variant']);
 
-  $products[] = $product;
+  $products['sprava'][] = $product;
+}
+foreach ($rows['roshma'] as $row) {
+  $product = $exampleProduct;
+  foreach ($row as $key => $data) {
+    $product[$key] = $data;
+  }
+
+  $products['roshma'][] = $product;
 }
 
 return $products;

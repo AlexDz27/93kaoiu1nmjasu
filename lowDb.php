@@ -1,7 +1,7 @@
 <?php
 
 return [
-  'currentPriceList' => 'Price-2025.05.27--fiddle-2.xlsx',
+  'currentPriceList' => 'Price-2025.05.27--fiddle-3.xlsx',
   'currentPriceListDate' => '17.06.2025',
-  'searchH' => 41,
+  'searchH' => 49,
 ];

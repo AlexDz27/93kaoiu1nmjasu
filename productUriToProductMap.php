@@ -2113,7 +2113,7 @@ return [
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/kordsetka-koniceskaya-zestkaya-krucenaya-m14-115mm' => [
     'art' => '07994-0115-14',
-    'price' => '10.75',
+    'price' => '21.50',
     'category' => 'Абразивные алмазные материалы и оснастка',
     'model' => 'Кордщетка коническая жесткая крученая, М14',
     'variant' => '115мм',

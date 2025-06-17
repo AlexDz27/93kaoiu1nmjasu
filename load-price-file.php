@@ -40,11 +40,7 @@ require 'price-upload/writeProductsToDb.php';
 $db2 = require 'db.php';
 $products2 = $db2['products'];
 $productUriToProductMap = [];
-foreach ($products2 as $artKey => $product) {
-  if (!isset($product['uri'])) {
-    var_dump($product);
-    die();
-  }
+foreach ($products2['sprava'] as $artKey => $product) {
   $uri = $product['uri'];
   $productUriToProductMap[$uri] = $product;
 }
@@ -59,7 +55,7 @@ $dbWriter->write(['currentPriceList' => $currentPriceList, 'currentPriceListDate
 $db4 = require 'db.php';
 $products4 = $db4['products'];
 $groupedByCategory = [];
-foreach ($products4 as $product4) {
+foreach ($products4['sprava'] as $product4) {
     $category = $product4['category'];
     
     if (!isset($groupedByCategory[$category])) {
@@ -68,17 +64,62 @@ foreach ($products4 as $product4) {
     
     $groupedByCategory[$category][] = $product4;
 }
+$products44 = $db4['products'];
+$groupedByCategoryR = [];
+foreach ($products44['roshma'] as $product44) {
+    $category = $product44['category'];
+    
+    if (!isset($groupedByCategoryR[$category])) {
+        $groupedByCategoryR[$category] = [];
+    }
+    
+    $groupedByCategoryR[$category][] = $product44;
+}
 $dbWriter->write($groupedByCategory, 'catalogViewDb.php');
 
 $tableViewDb = [
-  'Кисти малярные' => [],
-  'Валики малярные' => [],
-  'Абразивные алмазные материалы и оснастка' => [],
-  'Ножи и лезвия' => [],
-  'Вспомогательный инструмент' => [],
+  'sprava' => [
+    'Кисти малярные' => [],
+    'Валики малярные' => [],
+    'Абразивные алмазные материалы и оснастка' => [],
+    'Ножи и лезвия' => [],
+    'Вспомогательный инструмент' => [],
+  ],
+  'roshma' => [
+    'Кисти малярные' => [],
+    'Валики малярные' => [],
+    'Абразивные алмазные материалы и оснастка' => [],
+    'Ножи и лезвия' => [],
+    'Вспомогательный инструмент' => [],
+  ]
 ];
-foreach ($tableViewDb as $cat => &$datum) {
+foreach ($tableViewDb['sprava'] as $cat => &$datum) {
   $insideCat = $groupedByCategory[$cat];
+  foreach ($insideCat as $key => $insideCatDatum) {
+    $isFirst = false;
+
+    if (empty($datum[$insideCatDatum['model']])) {
+      $datum[$insideCatDatum['model']] = [];
+
+      $isFirst = true;
+    }
+
+    if ($isFirst) {
+      $insideCatDatum['isFirst'] = true;
+      $insideCatDatum['imgsNeedsOnlyOneRow'] = true;
+    }
+
+    $datum[$insideCatDatum['model']][] = $insideCatDatum;
+
+    if (count($datum[$insideCatDatum['model']]) > 1) {
+      unset($insideCatDatum['imgsNeedsOnlyOneRow']);
+      $datum[$insideCatDatum['model']][0]['imgNeedsOtherRows'] = true;
+      $datum[$insideCatDatum['model']][1]['howMany'] = count($datum[$insideCatDatum['model']]) - 1;
+    }
+  }
+}
+foreach ($tableViewDb['roshma'] as $cat => &$datum) {
+  $insideCat = $groupedByCategoryR[$cat];
   foreach ($insideCat as $key => $insideCatDatum) {
     $isFirst = false;
 
@@ -111,7 +152,7 @@ $jsonProducts = [
   'h' => $lowDb1['searchH'] + 1,
   'products' => []
 ];
-foreach ($products5 as $product5) {
+foreach ($products5['sprava'] as $product5) {
   unset($product5['art']);
   unset($product5['price']);
   unset($product5['category']);
