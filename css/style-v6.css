@@ -2760,6 +2760,6 @@ the buttons will not be shown. TODO: maybe i can make it better */
 
 @media (max-width: 398px) {
   .product__col-img img {
-    width: 100%;
+    width: 97%;
   }
 }

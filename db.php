@@ -1339,7 +1339,12 @@ return [
       'description' => 'Для шлифования металлических и деревянных поверхностей.',
       'isHit' => false,
       'img' => '/img/product/abraziv/2812-0125-24_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/2812-0125-24_2.jpg',
+        '1' => '/img/product/abraziv/2812-0125-24_5.jpg',
+        '2' => '/img/product/abraziv/2812-0125-24_4.jpg',
+        '3' => '/img/product/abraziv/2812-0125-24.jpg',
+      ],
       'excelFileRowNum' => 72,
     ],
     '2812-0125-26' => [
@@ -1649,7 +1654,12 @@ return [
       'description' => 'Для разреза изделий из кирпича, бетона, камня, керамической плитки. Не требует водяного охлаждения.',
       'isHit' => false,
       'img' => '/img/product/abraziv/0797-1230-00_1.jpg',
-      'galleryImgs' => [],
+      'galleryImgs' => [
+        '0' => '/img/product/abraziv/0797-1230-00_2.jpg',
+        '1' => '/img/product/abraziv/0797-1230-00_4.jpg',
+        '2' => '/img/product/abraziv/0797-1230-00_3.jpg',
+        '3' => '/img/product/abraziv/0797-1230-00.jpg',
+      ],
       'excelFileRowNum' => 87,
     ],
     '0797-1350-21' => [
@@ -2365,7 +2375,7 @@ return [
       'galleryImgs' => [
         '0' => '/img/product/vspomogat/1051-0000-03_1.jpg',
         '1' => '/img/product/vspomogat/1051-0000-03_2.jpg',
-        '2' => '/img/product/vspomogat/1051-0000-03_6.jpg',
+        '2' => '/img/product/vspomogat/1051-0000-03_5_6.jpg',
         '3' => '/img/product/vspomogat/1051-0000-03_4.jpg',
         '4' => '/img/product/vspomogat/1051-0000-03.jpg',
         '5' => '/img/product/vspomogat/1051-0000-03_5.jpg',
@@ -2388,7 +2398,7 @@ return [
       'galleryImgs' => [
         '0' => '/img/product/vspomogat/1051-0000-03_1.jpg',
         '1' => '/img/product/vspomogat/1051-0000-03_2.jpg',
-        '2' => '/img/product/vspomogat/1051-0000-03_6.jpg',
+        '2' => '/img/product/vspomogat/1051-0000-03_5_6.jpg',
         '3' => '/img/product/vspomogat/1051-0000-03_4.jpg',
         '4' => '/img/product/vspomogat/1051-0000-03.jpg',
         '5' => '/img/product/vspomogat/1051-0000-03_5.jpg',
@@ -2750,14 +2760,6 @@ return [
         '1' => '/img/product/vspomogat/0901-0000-20_3.jpg',
       ],
       'excelFileRowNum' => 145,
-    ],
-    '2897-0123-24' => [
-      'galleryImgs' => [
-        '0' => '/img/product/abraziv/2812-0125-26_2.jpg',
-        '1' => '/img/product/abraziv/2812-0125-26_5.jpg',
-        '2' => '/img/product/abraziv/2812-0125-26_4.jpg',
-        '3' => '/img/product/abraziv/2812-0125-26.jpg',
-      ],
     ],
   ],
 ];

@@ -102,6 +102,8 @@ class Slider {
     let start
 
     const step = (timestamp) => {
+      console.log('sT:', this.track.scrollTop)
+      console.log('ran')
       if (start === undefined) {
         start = timestamp
       }
@@ -121,9 +123,9 @@ class Slider {
         }
       } else {
         if (window.innerWidth <= 500) {
-          if (this.track.scrollTop >= 265) return
+          if (this.track.scrollTop >= 130) return
         } else {
-          if (this.track.scrollTop === 384) return
+          if (this.track.scrollTop === 192) return
         }
         if (this.track.scrollTop < pointAtoPointBDistance * mult) {
           requestAnimationFrame(step)

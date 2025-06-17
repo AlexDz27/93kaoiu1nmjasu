@@ -130,6 +130,10 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
       display: inline-block !important;
       position: static !important;
     }
+    .product-slider__track__img-cont img {
+      object-fit: contain;
+      height: 100%;
+    }
   }
 
   .product__title b {
