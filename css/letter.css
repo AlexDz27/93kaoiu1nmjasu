@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-VariableFont_wdth,wght.ttf") format('truetype');
+  font-weight: 300 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/** BASE **/
+
+:root {
+  --link-color: #0d6efd;
+}
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+@media (max-width: 750px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+a {
+  color: var(--link-color);
+}
+
+img {
+  width: 100%;
+}
+
+/** COMPONENTS **/
+
+.cont {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.main {
+  padding-top: 1rem;
+}
+
+.sub-section {
+  padding-left: 30px;
+}
+@media (max-width: 750px) {
+  .sub-section {
+    padding-left: 15px;
+  }
+}
+
+/** LAYOUT **/
+.l-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.l-2 {
+  
+}
