@@ -13,7 +13,7 @@ return [
       'upakKrup' => '1200',
       'uri' => '/catalog/kisti-malyarnye/kist-ploskaya-standart-naturalnyj-vors-1-25mm',
       'description' => 'Для работ со всеми видами лакокрасочных материалов.',
-      'isHit' => true,
+      'isHit' => false,
       'img' => '/img/product/kisti/0100-0000-10_1.jpg',
       'galleryImgs' => [
         '0' => '/img/product/kisti/0100-0000-10_2.jpg',
@@ -33,7 +33,7 @@ return [
       'upakKrup' => '1200',
       'uri' => '/catalog/kisti-malyarnye/kist-ploskaya-standart-naturalnyj-vors-1-5-38mm',
       'description' => 'Для работ со всеми видами лакокрасочных материалов.',
-      'isHit' => true,
+      'isHit' => false,
       'img' => '/img/product/kisti/0100-0000-10_1.jpg',
       'galleryImgs' => [
         '0' => '/img/product/kisti/0100-0000-10_2.jpg',
@@ -2774,6 +2774,7 @@ return [
         '1' => '/img/product/vspomogat/0901-0000-20_3.jpg',
       ],
       'excelFileRowNum' => 145,
+      'details' => '',
     ],
   ],
 ];

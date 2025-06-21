@@ -222,7 +222,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
       <p><?= $product['description'] ?></p>
     </div>
     <div id="contentsDetails" class="product__info__contents">
-      <p>Какой-то другой текст.</p>
+      <p><?= $product['details'] ?></p>
     </div>
   </div>
 </section>

@@ -96,6 +96,35 @@ img {
   font-size: inherit;
   padding: 9px 0;
 }
+.btn-edit:hover {
+  background-color: #eaca16;
+}
+.btn-edit:active {
+  background-color: #d7ba11;
+}
+.btn-edit:disabled {
+  cursor: not-allowed;
+  color: inherit;
+}
+.btn-edit--loading {
+  background-color: #eaca16;
+}
 .products-grid__product__btn-edit {
   margin-top: auto;
+}
+
+.form__section {
+  margin-bottom: 35px;
+}
+.form__section--breaker {
+  margin-bottom: 65px;
+}
+.form__textarea {
+  font-family: inherit;
+}
+
+.edit-form__btn-edit {
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 109px;
 }

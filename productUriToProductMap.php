@@ -2765,5 +2765,6 @@ return [
       '1' => '/img/product/vspomogat/0901-0000-20_3.jpg',
     ],
     'excelFileRowNum' => 145,
+    'details' => '',
   ],
 ];

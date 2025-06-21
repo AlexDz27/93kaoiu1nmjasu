@@ -32,7 +32,7 @@ $products = $db['products']['sprava'];
     <h2>Редактировать товары:</h2>
     <div class="products-grid">
       <?php foreach ($products as $product): ?>
-        <a href="javascript:void(0)" class="products-grid__product">
+        <a href="/admin-9kasu-edit.php?art=<?= $product['art'] ?>" class="products-grid__product">
           <img class="products-grid__product__img" src="<?= $product['img'] ?>" alt="">
           <b><?= $product['model'] . ', ' . $product['variant'] ?></b>
           <span class="products-grid__product__art">(<?= $product['art'] ?>)</span>
