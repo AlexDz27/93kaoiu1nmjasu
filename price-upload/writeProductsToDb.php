@@ -11,8 +11,8 @@ foreach ($products['roshma'] as $product) {
   $db['products']['roshma'][$product['art']] = $product;
 }
 
-$db['products']['sprava']['0100-0000-10']['isHit'] = true;
-$db['products']['sprava']['0100-0000-15']['isHit'] = true;
+// $db['products']['sprava']['0100-0000-10']['isHit'] = true;
+// $db['products']['sprava']['0100-0000-15']['isHit'] = true;
 
 // Imgs
 // Kisti

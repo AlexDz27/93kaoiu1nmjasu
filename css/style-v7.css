@@ -1344,7 +1344,7 @@ the buttons will not be shown. TODO: maybe i can make it better */
   padding-right: 40px;
   color: #494547;
   display: grid;
-  grid-template-columns: 83px 407px 1fr;
+  grid-template-columns: 490px 1fr;
   column-gap: 25px;
 }
 .product__col-imgs {
@@ -1365,8 +1365,10 @@ the buttons will not be shown. TODO: maybe i can make it better */
   align-items: center;
   position: relative;
 }
+.product__col-img__l-1 {
+  position: absolute;
+}
 .product__col-img img {
-  /* width: 100%; */
   width: 88%;
 }
 .product--hit .product__col-img::before {

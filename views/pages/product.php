@@ -157,34 +157,23 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
 <section class="product__wrapper">
   <div class="cont">
     <div class="product <?= $product['isHit'] ? 'product--hit' : '' ?>">
-      <div class="product-slider">
-        <button id="btnPrev" class="product-slider__btn product-slider__btn--inactive product-slider__btn--prev" disabled>
-          <svg width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M23 12.9644L13.2234 2.7554C12.8292 2.3438 12.1713 2.34434 11.7778 2.75657L2 13" stroke-width="3" stroke="#494547" />
-          </svg>
-        </button>
-        <div id="track" class="product-slider__track">
-          <div class="product-slider__track__img-cont product-slider__track__img-cont--active">
-            <img src="<?= $product['img'] ?>">
-          </div>
-          <?php $galleryImgs = $product['galleryImgs']; ?>
-          <?php for ($i = 0; $i < count($galleryImgs); $i++): $galleryImg = $galleryImgs[$i]; ?>
-            <div class="product-slider__track__img-cont">
-              <img src="<?= $galleryImg ?>">
-            </div>
-          <?php endfor ?>
-        </div>
-        <button id="btnNext" class="product-slider__btn product-slider__btn--next">
+      <div class="product__col-img">
+        <div class="product__col-img__l-1">
+          <button id="btnPrev" class="product-slider__btn product-slider__btn--inactive product-slider__btn--prev" disabled>
+            <svg width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M23 12.9644L13.2234 2.7554C12.8292 2.3438 12.1713 2.34434 11.7778 2.75657L2 13" stroke-width="3" stroke="#494547" />
+            </svg>
+          </button>
+          <button id="btnNext" class="product-slider__btn product-slider__btn--next">
           <svg width="23" height="13" viewBox="0 0 23 13" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M22 1.03559L12.2234 11.2446C11.8292 11.6562 11.1713 11.6557 10.7778 11.2434L1 1" stroke="#494547" stroke-width="2.62591"/>
           </svg>
         </button>
-      </div>
-      <div class="product__col-img">
+        </div>
         <img id="showingImg" src="<?= $product['img'] ? $product['img'] : '/img/catalog-normal-res/krug-w-logo.png' ?>" alt="<?= $product['model'] ?>">
         <div id="dots" class="slider__dots slider__dots--product">
           <span class="slider__dots__dot slider__dots__dot--active"></span>
-          <?php for ($i = 0; $i < count($galleryImgs); $i++): ?>
+          <?php for ($i = 0; $i < 5; $i++): ?>
             <span class="slider__dots__dot"></span>
           <?php endfor ?>
         </div>
@@ -198,7 +187,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
           </button>
           <div id="dotsMob" class="slider__dots slider__dots--mob slider__dots--product">
             <span class="slider__dots__dot slider__dots__dot--active"></span>
-            <?php for ($i = 0; $i < count($galleryImgs); $i++): ?>
+            <?php for ($i = 0; $i < 5; $i++): ?>
               <span class="slider__dots__dot"></span>
             <?php endfor ?>
           </div>
