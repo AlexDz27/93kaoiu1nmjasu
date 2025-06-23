@@ -51,18 +51,18 @@
     <div class="text-with-icon header__text-with-icon--row-2-col-2">
       <img class="text-with-icon__icon" src="/img/icons/phone.svg" width="18" height="18">
       <div class="text-with-icon__text-cont">
-        <a href="tel:+375293051111" class="link--no-underline text--bold">+375 (29) 305-11-11</a><br>
+        <a href="tel:+375445006080" class="link--no-underline text--bold">+375 (44) 500-60-80</a><br>
         <a href="tel:+375172257637" class="link--no-underline text--bold">+375 (17) 225-76-37 (31)</a>
       </div>
     </div>
     <div class="link-social-cont">
-      <a href="https://wa.me/375293051111" class="link-social link-social--whatsapp">
+      <a href="https://wa.me/375445006080" class="link-social link-social--whatsapp">
         <img src="/img/icons/whatsapp.svg" width="24" height="24" alt="Ссылка на Whatsapp">
       </a>
-      <a href="viber://chat?number=%2B375293051111" class="link-social link-social--viber">
+      <a href="viber://chat?number=%2B375445006080" class="link-social link-social--viber">
         <img src="/img/icons/viber.svg" width="13" height="14" alt="Ссылка на Viber">
       </a>
-      <a href="javascript:void(0)" class="link-social link-social--telegram">
+      <a href="https://t.me/+375445006080" class="link-social link-social--telegram">
         <img src="/img/icons/telegram.svg" width="24" height="24" alt="Ссылка на Telegram">
       </a>
     </div>
@@ -78,6 +78,6 @@
   </div>
 </header>
 <header class="header--mob cont--mob--fluid">
-  <a class="header--mob__btn-phone header--mob__btn-phone--real" href="tel:+375293051111"><img src="/img/icons/phone--larger.svg" width="32" height="28"></a>
+  <a class="header--mob__btn-phone header--mob__btn-phone--real" href="tel:+375445006080"><img src="/img/icons/phone--larger.svg" width="32" height="28"></a>
   <button id="btnNavMob" class="header--mob__btn-phone"><img src="/img/icons/burger.svg" width="36" height="26"></button>
 </header>

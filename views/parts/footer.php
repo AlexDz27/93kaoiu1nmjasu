@@ -38,7 +38,7 @@
         <div class="text-with-icon">
           <img class="text-with-icon__icon" src="/img/icons/phone.svg" width="21" height="21">
           <div class="text-with-icon__text-cont text-with-icon--pin__text-cont">
-            <a href="tel:+375293051111" class="link--no-underline text--small text--semibold">+375 (29) 305-11-11</a>, <a href="tel:+375172257637" class="link--no-underline text--small text--bold">+375 (17) 225-76-37 (31)</a>
+            <a href="tel:+375445006080" class="link--no-underline text--small text--semibold">+375 (44) 500-60-80</a>, <a href="tel:+375172257637" class="link--no-underline text--small text--bold">+375 (17) 225-76-37 (31)</a>
           </div>
         </div>
         <div class="text-with-icon">
@@ -108,7 +108,7 @@
       <div class="text-with-icon nav__row-2">
         <img class="text-with-icon__icon" src="/img/icons/phone.svg" width="21" height="21">
         <div class="text-with-icon__text-cont text-with-icon__adjust-1">
-          <a style="text-decoration: none;" href="tel:+375293051111" class="text--semibold">+375 (29) 305-11-11</a>
+          <a style="text-decoration: none;" href="tel:+375445006080" class="text--semibold">+375 (44) 500-60-80</a>
         </div>
       </div>
       <div class="text-with-icon nav__row-2">
@@ -119,13 +119,13 @@
       </div>
 
       <p class="link-social-cont link-social-cont--farther nav__row-2 nav__row-2__adjust-1">
-        <a href="javascript:void(0)" class="link-social link-social--whatsapp link-social--mob">
+        <a href="https://wa.me/375445006080" class="link-social link-social--whatsapp link-social--mob">
           <img src="/img/icons/whatsapp.svg" width="24" height="24" alt="Ссылка на Whatsapp">
         </a>
-        <a href="viber://chat?number=%2B375293051111" class="link-social link-social--viber link-social--mob">
+        <a href="viber://chat?number=%2B375445006080" class="link-social link-social--viber link-social--mob">
           <img src="/img/icons/viber.svg" width="13" height="14" alt="Ссылка на Viber">
         </a>
-        <a href="javascript:void(0)" class="link-social link-social--telegram link-social--mob">
+        <a href="https://t.me/+375445006080" class="link-social link-social--telegram link-social--mob">
           <img src="/img/icons/telegram.svg" width="24" height="24" alt="Ссылка на Telegram">
         </a>
       </p>

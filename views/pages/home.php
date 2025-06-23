@@ -303,7 +303,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
       <div class="text-with-icon">
         <img class="text-with-icon__icon" src="img/icons/phone--larger.svg" width="24" height="22">
         <div class="text-with-icon__text-cont text-with-icon--pin__text-cont">
-          <span class="text--larger"><a class="link--no-underline" href="tel:+375293051111">+375 (29) 305-11-11</a>,<br class="show-below-577"> <a class="link--no-underline" href="tel:+375172257637">+375 (17) 225-76-37</a>,<br> <a class="link--no-underline" href="tel:+375172257631">+375 (17) 225-76-31</a></span>
+          <span class="text--larger"><a class="link--no-underline" href="tel:+375445006080">+375 (44) 500-60-80</a>,<br class="show-below-577"> <a class="link--no-underline" href="tel:+375172257637">+375 (17) 225-76-37</a>,<br> <a class="link--no-underline" href="tel:+375172257631">+375 (17) 225-76-31</a></span>
         </div>
       </div>
       <p class="text--big p--lower-margin">E-mail:</p>
@@ -314,13 +314,13 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
         </div>
       </div>
       <p class="link-social-cont link-social-cont--farther">
-        <a href="javascript:void(0)" class="link-social link-social--whatsapp link-social--mob">
+        <a href="https://wa.me/375445006080" class="link-social link-social--whatsapp link-social--mob">
           <img src="img/icons/whatsapp.svg" width="24" height="24" alt="Ссылка на Whatsapp">
         </a>
-        <a href="viber://chat?number=%2B375293051111" class="link-social link-social--viber link-social--mob">
+        <a href="viber://chat?number=%2B375445006080" class="link-social link-social--viber link-social--mob">
           <img src="img/icons/viber.svg" width="13" height="14" alt="Ссылка на Viber">
         </a>
-        <a href="javascript:void(0)" class="link-social link-social--telegram link-social--mob">
+        <a href="https://t.me/+375445006080" class="link-social link-social--telegram link-social--mob">
           <img src="img/icons/telegram.svg" width="24" height="24" alt="Ссылка на Telegram">
         </a>
       </p>
