@@ -487,6 +487,7 @@ return [
           '3' => '/img/product/valiki/0300-0630-10_5.jpg',
         ],
         'excelFileRowNum' => 28,
+        'details' => '',
       ],
       '0300-0630-15' => [
         'art' => '0300-0630-15',

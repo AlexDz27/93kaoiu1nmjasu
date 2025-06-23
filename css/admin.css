@@ -161,5 +161,18 @@ img {
   padding: 15px;
 }
 .gallery__item {
-  
+  position: relative;
+}
+.gallery__item__x {
+  display: inline-block;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(231, 146, 146, .7);
+  text-align: center;
+  font-size: 24px;
+  line-height: 25px;
+  cursor: pointer;
 }

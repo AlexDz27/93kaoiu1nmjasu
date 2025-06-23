@@ -40,6 +40,8 @@ editForm.onsubmit = (e) => {
     clearInterval(intervalId)
     
     alert(r.payload)
+
+    location.reload()
   })
 }
 
@@ -98,6 +100,15 @@ changeGalImgInput.onchange = (e) => {
     reader.readAsDataURL(file);
   }
 }
+
+document.querySelectorAll('.gallery__item__x').forEach(x => {
+  x.onclick = () => {
+    if (confirm('Удалить эту картинку?')) {
+      x.parentElement.remove()
+      currentOrder = getCurrentOrder()
+    }
+  }
+})
 
 /** SORTABLE JS FOR GALLERY IMGS ON THE LEFT **/
 new Sortable(currentGalleryImgsEl, {

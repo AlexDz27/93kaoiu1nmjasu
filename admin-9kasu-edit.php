@@ -62,6 +62,7 @@ if ($product === null) {
             <?php foreach ($product['galleryImgs'] as $galImg): ?>
               <div class="gallery__item">
                 <img src="<?= $galImg ?>" alt="">
+                <div class="gallery__item__x">x</div>
               </div>
             <?php endforeach ?>
           </div>
@@ -77,7 +78,7 @@ if ($product === null) {
           <label style="display: inline-block;" class="btn-edit edit-form__btn-edit edit-form__btn-edit--w-auto" for="changeGalImg">Добавить картинки в галерею:</label>
           <p><input type="file" multiple id="changeGalImg" name="galleryImgs[]"></p>
           <div class="gallery" id="changeGalImgHolder">
-            Пока что картинок нет
+            Пока что добавленных картинок нет
           </div>  
         </div>
       </section>  
