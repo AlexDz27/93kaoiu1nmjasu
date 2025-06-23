@@ -32,6 +32,10 @@ editForm.onsubmit = (e) => {
     body: formData
   })
   .then(r => r.json())
+  .catch(err => {
+    alert('Произошла ошибка чтения результатов операции. Свяжитесь с программистом Алексеем: тг - @rain_xxxx; телефон - +375298191624')
+    throw err
+  })
   .then(r => {
     editBtn.disabled = false
     editBtn.classList.remove('btn-edit--loading')

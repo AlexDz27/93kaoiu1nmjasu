@@ -74,22 +74,6 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
       padding-bottom: 0;
     }
   }
-  /* @media (max-width: 1058px) {
-    .product-slider__btn--prev {
-      bottom: 22px;
-    }
-    .product-slider__btn--next {
-      top: 22px;
-    }
-  }
-  @media (max-width: 580px) {
-    .product-slider__btn--prev {
-      bottom: 8px;
-    }
-    .product-slider__btn--next {
-      top: 4px;
-    }
-  } */
   .product-slider__btn--inactive svg path {
     stroke: #D8D3D3;
   }
@@ -135,9 +119,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
     outline: 2px solid #FEDE32;
   }
   .product-slider__track__img-cont img {
-    width: 88%;
     width: 81%;
-    /* object-fit: contain; */
     margin: 0 auto;
     display: block;
   }
@@ -194,8 +176,6 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
 <section class="product__wrapper">
   <div class="cont">
     <div class="product <?= $product['isHit'] ? 'product--hit' : '' ?>">
-      <!-- <div class="product__col-img"> -->
-        <!-- <img id="showingImg" src="<?= $product['img'] ? $product['img'] : '/img/catalog-normal-res/krug-w-logo.png' ?>" alt="<?= $product['model'] ?>"> -->
         <div class="splide product__col-img">
           <div class="splide__arrows product__col-img__l-1">
             <button id="btnPrev" class="splide__arrow splide__arrow--prev product-slider__btn product-slider__btn--prev">
@@ -211,43 +191,14 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
           </div>
           <div class="splide__track">
             <ul class="splide__list">
-              <li class="splide__slide"><img src="/img/product/kisti/0100-0000-10_1.jpg" alt=""></li>
-              <li class="splide__slide"><img src="/img/product/kisti/0100-0000-10_2.jpg" alt=""></li>
-              <li class="splide__slide"><img src="/img/product/kisti/0100-0000-10_4.jpg" alt=""></li>
-              <li class="splide__slide"><img src="/img/product/kisti/0100-0000-10.jpg" alt=""></li>
-
-              <li class="splide__slide"><img src="/img/product/abraziv/2812-0125-10_1.jpg" alt=""></li>
-              <li class="splide__slide"><img src="/img/product/abraziv/2812-0125-10_2.jpg" alt=""></li>
-              <li class="splide__slide"><img src="/img/product/abraziv/2812-0125-10.jpg" alt=""></li>
+              <li class="splide__slide"><img src="<?= $product['img'] ?>" alt="<?= $product['model'] . ', ' . $product['variant'] ?>"></li>
+              <?php foreach ($product['galleryImgs'] as $galImg): ?>
+                <li class="splide__slide"><img src="<?= $galImg ?>" alt="<?= $product['model'] . ', ' . $product['variant'] ?>"></li>
+              <?php endforeach ?>
             </ul>
           </div>
         </div> 
-        <!-- <div id="dots" class="slider__dots slider__dots--product">
-          <span class="slider__dots__dot slider__dots__dot--active"></span>
-          <?php for ($i = 0; $i < 5; $i++): ?>
-            <span class="slider__dots__dot"></span>
-          <?php endfor ?>
-        </div> -->
-      <!-- </div> -->
       <div class="product__col-text">
-        <!-- <div class="dots-cont">
-          <button id="btnPrevMob" class="product-slider__btn product-slider__btn--mob product-slider__btn--inactive product-slider__btn--prev">
-            <svg width="13" height="23" viewBox="0 0 13 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M11.9644 22L1.7554 12.2234C1.3438 11.8292 1.34434 11.1713 1.75657 10.7778L12 1" stroke="#494547" stroke-width="2.62591"/>
-            </svg>
-          </button>
-          <div id="dotsMob" class="slider__dots slider__dots--mob slider__dots--product">
-            <span class="slider__dots__dot slider__dots__dot--active"></span>
-            <?php for ($i = 0; $i < 5; $i++): ?>
-              <span class="slider__dots__dot"></span>
-            <?php endfor ?>
-          </div>
-          <button id="btnNextMob" class="product-slider__btn product-slider__btn--mob product-slider__btn--next">
-            <svg width="14" height="25" viewBox="0 0 14 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M2.03235 23L11.3454 13.1896C11.7121 12.8033 11.7116 12.1972 11.3442 11.8115L2 2" stroke="#494547" stroke-width="3"/>
-            </svg>
-          </button>
-        </div> -->
         <p class="product__title"><?= $product['model'] . ', ' . $product['variant'] ?></p>
         <p class="product__art text--larger">Артикул: <?= $product['art'] ?></p>
         <p class="product__price"><b><?= $product['price'] ?> BYN (с НДС 20%) / <?= $product['unit'] ?></b></p>
@@ -273,7 +224,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
       <p><?= $product['description'] ?></p>
     </div>
     <div id="contentsDetails" class="product__info__contents">
-      <p><?= $product['details'] ?></p>
+      <p><?= $product['details'] ?? '' ?></p>
     </div>
   </div>
 </section>
