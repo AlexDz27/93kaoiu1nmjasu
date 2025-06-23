@@ -19,14 +19,14 @@ if ($file['error'] === ERR_NO_FILE_UPLOADED) {
 }
 if ($file['type'] !== 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet') {
   $response['status'] = 'ERR';
-  $response['payload'] = 'Ошибка: файл не является Excel-файлом. Если Вы думаете, что так не должно быть, свяжитесь с программистом Алексеем';
+  $response['payload'] = 'Ошибка: файл не является Excel-файлом. Если Вы думаете, что так не должно быть, свяжитесь с программистом Алексеем: тг - @rain_xxxx; телефон - +375298191624';
   echo json_encode($response, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
   return;
 }
 
 if (!move_uploaded_file($file['tmp_name'], 'price-lists/' . $file['name'])) {
   $response['status'] = 'ERR';
-  $response['payload'] = 'Ошибка при загрузке файла. Скорее всего, что-то не так с файлом. Если Вы думаете, что так не должно быть, свяжитесь с программистом Алексеем';
+  $response['payload'] = 'Ошибка при загрузке файла. Скорее всего, что-то не так с файлом. Если Вы думаете, что так не должно быть, свяжитесь с программистом Алексеем: тг - @rain_xxxx; телефон - +375298191624';
   echo json_encode($response, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
   return;
 }

@@ -7,21 +7,20 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
 
 ?>
 <style>
-  .product__wrapper {
-
-  }
   @media (max-width: 1058px) {
     .product__wrapper .cont {
       padding-left: 0;
       padding-right: 0;
+    }
+
+    .splide__slide {
+      height: 570px;
     }
   }
   .product-slider {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* padding-top: 8px; */
-    /* padding-bottom: 8px; */
   }
 
   .product-slider__btn {
@@ -29,20 +28,53 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
     border: none;
     cursor: pointer;
     position: relative;
+    padding: 10px;
+    z-index: 100;
   }
   @media (max-width: 500px) {
-    .product-slider__btn {
-      display: none;
+    .product__col-img__l-1 {
+      transform: translateY(197px);
+    }
+  }
+  @media (max-width: 445px) {
+    .product__col-img__l-1 {
+      transform: translateY(172px);
+    }
+  }
+  @media (max-width: 390px) {
+    .product__col-img__l-1 {
+      transform: translateY(159px);
     }
   }
   .product-slider__btn--prev {
     bottom: 5px;
+    left: 15px;
+    top: -5px;
+    transform: rotate(-90deg) scale(1.5);
   }
   .product-slider__btn--next {
     position: relative;
-    top: 5px;
+    right: 15px;
+    transform: rotate(-90deg) scale(1.5);
   }
-  @media (max-width: 1058px) {
+  @media (max-width: 580px) {
+    .product-slider__btn--prev {
+      left: 0;
+      top: 0;
+    }
+    .product-slider__btn--next {
+      right: 0;
+    }
+  }
+  @media (max-width: 500px) {
+    .product-slider__btn--prev {
+      padding-top: 0;
+    }
+    .product-slider__btn--next {
+      padding-bottom: 0;
+    }
+  }
+  /* @media (max-width: 1058px) {
     .product-slider__btn--prev {
       bottom: 22px;
     }
@@ -57,7 +89,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
     .product-slider__btn--next {
       top: 4px;
     }
-  }
+  } */
   .product-slider__btn--inactive svg path {
     stroke: #D8D3D3;
   }
@@ -110,13 +142,14 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
     display: block;
   }
 
-  .dots-cont {display: none;}
   @media (max-width: 500px) {
     .product {
       column-gap: 0;
       row-gap: 25px;
     }
-    .slider__dots--product {display: none;}
+    .slider__dots--product {
+      transform: translateY(80px) translateX(-21px);
+    }
     .dots-cont {
       margin-bottom: 25px;
       display: flex;
@@ -133,6 +166,10 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
     .product-slider__track__img-cont img {
       object-fit: contain;
       height: 100%;
+    }
+
+    .product__col-img {
+      margin-bottom: 45px;
     }
   }
 
@@ -157,29 +194,43 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
 <section class="product__wrapper">
   <div class="cont">
     <div class="product <?= $product['isHit'] ? 'product--hit' : '' ?>">
-      <div class="product__col-img">
-        <div class="product__col-img__l-1">
-          <button id="btnPrev" class="product-slider__btn product-slider__btn--inactive product-slider__btn--prev" disabled>
-            <svg width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M23 12.9644L13.2234 2.7554C12.8292 2.3438 12.1713 2.34434 11.7778 2.75657L2 13" stroke-width="3" stroke="#494547" />
+      <!-- <div class="product__col-img"> -->
+        <!-- <img id="showingImg" src="<?= $product['img'] ? $product['img'] : '/img/catalog-normal-res/krug-w-logo.png' ?>" alt="<?= $product['model'] ?>"> -->
+        <div class="splide product__col-img">
+          <div class="splide__arrows product__col-img__l-1">
+            <button id="btnPrev" class="splide__arrow splide__arrow--prev product-slider__btn product-slider__btn--prev">
+              <svg width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M23 12.9644L13.2234 2.7554C12.8292 2.3438 12.1713 2.34434 11.7778 2.75657L2 13" stroke-width="3" stroke="#494547" />
+              </svg>
+            </button>
+            <button id="btnNext" class="splide__arrow splide__arrow--next product-slider__btn product-slider__btn--next">
+            <svg width="23" height="13" viewBox="0 0 23 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M22 1.03559L12.2234 11.2446C11.8292 11.6562 11.1713 11.6557 10.7778 11.2434L1 1" stroke="#494547" stroke-width="2.62591"/>
             </svg>
           </button>
-          <button id="btnNext" class="product-slider__btn product-slider__btn--next">
-          <svg width="23" height="13" viewBox="0 0 23 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M22 1.03559L12.2234 11.2446C11.8292 11.6562 11.1713 11.6557 10.7778 11.2434L1 1" stroke="#494547" stroke-width="2.62591"/>
-          </svg>
-        </button>
-        </div>
-        <img id="showingImg" src="<?= $product['img'] ? $product['img'] : '/img/catalog-normal-res/krug-w-logo.png' ?>" alt="<?= $product['model'] ?>">
-        <div id="dots" class="slider__dots slider__dots--product">
+          </div>
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide"><img src="/img/product/kisti/0100-0000-10_1.jpg" alt=""></li>
+              <li class="splide__slide"><img src="/img/product/kisti/0100-0000-10_2.jpg" alt=""></li>
+              <li class="splide__slide"><img src="/img/product/kisti/0100-0000-10_4.jpg" alt=""></li>
+              <li class="splide__slide"><img src="/img/product/kisti/0100-0000-10.jpg" alt=""></li>
+
+              <li class="splide__slide"><img src="/img/product/abraziv/2812-0125-10_1.jpg" alt=""></li>
+              <li class="splide__slide"><img src="/img/product/abraziv/2812-0125-10_2.jpg" alt=""></li>
+              <li class="splide__slide"><img src="/img/product/abraziv/2812-0125-10.jpg" alt=""></li>
+            </ul>
+          </div>
+        </div> 
+        <!-- <div id="dots" class="slider__dots slider__dots--product">
           <span class="slider__dots__dot slider__dots__dot--active"></span>
           <?php for ($i = 0; $i < 5; $i++): ?>
             <span class="slider__dots__dot"></span>
           <?php endfor ?>
-        </div>
-      </div>
+        </div> -->
+      <!-- </div> -->
       <div class="product__col-text">
-        <div class="dots-cont">
+        <!-- <div class="dots-cont">
           <button id="btnPrevMob" class="product-slider__btn product-slider__btn--mob product-slider__btn--inactive product-slider__btn--prev">
             <svg width="13" height="23" viewBox="0 0 13 23" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M11.9644 22L1.7554 12.2234C1.3438 11.8292 1.34434 11.1713 1.75657 10.7778L12 1" stroke="#494547" stroke-width="2.62591"/>
@@ -196,7 +247,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <path d="M2.03235 23L11.3454 13.1896C11.7121 12.8033 11.7116 12.1972 11.3442 11.8115L2 2" stroke="#494547" stroke-width="3"/>
             </svg>
           </button>
-        </div>
+        </div> -->
         <p class="product__title"><?= $product['model'] . ', ' . $product['variant'] ?></p>
         <p class="product__art text--larger">Артикул: <?= $product['art'] ?></p>
         <p class="product__price"><b><?= $product['price'] ?> BYN (с НДС 20%) / <?= $product['unit'] ?></b></p>

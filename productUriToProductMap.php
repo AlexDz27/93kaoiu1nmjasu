@@ -481,6 +481,7 @@ return [
       '0' => '/img/product/valiki/0300-0630-10_4.jpg',
       '1' => '/img/product/valiki/0300-0630-10_3.jpg',
       '2' => '/img/product/valiki/0300-0630-10.jpg',
+      '3' => '/img/product/valiki/0300-0630-10_5.jpg',
     ],
     'excelFileRowNum' => 28,
     'details' => '',

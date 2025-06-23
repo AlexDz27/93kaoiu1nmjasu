@@ -15,6 +15,8 @@
   <?php elseif ($pageName === 'catalog'): ?>
     <script src="/js/slider-2-h2.js" defer></script>
   <?php elseif ($pageName === 'product'): ?>
+    <link rel="stylesheet" href="/css/splide-core.min.css">
+    <script src="/js/splide.min.js" defer></script>
     <script src="/js/slider-product-h3.js" defer></script>
   <?php endif; ?>  
   <script src="/js/search-h2.js" defer></script>
