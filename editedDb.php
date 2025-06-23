@@ -63,6 +63,7 @@ return [
           '2' => '/img/product/kisti/0100-0000-20.jpg',
         ],
         'excelFileRowNum' => 7,
+        'details' => '',
       ],
       '0100-0000-25' => [
         'art' => '0100-0000-25',

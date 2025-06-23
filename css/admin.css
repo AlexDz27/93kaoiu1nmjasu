@@ -96,6 +96,9 @@ img {
   font-size: inherit;
   padding: 9px 0;
 }
+.btn-edit--big-text {
+  font-size: 140%;
+}
 .btn-edit:hover {
   background-color: #eaca16;
 }
@@ -119,6 +122,11 @@ img {
 .form__section--breaker {
   margin-bottom: 65px;
 }
+.form__section--imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 70px;
+}
 .form__textarea {
   font-family: inherit;
 }
@@ -127,4 +135,31 @@ img {
   padding-left: 10px;
   padding-right: 10px;
   min-width: 109px;
+  width: 100%;
+}
+.edit-form__btn-edit--w-auto {
+  width: auto;
+}
+
+.img-holder {
+  max-width: 300px;
+  height: 300px;
+}
+.img-holder img {
+  object-fit: contain;
+  height: 100%;
+}
+.img-holder--smaller {
+  height: 250px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 27px;
+  background-color: #e2e2e2;
+  padding: 15px;
+}
+.gallery__item {
+  
 }

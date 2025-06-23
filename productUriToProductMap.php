@@ -60,6 +60,7 @@ return [
       '2' => '/img/product/kisti/0100-0000-20.jpg',
     ],
     'excelFileRowNum' => 7,
+    'details' => '',
   ],
   '/catalog/kisti-malyarnye/kist-ploskaya-standart-naturalnyj-vors-2-5-63mm' => [
     'art' => '0100-0000-25',

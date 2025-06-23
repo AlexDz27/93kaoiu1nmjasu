@@ -10,6 +10,7 @@ if ($_POST['hit'] === 'no') {
   $isHit = true;
 }
 $details = $_POST['details'];
+$currentOrder = $_POST['currentOrder'];
 
 $response = [
   'status' => null,
@@ -19,9 +20,11 @@ $response = [
 // TODO: careful here. Prob we always need to manually insert editedDb when starting fresh application
 $editedDb = require 'editedDb.php';
 $product = $editedDb['products']['sprava'][$art];
+var_dump($product);
 
 $product['isHit'] = $isHit;
 $product['details'] = $details;
+$product['galleryImgs'] = explode(",", $currentOrder);
 
 $editedDb['products']['sprava'][$art] = $product;
 $catalogViewDb = require 'catalogViewDb.php';

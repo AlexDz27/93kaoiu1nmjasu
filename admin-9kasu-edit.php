@@ -20,6 +20,7 @@ if ($product === null) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/admin.css">
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
   <script src="js/admin-edit.js" defer></script>
   <title>Панель администратора - Редактирование</title>
 </head>
@@ -44,16 +45,44 @@ if ($product === null) {
 
       <section class="form__section form__section--breaker">
         <h3>Вкладка "Детали":</h3>
-        <textarea class="form__textarea" rows="5" cols="40" name="details"><?= $product['details'] ?></textarea>
+        <textarea class="form__textarea" rows="5" cols="40" name="details"><?= $product['details'] ?? '' ?></textarea>
       </section>
 
-      <section class="form__section">
-        <h2>Картинки:</h2>
-      </section>
+      <section class="form__section form__section--imgs">
+        <div>
+          <h2>Картинки текущие:</h2>
 
-      <h3>Главная:</h3>
-      <h3>Галерея:</h3>
-      <button id="editBtn" class="btn-edit edit-form__btn-edit" type="submit">Подтвердить редактирование</button>
+          <h3>Главная:</h3>
+          <div class="img-holder" style="margin-bottom: 55px;">
+            <img src="<?= $product['img'] ?>" alt="">
+          </div>
+
+          <h3>Галерея:</h3>
+          <div id="currentGalleryImgs" class="gallery">
+            <?php foreach ($product['galleryImgs'] as $galImg): ?>
+              <div class="gallery__item">
+                <img src="<?= $galImg ?>" alt="">
+              </div>
+            <?php endforeach ?>
+          </div>
+        </div>
+
+        <div>
+          <h2>Добавить картинки:</h2>
+
+          <label style="display: inline-block;" class="btn-edit edit-form__btn-edit edit-form__btn-edit--w-auto" for="changeMainImg">Поменять главную картинку:</label>
+          <p><input type="file" id="changeMainImg" name="mainImg" accept="image/png, image/jpeg"></p>
+          <div style="margin-bottom: 55px;" id="changeMainImgHolder" class="img-holder img-holder--smaller"></div>
+
+          <label style="display: inline-block;" class="btn-edit edit-form__btn-edit edit-form__btn-edit--w-auto" for="changeGalImg">Добавить картинки в галерею:</label>
+          <p><input type="file" multiple id="changeGalImg" name="galleryImgs[]"></p>
+          <div class="gallery" id="changeGalImgHolder">
+            Пока что картинок нет
+          </div>  
+        </div>
+      </section>  
+
+      <button id="editBtn" class="btn-edit btn-edit--big-text edit-form__btn-edit" type="submit">Подтвердить редактирование</button>
     </form>
   </section>
 </main>
