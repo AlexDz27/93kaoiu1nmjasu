@@ -2657,6 +2657,9 @@ the buttons will not be shown. TODO: maybe i can make it better */
   .t__img-cont img {
     width: 59%;
   }
+  .t__img-cont--kist-2 img {
+    width: 72%;
+  }
   .t--hit .t__body::before {
     width: 39px;
     height: 39.5px;

@@ -667,20 +667,6 @@ for ($i = 128; $i <= 128; $i++) {
 
   $rows['sprava'][] = $row;
 }
-for ($i = 129; $i <= 129; $i++) {
-  $row = [];
-  for ($k = 1; $k <= 8; $k++) {
-    $val = $activeSheet->getCell([$k, $i])->getFormattedValue();
-    $row[$map[$k - 1]] = $val;
-  }
-  $row['excelFileRowNum'] = $i;
-  $row['category'] = 'Вспомогательный инструмент';
-  $row['model'] = 'Щетка деревянная, проволочная';
-  $row['description'] = 'Для обработки металлических поверхностей.';
-  unset($row['some_math']);
-
-  $rows['sprava'][] = $row;
-}
 for ($i = 130; $i <= 133; $i++) {
   $row = [];
   for ($k = 1; $k <= 8; $k++) {

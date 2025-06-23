@@ -51,7 +51,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <div class="t <?= $product['isHit'] ? 't--hit' : '' ?>">
                 <p class="t__iz"><?= $i + 1 ?> из <?= $count ?></p>
                 <div class="t__body">
-                  <div class="t__img-cont">
+                  <div class="t__img-cont <?= $i === 1 ? 't__img-cont--kist-2' : '' ?>">
                     <img width="150" height="150" src="<?= $product['img'] ?>" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
                   </div>
                   <div class="t__text">
@@ -138,7 +138,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
         <div class="t <?= $product['isHit'] ? 't--hit' : '' ?>">
           <p class="t__iz"><?= $i + 1 ?> из <?= $count ?></p>
           <div class="t__body">
-            <div class="t__img-cont">
+            <div class="t__img-cont <?= $i === 1 ? 't__img-cont--kist-2' : '' ?>">
               <img width="150" height="150" src="<?= $product['img'] ?>" alt="<?= $product['model'] . ', ' . $product['variant'] ?>">
             </div>
             <div class="t__text">
