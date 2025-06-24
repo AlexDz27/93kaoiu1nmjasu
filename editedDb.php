@@ -15,7 +15,7 @@ return [
         'upakKrup' => '1200',
         'uri' => '/catalog/kisti-malyarnye/kist-ploskaya-standart-naturalnyj-vors-1-25mm',
         'description' => 'Для работ со всеми видами лакокрасочных материалов.',
-        'isHit' => true,
+        'isHit' => false,
         'img' => '/img/product/kisti/0100-0000-10_1.jpg',
         'galleryImgs' => [
           '0' => '/img/product/kisti/0100-0000-10_2.jpg',
@@ -35,13 +35,9 @@ return [
         'upakKrup' => '1200',
         'uri' => '/catalog/kisti-malyarnye/kist-ploskaya-standart-naturalnyj-vors-1-5-38mm',
         'description' => 'Для работ со всеми видами лакокрасочных материалов.',
-        'isHit' => true,
-        'img' => '/img/product/kisti/0100-0000-10_1.jpg',
-        'galleryImgs' => [
-          '0' => '/img/product/kisti/0100-0000-10_2.jpg',
-          '1' => '/img/product/kisti/0100-0000-10_4.jpg',
-          '2' => '/img/product/kisti/0100-0000-10.jpg',
-        ],
+        'isHit' => false,
+        'img' => '/img/product/kisti/0100-0000-15.gif',
+        'galleryImgs' => [],
         'excelFileRowNum' => 6,
       ],
       '0100-0000-20' => [
@@ -63,7 +59,6 @@ return [
           '2' => '/img/product/kisti/0100-0000-20.jpg',
         ],
         'excelFileRowNum' => 7,
-        'details' => '',
       ],
       '0100-0000-25' => [
         'art' => '0100-0000-25',
@@ -437,13 +432,8 @@ return [
         'uri' => '/catalog/valiki-malyarnye/zapaska-nitevaya-standart-poliakril-k-rucke-6mm-60x15mm-vors-11mm',
         'description' => 'Для окрашивания поверхностей красками на водной основе.',
         'isHit' => false,
-        'img' => '/img/product/valiki/0300-0615-10_2.jpg',
-        'galleryImgs' => [
-          '0' => '/img/product/valiki/0300-0615-10_4.jpg',
-          '1' => '/img/product/valiki/0300-0615-10_3.jpg',
-          '2' => '/img/product/valiki/0300-0615-10.jpg',
-          '3' => '/img/product/valiki/0300-0615-10_5.jpg',
-        ],
+        'img' => '/img/product/valiki/0300-0615-05.gif',
+        'galleryImgs' => [],
         'excelFileRowNum' => 26,
       ],
       '0300-0615-10' => [
@@ -487,7 +477,6 @@ return [
           '3' => '/img/product/valiki/0300-0630-10_5.jpg',
         ],
         'excelFileRowNum' => 28,
-        'details' => '',
       ],
       '0300-0630-15' => [
         'art' => '0300-0630-15',
@@ -1614,13 +1603,8 @@ return [
         'uri' => '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-almaznyj-segmentnyj-125mmx2-2x20-22-2',
         'description' => 'Для разреза изделий из кирпича, бетона, камня, керамической плитки. Не требует водяного охлаждения.',
         'isHit' => false,
-        'img' => '/img/product/abraziv/0797-1230-00_1.jpg',
-        'galleryImgs' => [
-          '0' => '/img/product/abraziv/0797-1230-00_2.jpg',
-          '1' => '/img/product/abraziv/0797-1230-00_4.jpg',
-          '2' => '/img/product/abraziv/0797-1230-00_3.jpg',
-          '3' => '/img/product/abraziv/0797-1230-00.jpg',
-        ],
+        'img' => '/img/product/abraziv/0797-1125-00.gif',
+        'galleryImgs' => [],
         'excelFileRowNum' => 85,
       ],
       '0797-1230-00' => [
@@ -1637,10 +1621,10 @@ return [
         'isHit' => false,
         'img' => '/img/product/abraziv/0797-1230-00_1.jpg',
         'galleryImgs' => [
-          '0' => '/img/product/abraziv/0797-1350-21_2.jpg',
-          '1' => '/img/product/abraziv/0797-1350-21_4.jpg',
-          '2' => '/img/product/abraziv/0797-1350-21_3.jpg',
-          '3' => '/img/product/abraziv/0797-1350-21.jpg',
+          '0' => '/img/product/abraziv/0797-1230-00_2.jpg',
+          '1' => '/img/product/abraziv/0797-1230-00_4.jpg',
+          '2' => '/img/product/abraziv/0797-1230-00_3.jpg',
+          '3' => '/img/product/abraziv/0797-1230-00.jpg',
         ],
         'excelFileRowNum' => 86,
       ],
@@ -1656,13 +1640,8 @@ return [
         'uri' => '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-almaznyj-segmentnyj-350mmx3-5x25-4-20-0',
         'description' => 'Для разреза изделий из кирпича, бетона, камня, керамической плитки. Не требует водяного охлаждения.',
         'isHit' => false,
-        'img' => '/img/product/abraziv/0797-1230-00_1.jpg',
-        'galleryImgs' => [
-          '0' => '/img/product/abraziv/0797-1230-00_2.jpg',
-          '1' => '/img/product/abraziv/0797-1230-00_4.jpg',
-          '2' => '/img/product/abraziv/0797-1230-00_3.jpg',
-          '3' => '/img/product/abraziv/0797-1230-00.jpg',
-        ],
+        'img' => '/img/product/abraziv/0797-1350-20.gif',
+        'galleryImgs' => [],
         'excelFileRowNum' => 87,
       ],
       '0797-1350-21' => [
@@ -2466,7 +2445,7 @@ return [
         'uri' => '/catalog/vspomogatelnyj-instrument/pistolet-skeletnyj-dlya-germetikov-225mm-310ml',
         'description' => 'Для выдавливания герметика из тубы.',
         'isHit' => false,
-        'img' => '/img/catalog-normal-res/kist.png',
+        'img' => '/img/product/vspomogat/1002-0001-31.gif',
         'galleryImgs' => [],
         'excelFileRowNum' => 126,
       ],
@@ -2482,7 +2461,7 @@ return [
         'uri' => '/catalog/vspomogatelnyj-instrument/karandas-stolyarnyj-10-st-180mm',
         'description' => 'Для нанесения разметки при внутренних и наружных работах.',
         'isHit' => false,
-        'img' => '/img/catalog-normal-res/kist.png',
+        'img' => '/img/product/vspomogat/1003-0000-12.gif',
         'galleryImgs' => [],
         'excelFileRowNum' => 127,
       ],
@@ -2520,8 +2499,10 @@ return [
         'uri' => '/catalog/vspomogatelnyj-instrument/spatel-fasadnyj-nerzaveusaya-stal-0-5mm-plastikovaya-rucka-40mm',
         'description' => 'Для нанесения и выравнивания строительных смесей.',
         'isHit' => false,
-        'img' => '/img/catalog-normal-res/kist.png',
-        'galleryImgs' => [],
+        'img' => '/img/product/vspomogat/1004-0000-04_1.jpg',
+        'galleryImgs' => [
+          '0' => '/img/product/vspomogat/1004-0000-04.jpg',
+        ],
         'excelFileRowNum' => 130,
       ],
       '1004-0000-06' => [
@@ -2536,8 +2517,10 @@ return [
         'uri' => '/catalog/vspomogatelnyj-instrument/spatel-fasadnyj-nerzaveusaya-stal-0-5mm-plastikovaya-rucka-60mm',
         'description' => 'Для нанесения и выравнивания строительных смесей.',
         'isHit' => false,
-        'img' => '/img/catalog-normal-res/kist.png',
-        'galleryImgs' => [],
+        'img' => '/img/product/vspomogat/1004-0000-06_1.jpg',
+        'galleryImgs' => [
+          '0' => '/img/product/vspomogat/1004-0000-06.jpg',
+        ],
         'excelFileRowNum' => 131,
       ],
       '1004-0000-08' => [
@@ -2552,8 +2535,10 @@ return [
         'uri' => '/catalog/vspomogatelnyj-instrument/spatel-fasadnyj-nerzaveusaya-stal-0-5mm-plastikovaya-rucka-80mm',
         'description' => 'Для нанесения и выравнивания строительных смесей.',
         'isHit' => false,
-        'img' => '/img/catalog-normal-res/kist.png',
-        'galleryImgs' => [],
+        'img' => '/img/product/vspomogat/1004-0000-08_2.jpg',
+        'galleryImgs' => [
+          '0' => '/img/product/vspomogat/1004-0000-08.jpg',
+        ],
         'excelFileRowNum' => 132,
       ],
       '1004-0000-10' => [
@@ -2568,8 +2553,10 @@ return [
         'uri' => '/catalog/vspomogatelnyj-instrument/spatel-fasadnyj-nerzaveusaya-stal-0-5mm-plastikovaya-rucka-100mm',
         'description' => 'Для нанесения и выравнивания строительных смесей.',
         'isHit' => false,
-        'img' => '/img/catalog-normal-res/kist.png',
-        'galleryImgs' => [],
+        'img' => '/img/product/vspomogat/1004-0000-10_1.jpg',
+        'galleryImgs' => [
+          '0' => '/img/product/vspomogat/1004-0000-10.jpg',
+        ],
         'excelFileRowNum' => 133,
       ],
       '1004-0000-15' => [
@@ -2584,8 +2571,10 @@ return [
         'uri' => '/catalog/vspomogatelnyj-instrument/spatel-fasadnyj-nerzaveusaya-stal-0-5mm-plastikovaya-rucka-150mm',
         'description' => 'Для нанесения и выравнивания строительных смесей.',
         'isHit' => false,
-        'img' => '/img/catalog-normal-res/kist.png',
-        'galleryImgs' => [],
+        'img' => '/img/product/vspomogat/1004-0000-15_1.jpg',
+        'galleryImgs' => [
+          '0' => '/img/product/vspomogat/1004-0000-15.jpg',
+        ],
         'excelFileRowNum' => 134,
       ],
       '1004-0000-20' => [
@@ -2600,8 +2589,10 @@ return [
         'uri' => '/catalog/vspomogatelnyj-instrument/spatel-fasadnyj-nerzaveusaya-stal-0-5mm-plastikovaya-rucka-200mm',
         'description' => 'Для нанесения и выравнивания строительных смесей.',
         'isHit' => false,
-        'img' => '/img/catalog-normal-res/kist.png',
-        'galleryImgs' => [],
+        'img' => '/img/product/vspomogat/1004-0000-20_1.jpg',
+        'galleryImgs' => [
+          '0' => '/img/product/vspomogat/1004-0000-20.jpg',
+        ],
         'excelFileRowNum' => 135,
       ],
       '1004-0000-25' => [
@@ -2616,8 +2607,10 @@ return [
         'uri' => '/catalog/vspomogatelnyj-instrument/spatel-fasadnyj-nerzaveusaya-stal-0-5mm-plastikovaya-rucka-250mm',
         'description' => 'Для нанесения и выравнивания строительных смесей.',
         'isHit' => false,
-        'img' => '/img/catalog-normal-res/kist.png',
-        'galleryImgs' => [],
+        'img' => '/img/product/vspomogat/1004-0000-25_1.jpg',
+        'galleryImgs' => [
+          '0' => '/img/product/vspomogat/1004-0000-25.jpg',
+        ],
         'excelFileRowNum' => 136,
       ],
       '1004-0000-30' => [
@@ -2632,8 +2625,10 @@ return [
         'uri' => '/catalog/vspomogatelnyj-instrument/spatel-fasadnyj-nerzaveusaya-stal-0-5mm-plastikovaya-rucka-300mm',
         'description' => 'Для нанесения и выравнивания строительных смесей.',
         'isHit' => false,
-        'img' => '/img/catalog-normal-res/kist.png',
-        'galleryImgs' => [],
+        'img' => '/img/product/vspomogat/1004-0000-30_1.jpg',
+        'galleryImgs' => [
+          '0' => '/img/product/vspomogat/1004-0000-30.jpg',
+        ],
         'excelFileRowNum' => 137,
       ],
       '1004-0000-35' => [
@@ -2648,8 +2643,10 @@ return [
         'uri' => '/catalog/vspomogatelnyj-instrument/spatel-fasadnyj-nerzaveusaya-stal-0-5mm-plastikovaya-rucka-350mm',
         'description' => 'Для нанесения и выравнивания строительных смесей.',
         'isHit' => false,
-        'img' => '/img/catalog-normal-res/kist.png',
-        'galleryImgs' => [],
+        'img' => '/img/product/vspomogat/1004-0000-35_1.jpg',
+        'galleryImgs' => [
+          '0' => '/img/product/vspomogat/1004-0000-35.jpg',
+        ],
         'excelFileRowNum' => 138,
       ],
       '1004-0000-45' => [
@@ -2664,8 +2661,10 @@ return [
         'uri' => '/catalog/vspomogatelnyj-instrument/spatel-fasadnyj-nerzaveusaya-stal-0-5mm-plastikovaya-rucka-450mm',
         'description' => 'Для нанесения и выравнивания строительных смесей.',
         'isHit' => false,
-        'img' => '/img/catalog-normal-res/kist.png',
-        'galleryImgs' => [],
+        'img' => '/img/product/vspomogat/1004-0000-45_1.jpg',
+        'galleryImgs' => [
+          '0' => '/img/product/vspomogat/1004-0000-45.jpg',
+        ],
         'excelFileRowNum' => 139,
       ],
       '1004-0001-15' => [
@@ -2680,8 +2679,10 @@ return [
         'uri' => '/catalog/vspomogatelnyj-instrument/spatel-fasadnyj-nerzaveusaya-stal-0-5mm-plastikovaya-rucka-zubcatyj-150mm-zub-8mm',
         'description' => 'Для нанесения и выравнивания строительных смесей.',
         'isHit' => false,
-        'img' => '/img/catalog-normal-res/kist.png',
-        'galleryImgs' => [],
+        'img' => '/img/product/vspomogat/1004-0001-15_1.jpg',
+        'galleryImgs' => [
+          '0' => '/img/product/vspomogat/1004-0001-15.jpg',
+        ],
         'excelFileRowNum' => 140,
       ],
       '1004-0001-25' => [
@@ -2696,8 +2697,10 @@ return [
         'uri' => '/catalog/vspomogatelnyj-instrument/spatel-fasadnyj-nerzaveusaya-stal-0-5mm-plastikovaya-rucka-zubcatyj-250mm-zub-8mm',
         'description' => 'Для нанесения и выравнивания строительных смесей.',
         'isHit' => false,
-        'img' => '/img/catalog-normal-res/kist.png',
-        'galleryImgs' => [],
+        'img' => '/img/product/vspomogat/1004-0001-25_1.jpg',
+        'galleryImgs' => [
+          '0' => '/img/product/vspomogat/1004-0001-25.jpg',
+        ],
         'excelFileRowNum' => 141,
       ],
       '1004-0001-35' => [
@@ -2712,8 +2715,10 @@ return [
         'uri' => '/catalog/vspomogatelnyj-instrument/spatel-fasadnyj-nerzaveusaya-stal-0-5mm-plastikovaya-rucka-zubcatyj-350mm-zub-10mm',
         'description' => 'Для нанесения и выравнивания строительных смесей.',
         'isHit' => false,
-        'img' => '/img/catalog-normal-res/kist.png',
-        'galleryImgs' => [],
+        'img' => '/img/product/vspomogat/1004-0001-35_1.jpg',
+        'galleryImgs' => [
+          '0' => '/img/product/vspomogat/1004-0001-35.jpg',
+        ],
         'excelFileRowNum' => 142,
       ],
       '2755-0001-H4' => [
@@ -2754,7 +2759,6 @@ return [
           '1' => '/img/product/vspomogat/0901-0000-20_3.jpg',
         ],
         'excelFileRowNum' => 145,
-        'details' => '',
       ],
     ],
     'roshma' => [

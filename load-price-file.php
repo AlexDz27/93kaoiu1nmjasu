@@ -45,6 +45,7 @@ foreach ($products2['sprava'] as $artKey => $product) {
   $productUriToProductMap[$uri] = $product;
 }
 $dbWriter->write($productUriToProductMap, 'productUriToProductMap.php');
+$dbWriter->write($db, 'editedDb.php');
 // low db
 $db3 = require 'db.php';
 $currentPriceList = $db3['currentPriceList'];
