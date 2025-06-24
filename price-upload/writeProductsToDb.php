@@ -223,7 +223,6 @@ $db['products']['sprava']['07993-0115-14']['galleryImgs'] = ['/img/product/abraz
 $db['products']['sprava']['07994-0115-14']['img'] = '/img/product/abraziv/07994-0115-14_2.jpg';
 $db['products']['sprava']['07994-0115-14']['galleryImgs'] = ['/img/product/abraziv/07994-0115-14_0.jpg', '/img/product/abraziv/07994-0115-14_4_1.jpg', '/img/product/abraziv/07994-0115-14_1.jpg', '/img/product/abraziv/07994-0115-14_4.jpg', '/img/product/abraziv/07994-0115-14.jpg', '/img/product/abraziv/07994-0115-14_5.jpg'];
 // nozhi
-// TODO: нету для первого ножа фотки. Мб мне взять из рошмы сайта?
 $db['products']['sprava']['0890-0001-18']['img'] = '/img/product/nozhi/0890-0000-18_6.jpg';
 $db['products']['sprava']['0890-0001-18']['galleryImgs'] = ['/img/product/nozhi/0890-0000-18_3.jpg', '/img/product/nozhi/0890-0000-18_4.jpg', '/img/product/nozhi/0890-0000-18_5.jpg', '/img/product/nozhi/0890-0000-18.jpg', '/img/product/nozhi/0890-0000-18_1.jpg', '/img/product/nozhi/0890-0000-18_9.jpg'];
 $db['products']['sprava']['0890-0000-18']['img'] = '/img/product/nozhi/0890-0000-18_6.jpg';
@@ -255,14 +254,10 @@ $db['products']['sprava']['1051-0000-75']['img'] = '/img/product/vspomogat/1051-
 $db['products']['sprava']['1051-0000-75']['galleryImgs'] = ['/img/product/vspomogat/1051-0000-75_1.jpg', '/img/product/vspomogat/1051-0000-75_2.jpg', '/img/product/vspomogat/1051-0000-75_6.jpg', '/img/product/vspomogat/1051-0000-75_4.jpg', '/img/product/vspomogat/1051-0000-75.jpg', '/img/product/vspomogat/1051-0000-75_5.jpg'];
 $db['products']['sprava']['1051-0000-10']['img'] = '/img/product/vspomogat/1051-0000-10_3.jpg';
 $db['products']['sprava']['1051-0000-10']['galleryImgs'] = ['/img/product/vspomogat/1051-0000-10_1.jpg', '/img/product/vspomogat/1051-0000-10_2.jpg', '/img/product/vspomogat/1051-0000-10_4_6.jpg', '/img/product/vspomogat/1051-0000-10_4_4.jpg', '/img/product/vspomogat/1051-0000-10.jpg', '/img/product/vspomogat/1051-0000-10_4_5.jpg'];
-// TODO: put normal image or fix it
-// $db['products']['sprava']['1002-0001-31']['img'] = '/img/product/vspomogat/1002-0001-31.gif';
-// TODO: no img
-// $db['products']['sprava']['1003-0000-12']['img'] = '/img/product/vspomogat/1003-0000-12.jpg';
-// TODO: AU2A9218_1.jpg - картинка ещё одна для щётки
+$db['products']['sprava']['1002-0001-31']['img'] = '/img/product/vspomogat/1002-0001-31.gif';
+$db['products']['sprava']['1003-0000-12']['img'] = '/img/product/vspomogat/1003-0000-12.gif';
 $db['products']['sprava']['0700-0000-30']['img'] = '/img/product/vspomogat/0700-0000-30_1.jpg';
 $db['products']['sprava']['0700-0000-30']['galleryImgs'] = ['/img/product/vspomogat/0700-0000-30_2.jpg', '/img/product/vspomogat/AU2A9218_1.jpg', '/img/product/vspomogat/0700-0000-30_3.jpg', '/img/product/vspomogat/0700-0000-30.jpg', '/img/product/vspomogat/0700-0000-30_4.jpg'];
-// TODO: no img
 // $db['products']['sprava']['1004-0000-01']['img'] = '/img/product/vspomogat/1004-0000-01.jpg';  // её не должно быть
 $db['products']['sprava']['1004-0000-04']['img'] = '/img/product/vspomogat/1004-0000-04_1.jpg';
 $db['products']['sprava']['1004-0000-04']['galleryImgs'] = ['/img/product/vspomogat/1004-0000-04.jpg'];

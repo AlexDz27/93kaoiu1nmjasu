@@ -21,7 +21,7 @@ $products = $db['products']['sprava'];
     <h2>Обновить прайс-лист:</h2>
     <form id="loadFileForm" method="POST" enctype="multipart/form-data">
       <p>
-        <label for="file">Выберите файл прайс-листа: &nbsp;</label>
+        <label for="file">Выберите файл прайс-листа <span style="font-size: 25px;">👉🏻</span> &nbsp; </label>
         <input name="file" type="file" id="file">
       </p>
       <button id="loadBtn" class="btn-load" type="submit">Загрузить файл прайс-листа</button>
