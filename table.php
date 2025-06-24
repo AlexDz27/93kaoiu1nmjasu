@@ -39,7 +39,7 @@ $tableViewDb = require 'tableViewDb.php';
       <tr>
         <td class="category" colspan="7"><?= $catName ?></td>
         <?php foreach ($cat as $model): ?>
-          <?php foreach ($model as $modelDatum): ?>
+          <?php foreach ($model as $idx => $modelDatum): ?>
             <tr class="<?= isset($modelDatum['isFirst']) ? 'first-product-in-model' : '' ?>">
               <?php if (isset($modelDatum['imgNeedsOtherRows'])): ?>
                 <td><?= $modelDatum['art'] ?></td>
@@ -52,7 +52,11 @@ $tableViewDb = require 'tableViewDb.php';
               <?php elseif (isset($modelDatum['howMany'])): ?>
                 <td><?= $modelDatum['art'] ?></td>
                 <td class="td--holding-img" rowspan="<?= $modelDatum['howMany'] ?>">
-                  <img class="td--holding-img__img" src="<?= $modelDatum['img'] ? $modelDatum['img'] : '/img/catalog-normal-res/kist.png' ?>" alt="">
+                  <?php if ($modelDatum['category'] === 'Кисти малярные' && $idx === 1): ?>
+                    <img class="td--holding-img__img" src="<?= $model[0]['img'] ? $model[0]['img'] : '/img/catalog-normal-res/kist.png' ?>" alt="">
+                  <?php else: ?>
+                    <img class="td--holding-img__img" src="<?= $modelDatum['img'] ? $modelDatum['img'] : '/img/catalog-normal-res/kist.png' ?>" alt="">
+                  <?php endif ?>  
                 </td>
                 <td><?= $modelDatum['variant'] ?></td>
                 <th><?= $modelDatum['price'] ?></th>

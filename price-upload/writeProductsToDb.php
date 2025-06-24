@@ -290,5 +290,29 @@ $db['products']['sprava']['2755-0001-H4']['galleryImgs'] = ['/img/product/vspomo
 $db['products']['sprava']['0901-0000-20']['img'] = '/img/product/vspomogat/0901-0000-20.jpg';
 $db['products']['sprava']['0901-0000-20']['galleryImgs'] = ['/img/product/vspomogat/0901-0000-20_1.jpg', '/img/product/vspomogat/0901-0000-20_3.jpg'];
 
+// ROSHMA
+// Кисти - где брать?
+
+
+$db['products']['roshma']['0302-21800060']['img'] = '';  // нету картинки. Похоже на https://roshma.by/product/valik-nitevoj-standart-poliakril-ruchka-7-8mm-180h48mm-vors18mm/, но у настоящей параметр 180х40мм, а не 180х48
+$db['products']['roshma']['0302-22400060']['img'] = '/img/roshma/0302-22400060.gif';
+
+$db['products']['roshma']['0311-11800040']['img'] = '';  // аналогично первому: https://roshma.by/product/valik-nitevoj-pchelka-poliakril-ruchka-7-8mm-180h48mm-vors-10-mm/
+$db['products']['roshma']['0311-24000040']['img'] = '';  // тоже нету (искал "240х40")
+
+
+$db['products']['roshma']['0794-0125-10']['img'] = '/img/roshma/0794-0125-10.gif'; 
+$db['products']['roshma']['0794-0230-16']['img'] = '/img/roshma/0794-0230-16.gif';
+
+$db['products']['roshma']['0795-0224-04']['img'] = '/img/roshma/0795-0224-04.gif';
+$db['products']['roshma']['0795-0224-06']['img'] = '/img/roshma/0795-0224-06.gif';
+$db['products']['roshma']['0795-0224-08']['img'] = '/img/roshma/0795-0224-08.gif';
+
+// Круг наждачный с ворсовой подложкой - ?
+
+// Нож обойный + -//- три штуки - тоже не нашел на старом сайте
+
+$db['products']['roshma']['1004-0000-00']['img'] = '/img/roshma/1004-0000-00.gif';
+
 $dbWriterP = new PhpArrDbWriter();
 $dbWriterP->write($db, 'db.php');
