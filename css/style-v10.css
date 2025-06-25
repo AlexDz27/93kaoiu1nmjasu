@@ -1101,7 +1101,7 @@ the buttons will not be shown. TODO: maybe i can make it better */
   background-color: #252424;
   padding: 20px;
   box-sizing: border-box;
-  z-index: 2;
+  z-index: 100;
 }
 .nav-mob--active {display: block;}
 .nav__row--btn-close {
