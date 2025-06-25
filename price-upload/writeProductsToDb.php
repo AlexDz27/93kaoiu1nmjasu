@@ -82,7 +82,6 @@ $db['products']['sprava']['0301-0615-30']['img'] = '/img/product/valiki/0301-063
 $db['products']['sprava']['0301-0615-30']['galleryImgs'] = ['/img/product/valiki/0301-0630-30_4.jpg', '/img/product/valiki/0301-0630-30_3.jpg', '/img/product/valiki/0301-0630-30.jpg', '/img/product/valiki/0301-0630-30_5.jpg'];
 $db['products']['sprava']['0301-0630-30']['img'] = '/img/product/valiki/0301-0630-30_2.jpg';
 $db['products']['sprava']['0301-0630-30']['galleryImgs'] = ['/img/product/valiki/0301-0630-30_4.jpg', '/img/product/valiki/0301-0630-30_3.jpg', '/img/product/valiki/0301-0630-30.jpg', '/img/product/valiki/0301-0630-30_5.jpg'];
-// ПРОДОЛЖАТЬ ОТСЮДА
 $db['products']['sprava']['0310-1848-18']['img'] = '/img/product/valiki/0310-1848-18_2.jpg';
 $db['products']['sprava']['0310-1848-18']['galleryImgs'] = ['/img/product/valiki/0310-1848-18_4.jpg', '/img/product/valiki/0310-1848-18_3.jpg', '/img/product/valiki/0310-1848-18.jpg', '/img/product/valiki/0310-1848-18_5.jpg'];
 $db['products']['sprava']['0310-1848-23']['img'] = '/img/product/valiki/0310-1848-23_2.jpg';
@@ -136,7 +135,16 @@ $db['products']['sprava']['0540-0848-18']['img'] = '/img/product/valiki/0540-084
 $db['products']['sprava']['0540-0848-18']['galleryImgs'] = ['/img/product/valiki/0540-0848-18_4.jpg', '/img/product/valiki/0540-0848-18_5.jpg', '/img/product/valiki/0540-0848-18.jpg'];
 $db['products']['sprava']['0540-0848-24']['img'] = '/img/product/valiki/0540-0848-24_2.jpg';
 $db['products']['sprava']['0540-0848-24']['galleryImgs'] = ['/img/product/valiki/0540-0848-24_4.jpg', '/img/product/valiki/0540-0848-24_5.jpg', '/img/product/valiki/0540-0848-24.jpg'];
-// TODO: а где ручки для валиков, например, 0575-0600-05?
+$db['products']['sprava']['0575-0600-05']['img'] = '/img/product/valiki/0575-0600-05.gif';
+$db['products']['sprava']['0575-0600-05']['galleryImgs'] = [];
+$db['products']['sprava']['0575-0600-10']['img'] = '/img/product/valiki/0575-0600-10.gif';
+$db['products']['sprava']['0575-0600-10']['galleryImgs'] = [];
+$db['products']['sprava']['0575-0600-15']['img'] = '/img/product/valiki/0575-0600-15.gif';
+$db['products']['sprava']['0575-0600-15']['galleryImgs'] = [];
+$db['products']['sprava']['0580-0800-18']['img'] = '/img/product/valiki/0580-0800-18.gif';
+$db['products']['sprava']['0580-0800-18']['galleryImgs'] = [];
+$db['products']['sprava']['0580-0800-24']['img'] = '/img/product/valiki/0580-0800-24.gif';
+$db['products']['sprava']['0580-0800-24']['galleryImgs'] = [];
 // abraziv krugi
 $db['products']['sprava']['2897-0125-10']['img'] = '/img/product/abraziv/2897-0125-10_1.jpg';
 $db['products']['sprava']['2897-0125-10']['galleryImgs'] = ['/img/product/abraziv/2897-0125-10_2.jpg', '/img/product/abraziv/2897-0125-10_5.jpg', '/img/product/abraziv/2897-0125-10_4.jpg', '/img/product/abraziv/2897-0125-10.jpg'];
@@ -223,8 +231,6 @@ $db['products']['sprava']['07993-0115-14']['galleryImgs'] = ['/img/product/abraz
 $db['products']['sprava']['07994-0115-14']['img'] = '/img/product/abraziv/07994-0115-14_2.jpg';
 $db['products']['sprava']['07994-0115-14']['galleryImgs'] = ['/img/product/abraziv/07994-0115-14_0.jpg', '/img/product/abraziv/07994-0115-14_4_1.jpg', '/img/product/abraziv/07994-0115-14_1.jpg', '/img/product/abraziv/07994-0115-14_4.jpg', '/img/product/abraziv/07994-0115-14.jpg', '/img/product/abraziv/07994-0115-14_5.jpg'];
 // nozhi
-$db['products']['sprava']['0890-0001-18']['img'] = '/img/product/nozhi/0890-0000-18_6.jpg';
-$db['products']['sprava']['0890-0001-18']['galleryImgs'] = ['/img/product/nozhi/0890-0000-18_3.jpg', '/img/product/nozhi/0890-0000-18_4.jpg', '/img/product/nozhi/0890-0000-18_5.jpg', '/img/product/nozhi/0890-0000-18.jpg', '/img/product/nozhi/0890-0000-18_1.jpg', '/img/product/nozhi/0890-0000-18_9.jpg'];
 $db['products']['sprava']['0890-0000-18']['img'] = '/img/product/nozhi/0890-0000-18_6.jpg';
 $db['products']['sprava']['0890-0000-18']['galleryImgs'] = ['/img/product/nozhi/0890-0000-18_3.jpg', '/img/product/nozhi/0890-0000-18_4.jpg', '/img/product/nozhi/0890-0000-18_5.jpg', '/img/product/nozhi/0890-0000-18.jpg', '/img/product/nozhi/0890-0000-18_1.jpg', '/img/product/nozhi/0890-0000-18_9.jpg'];
 $db['products']['sprava']['0890-0000-25']['img'] = '/img/product/nozhi/0890-0000-25_6.jpg';
@@ -292,13 +298,14 @@ $db['products']['sprava']['0901-0000-20']['galleryImgs'] = ['/img/product/vspomo
 
 // ROSHMA
 // Кисти - где брать?
-
+// Also setting some images for tableView, pay attention
+$db['products']['roshma']['0000-0000-15']['img'] = '/img/roshma/0100-0000-15.gif';
 
 $db['products']['roshma']['0302-21800060']['img'] = '';  // нету картинки. Похоже на https://roshma.by/product/valik-nitevoj-standart-poliakril-ruchka-7-8mm-180h48mm-vors18mm/, но у настоящей параметр 180х40мм, а не 180х48
 $db['products']['roshma']['0302-22400060']['img'] = '/img/roshma/0302-22400060.gif';
 
 $db['products']['roshma']['0311-11800040']['img'] = '';  // аналогично первому: https://roshma.by/product/valik-nitevoj-pchelka-poliakril-ruchka-7-8mm-180h48mm-vors-10-mm/
-$db['products']['roshma']['0311-24000040']['img'] = '';  // тоже нету (искал "240х40")
+$db['products']['roshma']['0311-24000040']['img'] = '/img/roshma/k_0311-24000040.gif';  // set for tableView  // тоже нету (искал "240х40")
 
 
 $db['products']['roshma']['0794-0125-10']['img'] = '/img/roshma/0794-0125-10.gif'; 
@@ -308,9 +315,12 @@ $db['products']['roshma']['0795-0224-04']['img'] = '/img/roshma/0795-0224-04.gif
 $db['products']['roshma']['0795-0224-06']['img'] = '/img/roshma/0795-0224-06.gif';
 $db['products']['roshma']['0795-0224-08']['img'] = '/img/roshma/0795-0224-08.gif';
 
-// Круг наждачный с ворсовой подложкой - ?
+// Круг наждачный с ворсовой подложкой - ?. Setting for one
+$db['products']['roshma']['2810-0125-60']['img'] = '/img/roshma/k_2810-0125-60.gif';
 
-// Нож обойный + -//- три штуки - тоже не нашел на старом сайте
+// Нож обойный + -//- три штуки - тоже не нашел на старом сайте. Setting one img for both
+$db['products']['roshma']['0605-0000-18']['img'] = '/img/roshma/k_0605-0000-18.gif';
+$db['products']['roshma']['0605-0003-18']['img'] = '/img/roshma/k_0605-0000-18.gif';
 
 $db['products']['roshma']['1004-0000-00']['img'] = '/img/roshma/1004-0000-00.gif';
 

@@ -1,5 +1,14 @@
 <?php
 
+$uname = 'aom';
+$pwd = '';
+if (@$_SERVER['PHP_AUTH_USER'] !== $uname) {
+  header('WWW-Authenticate: Basic realm="Restricted Area"');
+  header('HTTP/1.0 401 Unauthorized');
+  echo 'Нужно ввести верные логин и пароль.';
+  exit;
+}
+
 $db = require 'db.php';
 $products = $db['products']['sprava'];
 
