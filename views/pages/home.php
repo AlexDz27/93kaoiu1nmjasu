@@ -45,7 +45,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
         <div id="track" class="slider__track">
           <div class="card" data-card-id="1">
             <div class="card__img-cont">
-              <img class="card__img" src="/img/product/kisti/0100-0000-25_2.jpg" alt="Кисти малярные">
+              <img class="card__img card__img--down--mob" src="/img/product/kisti/0100-0000-25_2.jpg" alt="Кисти малярные">
             </div>
             <h3 class="card__title">Кисти малярные</h3>
             <ul class="card__list">
@@ -58,7 +58,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
 
           <div class="card" data-card-id="2">
             <div class="card__img-cont">
-              <img class="card__img" src="/img/product/valiki/0302-22400000_1.jpg" alt="Валики малярные">
+              <img class="card__img card__img--down--mob" src="/img/product/valiki/0302-22400000_1.jpg" alt="Валики малярные">
             </div>
             <h3 class="card__title">Валики малярные</h3>
             <ul class="card__list">
@@ -71,7 +71,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
 
           <div class="card" data-card-id="3">
             <div class="card__img-cont">
-              <img class="card__img" src="/img/product/abraziv/2897-0125-10_1.jpg" alt="Абразивные алмазные материалы и оснастка">
+              <img class="card__img card__img--down--mob" src="/img/product/abraziv/2897-0125-10_1.jpg" alt="Абразивные алмазные материалы и оснастка">
             </div>
             <h3 class="card__title card__title--w-2nd-line">Абразивные алмазные <span class="card__title__2nd-line card__title__2nd-line--abraziv">материалы и оснастка</span></h3>
             <ul class="card__list card__list--w-2nd-line">
@@ -84,7 +84,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
 
           <div class="card" data-card-id="4">
             <div class="card__img-cont">
-              <img class="card__img" src="/img/product/nozhi/0890-0000-18_6.jpg" alt="Ножи и лезвия">
+              <img class="card__img card__img--down--mob" src="/img/product/nozhi/0890-0000-18_6.jpg" alt="Ножи и лезвия">
             </div>
             <h3 class="card__title">Ножи и лезвия</h3>
             <ul class="card__list">
@@ -96,7 +96,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
 
           <div class="card card--bad-pr" data-card-id="5">
             <div class="card__img-cont">
-              <img class="card__img" src="/img/product/vspomogat/0990-0600-12_2.jpg" alt="Вспомогательный инструмент">
+              <img class="card__img card__img--bad" src="/img/product/vspomogat/0990-0600-12_2.jpg" alt="Вспомогательный инструмент">
             </div>
             <h3 class="card__title card__title--w-2nd-line">Вспомогательный <span class="card__title__2nd-line card__title__2nd-line--abraziv">инструмент</span></h3>
             <ul class="card__list card__list--w-2nd-line">

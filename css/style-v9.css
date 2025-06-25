@@ -612,7 +612,19 @@ the buttons will not be shown. TODO: maybe i can make it better */
   height: 116%;
   object-fit: contain;
   position: relative;
-  top: -10px;
+  top: -10px;  /* TODO: d */
+  top: -5%;
+}
+.card__img--bad {
+  top: -10%;
+}
+@media (max-width: 812px) {
+  .card__img--down--mob {
+    top: 0;
+  }
+}
+.card__img--down-1 {
+  top: -3%;
 }
 .card__btn {
   font-size: 18px;
@@ -2106,9 +2118,6 @@ the buttons will not be shown. TODO: maybe i can make it better */
   .card__img-cont {
     display: flex;
     align-items: center;
-  }
-  .card__img {
-    height: 75%;
   }
   .section--cat .card__title {
     font-size: 16px;
