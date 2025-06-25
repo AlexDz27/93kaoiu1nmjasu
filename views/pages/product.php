@@ -167,7 +167,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
     <nav>
       <a class="yellow__link" href="/">Главная</a>
       <a class="yellow__link" href="/catalog">Каталог</a>
-      <a class="yellow__link yellow__link--abraziv" href="/catalog"><?= $product['category'] ?></a>
+      <a class="yellow__link yellow__link--abraziv" href="/catalog#<?= $product['catBtn'] ?>"><?= $product['category'] ?></a>
       <a class="yellow__link yellow__link--active" href="<?= $product['uri'] ?>"><?= $product['model'] ?></a>
     </nav>
   </div>

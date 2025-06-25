@@ -33,11 +33,11 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
 
   <div class="cont">
     <div id="qs" class="qs__cont">
-      <button id="kisti" class="q q--active" type="button">Кисти малярные</button>
-      <button id="abraziv" class="q q--with-second-line" type="button"><span class="q__text--with-second-line">Абразивные алмазные<span class="card__title__2nd-line"> материалы и оснастка</span></span></button>
-      <button id="valiki" class="q" type="button">Валики и ролики</button>
-      <button id="nozhi" class="q" type="button">Ножи и лезвия</button>
-      <button id="vspomogat" class="q q--with-second-line" type="button"><span class="q__text--with-second-line">Вспомогательный<span class="card__title__2nd-line"> инструмент</span></span></button>
+      <a href="#kisti" id="kisti" class="q q--active" >Кисти малярные</a>
+      <a href="#valiki" id="valiki" class="q" >Валики и ролики</a>
+      <a href="#abraziv" id="abraziv" class="q q--with-second-line" ><span class="q__text--with-second-line">Абразивные алмазные<span class="card__title__2nd-line"> материалы и оснастка</span></span></a>
+      <a href="#nozhi" id="nozhi" class="q" >Ножи и лезвия</a>
+      <a href="#vspomogat" id="vspomogat" class="q q--with-second-line" ><span class="q__text--with-second-line">Вспомогательный<span class="card__title__2nd-line"> инструмент</span></span></a>
     </div>
 
     <h2 id="titleSection" class="title-section title-section--mob">Кисти малярные</h2>
@@ -584,8 +584,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
   const CATALOG_track = document.getElementById('track')
 
   /** CATALOG CATEGORIES TOGGLE **/
-  let currentCategory = 'kisti'
-
+  let currentCategory = null
   const btnKisti = document.getElementById('kisti')
   const btnAbraziv = document.getElementById('abraziv')
   const btnValiki = document.getElementById('valiki')
@@ -594,7 +593,10 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
   const titleSection = document.getElementById('titleSection')
   const catBtns = [btnKisti, btnAbraziv, btnValiki, btnVspomogat, btnNozhi]
   for (const btn of catBtns) {
-    btn.onclick = () => {
+    btn.onclick = (e) => {
+      e.preventDefault()
+      history.pushState(null, null, btn.href);
+
       currentCategory = btn.id
       document.querySelectorAll('.t-list').forEach(t => t.remove())
       CATALOG_track.append(document.getElementById('tmpl-' + currentCategory).content.cloneNode(true))
@@ -672,6 +674,16 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
     }
   }
   setElements()
+
+  let btnToBeClickedWhenFirstLoadingAndHasHash = null
+  if (window.location.hash) {
+    currentCategory = window.location.hash.substring(1)
+    btnToBeClickedWhenFirstLoadingAndHasHash = document.getElementById(currentCategory)
+    btnToBeClickedWhenFirstLoadingAndHasHash.click()
+  } else {
+    currentCategory = 'kisti'
+  }
+
   // put the rest of ts into first t-list and destroy the rest
   function tListManipulations() {
     const fragment = document.createDocumentFragment()

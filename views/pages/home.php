@@ -24,7 +24,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
       <b>СКАЧАТЬ ПРАЙС</b>
       <img class="btn--dropdown__icon section-design--trust--mob__btn__icon" src="img/icons/arrow-down.svg" width="17" height="10">
       <div class="btn--dropdown__list">
-        <a class="btn--dropdown__list__item" href="Price-2025.04.22.xlsx"><b>Скачать прайс</b></a>
+        <a class="btn--dropdown__list__item" href="/price-lists/<?= $lowDb['currentPriceList'] ?>"><b>Скачать прайс</b></a>
         <a class="btn--dropdown__list__item" href="table.php"><b>Посмотреть прайс</b></a>
       </div>
     </button>
@@ -45,12 +45,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
         <div id="track" class="slider__track">
           <div class="card" data-card-id="1">
             <div class="card__img-cont">
-              <div class="logo--small__container">
-                <img class="show-after-812" src="img/logo--small.svg">
-                <img class="show-before-812" src="img/logo--small--mob.svg">
-                <img class="show-before-476" src="img/logo--small--mob--small.svg">
-              </div>
-              <img class="card__img" src="img/catalog-normal-res/kist.png" alt="Кисти малярные">
+              <img class="card__img" src="/img/product/kisti/0100-0000-25_2.jpg" alt="Кисти малярные">
             </div>
             <h3 class="card__title">Кисти малярные</h3>
             <ul class="card__list">
@@ -63,30 +58,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
 
           <div class="card" data-card-id="2">
             <div class="card__img-cont">
-              <div class="logo--small__container">
-                <img class="show-after-812" src="img/logo--small.svg">
-                <img class="show-before-812" src="img/logo--small--mob.svg">
-                <img class="show-before-476" src="img/logo--small--mob--small.svg">
-              </div>
-              <img class="card__img" src="img/catalog-normal-res/krug-w-logo.png" alt="Абразивные алмазные материалы и оснастка">
-            </div>
-            <h3 class="card__title card__title--w-2nd-line">Абразивные алмазные <span class="card__title__2nd-line card__title__2nd-line--abraziv">материалы и оснастка</span></h3>
-            <ul class="card__list card__list--w-2nd-line">
-              <li class="text--larger"><span class="card__list__item-text">Отрезные круги</span></li>
-              <li class="text--larger"><span class="card__list__item-text">Алмазные диски</span></li>
-              <li class="text--larger"><span class="card__list__item-text">Насадки, кордщетки на УШМ</span></li>
-            </ul>
-            <a class="btn card__btn" href="/catalog"><b>В КАТАЛОГ</b></a>
-          </div>
-
-          <div class="card" data-card-id="3">
-            <div class="card__img-cont">
-              <div class="logo--small__container">
-                <img class="show-after-812" src="img/logo--small.svg">
-                <img class="show-before-812" src="img/logo--small--mob.svg">
-                <img class="show-before-476" src="img/logo--small--mob--small.svg">
-              </div>
-              <img class="card__img" src="img/catalog-normal-res/valik.png" alt="Валики малярные">
+              <img class="card__img" src="/img/product/valiki/0302-22400000_1.jpg" alt="Валики малярные">
             </div>
             <h3 class="card__title">Валики малярные</h3>
             <ul class="card__list">
@@ -97,14 +69,22 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
             <a class="btn card__btn" href="/catalog"><b>В КАТАЛОГ</b></a>
           </div>
 
+          <div class="card" data-card-id="3">
+            <div class="card__img-cont">
+              <img class="card__img" src="/img/product/abraziv/2897-0125-10_1.jpg" alt="Абразивные алмазные материалы и оснастка">
+            </div>
+            <h3 class="card__title card__title--w-2nd-line">Абразивные алмазные <span class="card__title__2nd-line card__title__2nd-line--abraziv">материалы и оснастка</span></h3>
+            <ul class="card__list card__list--w-2nd-line">
+              <li class="text--larger"><span class="card__list__item-text">Отрезные круги</span></li>
+              <li class="text--larger"><span class="card__list__item-text">Алмазные диски</span></li>
+              <li class="text--larger"><span class="card__list__item-text">Насадки, кордщетки на УШМ</span></li>
+            </ul>
+            <a class="btn card__btn" href="/catalog"><b>В КАТАЛОГ</b></a>
+          </div>
+
           <div class="card" data-card-id="4">
             <div class="card__img-cont">
-              <div class="logo--small__container">
-                <img class="show-after-812" src="img/logo--small.svg">
-                <img class="show-before-812" src="img/logo--small--mob.svg">
-                <img class="show-before-476" src="img/logo--small--mob--small.svg">
-              </div>
-              <img class="card__img" src="img/catalog-normal-res/nozh.png" alt="Ножи и лезвия">
+              <img class="card__img" src="/img/product/nozhi/0890-0000-18_6.jpg" alt="Ножи и лезвия">
             </div>
             <h3 class="card__title">Ножи и лезвия</h3>
             <ul class="card__list">
@@ -116,12 +96,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
 
           <div class="card card--bad-pr" data-card-id="5">
             <div class="card__img-cont">
-              <div class="logo--small__container">
-                <img class="show-after-812" src="img/logo--small.svg">
-                <img class="show-before-812" src="img/logo--small--mob.svg">
-                <img class="show-before-476" src="img/logo--small--mob--small.svg">
-              </div>
-              <img class="card__img" src="img/catalog-normal-res/ruletka.png" alt="Вспомогательный инструмент">
+              <img class="card__img" src="/img/product/vspomogat/0990-0600-12_2.jpg" alt="Вспомогательный инструмент">
             </div>
             <h3 class="card__title card__title--w-2nd-line">Вспомогательный <span class="card__title__2nd-line card__title__2nd-line--abraziv">инструмент</span></h3>
             <ul class="card__list card__list--w-2nd-line">

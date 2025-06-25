@@ -20,6 +20,7 @@ return [
       '2' => '/img/product/kisti/0100-0000-10.jpg',
     ],
     'excelFileRowNum' => 5,
+    'catBtn' => 'kisti',
   ],
   '/catalog/kisti-malyarnye/kist-ploskaya-standart-naturalnyj-vors-1-5-38mm' => [
     'art' => '0100-0000-15',
@@ -36,6 +37,7 @@ return [
     'img' => '/img/product/kisti/0100-0000-15.gif',
     'galleryImgs' => [],
     'excelFileRowNum' => 6,
+    'catBtn' => 'kisti',
   ],
   '/catalog/kisti-malyarnye/kist-ploskaya-standart-naturalnyj-vors-2-50mm' => [
     'art' => '0100-0000-20',
@@ -56,6 +58,7 @@ return [
       '2' => '/img/product/kisti/0100-0000-20.jpg',
     ],
     'excelFileRowNum' => 7,
+    'catBtn' => 'kisti',
   ],
   '/catalog/kisti-malyarnye/kist-ploskaya-standart-naturalnyj-vors-2-5-63mm' => [
     'art' => '0100-0000-25',
@@ -76,6 +79,7 @@ return [
       '2' => '/img/product/kisti/0100-0000-25.jpg',
     ],
     'excelFileRowNum' => 8,
+    'catBtn' => 'kisti',
   ],
   '/catalog/kisti-malyarnye/kist-ploskaya-standart-naturalnyj-vors-3-75mm' => [
     'art' => '0100-0000-30',
@@ -96,6 +100,7 @@ return [
       '2' => '/img/product/kisti/0100-0000-30.jpg',
     ],
     'excelFileRowNum' => 9,
+    'catBtn' => 'kisti',
   ],
   '/catalog/kisti-malyarnye/kist-ploskaya-standart-naturalnyj-vors-4-100mm' => [
     'art' => '0100-0000-40',
@@ -116,6 +121,7 @@ return [
       '2' => '/img/product/kisti/0100-0000-40.jpg',
     ],
     'excelFileRowNum' => 10,
+    'catBtn' => 'kisti',
   ],
   '/catalog/kisti-malyarnye/kist-ploskaya-standart-naturalnyj-vors-5-125mm' => [
     'art' => '0100-0000-50',
@@ -136,6 +142,7 @@ return [
       '2' => '/img/product/kisti/0100-0000-50.jpg',
     ],
     'excelFileRowNum' => 11,
+    'catBtn' => 'kisti',
   ],
   '/catalog/kisti-malyarnye/kist-ploskaya-evro-naturalnyj-vors-1-25mm' => [
     'art' => '0110-0000-10',
@@ -156,6 +163,7 @@ return [
       '2' => '/img/product/kisti/0110-0000-10.jpg',
     ],
     'excelFileRowNum' => 12,
+    'catBtn' => 'kisti',
   ],
   '/catalog/kisti-malyarnye/kist-ploskaya-evro-naturalnyj-vors-1-5-38mm' => [
     'art' => '0110-0000-15',
@@ -176,6 +184,7 @@ return [
       '2' => '/img/product/kisti/0110-0000-15.jpg',
     ],
     'excelFileRowNum' => 13,
+    'catBtn' => 'kisti',
   ],
   '/catalog/kisti-malyarnye/kist-ploskaya-evro-naturalnyj-vors-2-50mm' => [
     'art' => '0110-0000-20',
@@ -196,6 +205,7 @@ return [
       '2' => '/img/product/kisti/0110-0000-20.jpg',
     ],
     'excelFileRowNum' => 14,
+    'catBtn' => 'kisti',
   ],
   '/catalog/kisti-malyarnye/kist-ploskaya-evro-naturalnyj-vors-2-5-63mm' => [
     'art' => '0110-0000-25',
@@ -216,6 +226,7 @@ return [
       '2' => '/img/product/kisti/0110-0000-25.jpg',
     ],
     'excelFileRowNum' => 15,
+    'catBtn' => 'kisti',
   ],
   '/catalog/kisti-malyarnye/kist-ploskaya-evro-naturalnyj-vors-3-75mm' => [
     'art' => '0110-0000-30',
@@ -236,6 +247,7 @@ return [
       '2' => '/img/product/kisti/0110-0000-30.jpg',
     ],
     'excelFileRowNum' => 16,
+    'catBtn' => 'kisti',
   ],
   '/catalog/kisti-malyarnye/kist-ploskaya-evro-naturalnyj-vors-4-100mm' => [
     'art' => '0110-0000-40',
@@ -256,6 +268,7 @@ return [
       '2' => '/img/product/kisti/0110-0000-40.jpg',
     ],
     'excelFileRowNum' => 17,
+    'catBtn' => 'kisti',
   ],
   '/catalog/kisti-malyarnye/kist-lavkovec-mini-naturalnyj-vors-70x30mm' => [
     'art' => '0230-0030-07',
@@ -276,6 +289,7 @@ return [
       '2' => '/img/product/kisti/0230-0030-07.jpg',
     ],
     'excelFileRowNum' => 18,
+    'catBtn' => 'kisti',
   ],
   '/catalog/kisti-malyarnye/kist-lavkovec-mini-naturalnyj-vors-100x30mm' => [
     'art' => '0230-0030-10',
@@ -296,6 +310,7 @@ return [
       '2' => '/img/product/kisti/0230-0030-10.jpg',
     ],
     'excelFileRowNum' => 19,
+    'catBtn' => 'kisti',
   ],
   '/catalog/kisti-malyarnye/kist-lavkovec-mini-naturalnyj-vors-120x30mm' => [
     'art' => '0230-0030-12',
@@ -316,6 +331,7 @@ return [
       '2' => '/img/product/kisti/0230-0030-12.jpg',
     ],
     'excelFileRowNum' => 20,
+    'catBtn' => 'kisti',
   ],
   '/catalog/kisti-malyarnye/kist-lavkovec-mini-naturalnyj-vors-140x40mm' => [
     'art' => '0230-0040-14',
@@ -336,6 +352,7 @@ return [
       '2' => '/img/product/kisti/0230-0040-14.jpg',
     ],
     'excelFileRowNum' => 21,
+    'catBtn' => 'kisti',
   ],
   '/catalog/kisti-malyarnye/kist-lavkovec-mini-naturalnyj-vors-150x50mm' => [
     'art' => '0230-0050-15',
@@ -356,6 +373,7 @@ return [
       '2' => '/img/product/kisti/0230-0050-15.jpg',
     ],
     'excelFileRowNum' => 22,
+    'catBtn' => 'kisti',
   ],
   '/catalog/kisti-malyarnye/kist-radiatornaya-naturalnyj-vors-1-0-25mm' => [
     'art' => '0180-0000-10',
@@ -376,6 +394,7 @@ return [
       '2' => '/img/product/kisti/0180-0000-10.jpg',
     ],
     'excelFileRowNum' => 23,
+    'catBtn' => 'kisti',
   ],
   '/catalog/kisti-malyarnye/kist-radiatornaya-naturalnyj-vors-1-5-38mm' => [
     'art' => '0180-0000-15',
@@ -396,6 +415,7 @@ return [
       '2' => '/img/product/kisti/0180-0000-15.jpg',
     ],
     'excelFileRowNum' => 24,
+    'catBtn' => 'kisti',
   ],
   '/catalog/kisti-malyarnye/kist-radiatornaya-naturalnyj-vors-2-0-50mm' => [
     'art' => '0180-0000-20',
@@ -416,6 +436,7 @@ return [
       '2' => '/img/product/kisti/0180-0000-20.jpg',
     ],
     'excelFileRowNum' => 25,
+    'catBtn' => 'kisti',
   ],
   '/catalog/valiki-malyarnye/zapaska-nitevaya-standart-poliakril-k-rucke-6mm-60x15mm-vors-11mm' => [
     'art' => '0300-0615-05',
@@ -432,6 +453,7 @@ return [
     'img' => '/img/product/valiki/0300-0615-05.gif',
     'galleryImgs' => [],
     'excelFileRowNum' => 26,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/zapaska-nitevaya-standart-poliakril-k-rucke-6mm-100x15mm-vors-11mm' => [
     'art' => '0300-0615-10',
@@ -453,6 +475,7 @@ return [
       '3' => '/img/product/valiki/0300-0615-10_5.jpg',
     ],
     'excelFileRowNum' => 27,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/zapaska-nitevaya-standart-poliakril-k-rucke-6mm-100x30mm-vors-11mm' => [
     'art' => '0300-0630-10',
@@ -474,6 +497,7 @@ return [
       '3' => '/img/product/valiki/0300-0630-10_5.jpg',
     ],
     'excelFileRowNum' => 28,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/zapaska-nitevaya-standart-poliakril-k-rucke-6mm-150x30mm-vors-11mm' => [
     'art' => '0300-0630-15',
@@ -495,6 +519,7 @@ return [
       '3' => '/img/product/valiki/0300-0630-15_5.jpg',
     ],
     'excelFileRowNum' => 29,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/valik-nitevoj-standart-poliakril-rucka-6mm-60x15mm-vors-11mm' => [
     'art' => '0301-10600000',
@@ -515,6 +540,7 @@ return [
       '2' => '/img/product/valiki/0301-11100000.jpg',
     ],
     'excelFileRowNum' => 30,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/valik-nitevoj-standart-poliakril-rucka-6mm-100x15mm-vors-11mm' => [
     'art' => '0301-11100000',
@@ -535,6 +561,7 @@ return [
       '2' => '/img/product/valiki/0301-11100000.jpg',
     ],
     'excelFileRowNum' => 31,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/valik-nitevoj-standart-poliakril-rucka-6mm-100x30mm-vors-11mm' => [
     'art' => '0301-11130000',
@@ -555,6 +582,7 @@ return [
       '2' => '/img/product/valiki/0301-11130000.jpg',
     ],
     'excelFileRowNum' => 32,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/valik-nitevoj-standart-poliakril-rucka-6mm-150x30mm-vors-11mm' => [
     'art' => '0301-11500000',
@@ -575,6 +603,7 @@ return [
       '2' => '/img/product/valiki/0301-11500000.jpg',
     ],
     'excelFileRowNum' => 33,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/zapaska-nitevaya-standart-poliakril-k-rucke-8mm-180x48mm-vors-18mm' => [
     'art' => '0300-2-01848-18',
@@ -596,6 +625,7 @@ return [
       '3' => '/img/product/valiki/0300-2-01848-18_5.jpg',
     ],
     'excelFileRowNum' => 34,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/zapaska-nitevaya-standart-poliakril-k-rucke-8mm-240x48mm-vors-18mm' => [
     'art' => '0300-2-01848-23',
@@ -617,6 +647,7 @@ return [
       '3' => '/img/product/valiki/0300-2-01848-23_5.jpg',
     ],
     'excelFileRowNum' => 35,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/valik-nitevoj-standart-poliakril-k-rucke-8mm-180x48mm-vors-18mm' => [
     'art' => '0302-21800000',
@@ -637,6 +668,7 @@ return [
       '2' => '/img/product/valiki/0302-21800000.jpg',
     ],
     'excelFileRowNum' => 36,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/valik-nitevoj-standart-poliakril-k-rucke-8mm-240x48mm-vors-18mm' => [
     'art' => '0302-22400000',
@@ -657,6 +689,7 @@ return [
       '2' => '/img/product/valiki/0302-22400000.jpg',
     ],
     'excelFileRowNum' => 37,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/zapaska-nitevaya-pcelka-poliakril-k-rucke-6mm-60x15mm-vors-12mm' => [
     'art' => '0301-0615-05',
@@ -678,6 +711,7 @@ return [
       '3' => '/img/product/valiki/0301-0615-05_5.jpg',
     ],
     'excelFileRowNum' => 38,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/zapaska-nitevaya-pcelka-poliakril-k-rucke-6mm-100x15mm-vors-12mm' => [
     'art' => '0301-0615-10',
@@ -699,6 +733,7 @@ return [
       '3' => '/img/product/valiki/0301-0615-10_5.jpg',
     ],
     'excelFileRowNum' => 39,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/zapaska-nitevaya-pcelka-poliakril-k-rucke-6mm-100x30mm-vors-12mm' => [
     'art' => '0301-0615-30',
@@ -720,6 +755,7 @@ return [
       '3' => '/img/product/valiki/0301-0630-30_5.jpg',
     ],
     'excelFileRowNum' => 40,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/zapaska-nitevaya-pcelka-poliakril-k-rucke-6mm-150x30mm-vors-12mm' => [
     'art' => '0301-0630-30',
@@ -741,6 +777,7 @@ return [
       '3' => '/img/product/valiki/0301-0630-30_5.jpg',
     ],
     'excelFileRowNum' => 41,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/valik-nitevoj-pcelka-poliakril-rucka-6mm-60x15mm-vors-12mm' => [
     'art' => '0301-0601-006',
@@ -761,6 +798,7 @@ return [
       '2' => '/img/product/valiki/0301-0601-006.jpg',
     ],
     'excelFileRowNum' => 42,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/valik-nitevoj-pcelka-poliakril-rucka-6mm-100x15mm-vors-12mm' => [
     'art' => '0301-0601-015',
@@ -781,6 +819,7 @@ return [
       '2' => '/img/product/valiki/0301-0601-015.jpg',
     ],
     'excelFileRowNum' => 43,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/valik-nitevoj-pcelka-poliakril-rucka-6mm-100x30mm-vors-12mm' => [
     'art' => '0301-0601-030',
@@ -801,6 +840,7 @@ return [
       '2' => '/img/product/valiki/0301-0601-030.jpg',
     ],
     'excelFileRowNum' => 44,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/valik-nitevoj-pcelka-poliakril-rucka-6mm-150x30mm-vors-12mm' => [
     'art' => '0301-0601-130',
@@ -821,6 +861,7 @@ return [
       '2' => '/img/product/valiki/0301-0601-130.jpg',
     ],
     'excelFileRowNum' => 45,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/zapaska-nitevaya-pcelka-poliakril-dlya-rucki-8mm-180x48mm-vors-10mm' => [
     'art' => '0310-1848-18',
@@ -842,6 +883,7 @@ return [
       '3' => '/img/product/valiki/0310-1848-18_5.jpg',
     ],
     'excelFileRowNum' => 46,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/zapaska-nitevaya-pcelka-poliakril-dlya-rucki-8mm-240x48mm-vors-10mm' => [
     'art' => '0310-1848-23',
@@ -863,6 +905,7 @@ return [
       '3' => '/img/product/valiki/0310-1848-23_00.jpg',
     ],
     'excelFileRowNum' => 47,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/valik-nitevoj-pcelka-poliakril-rucka-8mm-180x48mm-vors-10mm' => [
     'art' => '0311-11800000',
@@ -883,6 +926,7 @@ return [
       '2' => '/img/product/valiki/0311-11800000.jpg',
     ],
     'excelFileRowNum' => 48,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/valik-nitevoj-pcelka-poliakril-rucka-8mm-240x48mm-vors-10mm' => [
     'art' => '0311-24000000',
@@ -903,6 +947,7 @@ return [
       '2' => '/img/product/valiki/0311-24000000.jpg',
     ],
     'excelFileRowNum' => 49,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/zapaska-velurovaya-k-rucke-6mm-60x15mm-vors-5mm' => [
     'art' => '0450-0615-05',
@@ -925,6 +970,7 @@ return [
       '4' => '/img/product/valiki/0450-0615-05_6.jpg',
     ],
     'excelFileRowNum' => 50,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/zapaska-velurovaya-k-rucke-6mm-100x15mm-vors-5mm' => [
     'art' => '0450-0615-10',
@@ -946,6 +992,7 @@ return [
       '3' => '/img/product/valiki/0450-0615-10_5.jpg',
     ],
     'excelFileRowNum' => 51,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/zapaska-velurovaya-k-rucke-6mm-100x30mm-vors-5mm' => [
     'art' => '0450-0615-15',
@@ -967,6 +1014,7 @@ return [
       '3' => '/img/product/valiki/0450-0615-15_5.jpg',
     ],
     'excelFileRowNum' => 52,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/zapaska-velurovaya-k-rucke-6mm-150x30mm-vors-5mm' => [
     'art' => '0450-0630-10',
@@ -988,6 +1036,7 @@ return [
       '3' => '/img/product/valiki/0450-0630-10_5.jpg',
     ],
     'excelFileRowNum' => 53,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/valik-velurovyj-k-rucke-6mm-60x15mm-vors-5mm' => [
     'art' => '0451-30600000',
@@ -1008,6 +1057,7 @@ return [
       '2' => '/img/product/valiki/0451-30600000.jpg',
     ],
     'excelFileRowNum' => 54,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/valik-velurovyj-k-rucke-6mm-100x15mm-vors-5mm' => [
     'art' => '0451-31100000',
@@ -1028,6 +1078,7 @@ return [
       '2' => '/img/product/valiki/0451-31100000.jpg',
     ],
     'excelFileRowNum' => 55,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/valik-velurovyj-k-rucke-6mm-100x30mm-vors-5mm' => [
     'art' => '0451-31500000',
@@ -1048,6 +1099,7 @@ return [
       '2' => '/img/product/valiki/0451-31500000.jpg',
     ],
     'excelFileRowNum' => 56,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/valik-velurovyj-k-rucke-6mm-150x30mm-vors-5mm' => [
     'art' => '0451-31130000',
@@ -1068,6 +1120,7 @@ return [
       '2' => '/img/product/valiki/0451-31130000.jpg',
     ],
     'excelFileRowNum' => 57,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/zapaska-velurovaya-k-rucke-8mm-180x48mm-vors-5mm' => [
     'art' => '0451-0848-18',
@@ -1089,6 +1142,7 @@ return [
       '3' => '/img/product/valiki/0451-0848-18_5.jpg',
     ],
     'excelFileRowNum' => 58,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/zapaska-velurovaya-k-rucke-8mm-240x48mm-vors-5mm' => [
     'art' => '0451-0848-24',
@@ -1110,6 +1164,7 @@ return [
       '3' => '/img/product/valiki/0451-0848-24_5.jpg',
     ],
     'excelFileRowNum' => 59,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/valik-velurovyj-k-rucke-8mm-180x48mm-vors-5mm' => [
     'art' => '0540-0848-18',
@@ -1130,6 +1185,7 @@ return [
       '2' => '/img/product/valiki/0540-0848-18.jpg',
     ],
     'excelFileRowNum' => 60,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/valik-velurovyj-k-rucke-8mm-240x48mm-vors-5mm' => [
     'art' => '0540-0848-24',
@@ -1150,6 +1206,7 @@ return [
       '2' => '/img/product/valiki/0540-0848-24.jpg',
     ],
     'excelFileRowNum' => 61,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/rucka-dlya-valikov-diametr-6-0mm-50x200mm' => [
     'art' => '0575-0600-05',
@@ -1166,6 +1223,7 @@ return [
     'img' => '/img/product/valiki/0575-0600-05.gif',
     'galleryImgs' => [],
     'excelFileRowNum' => 62,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/rucka-dlya-valikov-diametr-6-0mm-100x240mm' => [
     'art' => '0575-0600-10',
@@ -1182,6 +1240,7 @@ return [
     'img' => '/img/product/valiki/0575-0600-10.gif',
     'galleryImgs' => [],
     'excelFileRowNum' => 63,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/rucka-dlya-valikov-diametr-6-0mm-150x340mm' => [
     'art' => '0575-0600-15',
@@ -1198,6 +1257,7 @@ return [
     'img' => '/img/product/valiki/0575-0600-15.gif',
     'galleryImgs' => [],
     'excelFileRowNum' => 64,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/rucka-dlya-valikov-diametr-8mm-180mm' => [
     'art' => '0580-0800-18',
@@ -1214,6 +1274,7 @@ return [
     'img' => '/img/product/valiki/0580-0800-18.gif',
     'galleryImgs' => [],
     'excelFileRowNum' => 65,
+    'catBtn' => 'valiki',
   ],
   '/catalog/valiki-malyarnye/rucka-dlya-valikov-diametr-8mm-240mm' => [
     'art' => '0580-0800-24',
@@ -1230,6 +1291,7 @@ return [
     'img' => '/img/product/valiki/0580-0800-24.gif',
     'galleryImgs' => [],
     'excelFileRowNum' => 66,
+    'catBtn' => 'valiki',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-otreznoj-po-metallu-125x1-0x22-2mm' => [
     'art' => '2897-0125-10',
@@ -1251,6 +1313,7 @@ return [
       '3' => '/img/product/abraziv/2897-0125-10.jpg',
     ],
     'excelFileRowNum' => 68,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-otreznoj-po-metallu-125x1-2x22-2mm' => [
     'art' => '2897-0125-12',
@@ -1272,6 +1335,7 @@ return [
       '3' => '/img/product/abraziv/2897-0125-12.jpg',
     ],
     'excelFileRowNum' => 69,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-otreznoj-po-metallu-230x1-6x22-2mm' => [
     'art' => '2897-0230-16',
@@ -1293,6 +1357,7 @@ return [
       '3' => '/img/product/abraziv/2897-0230-16.jpg',
     ],
     'excelFileRowNum' => 70,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-otreznoj-po-metallu-230x2-0x22-2mm' => [
     'art' => '2897-0123-20',
@@ -1314,6 +1379,7 @@ return [
       '3' => '/img/product/abraziv/2897-0123-20.jpg',
     ],
     'excelFileRowNum' => 71,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-lepestkovyj-125mm-x-22-2mm-r24' => [
     'art' => '2812-0125-24',
@@ -1335,6 +1401,7 @@ return [
       '3' => '/img/product/abraziv/2812-0125-24.jpg',
     ],
     'excelFileRowNum' => 72,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-lepestkovyj-125mm-x-22-2mm-r36' => [
     'art' => '2812-0125-26',
@@ -1356,6 +1423,7 @@ return [
       '3' => '/img/product/abraziv/2812-0125-26.jpg',
     ],
     'excelFileRowNum' => 73,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-lepestkovyj-125mm-x-22-2mm-r40' => [
     'art' => '2812-0125-04',
@@ -1377,6 +1445,7 @@ return [
       '3' => '/img/product/abraziv/2812-0125-04.jpg',
     ],
     'excelFileRowNum' => 74,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-lepestkovyj-125mm-x-22-2mm-r60' => [
     'art' => '2812-0125-06',
@@ -1398,6 +1467,7 @@ return [
       '3' => '/img/product/abraziv/2812-0125-06.jpg',
     ],
     'excelFileRowNum' => 75,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-lepestkovyj-125mm-x-22-2mm-r80' => [
     'art' => '2812-0125-08',
@@ -1419,6 +1489,7 @@ return [
       '3' => '/img/product/abraziv/2812-0125-08.jpg',
     ],
     'excelFileRowNum' => 76,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-lepestkovyj-125mm-x-22-2mm-r100' => [
     'art' => '2812-0125-10',
@@ -1440,6 +1511,7 @@ return [
       '3' => '/img/product/abraziv/2812-0125-10.jpg',
     ],
     'excelFileRowNum' => 77,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-lepestkovyj-125mm-x-22-2mm-r120' => [
     'art' => '2812-0125-12',
@@ -1461,6 +1533,7 @@ return [
       '3' => '/img/product/abraziv/2812-0125-12.jpg',
     ],
     'excelFileRowNum' => 78,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-zacistnoj-po-metallu-125x6-0x22-2mm' => [
     'art' => '0796-0125-60',
@@ -1482,6 +1555,7 @@ return [
       '3' => '/img/product/abraziv/0796-0125-60.jpg',
     ],
     'excelFileRowNum' => 79,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-almaznyj-gladkij-125mmx2-0x20-22-2' => [
     'art' => '0797-0125-00',
@@ -1503,6 +1577,7 @@ return [
       '3' => '/img/product/abraziv/0797-0125-00.jpg',
     ],
     'excelFileRowNum' => 80,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-almaznyj-gladkij-230mmx2-9x20-22-2' => [
     'art' => '0797-0230-00',
@@ -1524,6 +1599,7 @@ return [
       '3' => '/img/product/abraziv/0797-0230-00.jpg',
     ],
     'excelFileRowNum' => 81,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-almaznyj-gladkij-b-ultratonkij-b-125mmx1-1x20-22-2' => [
     'art' => '0797-0125-01',
@@ -1545,6 +1621,7 @@ return [
       '3' => '/img/product/abraziv/0797-0125-01.jpg',
     ],
     'excelFileRowNum' => 82,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-almaznyj-turbo-125mmx2-2x20-22-2' => [
     'art' => '0797-2125-00',
@@ -1566,6 +1643,7 @@ return [
       '3' => '/img/product/abraziv/0797-2125-00.jpg',
     ],
     'excelFileRowNum' => 83,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-almaznyj-turbo-230mmx2-8x20-22-2' => [
     'art' => '0797-2230-00',
@@ -1587,6 +1665,7 @@ return [
       '3' => '/img/product/abraziv/0797-2230-00.jpg',
     ],
     'excelFileRowNum' => 84,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-almaznyj-segmentnyj-125mmx2-2x20-22-2' => [
     'art' => '0797-1125-00',
@@ -1603,6 +1682,7 @@ return [
     'img' => '/img/product/abraziv/0797-1125-00.gif',
     'galleryImgs' => [],
     'excelFileRowNum' => 85,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-almaznyj-segmentnyj-230mmx3-0x20-22-2' => [
     'art' => '0797-1230-00',
@@ -1624,6 +1704,7 @@ return [
       '3' => '/img/product/abraziv/0797-1230-00.jpg',
     ],
     'excelFileRowNum' => 86,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-almaznyj-segmentnyj-350mmx3-5x25-4-20-0' => [
     'art' => '0797-1350-20',
@@ -1640,6 +1721,7 @@ return [
     'img' => '/img/product/abraziv/0797-1350-20.gif',
     'galleryImgs' => [],
     'excelFileRowNum' => 87,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-almaznyj-segmentnyj-b-dlya-asfalta-b-350mmx3-5x25-4-20-0' => [
     'art' => '0797-1350-21',
@@ -1661,6 +1743,7 @@ return [
       '3' => '/img/product/abraziv/0797-1350-21.jpg',
     ],
     'excelFileRowNum' => 88,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/casa-almaznaya-zacistnaya-dvuryadnaya-125x22-2mm' => [
     'art' => '0798-1856278 D',
@@ -1682,6 +1765,7 @@ return [
       '3' => '/img/product/abraziv/0798-1856278 D_4.jpg',
     ],
     'excelFileRowNum' => 89,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/nasadka-diskovaya-s-lipuckoj-myagkaya-125mm-m14' => [
     'art' => '0799-0125-00',
@@ -1705,6 +1789,7 @@ return [
       '5' => '/img/product/abraziv/0799-0125-00.jpg',
     ],
     'excelFileRowNum' => 90,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/nasadka-diskovaya-s-lipuckoj-zestkaya-125mm-m14' => [
     'art' => '0799-0125-01',
@@ -1728,6 +1813,7 @@ return [
       '5' => '/img/product/abraziv/0799-0125-01.jpg',
     ],
     'excelFileRowNum' => 91,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-up-5-st-b-r40' => [
     'art' => '2902-0140-40',
@@ -1749,6 +1835,7 @@ return [
       '3' => '/img/product/abraziv/2902-0140-40.jpg',
     ],
     'excelFileRowNum' => 92,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-up-5-st-b-r60' => [
     'art' => '2902-0160-60',
@@ -1770,6 +1857,7 @@ return [
       '3' => '/img/product/abraziv/2902-0160-60.jpg',
     ],
     'excelFileRowNum' => 93,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-up-5-st-b-p80' => [
     'art' => '2902-0180-80',
@@ -1791,6 +1879,7 @@ return [
       '3' => '/img/product/abraziv/2902-0180-80.jpg',
     ],
     'excelFileRowNum' => 94,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-up-5-st-b-r100' => [
     'art' => '2902-0100-10',
@@ -1812,6 +1901,7 @@ return [
       '3' => '/img/product/abraziv/2902-0100-10.jpg',
     ],
     'excelFileRowNum' => 95,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-up-5-st-b-r120' => [
     'art' => '2902-0120-12',
@@ -1833,6 +1923,7 @@ return [
       '3' => '/img/product/abraziv/2902-0120-12.jpg',
     ],
     'excelFileRowNum' => 96,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-up-5-st-b-r180' => [
     'art' => '2902-0180-18',
@@ -1854,6 +1945,7 @@ return [
       '3' => '/img/product/abraziv/2902-0180-18.jpg',
     ],
     'excelFileRowNum' => 97,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-up-5-st-b-r320' => [
     'art' => '2902-0320-32',
@@ -1875,6 +1967,7 @@ return [
       '3' => '/img/product/abraziv/2902-0320-32.jpg',
     ],
     'excelFileRowNum' => 98,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-perforirovannyj-up-5-st-b-r40' => [
     'art' => '0795-0125-40',
@@ -1896,6 +1989,7 @@ return [
       '3' => '/img/product/abraziv/0795-0125-40.jpg',
     ],
     'excelFileRowNum' => 99,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-perforirovannyj-up-5-st-b-r60' => [
     'art' => '0795-0125-60',
@@ -1917,6 +2011,7 @@ return [
       '3' => '/img/product/abraziv/0795-0125-60.jpg',
     ],
     'excelFileRowNum' => 100,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-perforirovannyj-up-5-st-b-p80' => [
     'art' => '0795-0125-80',
@@ -1938,6 +2033,7 @@ return [
       '3' => '/img/product/abraziv/0795-0125-80.jpg',
     ],
     'excelFileRowNum' => 101,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-perforirovannyj-up-5-st-b-r100' => [
     'art' => '0795-0125-10',
@@ -1959,6 +2055,7 @@ return [
       '3' => '/img/product/abraziv/0795-0125-10.jpg',
     ],
     'excelFileRowNum' => 102,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-perforirovannyj-up-5-st-b-r120' => [
     'art' => '0795-0125-12',
@@ -1980,6 +2077,7 @@ return [
       '3' => '/img/product/abraziv/0795-0125-12.jpg',
     ],
     'excelFileRowNum' => 103,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-perforirovannyj-up-5-st-b-r180' => [
     'art' => '0795-0125-18',
@@ -2001,6 +2099,7 @@ return [
       '3' => '/img/product/abraziv/0795-0125-18.jpg',
     ],
     'excelFileRowNum' => 104,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/krug-nazdacnyj-125mm-s-vorsovoj-podlozkoj-b-perforirovannyj-up-5-st-b-r320' => [
     'art' => '0795-0125-32',
@@ -2022,6 +2121,7 @@ return [
       '3' => '/img/product/abraziv/0795-0125-32.jpg',
     ],
     'excelFileRowNum' => 105,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/kordsetka-caseobraznaya-myagkaya-m14-100mm' => [
     'art' => '07991-0100-14',
@@ -2045,6 +2145,7 @@ return [
       '5' => '/img/product/abraziv/07991-0100-14.jpg',
     ],
     'excelFileRowNum' => 106,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/kordsetka-caseobraznaya-zestkaya-krucenaya-m14-100mm' => [
     'art' => '07992-0100-14',
@@ -2068,6 +2169,7 @@ return [
       '5' => '/img/product/abraziv/07992-0100-14_6.jpg',
     ],
     'excelFileRowNum' => 107,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/kordsetka-koniceskaya-myagkaya-m14-115mm' => [
     'art' => '07993-0115-14',
@@ -2091,6 +2193,7 @@ return [
       '5' => '/img/product/abraziv/07993-0115-14_6.jpg',
     ],
     'excelFileRowNum' => 108,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/abrazivnye-almaznye-materialy-i-osnastka/kordsetka-koniceskaya-zestkaya-krucenaya-m14-115mm' => [
     'art' => '07994-0115-14',
@@ -2114,6 +2217,7 @@ return [
       '5' => '/img/product/abraziv/07994-0115-14_5.jpg',
     ],
     'excelFileRowNum' => 109,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/nozi-i-lezviya/noz-obojnyj-usilennyj-lezvie-18mm' => [
     'art' => '0890-0000-18',
@@ -2137,6 +2241,7 @@ return [
       '5' => '/img/product/nozhi/0890-0000-18_9.jpg',
     ],
     'excelFileRowNum' => 112,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/nozi-i-lezviya/noz-obojnyj-usilennyj-lezvie-25mm' => [
     'art' => '0890-0000-25',
@@ -2160,6 +2265,7 @@ return [
       '5' => '/img/product/nozhi/0890-0000-25_9.jpg',
     ],
     'excelFileRowNum' => 113,
+    'catBtn' => 'abraziv',
   ],
   '/catalog/nozi-i-lezviya/lezviya-zapasnye-dlya-obojnogo-noza-18mm-10st-x-0-5mm' => [
     'art' => '0890-0010-18',
@@ -2180,6 +2286,7 @@ return [
       '2' => '/img/product/nozhi/0890-0010-18_3.jpg',
     ],
     'excelFileRowNum' => 114,
+    'catBtn' => 'nozhi',
   ],
   '/catalog/nozi-i-lezviya/lezviya-zapasnye-dlya-obojnogo-noza-25mm-10st-x-0-7mm' => [
     'art' => '0890-0010-25',
@@ -2200,6 +2307,7 @@ return [
       '2' => '/img/product/nozhi/0890-0010-25_4.jpg',
     ],
     'excelFileRowNum' => 115,
+    'catBtn' => 'nozhi',
   ],
   '/catalog/vspomogatelnyj-instrument/mikser-dlya-smesej-ocinkovannyj-sds-plus-80x400mm' => [
     'art' => '0990-0400-08',
@@ -2219,6 +2327,7 @@ return [
       '1' => '/img/product/vspomogat/0990-0400-08_1.jpg',
     ],
     'excelFileRowNum' => 116,
+    'catBtn' => 'vspomogat',
   ],
   '/catalog/vspomogatelnyj-instrument/mikser-dlya-smesej-ocinkovannyj-sds-plus-100x600mm' => [
     'art' => '0990-0400-10',
@@ -2238,6 +2347,7 @@ return [
       '1' => '/img/product/vspomogat/0990-0400-08_1.jpg',
     ],
     'excelFileRowNum' => 117,
+    'catBtn' => 'vspomogat',
   ],
   '/catalog/vspomogatelnyj-instrument/mikser-dlya-smesej-ocinkovannyj-sds-plus-120x600mm' => [
     'art' => '0990-0600-12',
@@ -2257,6 +2367,7 @@ return [
       '1' => '/img/product/vspomogat/0990-0600-12.jpg',
     ],
     'excelFileRowNum' => 118,
+    'catBtn' => 'vspomogat',
   ],
   '/catalog/vspomogatelnyj-instrument/mikser-dlya-smesej-ocinkovannyj-80x400mm' => [
     'art' => '0980-0400-08',
@@ -2276,6 +2387,7 @@ return [
       '1' => '/img/product/vspomogat/0980-0400-08.jpg',
     ],
     'excelFileRowNum' => 119,
+    'catBtn' => 'vspomogat',
   ],
   '/catalog/vspomogatelnyj-instrument/mikser-dlya-smesej-ocinkovannyj-100x600mm' => [
     'art' => '0980-0600-10',
@@ -2295,6 +2407,7 @@ return [
       '1' => '/img/product/vspomogat/0980-0600-10.jpg',
     ],
     'excelFileRowNum' => 120,
+    'catBtn' => 'vspomogat',
   ],
   '/catalog/vspomogatelnyj-instrument/mikser-dlya-smesej-ocinkovannyj-gajkoj-m14-120x600mm' => [
     'art' => '0975-0600-12',
@@ -2314,6 +2427,7 @@ return [
       '1' => '/img/product/vspomogat/0975-0600-12.jpg',
     ],
     'excelFileRowNum' => 121,
+    'catBtn' => 'vspomogat',
   ],
   '/catalog/vspomogatelnyj-instrument/ruletka-prorezinennyj-korpus-3m-x-19mm' => [
     'art' => '1051-0000-03',
@@ -2337,6 +2451,7 @@ return [
       '5' => '/img/product/vspomogat/1051-0000-03_5.jpg',
     ],
     'excelFileRowNum' => 122,
+    'catBtn' => 'vspomogat',
   ],
   '/catalog/vspomogatelnyj-instrument/ruletka-prorezinennyj-korpus-5m-x-25mm' => [
     'art' => '1051-0000-05',
@@ -2360,6 +2475,7 @@ return [
       '5' => '/img/product/vspomogat/1051-0000-03_5.jpg',
     ],
     'excelFileRowNum' => 123,
+    'catBtn' => 'vspomogat',
   ],
   '/catalog/vspomogatelnyj-instrument/ruletka-prorezinennyj-korpus-7-5m-x-25mm' => [
     'art' => '1051-0000-75',
@@ -2383,6 +2499,7 @@ return [
       '5' => '/img/product/vspomogat/1051-0000-75_5.jpg',
     ],
     'excelFileRowNum' => 124,
+    'catBtn' => 'vspomogat',
   ],
   '/catalog/vspomogatelnyj-instrument/ruletka-prorezinennyj-korpus-10m-x-25mm' => [
     'art' => '1051-0000-10',
@@ -2406,6 +2523,7 @@ return [
       '5' => '/img/product/vspomogat/1051-0000-10_4_5.jpg',
     ],
     'excelFileRowNum' => 125,
+    'catBtn' => 'vspomogat',
   ],
   '/catalog/vspomogatelnyj-instrument/pistolet-skeletnyj-dlya-germetikov-225mm-310ml' => [
     'art' => '1002-0001-31',
@@ -2422,6 +2540,7 @@ return [
     'img' => '/img/product/vspomogat/1002-0001-31.gif',
     'galleryImgs' => [],
     'excelFileRowNum' => 126,
+    'catBtn' => 'vspomogat',
   ],
   '/catalog/vspomogatelnyj-instrument/karandas-stolyarnyj-10-st-180mm' => [
     'art' => '1003-0000-12',
@@ -2438,6 +2557,7 @@ return [
     'img' => '/img/product/vspomogat/1003-0000-12.gif',
     'galleryImgs' => [],
     'excelFileRowNum' => 127,
+    'catBtn' => 'vspomogat',
   ],
   '/catalog/vspomogatelnyj-instrument/setka-provolocnaya-universalnaya-latunirovannaya-115mm' => [
     'art' => '0700-0000-30',
@@ -2460,6 +2580,7 @@ return [
       '4' => '/img/product/vspomogat/0700-0000-30_4.jpg',
     ],
     'excelFileRowNum' => 128,
+    'catBtn' => 'vspomogat',
   ],
   '/catalog/vspomogatelnyj-instrument/spatel-fasadnyj-nerzaveusaya-stal-0-5mm-plastikovaya-rucka-40mm' => [
     'art' => '1004-0000-04',
@@ -2478,6 +2599,7 @@ return [
       '0' => '/img/product/vspomogat/1004-0000-04.jpg',
     ],
     'excelFileRowNum' => 130,
+    'catBtn' => 'vspomogat',
   ],
   '/catalog/vspomogatelnyj-instrument/spatel-fasadnyj-nerzaveusaya-stal-0-5mm-plastikovaya-rucka-60mm' => [
     'art' => '1004-0000-06',
@@ -2496,6 +2618,7 @@ return [
       '0' => '/img/product/vspomogat/1004-0000-06.jpg',
     ],
     'excelFileRowNum' => 131,
+    'catBtn' => 'vspomogat',
   ],
   '/catalog/vspomogatelnyj-instrument/spatel-fasadnyj-nerzaveusaya-stal-0-5mm-plastikovaya-rucka-80mm' => [
     'art' => '1004-0000-08',
@@ -2514,6 +2637,7 @@ return [
       '0' => '/img/product/vspomogat/1004-0000-08.jpg',
     ],
     'excelFileRowNum' => 132,
+    'catBtn' => 'vspomogat',
   ],
   '/catalog/vspomogatelnyj-instrument/spatel-fasadnyj-nerzaveusaya-stal-0-5mm-plastikovaya-rucka-100mm' => [
     'art' => '1004-0000-10',
@@ -2532,6 +2656,7 @@ return [
       '0' => '/img/product/vspomogat/1004-0000-10.jpg',
     ],
     'excelFileRowNum' => 133,
+    'catBtn' => 'vspomogat',
   ],
   '/catalog/vspomogatelnyj-instrument/spatel-fasadnyj-nerzaveusaya-stal-0-5mm-plastikovaya-rucka-150mm' => [
     'art' => '1004-0000-15',
@@ -2550,6 +2675,7 @@ return [
       '0' => '/img/product/vspomogat/1004-0000-15.jpg',
     ],
     'excelFileRowNum' => 134,
+    'catBtn' => 'vspomogat',
   ],
   '/catalog/vspomogatelnyj-instrument/spatel-fasadnyj-nerzaveusaya-stal-0-5mm-plastikovaya-rucka-200mm' => [
     'art' => '1004-0000-20',
@@ -2568,6 +2694,7 @@ return [
       '0' => '/img/product/vspomogat/1004-0000-20.jpg',
     ],
     'excelFileRowNum' => 135,
+    'catBtn' => 'vspomogat',
   ],
   '/catalog/vspomogatelnyj-instrument/spatel-fasadnyj-nerzaveusaya-stal-0-5mm-plastikovaya-rucka-250mm' => [
     'art' => '1004-0000-25',
@@ -2586,6 +2713,7 @@ return [
       '0' => '/img/product/vspomogat/1004-0000-25.jpg',
     ],
     'excelFileRowNum' => 136,
+    'catBtn' => 'vspomogat',
   ],
   '/catalog/vspomogatelnyj-instrument/spatel-fasadnyj-nerzaveusaya-stal-0-5mm-plastikovaya-rucka-300mm' => [
     'art' => '1004-0000-30',
@@ -2604,6 +2732,7 @@ return [
       '0' => '/img/product/vspomogat/1004-0000-30.jpg',
     ],
     'excelFileRowNum' => 137,
+    'catBtn' => 'vspomogat',
   ],
   '/catalog/vspomogatelnyj-instrument/spatel-fasadnyj-nerzaveusaya-stal-0-5mm-plastikovaya-rucka-350mm' => [
     'art' => '1004-0000-35',
@@ -2622,6 +2751,7 @@ return [
       '0' => '/img/product/vspomogat/1004-0000-35.jpg',
     ],
     'excelFileRowNum' => 138,
+    'catBtn' => 'vspomogat',
   ],
   '/catalog/vspomogatelnyj-instrument/spatel-fasadnyj-nerzaveusaya-stal-0-5mm-plastikovaya-rucka-450mm' => [
     'art' => '1004-0000-45',
@@ -2640,6 +2770,7 @@ return [
       '0' => '/img/product/vspomogat/1004-0000-45.jpg',
     ],
     'excelFileRowNum' => 139,
+    'catBtn' => 'vspomogat',
   ],
   '/catalog/vspomogatelnyj-instrument/spatel-fasadnyj-nerzaveusaya-stal-0-5mm-plastikovaya-rucka-zubcatyj-150mm-zub-8mm' => [
     'art' => '1004-0001-15',
@@ -2658,6 +2789,7 @@ return [
       '0' => '/img/product/vspomogat/1004-0001-15.jpg',
     ],
     'excelFileRowNum' => 140,
+    'catBtn' => 'vspomogat',
   ],
   '/catalog/vspomogatelnyj-instrument/spatel-fasadnyj-nerzaveusaya-stal-0-5mm-plastikovaya-rucka-zubcatyj-250mm-zub-8mm' => [
     'art' => '1004-0001-25',
@@ -2676,6 +2808,7 @@ return [
       '0' => '/img/product/vspomogat/1004-0001-25.jpg',
     ],
     'excelFileRowNum' => 141,
+    'catBtn' => 'vspomogat',
   ],
   '/catalog/vspomogatelnyj-instrument/spatel-fasadnyj-nerzaveusaya-stal-0-5mm-plastikovaya-rucka-zubcatyj-350mm-zub-10mm' => [
     'art' => '1004-0001-35',
@@ -2694,6 +2827,7 @@ return [
       '0' => '/img/product/vspomogat/1004-0001-35.jpg',
     ],
     'excelFileRowNum' => 142,
+    'catBtn' => 'vspomogat',
   ],
   '/catalog/vspomogatelnyj-instrument/spatel-rezinovyj-nabor-3-stuki-40-60-80mm' => [
     'art' => '2755-0001-H4',
@@ -2714,6 +2848,7 @@ return [
       '2' => '/img/product/vspomogat/2755-0001-H4.jpg',
     ],
     'excelFileRowNum' => 144,
+    'catBtn' => 'vspomogat',
   ],
   '/catalog/vspomogatelnyj-instrument/spatel-obojnyj-28sm' => [
     'art' => '0901-0000-20',
@@ -2733,5 +2868,6 @@ return [
       '1' => '/img/product/vspomogat/0901-0000-20_3.jpg',
     ],
     'excelFileRowNum' => 145,
+    'catBtn' => 'vspomogat',
   ],
 ];

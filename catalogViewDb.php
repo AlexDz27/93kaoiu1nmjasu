@@ -21,6 +21,7 @@ return [
         '2' => '/img/product/kisti/0100-0000-10.jpg',
       ],
       'excelFileRowNum' => 5,
+      'catBtn' => 'kisti',
     ],
     '1' => [
       'art' => '0100-0000-15',
@@ -37,6 +38,7 @@ return [
       'img' => '/img/product/kisti/0100-0000-15.gif',
       'galleryImgs' => [],
       'excelFileRowNum' => 6,
+      'catBtn' => 'kisti',
     ],
     '2' => [
       'art' => '0100-0000-20',
@@ -57,6 +59,7 @@ return [
         '2' => '/img/product/kisti/0100-0000-20.jpg',
       ],
       'excelFileRowNum' => 7,
+      'catBtn' => 'kisti',
     ],
     '3' => [
       'art' => '0100-0000-25',
@@ -77,6 +80,7 @@ return [
         '2' => '/img/product/kisti/0100-0000-25.jpg',
       ],
       'excelFileRowNum' => 8,
+      'catBtn' => 'kisti',
     ],
     '4' => [
       'art' => '0100-0000-30',
@@ -97,6 +101,7 @@ return [
         '2' => '/img/product/kisti/0100-0000-30.jpg',
       ],
       'excelFileRowNum' => 9,
+      'catBtn' => 'kisti',
     ],
     '5' => [
       'art' => '0100-0000-40',
@@ -117,6 +122,7 @@ return [
         '2' => '/img/product/kisti/0100-0000-40.jpg',
       ],
       'excelFileRowNum' => 10,
+      'catBtn' => 'kisti',
     ],
     '6' => [
       'art' => '0100-0000-50',
@@ -137,6 +143,7 @@ return [
         '2' => '/img/product/kisti/0100-0000-50.jpg',
       ],
       'excelFileRowNum' => 11,
+      'catBtn' => 'kisti',
     ],
     '7' => [
       'art' => '0110-0000-10',
@@ -157,6 +164,7 @@ return [
         '2' => '/img/product/kisti/0110-0000-10.jpg',
       ],
       'excelFileRowNum' => 12,
+      'catBtn' => 'kisti',
     ],
     '8' => [
       'art' => '0110-0000-15',
@@ -177,6 +185,7 @@ return [
         '2' => '/img/product/kisti/0110-0000-15.jpg',
       ],
       'excelFileRowNum' => 13,
+      'catBtn' => 'kisti',
     ],
     '9' => [
       'art' => '0110-0000-20',
@@ -197,6 +206,7 @@ return [
         '2' => '/img/product/kisti/0110-0000-20.jpg',
       ],
       'excelFileRowNum' => 14,
+      'catBtn' => 'kisti',
     ],
     '10' => [
       'art' => '0110-0000-25',
@@ -217,6 +227,7 @@ return [
         '2' => '/img/product/kisti/0110-0000-25.jpg',
       ],
       'excelFileRowNum' => 15,
+      'catBtn' => 'kisti',
     ],
     '11' => [
       'art' => '0110-0000-30',
@@ -237,6 +248,7 @@ return [
         '2' => '/img/product/kisti/0110-0000-30.jpg',
       ],
       'excelFileRowNum' => 16,
+      'catBtn' => 'kisti',
     ],
     '12' => [
       'art' => '0110-0000-40',
@@ -257,6 +269,7 @@ return [
         '2' => '/img/product/kisti/0110-0000-40.jpg',
       ],
       'excelFileRowNum' => 17,
+      'catBtn' => 'kisti',
     ],
     '13' => [
       'art' => '0230-0030-07',
@@ -277,6 +290,7 @@ return [
         '2' => '/img/product/kisti/0230-0030-07.jpg',
       ],
       'excelFileRowNum' => 18,
+      'catBtn' => 'kisti',
     ],
     '14' => [
       'art' => '0230-0030-10',
@@ -297,6 +311,7 @@ return [
         '2' => '/img/product/kisti/0230-0030-10.jpg',
       ],
       'excelFileRowNum' => 19,
+      'catBtn' => 'kisti',
     ],
     '15' => [
       'art' => '0230-0030-12',
@@ -317,6 +332,7 @@ return [
         '2' => '/img/product/kisti/0230-0030-12.jpg',
       ],
       'excelFileRowNum' => 20,
+      'catBtn' => 'kisti',
     ],
     '16' => [
       'art' => '0230-0040-14',
@@ -337,6 +353,7 @@ return [
         '2' => '/img/product/kisti/0230-0040-14.jpg',
       ],
       'excelFileRowNum' => 21,
+      'catBtn' => 'kisti',
     ],
     '17' => [
       'art' => '0230-0050-15',
@@ -357,6 +374,7 @@ return [
         '2' => '/img/product/kisti/0230-0050-15.jpg',
       ],
       'excelFileRowNum' => 22,
+      'catBtn' => 'kisti',
     ],
     '18' => [
       'art' => '0180-0000-10',
@@ -377,6 +395,7 @@ return [
         '2' => '/img/product/kisti/0180-0000-10.jpg',
       ],
       'excelFileRowNum' => 23,
+      'catBtn' => 'kisti',
     ],
     '19' => [
       'art' => '0180-0000-15',
@@ -397,6 +416,7 @@ return [
         '2' => '/img/product/kisti/0180-0000-15.jpg',
       ],
       'excelFileRowNum' => 24,
+      'catBtn' => 'kisti',
     ],
     '20' => [
       'art' => '0180-0000-20',
@@ -417,6 +437,7 @@ return [
         '2' => '/img/product/kisti/0180-0000-20.jpg',
       ],
       'excelFileRowNum' => 25,
+      'catBtn' => 'kisti',
     ],
   ],
   'Валики малярные' => [
@@ -435,6 +456,7 @@ return [
       'img' => '/img/product/valiki/0300-0615-05.gif',
       'galleryImgs' => [],
       'excelFileRowNum' => 26,
+      'catBtn' => 'valiki',
     ],
     '1' => [
       'art' => '0300-0615-10',
@@ -456,6 +478,7 @@ return [
         '3' => '/img/product/valiki/0300-0615-10_5.jpg',
       ],
       'excelFileRowNum' => 27,
+      'catBtn' => 'valiki',
     ],
     '2' => [
       'art' => '0300-0630-10',
@@ -477,6 +500,7 @@ return [
         '3' => '/img/product/valiki/0300-0630-10_5.jpg',
       ],
       'excelFileRowNum' => 28,
+      'catBtn' => 'valiki',
     ],
     '3' => [
       'art' => '0300-0630-15',
@@ -498,6 +522,7 @@ return [
         '3' => '/img/product/valiki/0300-0630-15_5.jpg',
       ],
       'excelFileRowNum' => 29,
+      'catBtn' => 'valiki',
     ],
     '4' => [
       'art' => '0301-10600000',
@@ -518,6 +543,7 @@ return [
         '2' => '/img/product/valiki/0301-11100000.jpg',
       ],
       'excelFileRowNum' => 30,
+      'catBtn' => 'valiki',
     ],
     '5' => [
       'art' => '0301-11100000',
@@ -538,6 +564,7 @@ return [
         '2' => '/img/product/valiki/0301-11100000.jpg',
       ],
       'excelFileRowNum' => 31,
+      'catBtn' => 'valiki',
     ],
     '6' => [
       'art' => '0301-11130000',
@@ -558,6 +585,7 @@ return [
         '2' => '/img/product/valiki/0301-11130000.jpg',
       ],
       'excelFileRowNum' => 32,
+      'catBtn' => 'valiki',
     ],
     '7' => [
       'art' => '0301-11500000',
@@ -578,6 +606,7 @@ return [
         '2' => '/img/product/valiki/0301-11500000.jpg',
       ],
       'excelFileRowNum' => 33,
+      'catBtn' => 'valiki',
     ],
     '8' => [
       'art' => '0300-2-01848-18',
@@ -599,6 +628,7 @@ return [
         '3' => '/img/product/valiki/0300-2-01848-18_5.jpg',
       ],
       'excelFileRowNum' => 34,
+      'catBtn' => 'valiki',
     ],
     '9' => [
       'art' => '0300-2-01848-23',
@@ -620,6 +650,7 @@ return [
         '3' => '/img/product/valiki/0300-2-01848-23_5.jpg',
       ],
       'excelFileRowNum' => 35,
+      'catBtn' => 'valiki',
     ],
     '10' => [
       'art' => '0302-21800000',
@@ -640,6 +671,7 @@ return [
         '2' => '/img/product/valiki/0302-21800000.jpg',
       ],
       'excelFileRowNum' => 36,
+      'catBtn' => 'valiki',
     ],
     '11' => [
       'art' => '0302-22400000',
@@ -660,6 +692,7 @@ return [
         '2' => '/img/product/valiki/0302-22400000.jpg',
       ],
       'excelFileRowNum' => 37,
+      'catBtn' => 'valiki',
     ],
     '12' => [
       'art' => '0301-0615-05',
@@ -681,6 +714,7 @@ return [
         '3' => '/img/product/valiki/0301-0615-05_5.jpg',
       ],
       'excelFileRowNum' => 38,
+      'catBtn' => 'valiki',
     ],
     '13' => [
       'art' => '0301-0615-10',
@@ -702,6 +736,7 @@ return [
         '3' => '/img/product/valiki/0301-0615-10_5.jpg',
       ],
       'excelFileRowNum' => 39,
+      'catBtn' => 'valiki',
     ],
     '14' => [
       'art' => '0301-0615-30',
@@ -723,6 +758,7 @@ return [
         '3' => '/img/product/valiki/0301-0630-30_5.jpg',
       ],
       'excelFileRowNum' => 40,
+      'catBtn' => 'valiki',
     ],
     '15' => [
       'art' => '0301-0630-30',
@@ -744,6 +780,7 @@ return [
         '3' => '/img/product/valiki/0301-0630-30_5.jpg',
       ],
       'excelFileRowNum' => 41,
+      'catBtn' => 'valiki',
     ],
     '16' => [
       'art' => '0301-0601-006',
@@ -764,6 +801,7 @@ return [
         '2' => '/img/product/valiki/0301-0601-006.jpg',
       ],
       'excelFileRowNum' => 42,
+      'catBtn' => 'valiki',
     ],
     '17' => [
       'art' => '0301-0601-015',
@@ -784,6 +822,7 @@ return [
         '2' => '/img/product/valiki/0301-0601-015.jpg',
       ],
       'excelFileRowNum' => 43,
+      'catBtn' => 'valiki',
     ],
     '18' => [
       'art' => '0301-0601-030',
@@ -804,6 +843,7 @@ return [
         '2' => '/img/product/valiki/0301-0601-030.jpg',
       ],
       'excelFileRowNum' => 44,
+      'catBtn' => 'valiki',
     ],
     '19' => [
       'art' => '0301-0601-130',
@@ -824,6 +864,7 @@ return [
         '2' => '/img/product/valiki/0301-0601-130.jpg',
       ],
       'excelFileRowNum' => 45,
+      'catBtn' => 'valiki',
     ],
     '20' => [
       'art' => '0310-1848-18',
@@ -845,6 +886,7 @@ return [
         '3' => '/img/product/valiki/0310-1848-18_5.jpg',
       ],
       'excelFileRowNum' => 46,
+      'catBtn' => 'valiki',
     ],
     '21' => [
       'art' => '0310-1848-23',
@@ -866,6 +908,7 @@ return [
         '3' => '/img/product/valiki/0310-1848-23_00.jpg',
       ],
       'excelFileRowNum' => 47,
+      'catBtn' => 'valiki',
     ],
     '22' => [
       'art' => '0311-11800000',
@@ -886,6 +929,7 @@ return [
         '2' => '/img/product/valiki/0311-11800000.jpg',
       ],
       'excelFileRowNum' => 48,
+      'catBtn' => 'valiki',
     ],
     '23' => [
       'art' => '0311-24000000',
@@ -906,6 +950,7 @@ return [
         '2' => '/img/product/valiki/0311-24000000.jpg',
       ],
       'excelFileRowNum' => 49,
+      'catBtn' => 'valiki',
     ],
     '24' => [
       'art' => '0450-0615-05',
@@ -928,6 +973,7 @@ return [
         '4' => '/img/product/valiki/0450-0615-05_6.jpg',
       ],
       'excelFileRowNum' => 50,
+      'catBtn' => 'valiki',
     ],
     '25' => [
       'art' => '0450-0615-10',
@@ -949,6 +995,7 @@ return [
         '3' => '/img/product/valiki/0450-0615-10_5.jpg',
       ],
       'excelFileRowNum' => 51,
+      'catBtn' => 'valiki',
     ],
     '26' => [
       'art' => '0450-0615-15',
@@ -970,6 +1017,7 @@ return [
         '3' => '/img/product/valiki/0450-0615-15_5.jpg',
       ],
       'excelFileRowNum' => 52,
+      'catBtn' => 'valiki',
     ],
     '27' => [
       'art' => '0450-0630-10',
@@ -991,6 +1039,7 @@ return [
         '3' => '/img/product/valiki/0450-0630-10_5.jpg',
       ],
       'excelFileRowNum' => 53,
+      'catBtn' => 'valiki',
     ],
     '28' => [
       'art' => '0451-30600000',
@@ -1011,6 +1060,7 @@ return [
         '2' => '/img/product/valiki/0451-30600000.jpg',
       ],
       'excelFileRowNum' => 54,
+      'catBtn' => 'valiki',
     ],
     '29' => [
       'art' => '0451-31100000',
@@ -1031,6 +1081,7 @@ return [
         '2' => '/img/product/valiki/0451-31100000.jpg',
       ],
       'excelFileRowNum' => 55,
+      'catBtn' => 'valiki',
     ],
     '30' => [
       'art' => '0451-31500000',
@@ -1051,6 +1102,7 @@ return [
         '2' => '/img/product/valiki/0451-31500000.jpg',
       ],
       'excelFileRowNum' => 56,
+      'catBtn' => 'valiki',
     ],
     '31' => [
       'art' => '0451-31130000',
@@ -1071,6 +1123,7 @@ return [
         '2' => '/img/product/valiki/0451-31130000.jpg',
       ],
       'excelFileRowNum' => 57,
+      'catBtn' => 'valiki',
     ],
     '32' => [
       'art' => '0451-0848-18',
@@ -1092,6 +1145,7 @@ return [
         '3' => '/img/product/valiki/0451-0848-18_5.jpg',
       ],
       'excelFileRowNum' => 58,
+      'catBtn' => 'valiki',
     ],
     '33' => [
       'art' => '0451-0848-24',
@@ -1113,6 +1167,7 @@ return [
         '3' => '/img/product/valiki/0451-0848-24_5.jpg',
       ],
       'excelFileRowNum' => 59,
+      'catBtn' => 'valiki',
     ],
     '34' => [
       'art' => '0540-0848-18',
@@ -1133,6 +1188,7 @@ return [
         '2' => '/img/product/valiki/0540-0848-18.jpg',
       ],
       'excelFileRowNum' => 60,
+      'catBtn' => 'valiki',
     ],
     '35' => [
       'art' => '0540-0848-24',
@@ -1153,6 +1209,7 @@ return [
         '2' => '/img/product/valiki/0540-0848-24.jpg',
       ],
       'excelFileRowNum' => 61,
+      'catBtn' => 'valiki',
     ],
     '36' => [
       'art' => '0575-0600-05',
@@ -1169,6 +1226,7 @@ return [
       'img' => '/img/product/valiki/0575-0600-05.gif',
       'galleryImgs' => [],
       'excelFileRowNum' => 62,
+      'catBtn' => 'valiki',
     ],
     '37' => [
       'art' => '0575-0600-10',
@@ -1185,6 +1243,7 @@ return [
       'img' => '/img/product/valiki/0575-0600-10.gif',
       'galleryImgs' => [],
       'excelFileRowNum' => 63,
+      'catBtn' => 'valiki',
     ],
     '38' => [
       'art' => '0575-0600-15',
@@ -1201,6 +1260,7 @@ return [
       'img' => '/img/product/valiki/0575-0600-15.gif',
       'galleryImgs' => [],
       'excelFileRowNum' => 64,
+      'catBtn' => 'valiki',
     ],
     '39' => [
       'art' => '0580-0800-18',
@@ -1217,6 +1277,7 @@ return [
       'img' => '/img/product/valiki/0580-0800-18.gif',
       'galleryImgs' => [],
       'excelFileRowNum' => 65,
+      'catBtn' => 'valiki',
     ],
     '40' => [
       'art' => '0580-0800-24',
@@ -1233,6 +1294,7 @@ return [
       'img' => '/img/product/valiki/0580-0800-24.gif',
       'galleryImgs' => [],
       'excelFileRowNum' => 66,
+      'catBtn' => 'valiki',
     ],
   ],
   'Абразивные алмазные материалы и оснастка' => [
@@ -1256,6 +1318,7 @@ return [
         '3' => '/img/product/abraziv/2897-0125-10.jpg',
       ],
       'excelFileRowNum' => 68,
+      'catBtn' => 'abraziv',
     ],
     '1' => [
       'art' => '2897-0125-12',
@@ -1277,6 +1340,7 @@ return [
         '3' => '/img/product/abraziv/2897-0125-12.jpg',
       ],
       'excelFileRowNum' => 69,
+      'catBtn' => 'abraziv',
     ],
     '2' => [
       'art' => '2897-0230-16',
@@ -1298,6 +1362,7 @@ return [
         '3' => '/img/product/abraziv/2897-0230-16.jpg',
       ],
       'excelFileRowNum' => 70,
+      'catBtn' => 'abraziv',
     ],
     '3' => [
       'art' => '2897-0123-20',
@@ -1319,6 +1384,7 @@ return [
         '3' => '/img/product/abraziv/2897-0123-20.jpg',
       ],
       'excelFileRowNum' => 71,
+      'catBtn' => 'abraziv',
     ],
     '4' => [
       'art' => '2812-0125-24',
@@ -1340,6 +1406,7 @@ return [
         '3' => '/img/product/abraziv/2812-0125-24.jpg',
       ],
       'excelFileRowNum' => 72,
+      'catBtn' => 'abraziv',
     ],
     '5' => [
       'art' => '2812-0125-26',
@@ -1361,6 +1428,7 @@ return [
         '3' => '/img/product/abraziv/2812-0125-26.jpg',
       ],
       'excelFileRowNum' => 73,
+      'catBtn' => 'abraziv',
     ],
     '6' => [
       'art' => '2812-0125-04',
@@ -1382,6 +1450,7 @@ return [
         '3' => '/img/product/abraziv/2812-0125-04.jpg',
       ],
       'excelFileRowNum' => 74,
+      'catBtn' => 'abraziv',
     ],
     '7' => [
       'art' => '2812-0125-06',
@@ -1403,6 +1472,7 @@ return [
         '3' => '/img/product/abraziv/2812-0125-06.jpg',
       ],
       'excelFileRowNum' => 75,
+      'catBtn' => 'abraziv',
     ],
     '8' => [
       'art' => '2812-0125-08',
@@ -1424,6 +1494,7 @@ return [
         '3' => '/img/product/abraziv/2812-0125-08.jpg',
       ],
       'excelFileRowNum' => 76,
+      'catBtn' => 'abraziv',
     ],
     '9' => [
       'art' => '2812-0125-10',
@@ -1445,6 +1516,7 @@ return [
         '3' => '/img/product/abraziv/2812-0125-10.jpg',
       ],
       'excelFileRowNum' => 77,
+      'catBtn' => 'abraziv',
     ],
     '10' => [
       'art' => '2812-0125-12',
@@ -1466,6 +1538,7 @@ return [
         '3' => '/img/product/abraziv/2812-0125-12.jpg',
       ],
       'excelFileRowNum' => 78,
+      'catBtn' => 'abraziv',
     ],
     '11' => [
       'art' => '0796-0125-60',
@@ -1487,6 +1560,7 @@ return [
         '3' => '/img/product/abraziv/0796-0125-60.jpg',
       ],
       'excelFileRowNum' => 79,
+      'catBtn' => 'abraziv',
     ],
     '12' => [
       'art' => '0797-0125-00',
@@ -1508,6 +1582,7 @@ return [
         '3' => '/img/product/abraziv/0797-0125-00.jpg',
       ],
       'excelFileRowNum' => 80,
+      'catBtn' => 'abraziv',
     ],
     '13' => [
       'art' => '0797-0230-00',
@@ -1529,6 +1604,7 @@ return [
         '3' => '/img/product/abraziv/0797-0230-00.jpg',
       ],
       'excelFileRowNum' => 81,
+      'catBtn' => 'abraziv',
     ],
     '14' => [
       'art' => '0797-0125-01',
@@ -1550,6 +1626,7 @@ return [
         '3' => '/img/product/abraziv/0797-0125-01.jpg',
       ],
       'excelFileRowNum' => 82,
+      'catBtn' => 'abraziv',
     ],
     '15' => [
       'art' => '0797-2125-00',
@@ -1571,6 +1648,7 @@ return [
         '3' => '/img/product/abraziv/0797-2125-00.jpg',
       ],
       'excelFileRowNum' => 83,
+      'catBtn' => 'abraziv',
     ],
     '16' => [
       'art' => '0797-2230-00',
@@ -1592,6 +1670,7 @@ return [
         '3' => '/img/product/abraziv/0797-2230-00.jpg',
       ],
       'excelFileRowNum' => 84,
+      'catBtn' => 'abraziv',
     ],
     '17' => [
       'art' => '0797-1125-00',
@@ -1608,6 +1687,7 @@ return [
       'img' => '/img/product/abraziv/0797-1125-00.gif',
       'galleryImgs' => [],
       'excelFileRowNum' => 85,
+      'catBtn' => 'abraziv',
     ],
     '18' => [
       'art' => '0797-1230-00',
@@ -1629,6 +1709,7 @@ return [
         '3' => '/img/product/abraziv/0797-1230-00.jpg',
       ],
       'excelFileRowNum' => 86,
+      'catBtn' => 'abraziv',
     ],
     '19' => [
       'art' => '0797-1350-20',
@@ -1645,6 +1726,7 @@ return [
       'img' => '/img/product/abraziv/0797-1350-20.gif',
       'galleryImgs' => [],
       'excelFileRowNum' => 87,
+      'catBtn' => 'abraziv',
     ],
     '20' => [
       'art' => '0797-1350-21',
@@ -1666,6 +1748,7 @@ return [
         '3' => '/img/product/abraziv/0797-1350-21.jpg',
       ],
       'excelFileRowNum' => 88,
+      'catBtn' => 'abraziv',
     ],
     '21' => [
       'art' => '0798-1856278 D',
@@ -1687,6 +1770,7 @@ return [
         '3' => '/img/product/abraziv/0798-1856278 D_4.jpg',
       ],
       'excelFileRowNum' => 89,
+      'catBtn' => 'abraziv',
     ],
     '22' => [
       'art' => '0799-0125-00',
@@ -1710,6 +1794,7 @@ return [
         '5' => '/img/product/abraziv/0799-0125-00.jpg',
       ],
       'excelFileRowNum' => 90,
+      'catBtn' => 'abraziv',
     ],
     '23' => [
       'art' => '0799-0125-01',
@@ -1733,6 +1818,7 @@ return [
         '5' => '/img/product/abraziv/0799-0125-01.jpg',
       ],
       'excelFileRowNum' => 91,
+      'catBtn' => 'abraziv',
     ],
     '24' => [
       'art' => '2902-0140-40',
@@ -1754,6 +1840,7 @@ return [
         '3' => '/img/product/abraziv/2902-0140-40.jpg',
       ],
       'excelFileRowNum' => 92,
+      'catBtn' => 'abraziv',
     ],
     '25' => [
       'art' => '2902-0160-60',
@@ -1775,6 +1862,7 @@ return [
         '3' => '/img/product/abraziv/2902-0160-60.jpg',
       ],
       'excelFileRowNum' => 93,
+      'catBtn' => 'abraziv',
     ],
     '26' => [
       'art' => '2902-0180-80',
@@ -1796,6 +1884,7 @@ return [
         '3' => '/img/product/abraziv/2902-0180-80.jpg',
       ],
       'excelFileRowNum' => 94,
+      'catBtn' => 'abraziv',
     ],
     '27' => [
       'art' => '2902-0100-10',
@@ -1817,6 +1906,7 @@ return [
         '3' => '/img/product/abraziv/2902-0100-10.jpg',
       ],
       'excelFileRowNum' => 95,
+      'catBtn' => 'abraziv',
     ],
     '28' => [
       'art' => '2902-0120-12',
@@ -1838,6 +1928,7 @@ return [
         '3' => '/img/product/abraziv/2902-0120-12.jpg',
       ],
       'excelFileRowNum' => 96,
+      'catBtn' => 'abraziv',
     ],
     '29' => [
       'art' => '2902-0180-18',
@@ -1859,6 +1950,7 @@ return [
         '3' => '/img/product/abraziv/2902-0180-18.jpg',
       ],
       'excelFileRowNum' => 97,
+      'catBtn' => 'abraziv',
     ],
     '30' => [
       'art' => '2902-0320-32',
@@ -1880,6 +1972,7 @@ return [
         '3' => '/img/product/abraziv/2902-0320-32.jpg',
       ],
       'excelFileRowNum' => 98,
+      'catBtn' => 'abraziv',
     ],
     '31' => [
       'art' => '0795-0125-40',
@@ -1901,6 +1994,7 @@ return [
         '3' => '/img/product/abraziv/0795-0125-40.jpg',
       ],
       'excelFileRowNum' => 99,
+      'catBtn' => 'abraziv',
     ],
     '32' => [
       'art' => '0795-0125-60',
@@ -1922,6 +2016,7 @@ return [
         '3' => '/img/product/abraziv/0795-0125-60.jpg',
       ],
       'excelFileRowNum' => 100,
+      'catBtn' => 'abraziv',
     ],
     '33' => [
       'art' => '0795-0125-80',
@@ -1943,6 +2038,7 @@ return [
         '3' => '/img/product/abraziv/0795-0125-80.jpg',
       ],
       'excelFileRowNum' => 101,
+      'catBtn' => 'abraziv',
     ],
     '34' => [
       'art' => '0795-0125-10',
@@ -1964,6 +2060,7 @@ return [
         '3' => '/img/product/abraziv/0795-0125-10.jpg',
       ],
       'excelFileRowNum' => 102,
+      'catBtn' => 'abraziv',
     ],
     '35' => [
       'art' => '0795-0125-12',
@@ -1985,6 +2082,7 @@ return [
         '3' => '/img/product/abraziv/0795-0125-12.jpg',
       ],
       'excelFileRowNum' => 103,
+      'catBtn' => 'abraziv',
     ],
     '36' => [
       'art' => '0795-0125-18',
@@ -2006,6 +2104,7 @@ return [
         '3' => '/img/product/abraziv/0795-0125-18.jpg',
       ],
       'excelFileRowNum' => 104,
+      'catBtn' => 'abraziv',
     ],
     '37' => [
       'art' => '0795-0125-32',
@@ -2027,6 +2126,7 @@ return [
         '3' => '/img/product/abraziv/0795-0125-32.jpg',
       ],
       'excelFileRowNum' => 105,
+      'catBtn' => 'abraziv',
     ],
     '38' => [
       'art' => '07991-0100-14',
@@ -2050,6 +2150,7 @@ return [
         '5' => '/img/product/abraziv/07991-0100-14.jpg',
       ],
       'excelFileRowNum' => 106,
+      'catBtn' => 'abraziv',
     ],
     '39' => [
       'art' => '07992-0100-14',
@@ -2073,6 +2174,7 @@ return [
         '5' => '/img/product/abraziv/07992-0100-14_6.jpg',
       ],
       'excelFileRowNum' => 107,
+      'catBtn' => 'abraziv',
     ],
     '40' => [
       'art' => '07993-0115-14',
@@ -2096,6 +2198,7 @@ return [
         '5' => '/img/product/abraziv/07993-0115-14_6.jpg',
       ],
       'excelFileRowNum' => 108,
+      'catBtn' => 'abraziv',
     ],
     '41' => [
       'art' => '07994-0115-14',
@@ -2119,6 +2222,7 @@ return [
         '5' => '/img/product/abraziv/07994-0115-14_5.jpg',
       ],
       'excelFileRowNum' => 109,
+      'catBtn' => 'abraziv',
     ],
   ],
   'Ножи и лезвия' => [
@@ -2144,6 +2248,7 @@ return [
         '5' => '/img/product/nozhi/0890-0000-18_9.jpg',
       ],
       'excelFileRowNum' => 112,
+      'catBtn' => 'abraziv',
     ],
     '1' => [
       'art' => '0890-0000-25',
@@ -2167,6 +2272,7 @@ return [
         '5' => '/img/product/nozhi/0890-0000-25_9.jpg',
       ],
       'excelFileRowNum' => 113,
+      'catBtn' => 'abraziv',
     ],
     '2' => [
       'art' => '0890-0010-18',
@@ -2187,6 +2293,7 @@ return [
         '2' => '/img/product/nozhi/0890-0010-18_3.jpg',
       ],
       'excelFileRowNum' => 114,
+      'catBtn' => 'nozhi',
     ],
     '3' => [
       'art' => '0890-0010-25',
@@ -2207,6 +2314,7 @@ return [
         '2' => '/img/product/nozhi/0890-0010-25_4.jpg',
       ],
       'excelFileRowNum' => 115,
+      'catBtn' => 'nozhi',
     ],
   ],
   'Вспомогательный инструмент' => [
@@ -2228,6 +2336,7 @@ return [
         '1' => '/img/product/vspomogat/0990-0400-08_1.jpg',
       ],
       'excelFileRowNum' => 116,
+      'catBtn' => 'vspomogat',
     ],
     '1' => [
       'art' => '0990-0400-10',
@@ -2247,6 +2356,7 @@ return [
         '1' => '/img/product/vspomogat/0990-0400-08_1.jpg',
       ],
       'excelFileRowNum' => 117,
+      'catBtn' => 'vspomogat',
     ],
     '2' => [
       'art' => '0990-0600-12',
@@ -2266,6 +2376,7 @@ return [
         '1' => '/img/product/vspomogat/0990-0600-12.jpg',
       ],
       'excelFileRowNum' => 118,
+      'catBtn' => 'vspomogat',
     ],
     '3' => [
       'art' => '0980-0400-08',
@@ -2285,6 +2396,7 @@ return [
         '1' => '/img/product/vspomogat/0980-0400-08.jpg',
       ],
       'excelFileRowNum' => 119,
+      'catBtn' => 'vspomogat',
     ],
     '4' => [
       'art' => '0980-0600-10',
@@ -2304,6 +2416,7 @@ return [
         '1' => '/img/product/vspomogat/0980-0600-10.jpg',
       ],
       'excelFileRowNum' => 120,
+      'catBtn' => 'vspomogat',
     ],
     '5' => [
       'art' => '0975-0600-12',
@@ -2323,6 +2436,7 @@ return [
         '1' => '/img/product/vspomogat/0975-0600-12.jpg',
       ],
       'excelFileRowNum' => 121,
+      'catBtn' => 'vspomogat',
     ],
     '6' => [
       'art' => '1051-0000-03',
@@ -2346,6 +2460,7 @@ return [
         '5' => '/img/product/vspomogat/1051-0000-03_5.jpg',
       ],
       'excelFileRowNum' => 122,
+      'catBtn' => 'vspomogat',
     ],
     '7' => [
       'art' => '1051-0000-05',
@@ -2369,6 +2484,7 @@ return [
         '5' => '/img/product/vspomogat/1051-0000-03_5.jpg',
       ],
       'excelFileRowNum' => 123,
+      'catBtn' => 'vspomogat',
     ],
     '8' => [
       'art' => '1051-0000-75',
@@ -2392,6 +2508,7 @@ return [
         '5' => '/img/product/vspomogat/1051-0000-75_5.jpg',
       ],
       'excelFileRowNum' => 124,
+      'catBtn' => 'vspomogat',
     ],
     '9' => [
       'art' => '1051-0000-10',
@@ -2415,6 +2532,7 @@ return [
         '5' => '/img/product/vspomogat/1051-0000-10_4_5.jpg',
       ],
       'excelFileRowNum' => 125,
+      'catBtn' => 'vspomogat',
     ],
     '10' => [
       'art' => '1002-0001-31',
@@ -2431,6 +2549,7 @@ return [
       'img' => '/img/product/vspomogat/1002-0001-31.gif',
       'galleryImgs' => [],
       'excelFileRowNum' => 126,
+      'catBtn' => 'vspomogat',
     ],
     '11' => [
       'art' => '1003-0000-12',
@@ -2447,6 +2566,7 @@ return [
       'img' => '/img/product/vspomogat/1003-0000-12.gif',
       'galleryImgs' => [],
       'excelFileRowNum' => 127,
+      'catBtn' => 'vspomogat',
     ],
     '12' => [
       'art' => '0700-0000-30',
@@ -2469,6 +2589,7 @@ return [
         '4' => '/img/product/vspomogat/0700-0000-30_4.jpg',
       ],
       'excelFileRowNum' => 128,
+      'catBtn' => 'vspomogat',
     ],
     '13' => [
       'art' => '1004-0000-04',
@@ -2487,6 +2608,7 @@ return [
         '0' => '/img/product/vspomogat/1004-0000-04.jpg',
       ],
       'excelFileRowNum' => 130,
+      'catBtn' => 'vspomogat',
     ],
     '14' => [
       'art' => '1004-0000-06',
@@ -2505,6 +2627,7 @@ return [
         '0' => '/img/product/vspomogat/1004-0000-06.jpg',
       ],
       'excelFileRowNum' => 131,
+      'catBtn' => 'vspomogat',
     ],
     '15' => [
       'art' => '1004-0000-08',
@@ -2523,6 +2646,7 @@ return [
         '0' => '/img/product/vspomogat/1004-0000-08.jpg',
       ],
       'excelFileRowNum' => 132,
+      'catBtn' => 'vspomogat',
     ],
     '16' => [
       'art' => '1004-0000-10',
@@ -2541,6 +2665,7 @@ return [
         '0' => '/img/product/vspomogat/1004-0000-10.jpg',
       ],
       'excelFileRowNum' => 133,
+      'catBtn' => 'vspomogat',
     ],
     '17' => [
       'art' => '1004-0000-15',
@@ -2559,6 +2684,7 @@ return [
         '0' => '/img/product/vspomogat/1004-0000-15.jpg',
       ],
       'excelFileRowNum' => 134,
+      'catBtn' => 'vspomogat',
     ],
     '18' => [
       'art' => '1004-0000-20',
@@ -2577,6 +2703,7 @@ return [
         '0' => '/img/product/vspomogat/1004-0000-20.jpg',
       ],
       'excelFileRowNum' => 135,
+      'catBtn' => 'vspomogat',
     ],
     '19' => [
       'art' => '1004-0000-25',
@@ -2595,6 +2722,7 @@ return [
         '0' => '/img/product/vspomogat/1004-0000-25.jpg',
       ],
       'excelFileRowNum' => 136,
+      'catBtn' => 'vspomogat',
     ],
     '20' => [
       'art' => '1004-0000-30',
@@ -2613,6 +2741,7 @@ return [
         '0' => '/img/product/vspomogat/1004-0000-30.jpg',
       ],
       'excelFileRowNum' => 137,
+      'catBtn' => 'vspomogat',
     ],
     '21' => [
       'art' => '1004-0000-35',
@@ -2631,6 +2760,7 @@ return [
         '0' => '/img/product/vspomogat/1004-0000-35.jpg',
       ],
       'excelFileRowNum' => 138,
+      'catBtn' => 'vspomogat',
     ],
     '22' => [
       'art' => '1004-0000-45',
@@ -2649,6 +2779,7 @@ return [
         '0' => '/img/product/vspomogat/1004-0000-45.jpg',
       ],
       'excelFileRowNum' => 139,
+      'catBtn' => 'vspomogat',
     ],
     '23' => [
       'art' => '1004-0001-15',
@@ -2667,6 +2798,7 @@ return [
         '0' => '/img/product/vspomogat/1004-0001-15.jpg',
       ],
       'excelFileRowNum' => 140,
+      'catBtn' => 'vspomogat',
     ],
     '24' => [
       'art' => '1004-0001-25',
@@ -2685,6 +2817,7 @@ return [
         '0' => '/img/product/vspomogat/1004-0001-25.jpg',
       ],
       'excelFileRowNum' => 141,
+      'catBtn' => 'vspomogat',
     ],
     '25' => [
       'art' => '1004-0001-35',
@@ -2703,6 +2836,7 @@ return [
         '0' => '/img/product/vspomogat/1004-0001-35.jpg',
       ],
       'excelFileRowNum' => 142,
+      'catBtn' => 'vspomogat',
     ],
     '26' => [
       'art' => '2755-0001-H4',
@@ -2723,6 +2857,7 @@ return [
         '2' => '/img/product/vspomogat/2755-0001-H4.jpg',
       ],
       'excelFileRowNum' => 144,
+      'catBtn' => 'vspomogat',
     ],
     '27' => [
       'art' => '0901-0000-20',
@@ -2742,6 +2877,7 @@ return [
         '1' => '/img/product/vspomogat/0901-0000-20_3.jpg',
       ],
       'excelFileRowNum' => 145,
+      'catBtn' => 'vspomogat',
     ],
   ],
 ];
