@@ -2241,7 +2241,7 @@ return [
       '5' => '/img/product/nozhi/0890-0000-18_9.jpg',
     ],
     'excelFileRowNum' => 112,
-    'catBtn' => 'abraziv',
+    'catBtn' => 'nozhi',
   ],
   '/catalog/nozi-i-lezviya/noz-obojnyj-usilennyj-lezvie-25mm' => [
     'art' => '0890-0000-25',
@@ -2265,7 +2265,7 @@ return [
       '5' => '/img/product/nozhi/0890-0000-25_9.jpg',
     ],
     'excelFileRowNum' => 113,
-    'catBtn' => 'abraziv',
+    'catBtn' => 'nozhi',
   ],
   '/catalog/nozi-i-lezviya/lezviya-zapasnye-dlya-obojnogo-noza-18mm-10st-x-0-5mm' => [
     'art' => '0890-0010-18',
