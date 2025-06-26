@@ -596,6 +596,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
     btn.onclick = (e) => {
       e.preventDefault()
       history.pushState(null, null, btn.href);
+      listViewState = LIST_VIEW_STATE.SHOW_IN_SLIDER
 
       currentCategory = btn.id
       document.querySelectorAll('.t-list').forEach(t => t.remove())

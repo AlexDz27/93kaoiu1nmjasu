@@ -569,7 +569,7 @@ for ($i = 112; $i <= 113; $i++) {
     $row[$map[$k - 1]] = $val;
   }
   $row['excelFileRowNum'] = $i;
-  $row['catBtn'] = 'abraziv';
+  $row['catBtn'] = 'nozhi';
   $row['category'] = 'Ножи и лезвия';
   $row['model'] = 'Нож обойный усиленный';
   $row['description'] = 'Для разрезания бумаги, картона и прочих материлов с применением значительных усилий.';

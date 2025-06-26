@@ -45,7 +45,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
         <div id="track" class="slider__track">
           <div class="card" data-card-id="1">
             <div class="card__img-cont">
-              <img class="card__img card__img--down--mob" src="/img/product/kisti/0100-0000-25_2.jpg" alt="Кисти малярные">
+              <img class="card__img card__img--down--mob" src="/img/product/kisti/0110-0000-25_2.jpg" alt="Кисти малярные">
             </div>
             <h3 class="card__title">Кисти малярные</h3>
             <ul class="card__list">
@@ -53,7 +53,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <li class="text--larger"><span class="card__list__item-text">Кисть Лавковец (макловицы)</span></li>
               <li class="text--larger"><span class="card__list__item-text">Кисти радиаторные</span></li>
             </ul>
-            <a class="btn card__btn" href="/catalog"><b>В КАТАЛОГ</b></a>
+            <a class="btn card__btn" href="/catalog#kisti"><b>В КАТАЛОГ</b></a>
           </div>
 
           <div class="card" data-card-id="2">
@@ -66,7 +66,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <li class="text--larger"><span class="card__list__item-text">Ручки для роликов (запасок)</span></li>
               <li class="text--larger"><span class="card__list__item-text">Валики малярные</span></li>
             </ul>
-            <a class="btn card__btn" href="/catalog"><b>В КАТАЛОГ</b></a>
+            <a class="btn card__btn" href="/catalog#valiki"><b>В КАТАЛОГ</b></a>
           </div>
 
           <div class="card" data-card-id="3">
@@ -79,7 +79,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <li class="text--larger"><span class="card__list__item-text">Алмазные диски</span></li>
               <li class="text--larger"><span class="card__list__item-text">Насадки, кордщетки на УШМ</span></li>
             </ul>
-            <a class="btn card__btn" href="/catalog"><b>В КАТАЛОГ</b></a>
+            <a class="btn card__btn" href="/catalog#abraziv"><b>В КАТАЛОГ</b></a>
           </div>
 
           <div class="card" data-card-id="4">
@@ -91,7 +91,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <li class="text--larger"><span class="card__list__item-text">Лезвия запасные для ножей</span></li>
               <li class="text--larger"><span class="card__list__item-text">Ножи обойные</span></li>
             </ul>
-            <a class="btn card__btn" href="/catalog"><b>В КАТАЛОГ</b></a>
+            <a class="btn card__btn" href="/catalog#nozhi"><b>В КАТАЛОГ</b></a>
           </div>
 
           <div class="card card--bad-pr" data-card-id="5">
@@ -105,7 +105,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
               <li class="text--larger"><span class="card__list__item-text">Пистолеты для пены и герметиков</span></li>
               <li class="text--larger"><span class="card__list__item-text">Прочий вспомогательный инструмент</span></li>
             </ul>
-            <a class="btn card__btn" href="/catalog"><b>В КАТАЛОГ</b></a>
+            <a class="btn card__btn" href="/catalog#vspomogat"><b>В КАТАЛОГ</b></a>
           </div>
         </div>
         <button id="btnNext" class="btn-slider slider__btn-slider btn-slider--next slider__btn-slider--next" type="button">
