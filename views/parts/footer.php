@@ -6,13 +6,13 @@
       <div class="footer__col-1">
         <img src="/img/logo.svg" width="148" height="20" alt="Логотип Sprava">
         <div class="link-social-cont link-social-cont--bigger hide-below-800">
-          <a href="javascript:void(0)" class="link-social link-social--bigger link-social--whatsapp">
+          <a href="https://wa.me/375445006080" class="link-social link-social--bigger link-social--whatsapp">
             <img src="/img/icons/whatsapp.svg" width="30" height="30" alt="Ссылка на Whatsapp">
           </a>
           <a href="viber://chat?number=%2B375293051111" class="link-social link-social--bigger link-social--viber link-social--bigger--viber">
             <img src="/img/icons/viber.svg" width="19" height="20" alt="Ссылка на Viber">
           </a>
-          <a href="javascript:void(0)" class="link-social link-social--bigger link-social--telegram">
+          <a href="https://t.me/+375445006080" class="link-social link-social--bigger link-social--telegram">
             <img src="/img/icons/telegram.svg" width="30" height="30" alt="Ссылка на Telegram">
           </a>
         </div>
@@ -54,13 +54,13 @@
           </div>
         </div>
         <p class="link-social-cont link-social-cont--farther link-social-cont--footer show-below-800--flex">
-          <a href="javascript:void(0)" class="link-social link-social--whatsapp link-social--mob">
+          <a href="https://wa.me/375445006080" class="link-social link-social--whatsapp link-social--mob">
             <img src="/img/icons/whatsapp.svg" width="24" height="24" alt="Ссылка на Whatsapp">
           </a>
           <a href="viber://chat?number=%2B375293051111" class="link-social link-social--viber link-social--mob">
             <img src="/img/icons/viber.svg" width="13" height="14" alt="Ссылка на Viber">
           </a>
-          <a href="javascript:void(0)" class="link-social link-social--telegram link-social--mob">
+          <a href="https://t.me/+375445006080" class="link-social link-social--telegram link-social--mob">
             <img src="/img/icons/telegram.svg" width="24" height="24" alt="Ссылка на Telegram">
           </a>
         </p>
@@ -81,7 +81,7 @@
   <div class="nav__row"><a class="nav__link" href="/">ГЛАВНАЯ</a></div>
   <div class="nav__row"><a class="nav__link" href="/about-company">О КОМПАНИИ</a></div>
   <div class="nav__row"><a class="nav__link" href="/catalog">КАТАЛОГ</a></div>
-  <div class="nav__row"><a class="nav__link" href="/contacts">КОНТАКТЫ</a></div>
+  <div class="nav__row"><a class="nav__link" href="/#contacts">КОНТАКТЫ</a></div>
 </nav>
 
 <nav id="navMob" class="nav-mob">
@@ -103,7 +103,7 @@
       <div class="nav__row"><a class="nav__link" href="/">ГЛАВНАЯ</a></div>
       <div class="nav__row"><a class="nav__link" href="/about-company">О КОМПАНИИ</a></div>
       <div class="nav__row"><a class="nav__link" href="/catalog">КАТАЛОГ</a></div>
-      <div class="nav__row nav__row__some-mb"><a class="nav__link" href="/contacts">КОНТАКТЫ</a></div>
+      <div class="nav__row nav__row__some-mb"><a class="nav__link" href="/#contacts">КОНТАКТЫ</a></div>
 
       <div class="text-with-icon nav__row-2">
         <img class="text-with-icon__icon" src="/img/icons/phone.svg" width="21" height="21">

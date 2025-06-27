@@ -663,7 +663,6 @@ the buttons will not be shown. TODO: maybe i can make it better */
   padding-top: 20px;
   position: relative;
   margin-bottom: 18px;
-  word-break: break-word;
 }
 .card__list li {
   margin-bottom: 12px;

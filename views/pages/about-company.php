@@ -69,7 +69,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
   </div>
 </section>
 
-<section class="section section--black section--about-numbers">
+<section id="learnMore" class="section section--black section--about-numbers">
   <div class="cont">
     <h2 class="title-section title-section--mb">Наши цифры — ваша уверенность</h2>
     <div class="numbers">
@@ -157,5 +157,46 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
     </p>
   </div>
 </section>
+
+<script>
+  console.log(sessionStorage.getItem('shouldScrollToSection'))
+
+  if (sessionStorage.getItem('shouldScrollToSection') && sessionStorage.getItem('shouldScrollToSection') !== 'false') {
+    setTimeout(() => {
+      currentCategory = window.location.hash.substring(1)
+      // smoothScrollTo(document.getElementById(currentCategory).offsetTop - 30, 800)
+      window.scrollTo({
+        top: document.getElementById('learnMore').offsetTop,
+        behavior: 'smooth'
+      })
+    }, 300);
+    sessionStorage.setItem('shouldScrollToSection', false)
+  }
+
+  function smoothScrollTo(targetPosition, duration) {
+    const startPosition = window.pageYOffset;
+    const distance = targetPosition - startPosition;
+    let startTime = null;
+    
+    function animation(currentTime) {
+      if (!startTime) startTime = currentTime;
+      const timeElapsed = currentTime - startTime;
+      const progress = Math.min(timeElapsed / duration, 1);
+      
+      // Easing function (easeInOutQuad)
+      const ease = progress < 0.5 
+      ? 2 * progress * progress 
+      : 1 - Math.pow(-2 * progress + 2, 2) / 2;
+      
+      window.scrollTo(0, startPosition + (distance * ease));
+      
+      if (timeElapsed < duration) {
+        requestAnimationFrame(animation);
+      }
+    }
+    
+    requestAnimationFrame(animation);
+  }
+</script>
 
 <?php load('views/parts/footer.php', ['lowDb' => $lowDb]) ?>

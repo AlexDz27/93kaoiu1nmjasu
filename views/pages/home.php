@@ -50,7 +50,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
             <h3 class="card__title">Кисти малярные</h3>
             <ul class="card__list">
               <li class="text--larger"><span class="card__list__item-text">Кисти плоские (флейцевые)</span></li>
-              <li class="text--larger"><span class="card__list__item-text">Кисть Лавковец (макловицы)</span></li>
+              <li class="text--larger"><span class="card__list__item-text">Кисти лавковец (Макловицы)</span></li>
               <li class="text--larger"><span class="card__list__item-text">Кисти радиаторные</span></li>
             </ul>
             <a class="btn card__btn" href="/catalog#kisti"><b>В КАТАЛОГ</b></a>
@@ -77,7 +77,9 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
             <ul class="card__list card__list--w-2nd-line">
               <li class="text--larger"><span class="card__list__item-text">Отрезные круги</span></li>
               <li class="text--larger"><span class="card__list__item-text">Алмазные диски</span></li>
-              <li class="text--larger"><span class="card__list__item-text">Насадки, кордщетки на УШМ</span></li>
+              <li class="text--larger"><span class="card__list__item-text">Лепестковые круги</span></li>
+              <li class="text--larger"><span class="card__list__item-text">Насадки</span></li>
+              <li class="text--larger"><span class="card__list__item-text">Кордщетки</span></li>
             </ul>
             <a class="btn card__btn" href="/catalog#abraziv"><b>В КАТАЛОГ</b></a>
           </div>
@@ -101,7 +103,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
             <h3 class="card__title card__title--w-2nd-line">Вспомогательный <span class="card__title__2nd-line card__title__2nd-line--abraziv">инструмент</span></h3>
             <ul class="card__list card__list--w-2nd-line">
               <li class="text--larger"><span class="card__list__item-text">Шпатели</span></li>
-              <li class="text--larger"><span class="card__list__item-text">Миксеры для смесей и краски (насадки на электроинструмент)</span></li>
+              <li class="text--larger"><span class="card__list__item-text">Миксеры для смесей и краски</span></li>
               <li class="text--larger"><span class="card__list__item-text">Пистолеты для пены и герметиков</span></li>
               <li class="text--larger"><span class="card__list__item-text">Прочий вспомогательный инструмент</span></li>
             </ul>
@@ -235,7 +237,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
 
       <br class="br--desk">
       <br class="br--desk">
-      <a class="card__link--red" href="/about-company"><b>Узнать о нас больше</b></a>
+      <a id="learnMoreLink" class="card__link--red" href="/about-company" onclick="learnMoreLink"><b>Узнать о нас больше</b></a>
       <br class="br--mob">
     </div>
   </div>
@@ -254,7 +256,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
   </div>
 </section>
 
-<section class="section section--black pb section--contacts">
+<section id="contacts" class="section section--black pb section--contacts">
   <h2 class="title-section section--black__title-section">Наши контакты</h2>
 
   <div class="contacts__cont">
@@ -321,5 +323,66 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
     <div class="items-spaced-list-design__line contacts__cont-2__items-spaced-list-design__line"></div>
   </div>
 </section>
+
+<script>
+  const learnMoreLink = document.getElementById('learnMoreLink')
+  learnMoreLink.onclick = (e) => {
+    e.preventDefault()
+
+    sessionStorage.setItem('shouldScrollToSection', 'true')
+    window.location.href = '/about-company'
+  }
+
+  if (window.location.hash) {
+    const contactsSectionHash = window.location.hash.substring(1)
+    if (window.innerWidth <= 1220) {
+      smoothScrollTo(document.getElementById(contactsSectionHash).offsetTop + 245, 1000)
+    } else {
+      smoothScrollTo(document.getElementById(contactsSectionHash).offsetTop + 150, 1000)
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const links = document.querySelectorAll('a[href="/#contacts"]')
+    links.forEach(l => {
+      l.onclick = (e) => {
+        e.preventDefault()
+
+        overlay.classList.remove('overlay--db')
+        overlay.classList.remove('overlay--blur')
+        nav.classList.remove('nav--db')
+        nav.classList.remove('nav--active')
+        navMob.classList.remove('nav-mob--active')
+        smoothScrollTo(document.getElementById('contacts').offsetTop, 1000)
+      }
+    })
+  })
+
+
+  function smoothScrollTo(targetPosition, duration) {
+    const startPosition = window.pageYOffset;
+    const distance = targetPosition - startPosition;
+    let startTime = null;
+    
+    function animation(currentTime) {
+      if (!startTime) startTime = currentTime;
+      const timeElapsed = currentTime - startTime;
+      const progress = Math.min(timeElapsed / duration, 1);
+      
+      // Easing function (easeInOutQuad)
+      const ease = progress < 0.5 
+      ? 2 * progress * progress 
+      : 1 - Math.pow(-2 * progress + 2, 2) / 2;
+      
+      window.scrollTo(0, startPosition + (distance * ease));
+      
+      if (timeElapsed < duration) {
+        requestAnimationFrame(animation);
+      }
+    }
+    
+    requestAnimationFrame(animation);
+  }
+</script>
 
 <?php load('views/parts/footer.php', ['lowDb' => $lowDb]) ?>

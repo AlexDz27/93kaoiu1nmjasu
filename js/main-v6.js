@@ -103,6 +103,7 @@ async function main() {
     document.querySelector('ymaps').style = 'border-radius: 30px;'
 
     map.addChild(controls);
+    document.querySelector('ymaps').querySelector('.ymaps3x0--controls_bottom').style.zIndex = 1
     document.querySelector('ymaps').querySelector('.ymaps3x0--control-button').onclick = () => {
       window.open("https://yandex.by/maps/org/roshma/191733208246/?ll=27.576254%2C53.807521&z=16.6", "_blank")
     }

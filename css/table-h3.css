@@ -107,7 +107,7 @@ thead th, thead td {
 @media (max-width: 750px) {
   .table-switcher-pane {
     left: 0;
-    min-height: 185px;
+    min-height: 60px;
     min-width: 250px;
     display: flex;
   }
