@@ -335,11 +335,13 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
 
   if (window.location.hash) {
     const contactsSectionHash = window.location.hash.substring(1)
-    if (window.innerWidth <= 1220) {
-      smoothScrollTo(document.getElementById(contactsSectionHash).offsetTop + 245, 1000)
-    } else {
-      smoothScrollTo(document.getElementById(contactsSectionHash).offsetTop + 150, 1000)
-    }
+    // if (window.innerWidth <= 1220) {
+    //   smoothScrollTo(document.getElementById(contactsSectionHash).offsetTop + 245, 1000)
+    // } else {
+    //   smoothScrollTo(document.getElementById(contactsSectionHash).offsetTop + 150, 1000)
+    // }
+
+    smoothScrollTo(document.getElementById('contacts').offsetTop, 1000)
   }
 
   document.addEventListener('DOMContentLoaded', () => {
