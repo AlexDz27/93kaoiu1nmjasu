@@ -4,7 +4,6 @@ $routes = [
   '/' => "views/pages/home.php",
 
   '/about-company' => "views/pages/about-company.php",
-  '/contacts' => "views/pages/contacts.php",
   '/catalog' => "views/pages/catalog.php",
 
   '404' => "views/pages/404.php"

@@ -24,7 +24,7 @@
         <a class="footer__nav-link" href="/">Главная</a>
         <a class="footer__nav-link" href="/about-company">О компании</a>
         <a class="footer__nav-link" href="/catalog">Каталог</a>
-        <a class="footer__nav-link" href="/contacts">Контакты</a>
+        <a class="footer__nav-link" href="/#contacts">Контакты</a>
       </div>
 
       <div class="footer__col-3">
