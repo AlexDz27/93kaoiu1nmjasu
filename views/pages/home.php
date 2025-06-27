@@ -50,7 +50,7 @@ load('views/parts/header.php', ['title' => $title, 'pageName' => $pageName, 'bod
             <h3 class="card__title">Кисти малярные</h3>
             <ul class="card__list">
               <li class="text--larger"><span class="card__list__item-text">Кисти плоские (флейцевые)</span></li>
-              <li class="text--larger"><span class="card__list__item-text">Кисти лавковец (Макловицы)</span></li>
+              <li class="text--larger"><span class="card__list__item-text">Кисти лавковец (макловицы)</span></li>
               <li class="text--larger"><span class="card__list__item-text">Кисти радиаторные</span></li>
             </ul>
             <a class="btn card__btn" href="/catalog#kisti"><b>В КАТАЛОГ</b></a>

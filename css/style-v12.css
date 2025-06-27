@@ -918,7 +918,7 @@ the buttons will not be shown. TODO: maybe i can make it better */
 }
 .footer__cont {
   display: grid;
-  grid-template-columns: 250px 155px auto;
+  grid-template-columns: 1fr 1fr;
   column-gap: 151px;
   align-items: start;
 }
@@ -2152,7 +2152,7 @@ the buttons will not be shown. TODO: maybe i can make it better */
 
   .footer__cont {
     grid-template-columns: none;
-    row-gap: 35px;
+    row-gap: 55px;
     padding-left: 70px;
   }
   .footer__col-2 {
