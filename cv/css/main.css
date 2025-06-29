@@ -1,3 +1,8 @@
+@page {
+  size: A4;
+  margin: 0;
+}
+
 /** FONTS **/
 @font-face {
   font-family: "Open Sans";
@@ -13,19 +18,26 @@
   --link-color: #0d6efd;
 }
 
+html {
+  font-size: 14px;
+}
+
 body {
   font-family: "Open Sans", Arial, sans-serif;
-  font-size: 18px;
   margin: 0;
 }
 
 a {
   color: var(--link-color);
 }
+a[href]:hover {
+  text-decoration: underline;
+}
 
 img {
   width: 100%;
 }
+/* WARNING: if it's an icon, most probably w100% will be a predicament -> will need to change width to auto */
 
 /** COMPONENTS **/
 
@@ -34,9 +46,103 @@ img {
   margin: 0 auto;
   padding: 0 15px;
   box-sizing: border-box;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
+.header {
+  background-color: #5c91e6;
+  min-height: 100px;
+  color: white;
+  border-top: 1px solid transparent;
+  padding-top: 0.6rem;
+  padding-bottom: 2.5rem;
+  margin-bottom: 1rem;
+}
+.header__name {
+  margin-bottom: 0;
+}
+.header__title {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.header__links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 3px;
+}
+.header__link {
+  color: white;
+  text-decoration: none;
+  font-size: 90%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.header__link__icon {
+  width: auto;
+  color: white;
 }
 
 .main {
   padding-top: 1rem;
   padding-bottom: 1rem;
+  display: grid;
+  grid-template-columns: 60% 30%;
+  column-gap: 10%;
+}
+
+.main__col__title {
+  /* color: #16448D; */
+  color: #1c55b0;
+  border-bottom: 3px solid #1c55b0;
+  margin-top: 0;
+}
+
+.workplace-experience {
+  margin-bottom: 2rem;
+}
+.workplace-experience__workplace-name {
+  font-weight: 400;
+  color: #5c91e6;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 0;
+}
+.workplace-experience__workplace-name__icon {
+  position: relative;
+  top: 2px;
+}
+.workplace-experience__time {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 4px;
+  font-size: 87%;
+  margin-bottom: 5px;
+}
+.workplace-experience__time__text {
+  position: relative;
+  top: 1px;
+}
+.workplace-experience__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 1px;
+}
+.workplace-experience__project-desc {
+  margin-bottom: 7px;
+  margin-top: 0;
+}
+.workplace-experience__list {
+  margin-top: 0;
+  padding-left: 35px;
+}
+.workplace-experience__list li::marker {
+  font-size: 0.9em;  /* TODO: for centering the dot */
 }
