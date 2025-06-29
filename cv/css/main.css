@@ -146,3 +146,39 @@ img {
 .workplace-experience__list li::marker {
   font-size: 0.9em;  /* TODO: for centering the dot */
 }
+
+.skill {
+  padding: .6rem;
+  border: 2px solid #eee;
+  margin-bottom: 1rem;
+}
+.skill__cat {
+  font-size: 110%;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 9px;
+}
+.skill__name {
+  margin-top: 0;
+  margin-bottom: 19px;
+}
+.skill__name__name {
+  font-size: 150%;
+  font-weight: 600;
+  margin-right: 3px;
+}
+.subskills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  align-items: center;
+}
+.subskill {
+  background-color: #eee;
+  padding: 4px;
+}
+@media print {
+  .subskill {
+    font-size: 80%;
+  }
+}

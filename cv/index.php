@@ -107,9 +107,9 @@ $expYears = 6;
         <li>
           писал небольшие full-stack приложения на React/Vue и PHP/Node.js с документацией:
           <ul>
-            <li><a href="//github.com/AlexDz27/paytest">приложение</a> для тестирования запросов, которые идут на PAYONE API</li>
-            <li><a href="//github.com/AlexDz27/payone-github-issues-assigner-bot">бот</a>, который интегрируется с Github</li>
-            <li><a href="//github.com/AlexDz27/payone-github-issues-visualizer-app">front-end</a>, для вышеописанного бота</li>
+            <li><a href="//github.com/AlexDz27/paytest" target="_blank">приложение</a> на Vue.js для тестирования запросов, которые идут на PAYONE API</li>
+            <li><a href="//github.com/AlexDz27/payone-github-issues-assigner-bot" target="_blank">бот</a>, который интегрируется с Github</li>
+            <li><a href="//github.com/AlexDz27/payone-github-issues-visualizer-app" target="_blank">front-end</a>, для вышеописанного бота</li>
           </ul>
         </li>
         <li>
@@ -150,11 +150,137 @@ $expYears = 6;
         </li>
       </ul>
     </section>
+
+    <!-- TODO: junior experience and freelance -->
   </div>
 
   <div class="main__col">
     <h2 class="main__col__title">Навыки</h2>
-    <p>dkasdaskdask</p>
+
+    <section class="skill">
+      <p class="skill__name"><span class="skill__name__name">PHP</span> <span class="subskill">ver. 5 – 8.+</span></p>
+
+      <p class="skill__cat">Frameworks</p>
+      <div class="subskills">
+        <span class="subskill">Laravel</span>
+        <span class="subskill">Symfony</span>
+        <span class="subskill">Yii 2</span>
+      </div>
+
+      <p class="skill__cat">CMSes</p>
+      <div class="subskills">
+        <span class="subskill">WordPress</span>
+        <span class="subskill">OpenCart</span>
+        <span class="subskill">Drupal</span>
+      </div>
+
+      <p class="skill__cat">Misc</p>
+      <div class="subskills">
+        <span class="subskill">Composer</span>
+        <span class="subskill">PSR</span>
+        <span class="subskill">PHPUnit</span>
+        <span class="subskill">cURL</span>
+      </div>
+    </section>
+
+    <section class="skill">
+      <p class="skill__name"><span class="skill__name__name">Databases</span></p>
+
+      <p class="skill__cat">SQL</p>
+      <div class="subskills">
+        <span class="subskill">MySQL</span>
+        <span class="subskill">PostgreSQL</span>
+        <span class="subskill">SQLite</span>
+      </div>
+
+      <p class="skill__cat">NoSQL</p>
+      <div class="subskills">
+        <span class="subskill">MongoDB</span>
+      </div>
+
+      <p class="skill__cat">ORMs</p>
+      <div class="subskills">
+        <span class="subskill">Doctrine</span>
+        <span class="subskill">Eloquent</span>
+      </div>
+    </section>
+
+    <section class="skill">
+      <p class="skill__name"><span class="skill__name__name">Front-end JS + Node.js</span></p>
+
+      <p class="skill__cat">JS</p>
+      <div class="subskills">
+        <span class="subskill">TypeScript</span>
+        <span class="subskill">ES6</span>
+        <span class="subskill">fetch; async/await</span>
+      </div>
+
+      <br><br>
+
+      <p class="skill__cat">Frameworks</p>
+      <div class="subskills">
+        <span class="subskill">React</span>
+        <span class="subskill">Vue</span>
+        +
+        <span class="subskill">Nest.js</span>
+      </div>
+
+      <p class="skill__cat">Libraries</p>
+      <div class="subskills">
+        <span class="subskill">Splide (slider)</span>
+        <span class="subskill">Sortable (drag&drop)</span>
+      </div>
+
+      <p class="skill__cat">Misc</p>
+      <div class="subskills">
+        <span class="subskill">Webpack, Parcel</span>
+      </div>
+    </section>
+
+    <section class="skill">
+      <p class="skill__name"><span class="skill__name__name">Web</span></p>
+
+      <p class="skill__cat">Unix</p>
+      <div class="subskills">
+        <span class="subskill">Linux</span>
+        <span class="subskill">Docker</span>
+      </div>
+
+      <p class="skill__cat">In-memory databases</p>
+      <div class="subskills">
+        <span class="subskill">Redis</span>
+      </div>
+
+      <p class="skill__cat">High-load (just theory)</p>
+
+      <p class="skill__cat">Security</p>
+      <div class="subskills">
+        <span class="subskill">Auth</span>
+        <span class="subskill">XSS; CSRF</span>
+      </div>
+    </section>
+
+    <section class="skill">
+      <p class="skill__name"><span class="skill__name__name">Misc</span></p>
+
+      <p class="skill__cat">Git</p>
+
+      <p class="skill__cat">Search engines</p>
+      <div class="subskills">
+        <span class="subskill">ElasticSearch</span>
+      </div>
+
+      <p class="skill__cat">ORMs</p>
+      <div class="subskills">
+        <span class="subskill">Doctrine</span>
+        <span class="subskill">Eloquent</span>
+      </div>
+
+      <p class="skill__cat">Other languages</p>
+      <div class="subskills">
+        <span class="subskill">C++ (junior)</span>
+      </div>
+    </section>
   </div>
 </main>
   
