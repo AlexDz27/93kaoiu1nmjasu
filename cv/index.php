@@ -152,6 +152,34 @@ $expYears = 6;
     </section>
 
     <!-- TODO: junior experience and freelance -->
+    <section class="workplace-experience">
+      <h3 class="workplace-experience__workplace-name">
+        Symfa, Intetics, freelance
+      </h3>
+
+      <p class="workplace-experience__time">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-calendar-week-fill" viewBox="0 0 16 16">
+          <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2M9.5 7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5m3 0h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5M2 10.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5"/>
+        </svg>
+        <span class="workplace-experience__time__text">2017.01 — 2020.01</span>
+      </p>
+      <p class="workplace-experience__project-desc">Набирался опыта в небольших аутсорс-компаниях и на фрилансе.</p>
+      <ul class="workplace-experience__list pt-1-when-print">
+        <li>
+          работал как Junior Full-stack программист
+        </li>
+        <li>
+          имел опыт общения с заказчиками из СНГ
+        </li>
+        <li>
+          примеры работ на фрилансе:
+          <ul>
+            <li><a href="//rainlab.by" target="_blank">Сайт-каталог</a> компании "СПРАВА"</li>
+            <li><a href="//metida-torg.by" target="_blank">Сайт-каталог</a> компании "Метида-торг"</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
   </div>
 
   <div class="main__col">
@@ -215,9 +243,9 @@ $expYears = 6;
         <span class="subskill">fetch; async/await</span>
       </div>
 
-      <br><br>
+      <br class="di-when-print">
 
-      <p class="skill__cat">Frameworks</p>
+      <p class="skill__cat mt-when-print">Frameworks</p>
       <div class="subskills">
         <span class="subskill">React</span>
         <span class="subskill">Vue</span>

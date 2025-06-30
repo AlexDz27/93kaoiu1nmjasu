@@ -182,3 +182,16 @@ img {
     font-size: 80%;
   }
 } */
+
+/** COMPONENTS INVISIBLE **/
+.di-when-print {
+  display: none;
+}
+@media print {
+  .di-when-print {
+    display: inline;
+  }
+  .pt-1-when-print {
+    padding-top: 2rem;
+  }
+}
