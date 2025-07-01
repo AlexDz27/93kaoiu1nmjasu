@@ -1,5 +1,9 @@
 <?php
 
+// TODO: перевод) т.к. в некоторые конторы нужно резюме именно на англе)
+// короч да -- надо на Инглиш переписывать, потому что lazy pill - им может быть впадлу разбираться, могу я говорить на англе или нет
+// т.е. Инглиш - это main язык для резюме; если че, надо скидывать два варианта pdf - ru и англ
+
 $title = 'PHP Developer';
 $expYears = 6;
 
@@ -54,39 +58,6 @@ $expYears = 6;
     <h2 class="main__col__title">Опыт работы (<?= $expYears ?>+ лет)</h2>
 
     <section class="workplace-experience">
-      <a href="//kiberon.kz" target="_blank">
-        <h3 class="workplace-experience__workplace-name">
-          Kiberon
-          <svg class="workplace-experience__workplace-name__icon" width="21" height="21" fill="currentColor" viewBox="0 0 16 16">
-            <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"/>
-            <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"/>
-          </svg>
-        </h3>
-      </a>
-      <p class="workplace-experience__time">
-        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-calendar-week-fill" viewBox="0 0 16 16">
-          <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2M9.5 7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5m3 0h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5M2 10.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5"/>
-        </svg>
-        <span class="workplace-experience__time__text">2025.03 — 2025.06</span>
-      </p>
-      <p class="workplace-experience__project-desc">Сервис, который показывает юридические и экономические данные о компаниях в СНГ.</p>
-      <ul class="workplace-experience__list">
-        <li>
-          <a href="https://www.notion.so/Project-1d04122274e180afbfdeebf4b7c83e67?source=copy_link" class="workplace-experience__link" target="_blank">решал проблемы</a>
-          архитектуры вместе с командой и предлагал решения; собирал бизнес-требования
-        </li>
-        <li>
-          <a href="https://github.com/AlexDz27/php-money-format/blob/main/money-format.php" class="workplace-experience__link" target="_blank">написал функцию</a>
-          для преобразования чисел типа 20025.05 в "20 тыс. 25 рублей 5 копеек"
-        </li>
-        <li>
-          <a href="https://github.com/AlexDz27/php-arr-db-updater/blob/main/PhpArrDbWriter.php" class="workplace-experience__link" target="_blank">написал класс</a>
-          небольшой для простых in-memory CRUD-операций над PHP-массивом. Используется рекурсия. Выполняет задачи по хранению данных (а-ля JSON), но используется обычный PHP-массив
-        </li>
-      </ul>
-    </section>
-
-    <section class="workplace-experience">
       <a href="//itechartgroup.by" target="_blank">
         <h3 class="workplace-experience__workplace-name">
           iTechArt
@@ -117,6 +88,39 @@ $expYears = 6;
         </li>
         <li>
           занимался менторством Junior PHP разработчика
+        </li>
+      </ul>
+    </section>
+
+    <section class="workplace-experience">
+      <a href="//kiberon.kz" target="_blank">
+        <h3 class="workplace-experience__workplace-name">
+          Kiberon
+          <svg class="workplace-experience__workplace-name__icon" width="21" height="21" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"/>
+            <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"/>
+          </svg>
+        </h3>
+      </a>
+      <p class="workplace-experience__time">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-calendar-week-fill" viewBox="0 0 16 16">
+          <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2M9.5 7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5m3 0h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5M2 10.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5"/>
+        </svg>
+        <span class="workplace-experience__time__text">2025.03 — 2025.06</span>
+      </p>
+      <p class="workplace-experience__project-desc">Сервис, который показывает юридические и экономические данные о компаниях в СНГ.</p>
+      <ul class="workplace-experience__list">
+        <li>
+          <a href="https://www.notion.so/Project-1d04122274e180afbfdeebf4b7c83e67?source=copy_link" class="workplace-experience__link" target="_blank">решал проблемы</a>
+          архитектуры вместе с командой и предлагал решения; собирал бизнес-требования
+        </li>
+        <li>
+          <a href="https://github.com/AlexDz27/php-money-format/blob/main/money-format.php" class="workplace-experience__link" target="_blank">написал функцию</a>
+          для преобразования чисел типа 20025.05 в "20 тыс. 25 рублей 5 копеек"
+        </li>
+        <li>
+          <a href="https://github.com/AlexDz27/php-arr-db-updater/blob/main/PhpArrDbWriter.php" class="workplace-experience__link" target="_blank">написал класс</a>
+          небольшой для простых in-memory CRUD-операций над PHP-массивом. Используется рекурсия. Выполняет задачи по хранению данных (а-ля JSON), но используется обычный PHP-массив
         </li>
       </ul>
     </section>
