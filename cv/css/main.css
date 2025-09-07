@@ -183,7 +183,7 @@ img {
   }
 } */
 
-/** COMPONENTS INVISIBLE **/
+/** LAYOUT STYLES FOR PRINTING **/
 .di-when-print {
   display: none;
 }
@@ -193,5 +193,14 @@ img {
   }
   .pt-1-when-print {
     padding-top: 2rem;
+  }
+
+  /* .mt-when-print {
+    margin-top: 40mm;
+  } */
+
+  .mb-when-print-1 {
+    /* margin-bottom: .7rem; */
+    margin-bottom: 10px;
   }
 }

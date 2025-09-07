@@ -5,7 +5,7 @@
 // т.е. Инглиш - это main язык для резюме; если че, надо скидывать два варианта pdf - ru и англ
 
 $title = 'PHP Developer';
-$expYears = 6;
+$expYears = 5;
 
 ?>
 <!DOCTYPE html>
@@ -35,7 +35,7 @@ $expYears = 6;
         </svg>
         +375 (29) 819 16 24
       </a>
-      <a href="//t.me/rain_xxxx" class="header__link">
+      <a href="//t.me/rain_xxxx" class="header__link" target="_blank">
         <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
           <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09"/>
         </svg>
@@ -45,7 +45,7 @@ $expYears = 6;
         <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
           <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
         </svg>
-        Кобрин, Беларусь
+        Беларусь
       </a>
     </section>
 
@@ -55,7 +55,7 @@ $expYears = 6;
 
 <main class="main cont">
   <div class="main__col">
-    <h2 class="main__col__title">Опыт работы (<?= $expYears ?>+ лет)</h2>
+    <h2 class="main__col__title">Опыт работы (<?= $expYears ?> лет)</h2>
 
     <section class="workplace-experience">
       <a href="//itechartgroup.by" target="_blank">
@@ -73,10 +73,10 @@ $expYears = 6;
         </svg>
         <span class="workplace-experience__time__text">2021.01 — 2022.01</span>
       </p>
-      <p class="workplace-experience__project-desc">Outstaff в немецкую e-commerce компанию PAYONE.</p>
+      <p class="workplace-experience__project-desc">Outstaff в немецкую e-commerce компанию <a href="https://www.payone.com/" target="_blank">PAYONE</a>.</p>
       <ul class="workplace-experience__list">
         <li>
-          писал небольшие full-stack приложения на React/Vue и PHP/Node.js с документацией:
+          писал full-stack приложения на React/Vue и PHP/Node.js с документацией:
           <ul>
             <li><a href="//github.com/AlexDz27/paytest" target="_blank">приложение</a> на Vue.js для тестирования запросов, которые идут на PAYONE API</li>
             <li><a href="//github.com/AlexDz27/payone-github-issues-assigner-bot" target="_blank">бот</a>, который интегрируется с Github</li>
@@ -87,7 +87,7 @@ $expYears = 6;
           работал с Paypal API
         </li>
         <li>
-          занимался менторством Junior PHP разработчика
+          менторинг Junior PHP разработчика
         </li>
       </ul>
     </section>
@@ -120,13 +120,13 @@ $expYears = 6;
         </li>
         <li>
           <a href="https://github.com/AlexDz27/php-arr-db-updater/blob/main/PhpArrDbWriter.php" class="workplace-experience__link" target="_blank">написал класс</a>
-          небольшой для простых in-memory CRUD-операций над PHP-массивом. Используется рекурсия. Выполняет задачи по хранению данных (а-ля JSON), но используется обычный PHP-массив
+          для in-memory CRUD-операций над PHP-массивом. Используется рекурсия. Выполняет задачи по хранению данных (а-ля JSON), но используется обычный PHP-массив
         </li>
       </ul>
     </section>
 
     <section class="workplace-experience">
-      <a href="//godeltech.com" target="_blank">
+      <a href="//www.godeltech.com" target="_blank">
         <h3 class="workplace-experience__workplace-name">
           Godel Technologies Europe
           <svg class="workplace-experience__workplace-name__icon" width="21" height="21" fill="currentColor" viewBox="0 0 16 16">
@@ -167,7 +167,7 @@ $expYears = 6;
         </svg>
         <span class="workplace-experience__time__text">2017.01 — 2020.01</span>
       </p>
-      <p class="workplace-experience__project-desc">Набирался опыта в небольших аутсорс-компаниях и на фрилансе.</p>
+      <p class="workplace-experience__project-desc">Набирался опыта в других аутсорс-компаниях и на фрилансе.</p>
       <ul class="workplace-experience__list pt-1-when-print">
         <li>
           работал как Junior Full-stack программист
@@ -241,7 +241,7 @@ $expYears = 6;
       <p class="skill__name"><span class="skill__name__name">Front-end JS + Node.js</span></p>
 
       <p class="skill__cat">JS</p>
-      <div class="subskills">
+      <div class="subskills mb-when-print-1">
         <span class="subskill">TypeScript</span>
         <span class="subskill">ES6</span>
         <span class="subskill">fetch; async/await</span>
@@ -283,8 +283,6 @@ $expYears = 6;
         <span class="subskill">Redis</span>
       </div>
 
-      <p class="skill__cat">High-load (just theory)</p>
-
       <p class="skill__cat">Security</p>
       <div class="subskills">
         <span class="subskill">Auth</span>
@@ -310,7 +308,7 @@ $expYears = 6;
 
       <p class="skill__cat">Other languages</p>
       <div class="subskills">
-        <span class="subskill">C++ (junior)</span>
+        <span class="subskill">C++</span>
       </div>
     </section>
   </div>
